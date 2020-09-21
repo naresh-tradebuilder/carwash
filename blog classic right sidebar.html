@@ -83,17 +83,9 @@
 						</button>
 						<div class="collapse navbar-collapse navCollapse text-uppercase fwBlack" id="navbarNav">
 							<ul class="navbar-nav">
-								<li class="nav-item dropdown">
-									<a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" href="#" aria-expanded="false">Home </a>
-									<div class="dropdown-menu border-0 rounded-0 text-capitalize" aria-labelledby="navbarDropdown">
-										<ul class="list-unstyled dropMenu">
-											<li><a class="dropdown-item" href="homepage.html">homepage 1</a></li>
-											<li><a class="dropdown-item" href="homepage2.html">homepage 2</a></li>
-											<li><a class="dropdown-item" href="homepage3.html">homepage 3</a></li>
-											<li><a class="dropdown-item" href="homepage4.html">homepage 4</a></li>
-											<li><a class="dropdown-item" href="homepage5.html">homepage 5</a></li>
-										</ul>
-									</div>
+								<li class="nav-item">
+									<a class="nav-link" href="index.html" id="navbarDropdown">Home </a>
+									
 								</li>
 								<li class="nav-item dropdown">
 									<a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Services &amp; Pricing</a>
@@ -108,7 +100,9 @@
 										</ul>
 									</div>
 								</li>
-								<li class="nav-item"><a class="nav-link" href="About us.html">About</a></li>
+								<li class="nav-item active">
+									<a class="nav-link" href="about-us.html">About<span class="sr-only">(current)</span></a>
+								</li>
 								<li class="nav-item"><a class="nav-link" href="Unlimited Wash Club.html">Unlimited Wash Club</a></li>
 								<li class="nav-item"><a class="nav-link" href="location.html">Locations</a></li>
 								<li class="nav-item dropdown">
@@ -136,23 +130,18 @@
 								<li class="nav-item"><a class="nav-link" href="shop Grid.html">shop</a></li>
 								<li class="nav-item dropdown">
 									<a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">NEWS</a>
-									<div class="dropdown-menu border-0 rounded-0 text-capitalize" aria-labelledby="navbarDropdown">
+									<div class="dropdown-menu  border-0 rounded-0 text-capitalize" aria-labelledby="navbarDropdown">
 										<ul class="list-unstyled dropMenu border-0">
 											<li><a class="dropdown-item" href="blog single post.html">blog single post</a></li>
 											<li><a class="dropdown-item" href="Blog Grid.html">Blog Grid</a></li>
 											<li><a class="dropdown-item" href="blog classic right sidebar.html">blog classic right sidebar</a></li>
-											<li><a class="dropdown-item" href="blog classic left sidebar.html">blog classic left sidebar</a></li>
+											<li><a class="dropdown-item" href="blog.html">blog classic left sidebar</a></li>
 										</ul>
 									</div>
 								</li>
-								<li class="nav-item active dropdown">
-									<a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">CONTACT <span class="sr-only">(current)</span></a>
-									<div class="dropdown-menu  border-0 rounded-0 text-capitalize" aria-labelledby="navbarDropdown">
-										<ul class="list-unstyled dropMenu border-0">
-											<li><a class="dropdown-item" href="contact 1.html">contact 1</a></li>
-											<li><a class="dropdown-item" href="contact 2.html">contact 2</a></li>
-										</ul>
-									</div>
+								<li class="nav-item dropdown">
+									<a class="nav-link" href="contact.html">CONTACT</a>
+									
 								</li>
 							</ul>
 						</div>
@@ -169,238 +158,326 @@
 				</div>
 			</div>
 		</header>
-		<!-- main -->
-		<main>
+		<main> 
 			<!-- brdCrmbHolder -->
 			<nav class="brdCrmbHolder py-3">
 				<div class="container">
 					<div class="row">
 						<div class="col-12">
 							<!-- breadcrumb -->
-							<nav aria-label="breadcrumb" class="d-flex">
-								<ol class="breadcrumb mb-0 p-0">
+							<nav aria-label="breadcrumb" class="d-flex justify-content-start">
+								<ol class="breadcrumb mb-0 p-0 text-capitalize">
 									<li class="breadcrumb-item"><a href="homepage.html">Home</a></li>
-									<li class="breadcrumb-item"><a href="#">contact</a></li>
-									<li class="breadcrumb-item active" aria-current="page">contact multi location</li>
+									<li class="breadcrumb-item"><a href="#">News</a></li>
+									<li class="breadcrumb-item"><a href="#">Classic Post</a></li>
+									<li class="breadcrumb-item active" aria-current="page">Left Sidebar</li>
 								</ol>
 							</nav>
 						</div>
 					</div>
 				</div>
 			</nav>
-			<!-- contactSec -->
-			<section class="contactSec py-10 py-sm-12 py-lg-14">
+			<!-- blgStndrd -->
+			<section class="blgStndrd pt-10 pt-sm-12 pt-lg-15 pt-xl-16 pb-4 pb-sm-7 pb-lg-18 pb-xl-20">
 				<div class="container">
 					<div class="row">
-						<div class="col-12 col-xl-10 offset-xl-1">
-							<header class="header ltrSpce text-center mb-6 mb-md-8 mb-lg-12 mb-xl-14">
-								<h1 class="fwEbold h2 text-capitalize mb-2">contact us</h1>
-								<p>if you would like to contact any of the Customer Services. please fill out the form below</p>
+						<div class="col-12 col-xl-10 offset-xl-1 ltrSpce">
+							<header class="header text-center mb-6 mb-sm-8 mb-md-10 mb-xl-15 px-lg-6">
+								<h1 class="fwEbold headingI text-capitalize mb-3 mb-md-4">Blog Classic Post</h1>
+								<p>This is dummy content of product sub title. you can change anything. </p>
 							</header>
 						</div>
 					</div>
-					<div class="row flex-row-reverse">
-						<div class="col-12 col-md-8 mb-6 mb-md-0">
-							<!-- contactForm -->
-							<form class="contactForm pl-xl-4">
-								<div class="formRoW d-flex flex-Wrap">
-									<div class="formCol form-group">
-										<label class="text-capitalize" for="contactName">your Name</label>
-										<input type="text" class="form-control" id="contactName">
+					<div class="row">
+						<div class="col-12 col-lg-9">
+							<!-- blgWrap -->
+							<article class="blgWrap mb-9 mb-sm-12 mb-lg-16 mb-xl-20">
+								<span class="imgHolder d-block w-100 overflow-hidden mb-5 mb-xl-7">
+									<img src="http://placehold.it/845x490" alt="image description" class="img-fluid">
+								</span>
+								<h2 class="headingII mb-2">Preparing Your Car For The Winter Holidays</h2>
+								<ul class="list-unstyled postBlogList d-flex flex-wrap">
+									<li>
+										<time datetime="2018-08-22">
+											<i class="clrTheme far fa-clock icn"></i>
+										</time>
+										August 22, 2018
+									</li>
+									<li>
+										<span class="far fa-user icn"></span>
+										by <a href="#">Sweden Amith</a>
+									</li>
+									<li>
+										<span class="far fa-comment icn"></span>
+										3 Comments
+									</li>
+								</ul>
+								<p>Monocle ipsum dolor sit amet iconic Nordic craftsmanship, soft power the highest quality Toto efficient Zürich. Asia-Pacific Zürich the best quality of life Melbourne Shinkansen vibrant, St Moritz signature. K-pop pintxos Swiss, essential airport flat white elegant bulletin charming Gaggenau first-class lovely perfect hub Flat white Ettinger business class St Moritz boutique Gaggenau. Asia-Pacific Melbourne international wardrobe Helsinki you get a nice breeze...</p>
+								<a href="#" class="btn btn-primary py-3 py-sm-4 text-uppercase fwEbold">Continue Reading</a>
+							</article>
+							<!-- blgWrap -->
+							<article class="blgWrap mb-9 mb-sm-12 mb-lg-16 mb-xl-20">
+								<!-- ImgBlogSlider -->
+								<div class="ImgBlogSlider mb-5 mb-xl-7">
+									<div>
+										<span class="imgHolder rounded overflow-hidden w-100">
+											<img src="http://placehold.it/845x490" class="img-fluid" alt="image description">
+										</span>
 									</div>
-									<div class="formCol form-group">
-										<label class="text-capitalize" for="contactPhone">phone number</label>
-										<input type="text" class="form-control" id="contactPhone">
+									<div>
+										<span class="imgHolder rounded overflow-hidden w-100">
+											<img src="http://placehold.it/845x490" class="img-fluid" alt="image description">
+										</span>
+									</div>
+									<div>
+										<span class="imgHolder rounded overflow-hidden w-100">
+											<img src="http://placehold.it/845x490" class="img-fluid" alt="image description">
+										</span>
 									</div>
 								</div>
-								<div class="form-group">
-									<label class="text-capitalize" for="contactEmailAddress">email address</label>
-									<input type="text" class="form-control" id="contactEmailAddress">
+								<h2 class="headingII mb-2">The Importance of Washing Under a Vehicle</h2>
+								<!-- postBlogList -->
+								<ul class="list-unstyled postBlogList d-flex flex-wrap">
+									<li>
+										<time datetime="2018-08-22">
+											<i class="clrTheme far fa-clock icn"></i>
+										</time>
+										August 22, 2018
+									</li>
+									<li>
+										<span class="far fa-user icn"></span>
+										by <a href="#">Sweden Amith</a>
+									</li>
+									<li>
+										<span class="far fa-comment icn"></span>
+										3 Comments
+									</li>
+								</ul>
+								<p>One of the most common additions people make to their cars in order to keep the heat out is a windshield visor. Cars become warm in the summer because direct sunlight enters in through the windows. This is why we park in the shade whenever we can. Since the windshield is the largest window in the car, blocking the sun from coming in would make a huge difference. Windshield visors and sunshades are fairly inexpensive and easy to use they certainly help...</p>
+								<a href="#" class="btn btn-primary py-4 text-uppercase fwEbold">Continue Reading</a>
+							</article>
+							<!-- blgWrap -->
+							<article class="blgWrap mb-9 mb-sm-12 mb-lg-16 mb-xl-20">
+								<!-- tubeBlogWrap -->
+								<div class="tubeBlogWrap mb-5 mb-xl-7">
+									<iframe  src="https://www.youtube.com/embed/E-M2Cq0RNTs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 								</div>
-								<div class="form-group">
-									<label class="text-capitalize" for="contactSubject">subject</label>
-									<select class="custom-select" id="contactSubject">
-										<option>Select one of the reason for contact</option>
-										<option value="1">One</option>
-										<option value="2">Two</option>
-										<option value="3">Three</option>
-									</select>
-								</div>
-								<div class="form-group">
-									<label class="text-capitalize" for="contactMessage">message</label>
-									<textarea class="form-control" id="contactMessage"></textarea>
-								</div>
-								<div class="form-group">
-									<button type="submit" class="btn btnTheme text-uppercase fwEbold">send message</button>
-								</div>
-							</form>
+								<h2 class="headingII mb-2">Tough Stains in Your Car’s Interior (and what to do about them)</h2>
+								<!-- postBlogList -->
+								<ul class="list-unstyled postBlogList d-flex flex-wrap">
+									<li>
+										<time datetime="2018-08-22">
+											<i class="clrTheme far fa-clock icn"></i>
+										</time>
+										August 22, 2018
+									</li>
+									<li>
+										<span class="far fa-user icn"></span>
+										by <a href="#">Sweden Amith</a>
+									</li>
+									<li>
+										<span class="far fa-comment icn"></span>
+										3 Comments
+									</li>
+								</ul>
+								<p>Customers also require a safe experience, especially with around-the-clock hours. A well-lit facility is crucial to delivering a safe carwash experience, and lights should be replaced at regular intervals. As more organizations switch to long-life LED bulbs, the need for bulb replacement has lessened, though this does not mean your signage should be ignored. Making sure signs are clean and in good repair is a necessity, as clear signage also contributes to a safe and inviting atmosphere...</p>
+								<a href="#" class="btn btn-primary py-4 text-uppercase fwEbold">Continue Reading</a>
+							</article>
+							<!-- blgWrap -->
+							<article class="blgWrap mb-9 mb-sm-12 mb-lg-16 mb-xl-20">
+								<figure class="figure imgHolder position-relative overlayII d-block w-100 overflow-hidden mb-5 mb-xl-7">
+									<img src="http://placehold.it/845x490" alt="image description" class="img-fluid figure-img">
+									<figcaption class="figure-caption headingI font-weight-bold text-center text-white">http://www.carwashlink.com</figcaption>
+								</figure>
+								<h2 class="headingII mb-2">Winter Maintenance Tips to Avoid Engine Repairs</h2>
+								<!-- postBlogList -->
+								<ul class="list-unstyled postBlogList d-flex flex-wrap">
+									<li>
+										<time datetime="2018-08-22">
+											<i class="clrTheme far fa-clock icn"></i>
+										</time>
+										August 22, 2018
+									</li>
+									<li>
+										<span class="far fa-user icn"></span>
+										by <a href="#">Sweden Amith</a>
+									</li>
+									<li>
+										<span class="far fa-comment icn"></span>
+										3 Comments
+									</li>
+								</ul>
+								<p>While the quality and effectiveness of your carwash will result in clean cars and happy customers, this alone will not attract new customers to your business. Through a mix of tactics, you can help make sure your business stays top-of-mind with existing customers as well as reaches potential new customers. Effective customer retention and marketing initiatives don’t need to break the bank either. By leveraging the following tactics, you can break through the noise...</p>
+								<a href="#" class="btn btn-primary py-4 text-uppercase fwEbold">Continue Reading</a>
+							</article>
+							<!-- blgWrap -->
+							<article class="blgWrap mb-9 mb-sm-12 mb-lg-16 mb-xl-20">
+								<span class="imgHolder d-block w-100 overflow-hidden mb-5 mb-xl-7">
+									<img src="http://placehold.it/845x490" alt="image description" class="img-fluid figure-img">
+								</span>
+								<h3 class="headingII mb-2">Want to Make Shine Our Car? </h3>
+								<!-- postBlogList -->
+								<ul class="list-unstyled postBlogList d-flex flex-wrap">
+									<li>
+										<time datetime="2018-08-22">
+											<i class="clrTheme far fa-clock icn"></i>
+										</time>
+										August 22, 2018
+									</li>
+									<li>
+										<span class="far fa-user icn"></span>
+										by <a href="#">Sweden Amith</a>
+									</li>
+									<li>
+										<span class="far fa-comment icn"></span>
+										3 Comments
+									</li>
+								</ul>
+								<p>You will also qualify for a complimentary one-year subscription to Professional Carwashing & Detailing, and you can purchase the current survey results at 50 percent off (current retail value at $249.99).To show our appreciation, we will share a sampling of the new survey’s findings with you in a future issue. We would like to thank our readers for supporting our publication on multiple platforms, including print and digital, and for participating in this survey...</p>
+								<a href="#" class="btn btn-primary py-4 text-uppercase fwEbold">Continue Reading</a>
+							</article>
+							<!-- shopPagenation -->
+							<nav aria-label="Page navigation example" class="d-flex justify-content-center shopPagenation pt-6 font-weight-bold mb-10 mb-lg-0 mt-sm-n4 mt-md-n8">
+								<!-- pagination -->
+								<ul class="pagination mb-sm-0">
+									<li class="page-item"><a class="page-link d-flex justify-content-center align-items-center fas fa-caret-left" href="#"></a></li>
+									<li class="page-item"><a class="page-link active d-flex justify-content-center align-items-center" href="#">1</a></li>
+									<li class="page-item"><a class="page-link d-flex justify-content-center align-items-center" href="#">2</a></li>
+									<li class="page-item"><a class="page-link d-flex justify-content-center align-items-center fas fa-caret-right" href="#"></a></li>
+								</ul>
+							</nav>
 						</div>
-						<div class="col-12 col-md-4 alignRight">
-							<!-- contSideList -->
-							<ul class="contSideList list-unstyled mb-8 mb-lg-11 pt-md-1">
-								<li class="d-flex">
-									<span class="ico d-block mr-2 mr-lg-3 mt-1">
-										<img src="images/ico16.svg" alt="images description" width="37" height="37">
-									</span>
-									<ul class="list-unstyled mb-0 wrap text-capitalize fwSemibold">
-										<li class="mb-lg-2">Call us anytime:</li>
+						<div class="col-12 col-lg-3">
+							<!-- blgAside -->
+							<aside class="blgAside">
+								<!-- widget -->
+								<section class="widget mb-8 mb-lg-11">
+									<!-- searchWidForm -->
+									<form class="searchWidForm">
+										<h3 class="headingXI text-uppercase fwEbold">search here</h3>
+										<input type="text" class="form-control" placeholder="Search Here...">
+										<button type="submit" class="btn btn-primary text-uppercase fwEbold">Search</button>
+									</form>
+								</section>
+								<!-- widget -->
+								<section class="widget mb-8 mb-lg-11">
+									<h3 class="headingXI text-uppercase fwEbold">Recent Posts</h3>
+									<!-- recentWidPost -->
+									<ul class="list-unstyled recentWidPost">
 										<li>
-											<a href="tel:18001234567" class="tell">1-800-123-4567</a>
+											<h3 class="headingX font-weight-normal mb-1"><a href="#">Winter Maintenance Tips to Avoid EngineRepairs</a></h3>
+											<!-- postTimeWrap -->
+											<div class="postTimeWrap">
+												<time datetime="2018-08-22">
+													<span class="clrTheme far fa-clock icn"></span>
+												</time>
+												August 22, 2018
+											</div>
+										</li>
+										<li>
+											<h3 class="headingX font-weight-normal mb-1"><a href="#">Preparing Your Car For The Winter Holidays</a></h3>
+											<!-- postTimeWrap -->
+											<div class="postTimeWrap">
+												<time datetime="2018-08-22">
+													<span class="clrTheme far fa-clock icn"></span>
+												</time>
+												August 22, 2018
+											</div>
+										</li>
+										<li>
+											<h3 class="headingX font-weight-normal mb-1"><a href="#">The Importance of Washing Under a Vehicle</a></h3>
+											<!-- postTimeWrap -->
+											<div class="postTimeWrap">
+												<time datetime="2018-08-22">
+													<span class="clrTheme far fa-clock icn"></span>
+												</time>
+												August 22, 2018
+											</div>
 										</li>
 									</ul>
-								</li>
-								<li class="d-flex">
-									<div class="ico mr-2 mr-lg-3 mt-1">
-										<img src="images/ico17.svg" alt="images description" width="39" height="39">
-									</div>
-									<div class="addressWrap">
-										<h2 class="headingXI text-capitalize fwSemibold mb-2">address</h2>
-										<ul class="list-unstyled mb-0">
-											<li class="mb-1">120 Belcum Street Sanbridge,</li>
-											<li>NewYork 3214</li>
-										</ul>
-									</div>
-								</li>
-								<li class="d-flex mb-md-0">
-									<div class="ico mr-2 mr-lg-3 mt-1">
-										<img src="images/ico18.svg" alt="images description" width="39" height="39">
-									</div>
-									<div class="tmeWrap">
-										<h2 class="headingXI text-capitalize fwSemibold mb-2">working hours:</h2>
-										<ul class="list-unstyled tmeList mb-0">
-											<li class="mb-1">Mon-Sat 7:00AM - 6:00PM</li>
-											<li>Sunday 8:00AM - 5:00PM</li>
-										</ul>
-									</div>
-								</li>
-							</ul>
-							<h3 class="headingIX mb-3">Have any questions?</h3>
-							<!-- MailList -->
-							<ul class="list-unstyled MailList mb-7">
-								<li class="mb-1"><a href="#">noreply@example.com</a></li>
-								<li><a href="#">www.example.com</a></li>
-							</ul>
-							<!-- socialSNetwork -->
-							<ul class="socialSNetwork list-unstyled d-flex mb-0">
-								<li><a href="#" class="fab fa-facebook-square"></a></li>
-								<li><a href="#" class="fab fa-twitter-square"></a></li>
-								<li><a href="#" class="fab fa-linkedin"></a></li>
-								<li><a href="#" class="fas fa-rss-square"></a></li>
-							</ul>
+								</section>
+								<!-- widget -->
+								<section class="widget mb-8 mb-lg-11">
+									<h3 class="headingXI text-uppercase mb-4 mb-sm-5 fwEbold">Post Categories</h3>
+									<!-- postWidLink -->
+									<ul class="list-unstyled text-capitalize postWidLink">
+										<li>
+											<span class="clrTheme mr-1 ico fas fa-chevron-right"></span>
+											<a href="#">Car Wash (3)</a>
+										</li>
+										<li>
+											<span class="clrTheme mr-1 ico fas fa-chevron-right"></span>
+											<a href="#">Auto Detailing (1)</a>
+										</li>
+										<li>
+											<span class="clrTheme mr-1 ico fas fa-chevron-right"></span>
+											<a href="#">Oil Changing (2)</a>
+										</li>
+										<li>
+											<span class="clrTheme mr-1 ico fas fa-chevron-right"></span>
+											<a href="#">Maintenance (5)</a>
+										</li>
+										<li>
+											<span class="clrTheme mr-1 ico fas fa-chevron-right"></span>
+											<a href="#">Self-serve Washes (2)</a>
+										</li>
+										<li>
+											<span class="clrTheme mr-1 ico fas fa-chevron-right"></span>
+											<a href="#">General (1)</a>
+										</li>
+										<li>
+											<span class="clrTheme mr-1 ico fas fa-chevron-right"></span>
+											<a href="#">Uncatecorized (1)</a>
+										</li>
+									</ul> 
+								</section>
+								<!-- widget -->
+								<section class="widget mb-8 mb-lg-11">
+									<h3 class="headingXI text-uppercase mb-4 mb-sm-5 fwEbold">Popular Tags</h3>
+									<!-- postWidTags -->
+									<ul class="list-unstyled text-capitalize postWidTags d-flex flex-wrap">
+										<li><a href="#">shine</a></li>
+										<li><a href="#">washes</a></li>
+										<li><a href="#">tries</a></li>
+										<li><a href="#">wax polish</a></li>
+										<li><a href="#">triple form</a></li>
+										<li><a href="#">detailing</a></li>
+										<li><a href="#">lube/Oil</a></li>
+										<li><a href="#">dry</a></li>
+									</ul>
+								</section>
+								<!-- widget -->
+								<section class="widget mb-8 mb-lg-11">
+									<h3 class="headingXI text-uppercase fwEbold mb-4 mb-sm-5">Archives</h3>
+									<!-- postWidLink -->
+									<ul class="list-unstyled text-capitalize postWidLink">
+										<li>
+											<span class="clrTheme mr-1 ico fas fa-chevron-right"></span>
+											<a href="#">January 2019</a>
+										</li>
+										<li>
+											<span class="clrTheme mr-1 ico fas fa-chevron-right"></span>
+											<a href="#">December 2018</a>
+										</li>
+										<li>
+											<span class="clrTheme mr-1 ico fas fa-chevron-right"></span>
+											<a href="#">December 2018</a>
+										</li>
+										<li>
+											<span class="clrTheme mr-1 ico fas fa-chevron-right"></span>
+											<a href="#">October 2018</a>
+										</li>
+										<li>
+											<span class="clrTheme mr-1 ico fas fa-chevron-right"></span>
+											<a href="#">September 2018</a>
+										</li>
+									</ul>
+								</section>
+							</aside>
 						</div>
 					</div>
 				</div>
 			</section>
-			<!-- mapHolder -->
-			<aside class="mapHolder w-100">
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13602.74467304903!2d74.3096302900287!3d31.53277840184674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3919049bf02720f9%3A0x4295a66061acf664!2sIchhra%2C+Lahore%2C+Punjab+54000%2C+Pakistan!5e0!3m2!1sen!2s!4v1563810618668!5m2!1sen!2s" style="border:0" allowfullscreen></iframe>
-			</aside>
-			<!-- lctnSec -->
-			<aside class="lctnSec py-11">
-				<div class="container">
-					<div class="row">
-						<div class="col-12 col-lg-4 col-xl-3 txtHolder text-center text-lg-left mb-5">
-							<h4 class="h4 mb-3">See all Carwash Locations</h4>
-							<p>These are our network location over the world specific foreign charitable organization.</p>
-							<div class="slideBtn d-flex justify-content-center justify-content-lg-start">
-								<a href="#" class="btnHolder buttonLeft rounded d-flex justify-content-center align-items-center mr-2 lsBtnPrev">
-									<i class="arrow fas fa-chevron-left"></i>
-								</a>
-								<a href="#" class="btnHolder buttonRight rounded d-flex justify-content-center align-items-center mr-2 lsBtnNext">
-									<i class="arrow arrowNext fas fa-chevron-right"></i>
-								</a>
-							</div>
-						</div>
-						<div class="col-12 col-lg-8 col-xl-9 pt-1">
-							<div class="row d-block">
-								<!-- locationSlider -->
-								<div class="locationSlider">
-									<div>
-										<div class="col-12">
-											<!-- wlBlock -->
-											<article class="wlBlock text-center rounded mb-8">
-												<header class="header text-uppercase py-4">
-													<h3 class="headingX mb-0">Allisonville Road</h3>
-												</header>
-												<div class="clList px-6 py-5">
-													<p>8252 Kelly Lane Indianapolis, IN 46250</p>
-													<p>Call: <a href="tel:6604567890" class="tell">(660) 456-7890</a></p>
-													<p><time datetime="2019-07-18">Mon-Sat: 8 am - 8 pm Sunday: 9 am - 6 pm</time></p>
-													<p><a href="#" class="btn btnTheme d-block mt-7 mb-n2 py-3 text-uppercase fwEbold">store details</a></p>
-												</div>
-											</article>
-										</div>
-									</div>
-									<div>
-										<div class="col-12">
-											<!-- wlBlock -->
-											<article class="wlBlock text-center rounded mb-8">
-												<header class="header text-uppercase py-4">
-													<h3 class="headingX mb-0">Allisonville Road</h3>
-												</header>
-												<div class="clList px-6 py-5">
-													<p>10580 N Michigan Road Carmel, IN 46032 </p>
-													<p>Call: <a href="tel:6604567890" class="tell">(660) 456-7890</a></p>
-													<p><time datetime="2019-07-18">Mon-Sat: 8 am - 8 pm Sunday: 9 am - 6 pm</time></p>
-													<p><a href="#" class="btn btnTheme d-block mt-7 mb-n2 py-3 text-uppercase fwEbold">store details</a></p>
-												</div>
-											</article>
-										</div>
-									</div>
-									<div>
-										<div class="col-12">
-											<!-- wlBlock -->
-											<article class="wlBlock text-center rounded mb-8">
-												<header class="header text-uppercase py-4">
-													<h3 class="headingX mb-0">Allisonville Road</h3>
-												</header>
-												<div class="clList px-6 py-5">
-													<p>14837 Thatcher Lane Carmel, IN 46032 </p>
-													<p>Call: <a href="tel:660-456-7890" class="tell">(660) 456-7890</a></p>
-													<p><time datetime="2019-07-18">Mon-Sat: 8 am - 8 pm Sunday: 9 am - 6 pm</time></p>
-													<p><a href="#" class="btn btnTheme d-block mt-7 mb-n2 py-3 text-uppercase fwEbold">store details</a></p>
-												</div>
-											</article>
-										</div>
-									</div>
-									<div>
-										<div class="col-12">
-											<!-- wlBlock -->
-											<article class="wlBlock text-center rounded mb-8">
-												<header class="header text-uppercase py-4">
-													<h3 class="headingX mb-0">Allisonville Road</h3>
-												</header>
-												<div class="clList px-6 py-5">
-													<p>10580 N Michigan Road Carmel, IN 46032 </p>
-													<p>Call: <a href="tel:6604567890" class="tell">(660) 456-7890</a></p>
-													<p><time datetime="2019-07-18">Mon-Sat: 8 am - 8 pm Sunday: 9 am - 6 pm</time></p>
-													<p><a href="#" class="btn btnTheme d-block mt-7 mb-n2 py-3 text-uppercase fwEbold">store details</a></p>
-												</div>
-											</article>
-										</div>
-									</div>
-									<div>
-										<div class="col-12">
-											<!-- wlBlock -->
-											<article class="wlBlock text-center rounded mb-8">
-												<header class="header text-uppercase py-4">
-													<h3 class="headingX mb-0">Allisonville Road</h3>
-												</header>
-												<div class="clList px-6 py-5">
-													<p>14837 Thatcher Lane Carmel, IN 46032 </p>
-													<p>Call: <a href="tel:660-456-7890" class="tell">(660) 456-7890</a></p>
-													<p><time datetime="2019-07-18">Mon-Sat: 8 am - 8 pm Sunday: 9 am - 6 pm</time></p>
-													<p><a href="#" class="btn btnTheme d-block mt-7 mb-n2 py-3 text-uppercase fwEbold">store details</a></p>
-												</div>
-											</article>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</aside>
 			<!-- footerAside -->
 			<aside class="footerAside text-white bgCover" style="background-image: url(http://placehold.it/1920x520)">
 				<div class="container pt-10 pb-8 pt-lg-13 pb-lg-14">
@@ -508,7 +585,7 @@
 			</div>
 		</footer>
 		<!-- modal -->
-		<div class="modal pr-0 fade" id="exampleModal">
+		<div class="modal fade" id="exampleModal">
 			<!-- appointPopup -->
 			<div class="modal-dialog appointPopup" role="document">
 				<div class="modal-content">
