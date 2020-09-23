@@ -54,7 +54,7 @@
 									</span>
 									<div class="wrap d-none d-lg-block">
 										<span class="text d-block">Have any Question?</span>
-										<a class="tell fwSemibold" href="tel:18001234567">1-800-123-4567</a>
+										<a class="tell fwSemibold" href="tel:18001234567">205-987-9308</a>
 									</div>
 								</li>
 							</ul>
