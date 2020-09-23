@@ -59,7 +59,7 @@
 								</li>
 							</ul>
 							<div class="btnHolder ml-xl-8 d-none d-md-block">
-								<a href="#" class="btn btn-warning py-xl-4 text-uppercase fwEbold" data-toggle="modal" data-target="#exampleModal">book appointment</a>
+								<a href="contact.php" class="btn btn-warning py-xl-4 text-uppercase fwEbold">book appointment</a>
 							</div>
 						</div>
 					</div>
