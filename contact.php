@@ -371,7 +371,7 @@
 						<div class="col-12 col-sm-6 col-lg-3 d-md-flex mb-8 mb-sm-4 mb-lg-0">
 							<div class="txtHolder w-100">
 								<h5 class="h6 text-capitalize fwEbold text-white mb-4 mb-lg-6">about us</h5>
-								<p>Since opening DesignFalls Car Wash in 1998 serving customers looking for a high quality car wash a reasonable price, with friendly and professional staff</p>
+								<p>RIVERCHASE CAR WASH & DETAIL HAS BEEN IN THE HOOVER COMMUNITY FOR 27 YEARS!</p>
 								<!-- socialFNetwork -->
 								<ul class="socialFNetwork d-flex mb-0 list-unstyled justify-content-center justify-content-sm-start">
 									<li><a href="#" class="fab fa-facebook-square"></a></li>
