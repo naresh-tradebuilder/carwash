@@ -105,7 +105,7 @@
 									<a class="nav-link" href="about-us.html">About<span class="sr-only">(current)</span></a>
 								</li>
 								<li class="nav-item"><a class="nav-link" href="Unlimited Wash Club.html">Unlimited Wash Club</a></li>
-								<li class="nav-item"><a class="nav-link" href="testimonial.html">testimonial</a></li>
+								<li class="nav-item"><a class="nav-link" href="testimonial.html">testimonials</a></li>
 								<li class="nav-item">
 									<a class="nav-link" href="gallery.html">Gallery</a>
 									
