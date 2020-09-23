@@ -226,7 +226,7 @@ body {
 36	 headingCI/.headingXI
 --------------------------------------------------------*/
 .headingXI {
-  font-size: 17px;
+  font-size: 15px;
   line-height: 24px; }
 
 /* ---------------------------------------------------------
@@ -6955,7 +6955,7 @@ h5.bdrBtm:after, .h5.bdrBtm:after {
   .csfHolder {
     min-height: 297px; position: relative;}
    .diff-text{
-     
+
    } 
   .shptxtHolder {
     width: 376px;
