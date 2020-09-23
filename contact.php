@@ -92,12 +92,12 @@
 									<a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Services &amp; Pricing</a>
 									<div class="dropdown-menu border-0 rounded-0 text-capitalize" aria-labelledby="navbarDropdown">
 										<ul class="list-unstyled dropMenu">
-											<li><a class="dropdown-item" href="service-detail.html">express exterior</a></li>
-											<li><a class="dropdown-item" href="service-detail2.html">auto detailing</a></li>
-											<li><a class="dropdown-item" href="service-detail3.html">full service wash</a></li>
-											<li><a class="dropdown-item" href="service-detail4.html">complete detail wash</a></li>
-											<li><a class="dropdown-item" href="service-detail5.html">oil changing</a></li>
-											<li><a class="dropdown-item" href="service-detail6.html">preventative maintenance</a></li>
+											<li><a class="dropdown-item" href="express.html">express exterior</a></li>
+											<li><a class="dropdown-item" href="full-service.html">FULL-SERVICE WASH (IN & OUT)</a></li>
+											<li><a class="dropdown-item" href="hand-wash.html">HAND WASH</a></li>
+											<li><a class="dropdown-item" href="wax-service.html">WAX SERVICES</a></li>
+											<li><a class="dropdown-item" href="details.html">DETAILS</a></li>
+											<li><a class="dropdown-item" href="add-ons.html">ADD-ONS</a></li>
 										</ul>
 									</div>
 								</li>
@@ -141,7 +141,7 @@
 									</div>
 								</li>
 								<li class="nav-item dropdown">
-									<a class="nav-link" href="contact.html">CONTACT</a>
+									<a class="nav-link" href="contact.php">CONTACT</a>
 									
 								</li>
 							</ul>
@@ -167,222 +167,237 @@
 					<div class="row">
 						<div class="col-12">
 							<!-- breadcrumb -->
-							<nav aria-label="breadcrumb" class="d-flex justify-content-start">
-								<ol class="breadcrumb mb-0 p-0 text-capitalize">
+							<nav aria-label="breadcrumb" class="d-flex">
+								<ol class="breadcrumb mb-0 p-0">
 									<li class="breadcrumb-item"><a href="homepage.html">Home</a></li>
-									<li class="breadcrumb-item"><a href="service-page.html">Services &amp; Pricing</a></li>
-									<li class="breadcrumb-item active" aria-current="page">express exterior</li>
+									<li class="breadcrumb-item"><a href="#">contact</a></li>
+									<li class="breadcrumb-item active" aria-current="page">contact multi location</li>
 								</ol>
 							</nav>
 						</div>
 					</div>
 				</div>
 			</nav>
-			<!-- serviceDetail -->
-			<section class="serviceDetail pt-10 pt-sm-12 pt-md-14 pt-lg-16 pb-8 pb-sm-10 pb-lg-16 pb-xl-20">
+			<!-- contactSec -->
+			<section class="contactSec py-10 py-sm-12 py-lg-14">
 				<div class="container">
-					<div class="row flex-row-reverse">
-						<!-- servicetxtDetail -->
-						<div class="col-12 col-lg-9 servicetxtDetail mb-8 mb-sm-10 mb-lg-0">
-							<header class="header text-center font-weight-light mb-3 px-md-10 px-xl-10 px-xxl-15">
-								<h1 class="headingI text-capitalize mb-3 fwEbold">Express Exterior</h1>
-								<p>Our 3-minute wash and blow dry will have your vehicles sparkling clean in no time flat. Any faster, and you'd get a ticket.</p>
+					<div class="row">
+						<div class="col-12 col-xl-10 offset-xl-1">
+							<header class="header ltrSpce text-center mb-6 mb-md-8 mb-lg-12 mb-xl-14">
+								<h1 class="fwEbold h2 text-capitalize mb-2">contact us</h1>
+								<p>if you would like to contact any of the Customer Services. please fill out the form below</p>
 							</header>
-							<!-- imgWRoundWrap -->
-							<div class="imgWRoundWrap mb-5 mb-md-7 mt-n1">
-								<span class="icoRound rounded-circle mx-auto d-flex align-items-center justify-content-center overflow-hidden position-relative">
-									<span class="icon-ico37 ico"></span>
-								</span>
-								<div class="imgHolder rounded w-100">
-									<img src="http://placehold.it/845x320" class="img-fluid" alt="image description">
-								</div>
-							</div>
-							<div class="txtHolder text-center text-sm-left mb-7 mb-md-10 mb-xl-11">
-								<p>An Express Wash is a more traditional car wash. Our tunnels are equipped with the industry’s latest car wash equipment and use only the finest soaps and wax available. Each car is washed with soft-cloth, neo-glide foam or lammswool cloth.</p>
-								<p>Our Full Service Washes will either require the customer to stay in his or her vehicle or exit the vehicle while it is run through the tunnel. This process takes 15 minutes or less.</p>
-								<a href="#" class="fwSemibold">See Your Location for Service!</a>
-							</div>
-							<div class="row mb-1">
-								<div class="col-12">
-									<!-- planFullList -->
-									<article class="planFullList mb-5 mb-sm-8 overflow-hidden rounded">
-										<!-- priceHeader -->
-										<header class="priceHeader px-3 text-capitalize">
-											<div class="row align-items-center">
-												<div class="col-8">
-													<h2 class="ml-md-3 mb-0 headingIX">The Works Wash</h2>
-												</div>
-												<div class="col-4 text-right">
-													<h3 class="headingIX fwSemibold mb-0">$13.00</h3>
-												</div>
-											</div>
-										</header>
-										<div class="txtWrap px-3 px-md-6 pt-4 pb-7">
-											<strong class="d-block font-weight-normal mb-4">This wash package includes:</strong>
-											<!-- checkList -->
-											<ul class="list-unstyled checkList text-secondary text-left mb-4">
-												<li class="position-relative"><span class="ico position-absolute icon-check"></span>Pre-soak penetrating spray</li>
-												<li class="position-relative"><span class="ico position-absolute icon-check"></span>Spa Foam Cleaner</li>
-												<li class="position-relative"><span class="ico position-absolute icon-check"></span>Heated Super Dry</li>
-												<li class="position-relative"><span class="ico position-absolute icon-check"></span>Heavy-duty Cleaning with Jet Blast Spray</li>
-												<li class="position-relative"><span class="ico position-absolute icon-check"></span>Rain-X Treatment</li>
-												<li class="position-relative"><span class="ico position-absolute icon-check"></span>Tire Shine and Wheel Bright</li>
-												<li class="position-relative"><span class="ico position-absolute icon-check"></span>Undercarriage Blast</li>
-											</ul>
-											<footer class="txt">*(SUV &amp; Minivan upcharges apply to each included service)</footer>
-										</div>
-									</article>
-								</div>
-								<div class="col-12">
-									<!-- planFullList -->
-									<article class="planFullList active mb-5 mb-sm-8 shadow-lg overflow-hidden rounded">
-										<!-- priceHeader -->
-										<header class="bg-primary priceHeader text-white px-3 text-capitalize">
-											<div class="row align-items-center">
-												<div class="col-8">
-													<h2 class="ml-md-3 mb-0 headingIX text-white mb-0">Wheel Express</h2>
-												</div>
-												<div class="col-4 text-right">
-													<h3 class="headingIX fwSemibold mb-0 text-white">$13.00</h3>
-												</div>
-											</div>
-										</header>
-										<div class="txtWrap px-3 px-md-6 pt-4 pb-7">
-											<strong class="d-block font-weight-normal mb-4">This wash package includes:</strong>
-											<!-- checkList -->
-											<ul class="list-unstyled checkList text-secondary text-left mb-4">
-												<li class="position-relative"><span class="ico position-absolute icon-check"></span>Pre-soak penetrating spray</li>
-												<li class="position-relative"><span class="ico position-absolute icon-check"></span>Spa Foam Cleaner</li>
-												<li class="position-relative"><span class="ico position-absolute icon-check"></span>Heated Super Dry</li>
-												<li class="position-relative"><span class="ico position-absolute icon-check"></span>Heavy-duty Cleaning with Jet Blast Spray</li>
-												<li class="position-relative"><span class="ico position-absolute icon-check"></span>Sealer Wax</li>
-												<li class="position-relative"><span class="ico position-absolute icon-check"></span>Tire Shine and Wheel Bright</li>
-												<li class="position-relative"><span class="ico position-absolute icon-check"></span>Undercarriage Blast</li>
-											</ul>
-											<footer class="txt">*(SUV &amp; Minivan upcharges apply to each included service)</footer>
-										</div>
-									</article>
-								</div>
-								<div class="col-12">
-									<!-- planFullList -->
-									<article class="planFullList mb-5 mb-sm-8 overflow-hidden rounded">
-										<!-- priceHeader -->
-										<header class="priceHeader px-3 text-capitalize">
-											<div class="row align-items-center">
-												<div class="col-8">
-													<h2 class="ml-md-3 mb-0 headingIX">Tsunami Blast</h2>
-												</div>
-												<div class="col-4 text-right">
-													<h3 class="headingIX fwSemibold mb-0">$6.00</h3>
-												</div>
-											</div>
-										</header>
-										<div class="txtWrap px-3 px-md-6 pt-4 pb-7">
-											<strong class="d-block font-weight-normal mb-4">This wash package includes:</strong>
-											<!-- checkList -->
-											<ul class="list-unstyled checkList text-secondary 
-											text-left mb-4">
-												<li class="position-relative"><span class="ico position-absolute icon-check"></span>Pre-soak penetrating spray</li>
-												<li class="position-relative"><span class="ico position-absolute icon-check"></span>Spa Foam Cleaner</li>
-												<li class="position-relative"><span class="ico position-absolute icon-check"></span>Heated Super Dry</li>
-												<li class="position-relative"><span class="ico position-absolute icon-check"></span>Heavy-duty Cleaning with Jet Blast Spray</li>
-												<li class="position-relative"><span class="ico position-absolute icon-check"></span>Sealer Wax</li>
-												<li class="position-relative"><span class="ico position-absolute icon-check"></span>Undercarriage Blast</li>
-											</ul>
-											<footer class="txt">*(SUV &amp; Minivan upcharges apply to each included service)</footer>
-										</div>
-									</article>
-								</div>
-								<div class="col-12">
-									<!-- planFullList -->
-									<article class="planFullList mb-5 mb-sm-8 overflow-hidden rounded">
-										<!-- priceHeader -->
-										<header class="priceHeader px-3 text-capitalize">
-											<div class="row align-items-center">
-												<div class="col-8">
-													<h2 class="ml-md-3 mb-0 headingIX">Fast Wash</h2>
-												</div>
-												<div class="col-4 text-right">
-													<h3 class="headingIX fwSemibold mb-0">$3.00</h3>
-												</div>
-											</div>
-										</header>
-										<div class="txtWrap px-3 px-md-6 pt-4 pb-7">
-											<strong class="d-block font-weight-normal mb-4">This wash package includes:</strong>
-											<!-- checkList -->
-											<ul class="list-unstyled checkList text-secondary text-left mb-4">
-												<li class="position-relative"><span class="ico position-absolute icon-check"></span>Pre-soak penetrating spray</li>
-												<li class="position-relative"><span class="ico position-absolute icon-check"></span>Spa Foam Cleaner</li>
-												<li class="position-relative"><span class="ico position-absolute icon-check"></span>Light-duty Cleaning Only</li>
-												<li class="position-relative"><span class="ico position-absolute icon-check"></span>Underbody Rinse with Rust Inhibitor</li>
-											</ul>
-											<footer class="txt">*(SUV &amp; Minivan upcharges apply to each included service)</footer>
-										</div>
-									</article>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-12 col-xl-10 offset-xl-1 text-center">
-									<p>*All services and prices vary by location and vehicle condition.  Quote provided prior to services.  Call for more details or to schedule an appointment.</p>
-									<div class="btnHolder mt-lg-5 mt-xl-8">
-										<a href="#" class="btn btnTheme fwEbold text-uppercase"><span class="far fa-calendar-check mr-1 mr-lg-2"></span>Schedule Appiontment</a>
+						</div>
+					</div>
+					<div class="row flex-row-reverse">
+						<div class="col-12 col-md-8 mb-6 mb-md-0">
+							<!-- contactForm -->
+							<form class="contactForm pl-xl-4">
+								<div class="formRoW d-flex flex-Wrap">
+									<div class="formCol form-group">
+										<label class="text-capitalize" for="contactName">your Name</label>
+										<input type="text" class="form-control" id="contactName">
+									</div>
+									<div class="formCol form-group">
+										<label class="text-capitalize" for="contactPhone">phone number</label>
+										<input type="text" class="form-control" id="contactPhone">
 									</div>
 								</div>
-							</div>
-						</div>
-						<div class="col-12 col-lg-3">
-							<!-- widget -->
-							<div class="widget mb-6">
-								<!-- widgetTypeList -->
-								<ul class="list-unstyled widgetTypeList mb-0 text-capitalize alt">
-									<li class="active"><a class="d-block" href="#">Express Exterior<span class="ml-2 text-white ico fas fa-caret-right"></span></a></li>
-									<li><a class="d-block" href="#">Auto Detailing<span class="ml-2 text-white ico fas fa-caret-right"></span></a></li>
-									<li><a class="d-block" href="#">Full Service Carwash<span class="ml-2 text-white ico fas fa-caret-right"></span></a></li>
-									<li><a class="d-block" href="#">Complete Detail Wash<span class="ml-2 text-white ico fas fa-caret-right"></span></a></li>
-									<li><a class="d-block" href="#">Oil Changing<span class="ml-2 text-white ico fas fa-caret-right"></span></a></li>
-									<li><a class="d-block" href="#">Preventative Maintenance<span class="ml-1 text-white ico fas fa-caret-right"></span></a></li>
-								</ul>
-							</div>
-							<!-- widget -->
-							<aside class="widget mb-6">
-								<a href="location.html" class="btn btn-warning font-weight-bold  py-4 py-xl-5 px-3 rounded text-uppercase text-center d-block">
-									<span class="fas fa-map-marker-alt"></span>
-									See All Locations
-								</a>
-							</aside>
-							<!-- widget -->
-							<section class="widget mb-6">
-								<!-- contctWidgetForm -->
-								<form class="contctWidgetForm bg-primary pt-4 px-4 rounded pb-6">
-									<h3 class="mb-3 mb-xl-4 headingIX text-capitalize text-white">Contact Us</h3>
-									<input type="text" class="form-control rounded" placeholder="Your Name">
-									<input type="email" class="form-control rounded" placeholder="Email Address">
-									<textarea class="form-control" placeholder="Your Question..."></textarea>
-									<button type="submit" class="btnTheme text-uppercase d-block w-100 fwEbold rounded">send message</button>
-								</form>
-							</section>
-							<!-- widget -->
-							<section class="widget mb-6">
-								<!-- joinClubBlock -->
-								<div class="joinClubBlock text-center overflow-hidden pt-4 px-3 px-xl-5 pb-8">
-									<span class="icoHolder bg-white mx-auto rounded-circle d-flex justify-content-center align-items-center mb-3">
-										<span class="icn icon-ico29"></span>
-									</span>
-									<h4 class="headingIX text-capitalize fwSemibold mb-5">Join Our Unlimited Wash Club</h4>
-									<a href="#" class="btn btn-outline-primary text-uppercase fwEbold w-100 rounded-0">become a member</a>
+								<div class="form-group">
+									<label class="text-capitalize" for="contactEmailAddress">email address</label>
+									<input type="text" class="form-control" id="contactEmailAddress">
 								</div>
-							</section>
+								<div class="form-group">
+									<label class="text-capitalize" for="contactSubject">subject</label>
+									<select class="custom-select" id="contactSubject">
+										<option>Select one of the reason for contact</option>
+										<option value="1">One</option>
+										<option value="2">Two</option>
+										<option value="3">Three</option>
+									</select>
+								</div>
+								<div class="form-group">
+									<label class="text-capitalize" for="contactMessage">message</label>
+									<textarea class="form-control" id="contactMessage"></textarea>
+								</div>
+								<div class="form-group">
+									<button type="submit" class="btn btnTheme text-uppercase fwEbold">send message</button>
+								</div>
+							</form>
+						</div>
+						<div class="col-12 col-md-4 alignRight">
+							<!-- contSideList -->
+							<ul class="contSideList list-unstyled mb-8 mb-lg-11 pt-md-1">
+								<li class="d-flex">
+									<span class="ico d-block mr-2 mr-lg-3 mt-1">
+										<img src="images/ico16.svg" alt="images description" width="37" height="37">
+									</span>
+									<ul class="list-unstyled mb-0 wrap text-capitalize fwSemibold">
+										<li class="mb-lg-2">Call us anytime:</li>
+										<li>
+											<a href="tel:18001234567" class="tell">(205) 987-9308</a>
+										</li>
+									</ul>
+								</li>
+								<li class="d-flex">
+									<div class="ico mr-2 mr-lg-3 mt-1">
+										<img src="images/ico17.svg" alt="images description" width="39" height="39">
+									</div>
+									<div class="addressWrap">
+										<h2 class="headingXI text-capitalize fwSemibold mb-2">address</h2>
+										<ul class="list-unstyled mb-0">
+											<li class="mb-1">Riverchase Car Wash,</li>
+											<li>Hoover, AL 35216</li>
+										</ul>
+									</div>
+								</li>
+								<li class="d-flex mb-md-0">
+									<div class="ico mr-2 mr-lg-3 mt-1">
+										<img src="images/ico18.svg" alt="images description" width="39" height="39">
+									</div>
+									<div class="tmeWrap">
+										<h2 class="headingXI text-capitalize fwSemibold mb-2">working hours:</h2>
+										<ul class="list-unstyled tmeList mb-0">
+											<li class="mb-1">Monday - Sunday (Open all 7 Days)</li>
+											<li>9am–7pm</li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+							<h3 class="headingIX mb-3">Have any questions?</h3>
+							<!-- MailList -->
+							<ul class="list-unstyled MailList mb-7">
+								<li class="mb-1"><a href="#">riverchasecarwash786@gmail.com</a></li>
+								<li><a href="#">www.carwash.com</a></li>
+							</ul>
+							<!-- socialSNetwork -->
+							<ul class="socialSNetwork list-unstyled d-flex mb-0">
+								<li><a href="#" class="fab fa-facebook-square"></a></li>
+								<li><a href="#" class="fab fa-twitter-square"></a></li>
+								<li><a href="#" class="fab fa-linkedin"></a></li>
+								<li><a href="#" class="fas fa-rss-square"></a></li>
+							</ul>
 						</div>
 					</div>
 				</div>
 			</section>
+			<!-- mapHolder -->
+			<aside class="mapHolder w-100">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13602.74467304903!2d74.3096302900287!3d31.53277840184674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3919049bf02720f9%3A0x4295a66061acf664!2sIchhra%2C+Lahore%2C+Punjab+54000%2C+Pakistan!5e0!3m2!1sen!2s!4v1563810618668!5m2!1sen!2s" style="border:0" allowfullscreen></iframe>
+			</aside>
+			<!-- lctnSec -->
+			<aside class="lctnSec py-11">
+				<div class="container">
+					<div class="row">
+						<div class="col-12 col-lg-4 col-xl-3 txtHolder text-center text-lg-left mb-5">
+							<h4 class="h4 mb-3">See all Carwash Locations</h4>
+							<p>These are our network location over the world specific foreign charitable organization.</p>
+							<div class="slideBtn d-flex justify-content-center justify-content-lg-start">
+								<a href="#" class="btnHolder buttonLeft rounded d-flex justify-content-center align-items-center mr-2 lsBtnPrev">
+									<i class="arrow fas fa-chevron-left"></i>
+								</a>
+								<a href="#" class="btnHolder buttonRight rounded d-flex justify-content-center align-items-center mr-2 lsBtnNext">
+									<i class="arrow arrowNext fas fa-chevron-right"></i>
+								</a>
+							</div>
+						</div>
+						<div class="col-12 col-lg-8 col-xl-9 pt-1">
+							<div class="row d-block">
+								<!-- locationSlider -->
+								<div class="locationSlider">
+									<div>
+										<div class="col-12">
+											<!-- wlBlock -->
+											<article class="wlBlock text-center rounded mb-8">
+												<header class="header text-uppercase py-4">
+													<h3 class="headingX mb-0">Allisonville Road</h3>
+												</header>
+												<div class="clList px-6 py-5">
+													<p>8252 Kelly Lane Indianapolis, IN 46250</p>
+													<p>Call: <a href="tel:6604567890" class="tell">(660) 456-7890</a></p>
+													<p><time datetime="2019-07-18">Mon-Sat: 8 am - 8 pm Sunday: 9 am - 6 pm</time></p>
+													<p><a href="#" class="btn btnTheme d-block mt-7 mb-n2 py-3 text-uppercase fwEbold">store details</a></p>
+												</div>
+											</article>
+										</div>
+									</div>
+									<div>
+										<div class="col-12">
+											<!-- wlBlock -->
+											<article class="wlBlock text-center rounded mb-8">
+												<header class="header text-uppercase py-4">
+													<h3 class="headingX mb-0">Allisonville Road</h3>
+												</header>
+												<div class="clList px-6 py-5">
+													<p>10580 N Michigan Road Carmel, IN 46032 </p>
+													<p>Call: <a href="tel:6604567890" class="tell">(660) 456-7890</a></p>
+													<p><time datetime="2019-07-18">Mon-Sat: 8 am - 8 pm Sunday: 9 am - 6 pm</time></p>
+													<p><a href="#" class="btn btnTheme d-block mt-7 mb-n2 py-3 text-uppercase fwEbold">store details</a></p>
+												</div>
+											</article>
+										</div>
+									</div>
+									<div>
+										<div class="col-12">
+											<!-- wlBlock -->
+											<article class="wlBlock text-center rounded mb-8">
+												<header class="header text-uppercase py-4">
+													<h3 class="headingX mb-0">Allisonville Road</h3>
+												</header>
+												<div class="clList px-6 py-5">
+													<p>14837 Thatcher Lane Carmel, IN 46032 </p>
+													<p>Call: <a href="tel:660-456-7890" class="tell">(660) 456-7890</a></p>
+													<p><time datetime="2019-07-18">Mon-Sat: 8 am - 8 pm Sunday: 9 am - 6 pm</time></p>
+													<p><a href="#" class="btn btnTheme d-block mt-7 mb-n2 py-3 text-uppercase fwEbold">store details</a></p>
+												</div>
+											</article>
+										</div>
+									</div>
+									<div>
+										<div class="col-12">
+											<!-- wlBlock -->
+											<article class="wlBlock text-center rounded mb-8">
+												<header class="header text-uppercase py-4">
+													<h3 class="headingX mb-0">Allisonville Road</h3>
+												</header>
+												<div class="clList px-6 py-5">
+													<p>10580 N Michigan Road Carmel, IN 46032 </p>
+													<p>Call: <a href="tel:6604567890" class="tell">(660) 456-7890</a></p>
+													<p><time datetime="2019-07-18">Mon-Sat: 8 am - 8 pm Sunday: 9 am - 6 pm</time></p>
+													<p><a href="#" class="btn btnTheme d-block mt-7 mb-n2 py-3 text-uppercase fwEbold">store details</a></p>
+												</div>
+											</article>
+										</div>
+									</div>
+									<div>
+										<div class="col-12">
+											<!-- wlBlock -->
+											<article class="wlBlock text-center rounded mb-8">
+												<header class="header text-uppercase py-4">
+													<h3 class="headingX mb-0">Allisonville Road</h3>
+												</header>
+												<div class="clList px-6 py-5">
+													<p>14837 Thatcher Lane Carmel, IN 46032 </p>
+													<p>Call: <a href="tel:660-456-7890" class="tell">(660) 456-7890</a></p>
+													<p><time datetime="2019-07-18">Mon-Sat: 8 am - 8 pm Sunday: 9 am - 6 pm</time></p>
+													<p><a href="#" class="btn btnTheme d-block mt-7 mb-n2 py-3 text-uppercase fwEbold">store details</a></p>
+												</div>
+											</article>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</aside>
 			<!-- footerAside -->
 			<aside class="footerAside text-white bgCover" style="background-image: url(http://placehold.it/1920x520)">
 				<div class="container pt-10 pb-8 pt-lg-13 pb-lg-14">
 					<div class="row">
 						<div class="col-12 col-sm-6 col-lg-3 d-md-flex mb-8 mb-sm-4 mb-lg-0">
 							<div class="txtHolder w-100">
-								<h5 class="h6 text-capitalize fwEbold text-white mb-4 mb-lg-6">about us</h5>
+								<h2 class="h6 text-capitalize fwEbold text-white mb-4 mb-lg-6">about us</h2>
 								<p>Since opening DesignFalls Car Wash in 1998 serving customers looking for a high quality car wash a reasonable price, with friendly and professional staff</p>
 								<!-- socialFNetwork -->
 								<ul class="socialFNetwork d-flex mb-0 list-unstyled justify-content-center justify-content-sm-start">
@@ -395,7 +410,7 @@
 						</div>
 						<div class="col-12 col-sm-6 col-lg-3 d-md-flex mb-8 mb-sm-4 mb-lg-0">
 							<div class="w-100 pl-lg-3">
-								<h5 class="h6 text-capitalize fwEbold text-white mb-4 mb-lg-6">Our Services</h5>
+								<h2 class="h6 text-capitalize fwEbold text-white mb-4 mb-lg-6">Our Services</h2>
 								<!-- fLink -->
 								<ul class="fLink list-unstyled text-capitalize">
 									<li><a href="service-detail.html">express exterior</a></li>
@@ -409,7 +424,7 @@
 						</div>
 						<div class="col-12 col-sm-6 col-lg-3 d-md-flex mb-8 mb-sm-4 mb-lg-0">
 							<div class="w-100 pl-lg-3">
-								<h5 class="h6 text-capitalize fwEbold text-white mb-4 mb-lg-6">Usefull Links</h5>
+								<h2 class="h6 text-capitalize fwEbold text-white mb-4 mb-lg-6">Usefull Links</h2>
 								<!-- fLink -->
 								<ul class="fLink list-unstyled text-capitalize">
 									<li><a href="homepage.html">home</a></li>
@@ -423,7 +438,7 @@
 						</div>
 						<div class="col-12 col-sm-6 col-lg-3 d-md-flex mb-sm-4 mb-lg-0">
 							<div class="wrapHolder w-100">
-								<h5 class="h6 text-capitalize fwEbold text-white mb-4 mb-lg-6">contact info</h5>
+								<h2 class="h6 text-capitalize fwEbold text-white mb-4 mb-lg-6">contact info</h2>
 								<!-- address -->
 								<address class="mb-0">
 									<!-- contList2 -->
