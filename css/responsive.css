@@ -6953,7 +6953,10 @@ h5.bdrBtm:after, .h5.bdrBtm:after {
   .cusSlider .csfHolder {
     min-height: 297px; }
   .csfHolder {
-    min-height: 297px; }
+    min-height: 297px; position: relative;}
+   .diff-text{
+     
+   } 
   .shptxtHolder {
     width: 376px;
     height: 381px;
