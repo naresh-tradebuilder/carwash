@@ -4,7 +4,7 @@ $(document).ready(function() {
         ignore: [],
         validateHiddenInputs: true,
         onSuccess: function($form) {
-            leadhome('locations', 'A new lead from carwash.', 'Please login to IMK Platform to follow-up.', 'Location-Form', 'location-message');
+            leadhome('locations', 'A new lead from carwash.', 'Please login to IMK Platform to follow-up.', 'contact-Form', 'location-message');
             return false;
         },
     });
