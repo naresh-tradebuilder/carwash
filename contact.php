@@ -18,10 +18,10 @@
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css">
 	<!-- include the site stylesheet -->
 	<link rel="stylesheet" href="css/responsive.css">
-		      <?php
+	<?php
         if($_SERVER['HTTP_HOST'] == 'localhost:8080' || $_SERVER['HTTP_HOST'] == 'localhost')
            {
-                $APIURL = 'http://imk.dev2.imkloud.com';
+                $APIURL = 'https://prod.imkloud.com';
                  $user = "ibXA8boNwqLrDgpPt";
                 $org = "wc4m4GQdDd9Hd29DA";
             } else if($_SERVER['HTTP_HOST'] == '104.197.167.156')
