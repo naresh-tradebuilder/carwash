@@ -17,15 +17,6 @@ $(document).ready(function() {
             return false;
         },
     });
-    $.validate({
-        form: "#prices",
-        ignore: [],
-        validateHiddenInputs: true,
-        onSuccess: function($form) {
-            leadhome('prices', 'A new lead from carwash.', 'Please login to IMK Platform to follow-up.', 'Pricing-Form', 'price-message');
-            return false;
-        },
-    });
     function leadhome(formId, subject, message, type, alertMsg) {
 
         var leadData;

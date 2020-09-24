@@ -13,10 +13,34 @@
 	<link href="https://fonts.googleapis.com/css?family=Muli:300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
 	<!-- include google roboto font cdn link -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css">
 	<!-- include the site stylesheet -->
 	<link rel="stylesheet" href="style.css">
 	<!-- include the site stylesheet -->
 	<link rel="stylesheet" href="css/responsive.css">
+	<?php
+        if($_SERVER['HTTP_HOST'] == 'localhost:8080' || $_SERVER['HTTP_HOST'] == 'localhost')
+           {
+                $APIURL = 'https://prod.imkloud.com';
+                 $user = "ibXA8boNwqLrDgpPt";
+                $org = "wc4m4GQdDd9Hd29DA";
+            } else if($_SERVER['HTTP_HOST'] == '104.197.167.156')
+           {
+                $APIURL = 'https://prod.imkloud.com';
+                $user = "ibXA8boNwqLrDgpPt";
+                $org = "wc4m4GQdDd9Hd29DA";
+            } else {
+                $APIURL = 'https://prod.imkloud.com';
+                $user = "ibXA8boNwqLrDgpPt";
+                $org = "wc4m4GQdDd9Hd29DA";
+            }
+            ?>
+            <script>
+         window['SERVER_URL'] = '<?php echo $APIURL ?>';
+         window['user_id'] = '<?php echo $user ?>';
+         window['group'] = '<?php echo $org ?>';
+
+</script>
 </head>
 <body>
 	<!-- pageWrapper -->
@@ -729,14 +753,15 @@
 						</div>
 						<div class="col-12 col-md-6">
 							<!-- requestForm -->
-							<form action="#" class="requestForm bg-white rounded p-5 py-lg-7 px-lg-8">								
+							<form id="locations" name="locations" class="requestForm bg-white rounded p-5 py-lg-7 px-lg-8">								<div class="alert hidden" id="location-message"></div>
 								<div class="form-group">
 									<label class="text-gray" for="nameFormControl">Email</label>
-									<input type="Email" class="form-control" id="nameFormControl">
+									<input class="form-control" type="email" name="emailId"data-validation="email" required="required">
 								</div>
 								<div class="form-group mb-4">
 									<label class="text-gray" for="phoneFormControl">Phone Number</label>
-									<input type="text" class="form-control" id="phoneFormControl">
+									<input class="form-control" type="text" id="contactNumber" name="contactNumber"data-force-validation-if-hidden="true"
+                                       data-validation="custom"  required="required"> 
 								</div>
 								<div class="form-group mb-1">
 									<button type="submit" class="btn btn-primary text-uppercase fwEbold px-5">send request</button>
@@ -1224,13 +1249,15 @@
 			<div class="block"><img src="images/svg/three-dots.svg" width="60" alt="loader"></div>
 		</div>
 	</div>
-	<!-- include jQuery library -->
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-	<!-- include popup library -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js" ></script>
 	<!-- include bootstrap JavaScript -->
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 	<!-- include custom JavaScript -->
 	<script src="js/jqueryCustome.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
+    <script src="./js/index.js?ver=0.1" ></script>
 </body>
 </html>
