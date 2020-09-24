@@ -4,7 +4,7 @@ $(document).ready(function() {
         ignore: [],
         validateHiddenInputs: true,
         onSuccess: function($form) {
-            leadhome('locations', 'A new lead from Glee.', 'Please login to IMK Platform to follow-up.', 'Location-Form', 'location-message');
+            leadhome('locations', 'A new lead from carwash.', 'Please login to IMK Platform to follow-up.', 'Location-Form', 'location-message');
             return false;
         },
     });
@@ -13,7 +13,7 @@ $(document).ready(function() {
         ignore: [],
         validateHiddenInputs: true,
         onSuccess: function($form) {
-            leadhome('abouts', 'A new lead from Glee.', 'Please login to IMK Platform to follow-up.', 'Consultation-Form', 'about-message');
+            leadhome('abouts', 'A new lead from carwash.', 'Please login to IMK Platform to follow-up.', 'Consultation-Form', 'about-message');
             return false;
         },
     });
@@ -22,7 +22,7 @@ $(document).ready(function() {
         ignore: [],
         validateHiddenInputs: true,
         onSuccess: function($form) {
-            leadhome('prices', 'A new lead from Glee.', 'Please login to IMK Platform to follow-up.', 'Pricing-Form', 'price-message');
+            leadhome('prices', 'A new lead from carwash.', 'Please login to IMK Platform to follow-up.', 'Pricing-Form', 'price-message');
             return false;
         },
     });
@@ -65,7 +65,7 @@ $(document).ready(function() {
                             $("#" + alertMsg).addClass("alert-success check").fadeIn().delay(2000).fadeOut();
 
                             $("#" + alertMsg).html("Thank you for your interest. We will get in touch with you soon !");
-                            window.location.href = siteUrl + "/thankyou.php";
+                            //window.location.href = siteUrl + "/thankyou.php";
 
                         }
                         if (alertMsg) {
@@ -76,12 +76,7 @@ $(document).ready(function() {
                             $("#" + alertMsg).html("Thank you for your interest. We will get in touch with you soon !");
                             $("#buypupp").attr('class', 'buypupp');
                             $(".blinker").fadeOut();
-                            if(formId == 'abouts'){
-                            window.location.href = "/thankyou.html";
-                            }
-                            else if(formId == 'locations'){
-                            window.location.href = "/thankyou1.html";                            
-                            }
+                            
                         }
                     }
                 } else {
