@@ -15,8 +15,34 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
 	<!-- include the site stylesheet -->
 	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css">
 	<!-- include the site stylesheet -->
 	<link rel="stylesheet" href="css/responsive.css">
+		      <?php
+        if($_SERVER['HTTP_HOST'] == 'localhost:8080' || $_SERVER['HTTP_HOST'] == 'localhost')
+           {
+                $APIURL = 'http://imk.dev2.imkloud.com';
+                 $user = "ibXA8boNwqLrDgpPt";
+                $org = "wc4m4GQdDd9Hd29DA";
+            } else if($_SERVER['HTTP_HOST'] == '104.197.167.156')
+           {
+                $APIURL = 'http://imk.dev2.imkloud.com';
+                $user = "";
+                $org = "";
+            } else {
+                $APIURL = 'https://prod.imkloud.com';
+                $user = "d4bKwE7yL9bRy67kD";
+                $org = "9PRph7fxoQgAXLqKh";
+            }
+            ?>
+            <script>
+         window['SERVER_URL'] = '<?php echo $APIURL ?>';
+         window['user_id'] = '<?php echo $user ?>';
+         window['group'] = '<?php echo $org ?>';
+
+</script>
+
+	
 </head>
 <body>
 	<!-- pageWrapper -->
@@ -165,31 +191,33 @@
 					<div class="row flex-row-reverse">
 						<div class="col-12 col-md-8 mb-6 mb-md-0">
 							<!-- contactForm -->
-							<form class="contactForm pl-xl-4">
+							<form id="locations" name="locations" class="contactForm">
+          						<div class="alert hidden" id="location-message"></div>
 								<div class="formRoW d-flex flex-Wrap">
 									<div class="formCol form-group">
 										<label class="text-capitalize" for="contactName">your Name</label>
-										<input type="text" class="form-control" id="contactName">
+										<input class="form-control" type="text" placeholder="Name *"  name="firstName"  data-validation="required,custom" data-validation-regexp="^[a-zA-z ]{1,}$" required="required" placeholder="Name*">
 									</div>
 									<div class="formCol form-group">
 										<label class="text-capitalize" for="contactPhone">phone number</label>
-										<input type="text" class="form-control" id="contactPhone">
+										<input class="form-control" type="text" id="contactNumber" name="contactNumber" placeholder="Phone *" data-force-validation-if-hidden="true"
+                         data-validation="custom"  required="required"> 
 									</div>
 								</div>
 								<div class="form-group">
 									<label class="text-capitalize" for="contactEmailAddress">email address</label>
-									<input type="text" class="form-control" id="contactEmailAddress">
+									<input class="form-control" type="email" name="emailId" placeholder="Email *" data-validation="email" required="required" placeholder="Email*">
 								</div>
 								<div class="form-group">
 									<label class="text-capitalize" for="contactSubject">subject</label>
-									<select class="custom-select" id="contactSubject">
+									<select class="custom-select" data-validation="required" required="required" name="Calltime">
 										<option>Select</option>
-										<option value="1">EXTERIOR Wash</option>
-										<option value="2">FULL-SERVICE WASH</option>
-										<option value="3">HAND WASH</option>
-										<option value="3">WAX SERVICES</option>
-										<option value="3">DETAILS</option>
-										<option value="3">ADD-ONS</option>
+										<option>EXTERIOR Wash</option>
+										<option>FULL-SERVICE WASH</option>
+										<option>HAND WASH</option>
+										<option>WAX SERVICES</option>
+										<option>DETAILS</option>
+										<option>ADD-ONS</option>
 									</select>
 								</div>
 								<div class="form-group">
@@ -197,7 +225,7 @@
 									<textarea class="form-control" id="contactMessage"></textarea>
 								</div>
 								<div class="form-group">
-									<button type="submit" class="btn btnTheme text-uppercase fwEbold">send message</button>
+									<button type="submit" class="submit btn btnTheme text-uppercase fwEbold">send message</button>
 								</div>
 							</form>
 						</div>
@@ -474,253 +502,17 @@
 			</div>
 		</footer> -->
 		<!-- modal -->
-		<div class="modal pr-0 fade" id="exampleModal">
-			<!-- appointPopup -->
-			<div class="modal-dialog appointPopup" role="document">
-				<div class="modal-content">
-					<div class="modal-header py-3 py-sm-4 py-md-5 px-7 px-sm-12 px-md-14 text-center position-relative">
-						<h5 class="modal-title headingVII text-capitalize w-100" id="exampleModalLabel">make an appointment</h5>
-						<button type="button" class="close rounded-circle position-absolute m-0" data-dismiss="modal" aria-label="Close">
-				        </button>
-					</div>
-					<!-- appointForm -->
-					<form class="appointForm">
-						<div class="modal-body p-0">
-							<div class="formGroup px-2 py-4 p-sm-6 p-md-8 pt-lg-10 px-lg-10">
-								<h3 class="headingVIII mb-1 text-capitalize">select location</h3>
-								<label>Select your nearest location here</label>
-								<select class="custom-select" id="contactSubject">
-									<option>Bridgeport, CT1205 North Ave., Bridgeport, CT 06604 </option>
-									<option value="1">One</option>
-									<option value="2">Two</option>
-									<option value="3">Three</option>
-								</select>
-							</div>
-							<!-- vehicleWrap -->
-							<div class="formGroup vehicleWrap px-2 py-4 p-sm-6 p-md-8 px-lg-10">
-								<h3 class="headingVIII mb-1 text-capitalize">vehicle type</h3>
-								<label>Select your vehicle type</label>
-								<div class="d-sm-flex vehicleWrapCheck flex-wrap">
-									<div class="form-check">
-										<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-										<label class="form-check-label" for="defaultCheck1">
-										SUV
-										</label>
-									</div>
-									<div class="form-check">
-										<input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
-										<label class="form-check-label" for="defaultCheck2">
-										Sedon
-										</label>
-									</div>
-									<div class="form-check">
-										<input class="form-check-input" type="checkbox" value="" id="defaultCheck3">
-										<label class="form-check-label" for="defaultCheck3">
-										Small SUV
-										</label>
-									</div>
-									<div class="form-check">
-										<input class="form-check-input" type="checkbox" value="" id="defaultCheck4">
-										<label class="form-check-label" for="defaultCheck4">
-										Mini Van
-										</label>
-									</div>
-									<div class="form-check">
-										<input class="form-check-input" type="checkbox" value="" id="defaultCheck5">
-										<label class="form-check-label" for="defaultCheck5">
-										Pickup Truck
-										</label>
-									</div>
-								</div>
-							</div>
-							<!-- pkgWrap -->
-							<div class="formGroup pkgWrap py-4 px-2 p-sm-6 pb-sm-2 pt-md-7 pb-md-4 px-lg-8 px-lg-10">
-								<h3 class="headingVIII mb-1 mb-lg-2 text-capitalize">wash packages</h3>
-								<label>Choose the best wash package for your vehicle</label>
-								<select class="custom-select mb-6" id="contactSubject">
-									<option>- Select Service Types -</option>
-									<option value="1">One</option>
-									<option value="2">Two</option>
-									<option value="3">Three</option>
-								</select>
-								<!-- radioCheckList -->
-								<ul class="list-unstyled radioCheckList mb-0">
-									<li>
-										<div class="form-check">
-											<input class="form-check-input" type="checkbox" value="" id="popupCheck1">
-											<label class="form-check-label mb-0" for="popupCheck1">
-												<h4 class="headingX fwSemibold text-capitalize">
-													<strong class="fwSemibold">full fivestar detail</strong>
-													<strong class="font-weight-normal"> - 13.00</strong>
-												</h4>
-												<span class="timeLimit d-block">5 Hours</span>
-												<a href="#" class="info text-capitalize">more info...</a>
-											</label>
-										</div>
-									</li>
-									<li>
-										<div class="form-check">
-											<input class="form-check-input" type="checkbox" value="" id="popupCheck2">
-											<label class="form-check-label mb-0" for="popupCheck2">
-												<h4 class="headingX fwSemibold text-capitalize">
-													<strong class="fwSemibold">Interior Fivestar Detail</strong>
-													<strong class="font-weight-normal"> - 25.99</strong>
-												</h4>
-												<span class="timeLimit d-block">5 Hours</span>
-												<a href="#" class="info text-capitalize">more info...</a>
-											</label>
-										</div>
-									</li>
-									<li>
-										<div class="form-check">
-											<input class="form-check-input" type="checkbox" value="" id="popupCheck3">
-											<label class="form-check-label mb-0" for="popupCheck3">
-												<h4 class="headingX fwSemibold text-capitalize">
-													<strong class="fwSemibold">Simoniz Diamond Plate Ceramic Paint Coating</strong>
-													<strong class="font-weight-normal"> - 39.99</strong>
-												</h4>
-												<span class="timeLimit d-block">5 Hours</span>
-												<a href="#" class="info text-capitalize">more info...</a>
-											</label>
-										</div>
-									</li>
-									<li>
-										<div class="form-check">
-											<input class="form-check-input" type="checkbox" value="" id="popupCheck4">
-											<label class="form-check-label mb-0" for="popupCheck4">
-												<h4 class="headingX fwSemibold text-capitalize">
-													<strong class="fwSemibold">Scratch Repair</strong>
-													<strong class="font-weight-normal"> - 24.00</strong>
-												</h4>
-												<span class="timeLimit d-block">5 Hours</span>
-												<a href="#" class="info text-capitalize">more info...</a>
-											</label>
-										</div>
-									</li>
-									<li>
-										<div class="form-check">
-											<input class="form-check-input" type="checkbox" value="" id="popupCheck5">
-											<label class="form-check-label mb-0" for="popupCheck5">
-												<h4 class="headingX fwSemibold text-capitalize">
-													<strong class="fwSemibold">Headlight Restoration</strong>
-													<strong class="font-weight-normal"> - 18.59</strong>
-												</h4>
-												<span class="timeLimit d-block">5 Hours</span>
-												<a href="#" class="info text-capitalize">more info...</a>
-											</label>
-										</div>
-									</li>
-								</ul>
-							</div>
-							<div class="formGroup appointDetail py-4 px-2 p-sm-6 pb-sm-3 px-md-8 pt-md-8 pb-md-6 pb-lg-6 px-lg-10">
-								<h3 class="headingVIII text-capitalize">Appointment Details</h3>
-								<label>When would you like us to come? </label>
-								<div class="row formRow">
-									<div class="col-12 col-md-6">
-										<input class="form-control" type="date" >
-									</div>
-									<div class="col-12 col-md-6">
-										<input class="form-control" type="time" >
-									</div>
-								</div>
-							</div>
-							<div class="formGroup appointDetail py-4 px-2 p-sm-6 p-md-8 px-lg-10">
-								<h3 class="headingVIII text-capitalize">Booking Summary</h3>
-								<label>See duration and price Estimate here</label>
-								<div class="row summaryRow">
-									<div class="col-12 col-md-6">
-										<!-- smyBlock -->
-										<article class="smyBlock mb-3 mb-md-0 align-items-center bg-primary d-flex p-4 p-lg-5">
-											<span class="icoHolder">
-												<img src="images/ico59.svg" class="img-fluid" alt="image description">
-											</span>
-											<div class="textWrap pr-lg-1 text-right flex-grow-1">
-												<h3 class="fwSemibold headingIX text-white"> 0 Hour 0 Mins</h3>
-												<h4 class="clrTheme headingXIII mb-0 text-uppercase">duration</h4>
-											</div>
-										</article>
-									</div>
-									<div class="col-12 col-md-6">
-										<!-- smyBlock -->
-										<article class="smyBlock mb-3 mb-md-0 align-items-center bg-primary d-flex p-4 p-lg-5 px-xl-6">
-											<span class="icoHolder">
-												<img src="images/ico60.svg" class="img-fluid" alt="image description">
-											</span>
-											<div class="textWrap text-right flex-grow-1">
-												<h3 class="fwSemibold headingIX text-white"> $25.99</h3>
-												<h4 class="clrTheme headingXIII mb-0 text-uppercase">total price</h4>
-											</div>
-										</article>
-									</div>
-								</div>
-							</div>
-							<!-- enterDetail -->
-							<div class="formGroup border-0 enterDetail py-4 px-2 p-sm-6 p-md-8 px-lg-10">
-								<h3 class="headingVIII text-capitalize mb-2"> Enter Your Details </h3>
-								<label>This information will be used to contact you about your service.</label>
-								<div class="row formRow">
-									<div class="col-12 col-md-6">
-										<div class="form-group">
-											<input class="form-control" type="text" placeholder="First Name">
-										</div>
-									</div>
-									<div class="col-12 col-md-6">
-										<div class="form-group">
-											<input class="form-control" type="text" placeholder="Last Name">
-										</div>
-									</div>
-									<div class="col-12 col-md-6">
-										<div class="form-group">
-											<input class="form-control" type="tel" placeholder="Phone Number">
-										</div>
-									</div>
-									<div class="col-12 col-md-6">
-										<div class="form-group">
-											<input class="form-control" type="Email" placeholder="Email Address">
-										</div>
-									</div>
-								</div>
-								<div class="row formIIRow justify-content-center">
-									<div class="col-12 col-md-6 col-lg-4">
-										<div class="form-group">
-											<input class="form-control" type="text" placeholder="Make">
-										</div>
-									</div>
-									<div class="col-12 col-md-6 col-lg-4">
-										<div class="form-group">
-											<input class="form-control" type="text" placeholder="Model">
-										</div>
-									</div>
-									<div class="col-12 col-md-6 col-lg-4">
-										<div class="form-group">
-											<input class="form-control" type="tel" placeholder="Year">
-										</div>
-									</div>
-								</div>
-								<textarea class="form-control" placeholder="Additional Requirements"></textarea>
-							</div>
-						</div>
-						<div class="modal-footer text-center px-2  px-sm-6 px-md-10 px-lg-24 mt-n1 pt-0 pb-8 pb-sm-10 pb-md-13 pb-lg-17 d-block border-0">
-							<p>Please note that the date and time you requested may not be available. We will contact you to confirm your actual appointment details.</p>
-							<button type="submit" class="btn btnTheme text-uppercase fwEbold text-uppercase m-0">Confirm Booking</button>
-						</div>
-					</form>
-				</div>
-			</div>
-		</div>
-		<span id="back-top" class="text-center rounded-circle fa fa-angle-up"></span>
-		<!-- loader of the page -->
-		<div id="loader" class="loader-holder">
-			<div class="block"><img src="images/svg/three-dots.svg" width="60" alt="loader"></div>
-		</div>
+		
+		
 	</div>
-	<!-- include jQuery library -->
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-	<!-- include popup library -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-	<!-- include bootstrap JavaScript -->
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-	<!-- include custom JavaScript -->
-	<script src="js/jqueryCustome.js"></script>
+
+	
+	 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js" ></script>
+    <script src="./js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>        
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
+    <script src="./js/index.js?ver=0.1" ></script>
 </body>
 </html>
