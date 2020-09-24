@@ -30,7 +30,7 @@
 						<div class="col-6 col-md-4">
 							<!-- Logo -->
 							<div class="logo position-relative">
-								<a href="index.html">
+								<a href="index.php">
 									<img src="images/logo.png" alt="Auto &amp; Detailing template" class="img-fluid">
 								</a>
 							</div>
@@ -73,7 +73,7 @@
 					<nav class="navbar navHolder d-flex navbar-expand-lg navbar-dark p-0 mt-lg-0 mr-lg-0 position-static">
 						<!-- MenuLogo -->
 						<div class="menuLogo">
-							<a href="index.html">
+							<a href="index.php">
 								<img src="images/logo2.png" alt="Auto &amp; Detailing template" class="img-fluid logoWhite">
 								<img src="images/logo.png" alt="Auto &amp; Detailing template" class="img-fluid logoBlack">
 							</a>
@@ -85,33 +85,33 @@
 						<div class="collapse navbar-collapse navCollapse text-uppercase fwBlack" id="navbarNav">
 							<ul class="navbar-nav">
 								<li class="nav-item">
-									<a class="nav-link" href="index.html" id="navbarDropdown">Home </a>
+									<a class="nav-link" href="index.php" id="navbarDropdown">Home </a>
 									
 								</li>
 								<li class="nav-item dropdown">
 									<a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Services &amp; Pricing</a>
 									<div class="dropdown-menu border-0 rounded-0 text-capitalize" aria-labelledby="navbarDropdown">
 										<ul class="list-unstyled dropMenu">
-											<li><a class="dropdown-item" href="express.html">EXTERIOR WASH</a></li>
-											<li><a class="dropdown-item" href="full-service.html">FULL-SERVICE WASH (IN & OUT)</a></li>
-											<li><a class="dropdown-item" href="hand-wash.html">HAND WASH</a></li>
-											<li><a class="dropdown-item" href="wax-service.html">WAX SERVICES</a></li>
-											<li><a class="dropdown-item" href="details.html">DETAILS</a></li>
-											<li><a class="dropdown-item" href="add-ons.html">ADD-ONS</a></li>
+											<li><a class="dropdown-item" href="express.php">EXTERIOR WASH</a></li>
+											<li><a class="dropdown-item" href="full-service.php">FULL-SERVICE WASH (IN & OUT)</a></li>
+											<li><a class="dropdown-item" href="hand-wash.php">HAND WASH</a></li>
+											<li><a class="dropdown-item" href="wax-service.php">WAX SERVICES</a></li>
+											<li><a class="dropdown-item" href="details.php">DETAILS</a></li>
+											<li><a class="dropdown-item" href="add-ons.php">ADD-ONS</a></li>
 										</ul>
 									</div>
 								</li>
 								<li class="nav-item">
-									<a class="nav-link" href="about-us.html">About<span class="sr-only">(current)</span></a>
+									<a class="nav-link" href="about-us.php">About<span class="sr-only">(current)</span></a>
 								</li>
-								<li class="nav-item"><a class="nav-link" href="Unlimited Wash Club.html">Unlimited Wash Club</a></li>
-								<li class="nav-item active"><a class="nav-link" href="testimonial.html">testimonials</a></li>
+								<li class="nav-item active"><a class="nav-link" href="unlimited-wash.php">Unlimited Wash Club</a></li>
+								<li class="nav-item"><a class="nav-link" href="testimonial.php">testimonials</a></li>
 								<li class="nav-item">
-									<a class="nav-link" href="gallery.html">Gallery</a>
+									<a class="nav-link" href="gallery.php">Gallery</a>
 									
 								</li>								
 								<li class="nav-item">
-									<a class="nav-link" href="blog.html">Blog</a>									
+									<a class="nav-link" href="blog.php">Blog</a>									
 								</li>
 								<li class="nav-item">
 									<a class="nav-link" href="contact.php">CONTACT</a>
@@ -133,17 +133,7 @@
 			</div>
 		</header>
 		<!-- main -->
-		<main>
-			<!-- bannerInr -->
-			<!-- <section class="bannerInr d-flex bgCover overlayII position-relative" style="background-image: url(http://placehold.it/1920x160);">
-				<div class="alignCenter d-flex w-100 align-items-center">
-					<div class="container pt-6 pb-7">
-						<header class="caption text-center position-relative position-relative">
-							<h1 class="fwEbold headingI text-white text-capitalize mb-0">testimonials</h1>
-						</header>
-					</div>
-				</div>
-			</section> -->
+		<main> 
 			<!-- brdCrmbHolder -->
 			<nav class="brdCrmbHolder py-3">
 				<div class="container">
@@ -153,160 +143,333 @@
 							<nav aria-label="breadcrumb" class="d-flex justify-content-start">
 								<ol class="breadcrumb mb-0 p-0 text-capitalize">
 									<li class="breadcrumb-item"><a href="homepage.html">Home</a></li>
-									<li class="breadcrumb-item"><a href="About us.html">about us</a></li>
-									<li class="breadcrumb-item active" aria-current="page">testimonials</li>
+									<li class="breadcrumb-item active" aria-current="page">unlimited wash club</li>
 								</ol>
 							</nav>
 						</div>
 					</div>
 				</div>
 			</nav>
-			<!-- testimonialSec -->
-			<section class="testimonialSec py-12 py-sm-15 pb-lg-20">
+			<!-- unLimitPlanSec -->
+			<section class="unLimitPlanSec py-10 py-sm-12 pb-lg-15 pt-lg-15 pb-xl-20">
 				<div class="container">
 					<div class="row">
-						<div class="col-12 col-lg-10 offset-lg-1 col-xl-8 offset-xl-2">
-							<header class="header ltrSpce text-center mb-8 mb-md-10 mb-lg-12 mb-xl-15">
-								<h2 class="fwEbold mb-2">What’s Our Clients Say</h2>
-								<p>Here is what’s our some of lovely customers have to saying about us</p>
+						<div class="col-12 col-xl-10 offset-xl-1">
+							<header class="header ltrSpce text-center mb-10 mb-md-12 mb-lg-14 mb-xl-15">
+								<h1 class="h2 fwEbold mb-2">VIP UNLIMITED PASS </h1>
+								<p>Unlimited Washes is for you!  Wash whenever you want and enjoy the ease of auto monthly billing.  Best of all, there’s no contract so you can cancel any time at least 24 hours before your monthly billing date by contacting our Customer Support Team.</p>
 							</header>
 						</div>
 					</div>
-					<div class="row justify-content-center">
+					<div class="row justify-content-center mb-sm-3">
 						<div class="col-12 col-sm-6 col-lg-4 d-flex">
-							<!-- csfHolder -->
-							<blockquote class="csfHolder overflow-hidden text-center pt-7 pt-md-10 pb-6 px-4 mb-4 mb-md-6 mb-xl-8">
-								<q class="d-block mb-3 mb-md-4 position-relative">I am beyond impressed at the service I received! They do such a great job here for a very reasonable price. My jeep always came out looking awesome and they do such a great job cleaning the interior. They are friendly they take care of your stuff. I've had a full detail done on my last car and I couldn't find dirt anywhere. The carpets were beige and filthy with stains but they made them look nice and clean again. If you love your ride as much as I do this is the place to take your baby to get fresh and clean.</q>
-								<div class="diff-text">
-								<cite class="customer text-center">
-									<strong class="author">Mary Ann - </strong>
-									<em>Customer</em>
-								</cite>
-								<span class="imgHolder mx-auto d-block mt-n1">
-									<img src="images/rating2.png" class="img-fluid" alt="rating">
+							<article class="planList text-center rounded position-relative w-100 mb-6 mb-8 mb-lg-11">
+								<header>
+									<h2 class="headingXI text-capitalize px-3 mb-0">Unlimited 'WORKS' Car Wash</h2>
+									<!-- priceHolder -->
+									<div class="priceHolder px-3 pt-4 pb-5">
+										<div class="wrap mb-1">
+											<sup class="font-weight-light">$</sup>
+											<span class="price font-weight-light">80</span>
+											<!-- <sup class="font-weight-light">10%</sup> -->
+										</div>
+										<span>Per month (Include tax)</span>
+									</div>
+								</header>
+								<!-- typeList -->
+								<ul class="list-unstyled pt-8 pb-23 typeList text-secondary mb-0 px-5 text-left">
+									<li>Quick Wash</li>
+									<li>Hand Dry</li>
+									<li>Vacuum</li>
+									<li>Dash Wipe and Clean</li>
+									<li>Wheels Clean</li>
+									<li>Tire Shine</li>
+									<li>Dash and Door Panel Dressing</li>
+									<li>Cup Holders Clean</li>
+									<li>Bugs Prep</li>
+									<li>Triple Conditioner</li>
+									<li>Hot Wax and Shine</li>
+								</ul>
+								<span class="btnHolder d-block position-absolute">
+									<a href="contact.php" class="btn btn-outline-primary text-uppercase fwEbold py-3">Book now</a>
 								</span>
-								</div>
-							</blockquote>
+							</article>
 						</div>
 						<div class="col-12 col-sm-6 col-lg-4 d-flex">
-							<!-- csfHolder -->
-							<blockquote class="csfHolder overflow-hidden text-center pt-7 pt-md-10 pb-6 px-4 mb-4 mb-md-6 mb-xl-8">
-								<q class="d-block mb-3 mb-md-4 position-relative">So I came back from a week long vacation to find out that I had left a back window down on my new car. In panic mode I came to Riverchase car wash and detail and told them what happened and they looked at the damage. The damage was not bad but still not good for a brand new car. Instead of charging me for a full interior detail and taking advantage of the situation by giving me more than I really needed. They gave me something that was cheaper and made my car like new again! Awesome customer service and very honest hard working people! Very happy with my visit!</q>
-								<div class="diff-text">
-								<cite class="customer text-center">
-									<strong class="author">Tiffany B. - </strong>
-									<em>Customer</em>
-								</cite>
-								<span class="imgHolder mx-auto d-block mt-n1">
-									<img src="images/rating2.png" class="img-fluid" alt="rating">
-								</span></div>
-							</blockquote>
+							<!-- planList -->
+							<article class="planList text-center rounded position-relative w-100 mb-6 mb-8 mb-lg-11">
+								<header>
+									<h2 class="headingXI text-capitalize  px-3 mb-0 ">Unlimited 'GOOD' Car Wash</h2>
+									<!-- priceHolder -->
+									<div class="priceHolder px-3 pt-4 pb-5">
+										<div class="wrap mb-1">
+											<sup class="font-weight-light">$</sup>
+											<span class="price font-weight-light">50</span>
+											<!-- <sup class="font-weight-light">99</sup> -->
+										</div>
+										<span>Per month (Include tax)</span>
+									</div>
+								</header>
+								<!-- typeList -->
+								<ul class="list-unstyled pt-8 pb-23 typeList text-secondary mb-0 px-5 text-left">
+									<li>Vacuum</li>
+									<li>windows</li>
+									<li>hand dry</li>
+									<li>wheels clean</li>
+									<li>tire shine</li>
+									<li>sealer wax</li>
+									<li>hot wax & shine</li>
+								</ul>
+								<span class="btnHolder d-block position-absolute">
+									<a href="contact.php" class="btn btn-outline-primary text-uppercase fwEbold py-3">Book now</a>
+								</span>
+							</article>
 						</div>
 						<div class="col-12 col-sm-6 col-lg-4 d-flex">
-							<!-- csfHolder -->
-							<blockquote class="csfHolder overflow-hidden text-center pt-7 pt-md-10 pb-6 px-4 mb-4 mb-md-6 mb-xl-8">
-								<q class="d-block mb-3 mb-md-4 position-relative">Wonderful place with exceptional service. A full service establishment. Clean and comfortable waiting area. Extremely clean bathrooms.</q><div class="diff-text">
-								<cite class="customer text-center">
-									<strong class="author">Jeremy M.  - </strong>
-									<em>Customer</em>
-								</cite>
-								<span class="imgHolder mx-auto d-block mt-n1">
-									<img src="images/rating2.png" class="img-fluid" alt="rating">
-								</span></div>
-							</blockquote>
+							<!-- planList -->
+							<article class="planList text-center position-relative rounded w-100 mb-6 mb-8 mb-lg-11">
+								<header>
+									<h2 class="headingXI text-capitalize  px-3 mb-0 ">NEW! Unlimited 'Exterior - Wash & Go’ </h2>
+									<!-- priceHolder -->
+									<div class="priceHolder px-3 pt-4 pb-5">
+										<div class="wrap mb-1">
+											<sup class="font-weight-light">$</sup>
+											<span class="price font-weight-light">20</span>
+											<!-- <sup class="font-weight-light">99</sup> -->
+										</div>
+										<span>Per month (Include tax)</span>
+									</div>
+								</header>
+								<!-- typeList -->
+								<ul class="list-unstyled pt-8 pb-23 typeList text-secondary mb-0 px-5 text-left">
+									<li>Quick Wash</li>
+									<li>Hand Dry</li>									
+								</ul>
+								<span class="btnHolder d-block position-absolute">
+									<a href="contact.php" class="btn btn-outline-primary text-uppercase fwEbold py-3">Book now</a>
+								</span>
+							</article>
 						</div>
-						<div class="col-12 col-sm-6 col-lg-4 d-flex">
-							<!-- csfHolder -->
-							<blockquote class="csfHolder overflow-hidden text-center pt-7 pt-md-10 pb-6 px-4 mb-4 mb-md-6 mb-xl-8">
-								<q class="d-block mb-3 mb-md-4 position-relative">Alright, this was my first visit. To start, it was very clean and organized inside. Prices seem average for this area and I paid $2 extra to get my trunk done. A bit crowded and got out within 35 mins. Overall, good experience for me and my dog. Oh, they are pet-friendly which is a big plus for me</q>
-								<div class="diff-text">
-								<cite class="customer text-center">
-									<strong class="author">Vivian S. - </strong>
-									<em>Customer</em>
-								</cite>
-								<span class="imgHolder mx-auto d-block mt-n1">
-									<img src="images/rating2.png" class="img-fluid" alt="rating">
-								</span></div>
-							</blockquote>
-						</div>
-						<div class="col-12 col-sm-6 col-lg-4 d-flex">
-							<!-- csfHolder -->
-							<blockquote class="csfHolder overflow-hidden text-center pt-7 pt-md-10 pb-6 px-4 mb-4 mb-md-6 mb-xl-8">
-								<q class="d-block mb-3 mb-md-4 position-relative">This is the third time I am getting my car wash done at Riverchase Car Wash & Detail. Great people, customer friendly, I will continue to use them. Great Job Guys Keep it up.</q>
-								<div class="diff-text">
-								<cite class="customer text-center">
-									<strong class="author">Jessie P. - </strong>
-									<em>Customer</em>
-								</cite>
-								<span class="imgHolder mx-auto d-block mt-n1">
-									<img src="images/rating2.png" class="img-fluid" alt="rating">
-								</span></div>
-							</blockquote>
-						</div>
-						<div class="col-12 col-sm-6 col-lg-4 d-flex">
-							<!-- csfHolder -->
-							<blockquote class="csfHolder overflow-hidden text-center pt-7 pt-md-10 pb-6 px-4 mb-4 mb-md-6 mb-xl-8">
-								<q class="d-block mb-3 mb-md-4 position-relative">This place does much better job compare to the other place down the street. They even found $300 CASH in between my seats and BROUGHT IT TO ME! Honest staff. 10 stars!!! </q>
-								<div class="diff-text">
-								<cite class="customer text-center">
-									<strong class="author">Kristina T. - </strong>
-									<em>Customer</em>
-								</cite>
-								<span class="imgHolder mx-auto d-block mt-n1">
-									<img src="images/rating2.png" class="img-fluid" alt="rating">
-								</span></div>
-							</blockquote>
-						</div>
-						<div class="col-12 col-sm-6 col-lg-4 d-flex">
-							<!-- csfHolder -->
-							<blockquote class="csfHolder overflow-hidden text-center pt-7 pt-md-10 pb-6 px-4 mb-4 mb-md-6 mb-xl-8">
-								<q class="d-block mb-3 mb-md-4 position-relative">I recently visited this location for a coating. It was their new wax coating and it was on sale! My car looks UNBELIEVABLE. It's never been this shiny before since I bought it brand new. Very satisfied with my detail. Thank you!!!</q>
-								<div class="diff-text">
-								<cite class="customer text-center">
-									<strong class="author">FC  - </strong>
-									<em>Customer</em>
-								</cite>
-								<span class="imgHolder mx-auto d-block mt-n1">
-									<img src="images/rating2.png" class="img-fluid" alt="rating">
-								</span></div>
-							</blockquote>
-						</div>
-						<div class="col-12 col-sm-6 col-lg-4 d-flex">
-							<!-- csfHolder -->
-							<blockquote class="csfHolder overflow-hidden text-center pt-7 pt-md-10 pb-6 px-4 mb-4 mb-md-6 mb-xl-8">
-								<q class="d-block mb-3 mb-md-4 position-relative">Excellent experience! Great customer service at the front desk. Clean cars how i like. Free wi-fi, Free coffee and Free drinks inside. Highly recommend! Thanks guys! </q>
-								<div class="diff-text">
-								<cite class="customer text-center">
-									<strong class="author">Sara L - </strong>
-									<em>Customer</em>
-								</cite>
-								<span class="imgHolder mx-auto d-block mt-n1">
-									<img src="images/rating2.png" class="img-fluid" alt="rating">
-								</span></div>
-							</blockquote>
-						</div>
-						<div class="col-12 col-sm-6 col-lg-4 d-flex">
-							<!-- csfHolder -->
-							<blockquote class="csfHolder overflow-hidden text-center pt-7 pt-md-10 pb-6 px-4 mb-4 mb-md-6 mb-xl-8">
-								<q class="d-block mb-3 mb-md-4 position-relative">Decided to check this place out after another car wash right down the road always made my wheels dirtier than when I entered. This place is the best in the area. It's also stupid cheap, $10 for exterior wash and wheels detailed. They also have a large waiting room with TV and wifi and the staff is generally friendly</q>
-								<div class="diff-text">
-								<cite class="customer text-center">
-									<strong class="author">HM - </strong>
-									<em>Customer</em>
-								</cite>
-								<span class="imgHolder mx-auto d-block mt-n1">
-									<img src="images/rating2.png" class="img-fluid" alt="rating">
-								</span></div>
-							</blockquote>
-						</div>
+						
 					</div>
 					<div class="row">
-						<div class="col-12 text-center">
-							<a href="#" class="btn btnTheme text-uppercase btn-lg fwEbold">more testimonials</a>
+						<div class="col-12 col-lg-10 offset-lg-1 col-xl-8 offset-xl-2 text-center">							
+							<!-- managAccountWrap -->
+							<div class="managAccountWrap text-left d-flex align-items-center justify-content-center">
+								<div class="alignLeft position-relative">
+									<h3 class="mb-0">
+										<strong class="d-block text-left">Fleet WORKS Wash Program </strong> <br>
+										
+									</h3>									
+								</div>
+								
+							</div>
+							<span class="d-block text-left">Here at Riverchase Car Wash & Detail, we strive to help businesses of all sizes keep their vehicles looking great. We offer discounted rates for companies and dealerships in/near the Hoover area.</span><br>
+							<ul class="text-left">
+								<li>We offer WORKS WASH as part of our fleet program - perfect for businesses that need to keep their vehicles looking clean and shiny longer.</li>
+								<li>There is no contract to sign or long-term obligation</li>
+								<li>Our Fleet Program delivers great value via bulk discounted pricing</li>
+							</ul>
+							<span class="busnPlanTxt d-block text-left">Contact us today by filling out the form below or e-mail at riverchasecarwash786@gmail.com</span>
 						</div>
 					</div>
 				</div>
 			</section>
+			<aside class="bg-primary pt-8 pt-sm-12 pb-2 pb-sm-5">
+				<div class="container">
+					<div class="row hitListWrap justify-content-center">
+						<div class="col-12 col-sm-6 col-lg-4">
+							<!-- hiTList -->
+							<article class="hiTList text-center px-md-2 px-xl-4 overflow-hidden mb-3 mb-md-4">
+								<h3 class="headingVIII text-capitalize text-white mb-2">Become Member</h3>
+								<p>Purchase &amp; register plan (using any major credit card) at any participating location.</p>
+							</article>
+						</div>
+						<div class="col-12 col-sm-6 col-lg-4">
+							<!-- hiTList -->
+							<article class="hiTList text-center px-md-2 px-xl-4 overflow-hidden mb-3 mb-md-4">
+								<h3 class="headingVIII text-capitalize text-white mb-2">Easy in, Easy out</h3>
+								<p>We put a small RFID tag on your windshield and scan it every time you come.</p>
+							</article>
+						</div>
+						<div class="col-12 col-sm-6 col-lg-4">
+							<!-- hiTList -->
+							<article class="hiTList text-center px-md-2 px-xl-4 overflow-hidden mb-3 mb-md-4">
+								<h3 class="headingVIII text-capitalize text-white mb-2">Auto Renewal</h3>
+								<p>We’ll automatically bill the card on the same day you signed up each month until you cancel.</p>
+							</article>
+						</div>
+					</div>
+				</div>
+			</aside>
+			<!-- EachVisitSec -->
+			<aside class="EachVisitSec pt-10 pt-lg-12 pt-xl-14 pb-4 pb-lg-0 pb-xl-6">
+				<div class="container">
+					<div class="row">
+						<div class="col-12 col-xl-10 offset-xl-1">
+							<header class="header ltrSpce text-center mb-8 mb-md-10 mb-xl-12">
+								<h4 class="h3 fwEbold mb-2">Each Visits Include</h4>
+							</header>
+						</div>
+					</div>
+					<div class="row customColDivisionLgIV justify-content-center text-center">
+						<div class="col col-md-4 col-sm-6 col-12">
+							<!-- eachWList -->
+							<article class="eachWList mb-6">
+								<span class="d-block icoHolder rounded-circle mx-auto mb-3 mb-sm-4 d-flex justify-content-center align-items-center">
+									<img src="images/ico43.svg" alt="icon" class="img-fluid" width="67" height="59">
+								</span>
+								<h4 class="headingX">
+									<strong class="d-block font-weight-normal">Complete Interior</strong>
+									<strong class="d-block font-weight-normal">Vacuum</strong>
+								</h4>
+							</article>
+						</div>
+						<div class="col col-md-4 col-sm-6 col-12">
+							<!-- eachWList -->
+							<article class="eachWList mb-6">
+								<span class="d-block icoHolder rounded-circle mx-auto mb-3 mb-sm-4 d-flex justify-content-center align-items-center">
+									<img src="images/ico44.svg" alt="icon" class="img-fluid" width="67" height="59">
+								</span>
+								<h4 class="headingX">
+									<strong class="d-block font-weight-normal">Bumper to Bumper</strong>
+									<strong class="d-block font-weight-normal">Gentle Wash</strong>
+								</h4>
+							</article>
+						</div>
+						<div class="col col-md-4 col-sm-6 col-12">
+							<!-- eachWList -->
+							<article class="eachWList mb-6">
+								<span class="d-block icoHolder rounded-circle mx-auto mb-3 mb-sm-4 d-flex justify-content-center align-items-center">
+									<img src="images/ico45.svg" alt="icon" class="img-fluid" width="67" height="59">
+								</span>
+								<h4 class="headingX">
+									<strong class="d-block font-weight-normal">All Windows Cleaned</strong>
+									<strong class="d-block font-weight-normal">Inside and Out</strong>
+								</h4>
+							</article>
+						</div>
+						<div class="col col-md-4 col-sm-6 col-12">
+							<!-- eachWList -->
+							<article class="eachWList mb-6">
+								<span class="d-block icoHolder rounded-circle mx-auto mb-3 mb-sm-4 d-flex justify-content-center align-items-center">
+									<img src="images/ico46.svg" alt="icon" class="img-fluid" width="67" height="59">
+								</span>
+								<h4 class="headingX">
+									<strong class="d-block font-weight-normal">Soft Towel</strong>
+									<strong class="d-block font-weight-normal">Drying</strong>
+								</h4>
+							</article>
+						</div>
+						<div class="col col-md-4 col-sm-6 col-12">
+							<!-- eachWList -->
+							<article class="eachWList mb-6">
+								<span class="d-block icoHolder rounded-circle mx-auto mb-3 mb-sm-4 d-flex justify-content-center align-items-center">
+									<img src="images/ico47.svg" alt="icon" class="img-fluid" width="67" height="59">
+								</span>
+								<h4 class="headingX">
+									<strong class="d-block font-weight-normal">Discounts on</strong>
+									<strong class="d-block font-weight-normal">Additional Services</strong>
+								</h4>
+							</article>
+						</div>
+					</div>
+				</div>
+			</aside>
+			<!-- faqSec -->
+			<!-- <section class="faqSec pt-lg-6 pt-xl-11 pb-14 pb-lg-18 pb-xl-20">
+				<div class="container">
+					<div class="row">
+						<div class="col-12">
+							<header class="header ltrSpce text-center mb-6 mb-md-9 mb-xl-11">
+								<h5 class="h3 fwEbold mb-2">Frequently Asked Question</h5>
+							</header>
+						</div>
+						<div class="col-12 col-lg-10 offset-lg-1">
+							
+							<div class="accordion accordWrap mx-xl-10" id="accordionExample">
+								
+							  	<div class="card">
+									<div class="card-header p-0 border-0" id="headingOne">
+							      		<h5 class="mb-0">
+								        	<button class="btn position-relative btn-link py-3 pl-7 pr-4 px-md-11 w-100 text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">How do I sign up for Unlimited Wash Club?</button>
+							      		</h5>
+							    	</div>
+							    	<div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample" style="">
+							      		<div class="card-body pl-7 pr-4 px-md-11 pb-6 mt-n1 pt-0">Monocle ipsum dolor sit amet lovely Shinkansen tote bag pintxos sharp Baggu Moritz Beams Ettingersoft power lovely. We bring you the most accurate and fair-price service. carwash service nation whether contract. it is freight </div>
+									</div>
+								</div>
+								
+								<div class="card">
+							    	<div class="card-header p-0 border-0" id="headingTwo">
+							      		<h5 class="mb-0">
+							        		<button class="btn position-relative btn-link py-3 pl-7 pr-4 px-md-11 w-100 text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">How do I pay for my unlimited wash club plan?</button>
+							      		</h5>
+							    	</div>
+							    	<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+							    		<div class="card-body pl-7 pr-4 px-md-11 pb-6 mt-n1 pt-0">Monocle ipsum dolor sit amet lovely Shinkansen tote bag pintxos sharp Baggu Moritz Beams Ettingersoft power lovely. We bring you the most accurate and fair-price service. carwash service nation whether contract. it is freight </div>
+							    	</div>
+								</div>
+								
+								<div class="card">
+								    <div class="card-header p-0 border-0" id="headingThree">
+								    	<h5 class="mb-0">
+								        	<button class="btn position-relative btn-link py-3 pl-7 pr-4 px-md-11 w-100 text-left" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">How often can I wash my vehicle?</button>
+								      	</h5>
+								    </div>
+								    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+								      	<div class="card-body pl-7 pr-4 px-md-11 pb-6 mt-n1 pt-0">Monocle ipsum dolor sit amet lovely Shinkansen tote bag pintxos sharp Baggu Moritz Beams Ettingersoft power lovely. We bring you the most accurate and fair-price service. carwash service nation whether contract. it is freight </div>
+								    </div>
+								</div>
+								
+								<div class="card">
+							    	<div class="card-header p-0 border-0" id="headingFour">
+							      		<h5 class="mb-0">
+							        		<button class="btn position-relative btn-link py-3 pl-7 pr-4 px-md-11 w-100 text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">Can I use my membership at any location?</button>
+							      		</h5>
+							    	</div>
+							    	<div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+							    		<div class="card-body pl-7 pr-4 px-md-11 pb-6 mt-n1 pt-0">Monocle ipsum dolor sit amet lovely Shinkansen tote bag pintxos sharp Baggu Moritz Beams Ettingersoft power lovely. We bring you the most accurate and fair-price service. carwash service nation whether contract. it is freight </div>
+							    	</div>
+								</div>
+								
+								<div class="card">
+								    <div class="card-header p-0 border-0" id="headingFive">
+								    	<h5 class="mb-0">
+								        	<button class="btn position-relative btn-link py-3 pl-7 pr-4 px-md-11 w-100 text-left" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">Can I wash multiple vehicles under the same membership?</button>
+								      	</h5>
+								    </div>
+								    <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+								      	<div class="card-body pl-7 pr-4 px-md-11 pb-6 mt-n1 pt-0">Monocle ipsum dolor sit amet lovely Shinkansen tote bag pintxos sharp Baggu Moritz Beams Ettingersoft power lovely. We bring you the most accurate and fair-price service. carwash service nation whether contract. it is freight </div>
+								    </div>
+								</div>
+								
+								<div class="card">
+							    	<div class="card-header p-0 border-0" id="headingSix">
+							      		<h5 class="mb-0">
+							        		<button class="btn position-relative btn-link py-3 pl-7 pr-4 px-md-11 w-100 text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">How do i discontinue my unlimited wash club plan?</button>
+							      		</h5>
+							    	</div>
+							    	<div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+							    		<div class="card-body pl-7 pr-4 px-md-11 pb-6 mt-n1 pt-0">Monocle ipsum dolor sit amet lovely Shinkansen tote bag pintxos sharp Baggu Moritz Beams Ettingersoft power lovely. We bring you the most accurate and fair-price service. carwash service nation whether contract. it is freight </div>
+							    	</div>
+								</div>
+								
+								<div class="card">
+								    <div class="card-header p-0 border-0" id="headingSeven">
+								    	<h5 class="mb-0">
+								        	<button class="btn position-relative btn-link py-3 pl-7 pr-4 px-md-11 w-100 text-left" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">What if i get a new credit card?</button>
+								      	</h5>
+								    </div>
+								    <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionExample">
+								      	<div class="card-body pl-7 pr-4 px-md-11 pb-6 mt-n1 pt-0">Monocle ipsum dolor sit amet lovely Shinkansen tote bag pintxos sharp Baggu Moritz Beams Ettingersoft power lovely. We bring you the most accurate and fair-price service. carwash service nation whether contract. it is freight </div>
+								    </div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section> -->
 			<!-- footerAside -->
 			<aside class="footerAside text-white bgCover" style="background-image: url('./images/footer-bg.jpg')">
 				<div class="container pt-10 pb-8 pt-lg-13 pb-lg-14">
@@ -329,12 +492,12 @@
 								<h5 class="h6 text-capitalize fwEbold text-white mb-4 mb-lg-6">Our Services</h5>
 								<!-- fLink -->
 								<ul class="fLink list-unstyled text-capitalize">
-									<li><a href="express.html">EXTERIOR WASH</a></li>
-									<li><a href="full-service.html">FULL-SERVICE WASH</a></li>
-									<li><a href="hand-wash.html">HAND WASH</a></li>
-									<li><a href="wax-service.html">WAX SERVICES</a></li>
-									<li><a href="details.html">DETAILS</a></li>
-									<li><a href="add-ons.html">ADD-ONS</a></li>
+									<li><a href="express.php">EXTERIOR WASH</a></li>
+									<li><a href="full-service.php">FULL-SERVICE WASH</a></li>
+									<li><a href="hand-wash.php">HAND WASH</a></li>
+									<li><a href="wax-service.php">WAX SERVICES</a></li>
+									<li><a href="details.php">DETAILS</a></li>
+									<li><a href="add-ons.php">ADD-ONS</a></li>
 								</ul>
 							</div>
 						</div>
@@ -343,12 +506,12 @@
 								<h5 class="h6 text-capitalize fwEbold text-white mb-4 mb-lg-6">Useful Links</h5>
 								<!-- fLink -->
 								<ul class="fLink list-unstyled text-capitalize">
-									<li><a href="index.html">Home</a></li>
-									<li><a href="express.html">Services &amp; Pricing</a></li>
-									<li><a href="Unlimited Wash Club.html">Unlimited Wash Club</a></li>
-									<li><a href="about-us.html">About</a></li>
-									<li><a href="gallery.html">Gallery</a></li>
-									<li><a href="blog.html">Blog</a></li>
+									<li><a href="index.php">Home</a></li>
+									<li><a href="express.php">Services &amp; Pricing</a></li>
+									<li><a href="unlimited-wash.php">Unlimited Wash Club</a></li>
+									<li><a href="about-us.php">About</a></li>
+									<li><a href="gallery.php">Gallery</a></li>
+									<li><a href="blog.php">Blog</a></li>
 								</ul>
 							</div>
 						</div>
@@ -396,7 +559,7 @@
 			</aside>
 		</main>
 		<!-- footer -->
-<!-- <footer id="footer" class="py-5 py-md-6">
+		<!-- <footer id="footer" class="py-5 py-md-6">
 			<div class="container">
 				<div class="row align-items-center">
 					<div class="col-12 col-md-6">

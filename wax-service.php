@@ -30,7 +30,7 @@
 						<div class="col-6 col-md-4">
 							<!-- Logo -->
 							<div class="logo position-relative">
-								<a href="index.html">
+								<a href="index.php">
 									<img src="images/logo.png" alt="Auto &amp; Detailing template" class="img-fluid">
 								</a>
 							</div>
@@ -73,7 +73,7 @@
 					<nav class="navbar navHolder d-flex navbar-expand-lg navbar-dark p-0 mt-lg-0 mr-lg-0 position-static">
 						<!-- MenuLogo -->
 						<div class="menuLogo">
-							<a href="index.html">
+							<a href="index.php">
 								<img src="images/logo2.png" alt="Auto &amp; Detailing template" class="img-fluid logoWhite">
 								<img src="images/logo.png" alt="Auto &amp; Detailing template" class="img-fluid logoBlack">
 							</a>
@@ -85,33 +85,33 @@
 						<div class="collapse navbar-collapse navCollapse text-uppercase fwBlack" id="navbarNav">
 							<ul class="navbar-nav">
 								<li class="nav-item">
-									<a class="nav-link" href="index.html" id="navbarDropdown">Home </a>
+									<a class="nav-link" href="index.php" id="navbarDropdown">Home </a>
 									
 								</li>
-								<li class="nav-item dropdown">
+								<li class="nav-item dropdown active">
 									<a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Services &amp; Pricing</a>
 									<div class="dropdown-menu border-0 rounded-0 text-capitalize" aria-labelledby="navbarDropdown">
 										<ul class="list-unstyled dropMenu">
-											<li><a class="dropdown-item" href="express.html">EXTERIOR WASH</a></li>
-											<li><a class="dropdown-item" href="full-service.html">FULL-SERVICE WASH (IN & OUT)</a></li>
-											<li><a class="dropdown-item" href="hand-wash.html">HAND WASH</a></li>
-											<li><a class="dropdown-item" href="wax-service.html">WAX SERVICES</a></li>
-											<li><a class="dropdown-item" href="details.html">DETAILS</a></li>
-											<li><a class="dropdown-item" href="add-ons.html">ADD-ONS</a></li>
+											<li><a class="dropdown-item" href="express.php">EXTERIOR WASH</a></li>
+											<li><a class="dropdown-item" href="full-service.php">FULL-SERVICE WASH (IN & OUT)</a></li>
+											<li><a class="dropdown-item" href="hand-wash.php">HAND WASH</a></li>
+											<li><a class="dropdown-item" href="wax-service.php">WAX SERVICES</a></li>
+											<li><a class="dropdown-item" href="details.php">DETAILS</a></li>
+											<li><a class="dropdown-item" href="add-ons.php">ADD-ONS</a></li>
 										</ul>
 									</div>
 								</li>
 								<li class="nav-item">
-									<a class="nav-link" href="about-us.html">About<span class="sr-only">(current)</span></a>
+									<a class="nav-link" href="about-us.php">About<span class="sr-only">(current)</span></a>
 								</li>
-								<li class="nav-item"><a class="nav-link" href="Unlimited Wash Club.html">Unlimited Wash Club</a></li>
-								<li class="nav-item"><a class="nav-link" href="testimonial.html">testimonials</a></li>
-								<li class="nav-item active">
-									<a class="nav-link" href="gallery.html">Gallery</a>
+								<li class="nav-item"><a class="nav-link" href="unlimited-wash.php">Unlimited Wash Club</a></li>
+								<li class="nav-item"><a class="nav-link" href="testimonial.php">testimonials</a></li>
+								<li class="nav-item">
+									<a class="nav-link" href="gallery.php">Gallery</a>
 									
 								</li>								
 								<li class="nav-item">
-									<a class="nav-link" href="blog.html">Blog</a>									
+									<a class="nav-link" href="blog.php">Blog</a>									
 								</li>
 								<li class="nav-item">
 									<a class="nav-link" href="contact.php">CONTACT</a>
@@ -142,153 +142,141 @@
 							<!-- breadcrumb -->
 							<nav aria-label="breadcrumb" class="d-flex justify-content-start">
 								<ol class="breadcrumb mb-0 p-0 text-capitalize">
-									<li class="breadcrumb-item"><a href="homepage.html">Home</a></li>
-									<li class="breadcrumb-item"><a href="#">pages</a></li>
-									<li class="breadcrumb-item"><a href="#">gallery</a></li>
-									<li class="breadcrumb-item active" aria-current="page">classic</li>
+									<li class="breadcrumb-item"><a href="index.php">Home</a></li>
+									<li class="breadcrumb-item"><a href="#">Services &amp; Pricing</a></li>
+									<li class="breadcrumb-item active" aria-current="page">WAX SERVICES</li>
 								</ol>
 							</nav>
 						</div>
 					</div>
 				</div>
 			</nav>
-			<!-- gallerySec -->
-			<section class="gallerySec pt-10 pt-sm-12 pt-lg-15 pb-12 pb-sm-14 pb-lg-17 pb-xl-20">
+			<!-- serviceDetail -->
+			<section class="serviceDetail pt-10 pt-sm-12 pt-md-14 pt-lg-16 pb-8 pb-sm-10 pb-lg-16 pb-xl-20">
 				<div class="container">
-					<div class="row">
-						<div class="col-12 col-lg-10 offset-lg-1 col-xl-8 offset-xl-2">
-							<header class="header ltrSpce text-center mb-6 mb-lg-8 mb-xl-11">
-								<h1 class="h2 fwEbold text-capitalize mb-2">Gallery Classic</h1>
-								<p>This is dummy content of product sub title. you can change anything. </p>
+					<div class="row flex-row-reverse">
+						<!-- servicetxtDetail -->
+						<div class="col-12 col-lg-9 servicetxtDetail mb-8 mb-sm-10 mb-lg-0">
+							<header class="header text-center font-weight-light mb-3 px-md-10 px-xl-10 px-xxl-15">
+								<h1 class="headingI text-capitalize mb-3 fwEbold">WAX SERVICES</h1>
+								<p>(No appointments needed! Extra charges may apply for SUVs, Vans and trucks.)</p>
 							</header>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-12">
-							<!-- isoFiltersList -->
-							<ul class="list-unstyled d-flex justify-content-center isoFiltersList text-capitalize mb-8 flex-wrap">
-								<li class="active"><a class="position-relative" href="javascript:void(0);" data-filter="*">all</a></li>
-								<li class=""><a class="position-relative" href="javascript:void(0);" data-filter=".auto-detail">auto detail</a></li>
-								<li class=""><a class="position-relative" href="javascript:void(0);" data-filter=".exterior">Car Wash</a></li>								
-							</ul>
-						</div>
-					</div>
-					<!-- isoContentHolder -->
-					<div class="row isoContentHolder">
-						<div class="col-12 col-sm-6 col-lg-4 isoCol auto-detail repair" data-category="auto-detail repair">
-							<!-- glryImgBlock -->
-							<article class="glryImgBlock position-relative mb-6">
-								<span class="imgHolder">
-									<img src="./images/gallery1.png" class="img-fluid" alt="image description">
+							<!-- imgWRoundWrap -->
+							<div class="imgWRoundWrap mb-5 mb-md-7 mt-n1">
+								<span class="icoRound rounded-circle mx-auto d-flex align-items-center justify-content-center overflow-hidden position-relative">
+									<span class="icon-ico37 ico"></span>
 								</span>
-								<div class="overlayTxt text-center position-absolute px-4 w-100">
-									<a href="#" class="ico mx-auto overflow-hidden rounded-circle fas fa-search"></a>
-									<h2 class="text-center text-white font-weight headingXI">Vacum Cleaning</h2>
+								<div class="imgHolder rounded w-100">
+									<img src="./images/Wax-services.jpg" class="img-fluid" alt="image description">
 								</div>
-							</article>
-						</div>
-						<div class="col-12 col-sm-6 col-lg-4 isoCol auto-detail repair" data-category="auto-detail repair">
-							<!-- glryImgBlock -->
-							<article class="glryImgBlock position-relative mb-6">
-								<span class="imgHolder">
-									<img src="./images/gallery2.png" class="img-fluid" alt="image description">
-								</span>
-								<div class="overlayTxt text-center position-absolute px-4 w-100">
-									<a href="#" class="ico mx-auto overflow-hidden rounded-circle fas fa-search"></a>
-									<h2 class="text-center text-white font-weight headingXI">Vacum Cleaning</h2>
-								</div>
-							</article>
-						</div>
-						<div class="col-12 col-sm-6 col-lg-4 isoCol auto-detail exterior" data-category="auto-detail exterior">
-							<!-- glryImgBlock -->
-							<article class="glryImgBlock position-relative mb-6">
-								<span class="imgHolder">
-									<img src="./images/gallery3.png" class="img-fluid" alt="image description">
-								</span>
-								<div class="overlayTxt text-center position-absolute px-4 w-100">
-									<a href="#" class="ico mx-auto overflow-hidden rounded-circle fas fa-search"></a>
-									<h2 class="text-center text-white font-weight headingXI">Vacum Cleaning</h2>
-								</div>
-							</article>
-						</div>
-						<div class="col-12 col-sm-6 col-lg-4 isoCol auto-detail exterior" data-category="auto-detail exterior">
-							<!-- glryImgBlock -->
-							<article class="glryImgBlock position-relative mb-6">
-								<span class="imgHolder">
-									<img src="./images/gallery4.png" class="img-fluid" alt="image description">
-								</span>
-								<div class="overlayTxt text-center position-absolute px-4 w-100">
-									<a href="#" class="ico mx-auto overflow-hidden rounded-circle fas fa-search"></a>
-									<h2 class="text-center text-white font-weight headingXI">Vacum Cleaning</h2>
-								</div>
-							</article>
-						</div>
-						<div class="col-12 col-sm-6 col-lg-4 isoCol auto-detail oil" data-category="auto-detail oil">
-							<!-- glryImgBlock -->
-							<article class="glryImgBlock position-relative mb-6">
-								<span class="imgHolder">
-									<img src="./images/gallery5.png" class="img-fluid" alt="image description">
-								</span>
-								<div class="overlayTxt text-center position-absolute px-4 w-100">
-									<a href="#" class="ico mx-auto overflow-hidden rounded-circle fas fa-search"></a>
-									<h2 class="text-center text-white font-weight headingXI">Vacum Cleaning</h2>
-								</div>
-							</article>
-						</div>
-						<div class="col-12 col-sm-6 col-lg-4 isoCol auto-detail exterior interior" data-category="auto-detail exterior interior">
-							<!-- glryImgBlock -->
-							<article class="glryImgBlock position-relative mb-6">
-								<span class="imgHolder">
-									<img src="./images/gallery6.png" class="img-fluid" alt="image description">
-								</span>
-								<div class="overlayTxt text-center position-absolute px-4 w-100">
-									<a href="#" class="ico mx-auto overflow-hidden rounded-circle fas fa-search"></a>
-									<h2 class="text-center text-white font-weight headingXI">Vacum Cleaning</h2>
-								</div>
-							</article>
-						</div>
-						<div class="col-12 col-sm-6 col-lg-4 isoCol auto-detail exterior" data-category="auto-detail exterior">
-							<!-- glryImgBlock -->
-							<article class="glryImgBlock position-relative mb-6">
-								<span class="imgHolder">
-									<img src="./images/gallery7.png" class="img-fluid" alt="image description">
-								</span>
-								<div class="overlayTxt text-center position-absolute px-4 w-100">
-									<a href="#" class="ico mx-auto overflow-hidden rounded-circle fas fa-search"></a>
-									<h2 class="text-center text-white font-weight headingXI">Vacum Cleaning</h2>
-								</div>
-							</article>
-						</div>
-						<div class="col-12 col-sm-6 col-lg-4 isoCol auto-detail oil" data-category="auto-detail oil">
-							<!-- glryImgBlock -->
-							<article class="glryImgBlock position-relative mb-6">
-								<span class="imgHolder">
-									<img src="./images/gallery8.png" class="img-fluid" alt="image description">
-								</span>
-								<div class="overlayTxt text-center position-absolute px-4 w-100">
-									<a href="#" class="ico mx-auto overflow-hidden rounded-circle fas fa-search"></a>
-									<h2 class="text-center text-white font-weight headingXI">Vacum Cleaning</h2>
-								</div>
-							</article>
-						</div>
-						<div class="col-12 col-sm-6 col-lg-4 isoCol auto-detail exterior interior" data-category="auto-detail exterior interior">
-							<!-- glryImgBlock -->
-							<article class="glryImgBlock position-relative mb-6">
-								<span class="imgHolder">
-									<img src="./images/gallery9.png" class="img-fluid" alt="image description">
-								</span>
-								<div class="overlayTxt text-center position-absolute px-4 w-100">
-									<a href="#" class="ico mx-auto overflow-hidden rounded-circle fas fa-search"></a>
-									<h2 class="text-center text-white font-weight headingXI">Vacum Cleaning</h2>
-								</div>
-							</article>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-12">
-							<div class="btnHolder text-center mt-2 mt-sm-4 mt-xl-6">
-								<a href="#" class="btn btnTheme text-uppercase py-4 fwEbold">load more</a>
 							</div>
+							<div class="txtHolder text-center text-sm-left mb-7 mb-md-10 mb-xl-11">
+								<p>An Express Wash is a more traditional car wash. Our tunnels are equipped with the industry’s latest car wash equipment and use only the finest soaps and wax available. Each car is washed with soft-cloth, neo-glide foam or lammswool cloth.</p>
+								<p>Our Full Service Washes will either require the customer to stay in his or her vehicle or exit the vehicle while it is run through the tunnel. This process takes 15 minutes or less.</p>
+								<a href="#" class="fwSemibold">See Your Location for Service!</a>
+							</div>
+							<div class="row mb-1">
+								<div class="col-12">
+									<!-- planFullList -->
+									<article class="planFullList mb-5 mb-sm-8 overflow-hidden rounded">
+										<!-- priceHeader -->
+										<header class="priceHeader px-3 text-capitalize">
+											<div class="row align-items-center">
+												<div class="col-8">
+													<h2 class="ml-md-3 mb-0 headingIX">Hand Wax & Shine</h2>
+												</div>
+												<div class="col-4 text-right">
+													<h3 class="headingIX fwSemibold mb-0">$20.00</h3>
+												</div>
+											</div>
+										</header>
+										
+									</article>
+								</div>
+								<div class="col-12">
+									<!-- planFullList -->
+									<article class="planFullList active mb-5 mb-sm-8 shadow-lg overflow-hidden rounded">
+										<!-- priceHeader -->
+										<header class="bg-primary priceHeader text-white px-3 text-capitalize">
+											<div class="row align-items-center">
+												<div class="col-8">
+													<h2 class="ml-md-3 mb-0 headingIX text-white mb-0">LA.1 Wax and Shine</h2>
+												</div>
+												<div class="col-4 text-right">
+													<h3 class="headingIX fwSemibold mb-0 text-white">$50.00</h3>
+												</div>
+											</div>
+										</header>
+										
+									</article>
+								</div>
+								
+								<div class="col-12">
+									<!-- planFullList -->
+									<article class="planFullList mb-5 mb-sm-8 overflow-hidden rounded">
+										<!-- priceHeader -->
+										<header class="priceHeader px-3 text-capitalize">
+											<div class="row align-items-center">
+												<div class="col-8">
+													<h2 class="ml-md-3 mb-0 headingIX">LA.2 Polish and Wax</h2>
+												</div>
+												<div class="col-4 text-right">
+													<h3 class="headingIX fwSemibold mb-0">$100.00 </h3>
+												</div>
+											</div>
+										</header>
+										
+									</article>
+								</div>
+								
+								
+							</div>
+							<div class="row">
+								<div class="col-12 col-xl-10 offset-xl-1 text-center">
+									<p>*All services and prices vary by location and vehicle condition.  Quote provided prior to services.  Call for more details or to schedule an appointment.</p>
+									<div class="btnHolder mt-lg-5 mt-xl-8">
+										<a href="contact.php" class="btn btnTheme fwEbold text-uppercase"><span class="far fa-calendar-check mr-1 mr-lg-2"></span>Schedule Appiontment</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-lg-3">
+							<!-- widget -->
+							<div class="widget mb-6">
+								<!-- widgetTypeList -->
+								<ul class="list-unstyled widgetTypeList mb-0 text-capitalize alt">
+									<li class="active"><a class="d-block" href="wax-service.php">	WAX SERVICES<span class="ml-2 text-white ico fas fa-caret-right"></span></a></li>
+									<li><a class="d-block" href="express.php">Exterior wash<span class="ml-2 text-white ico fas fa-caret-right"></span></a></li>
+										<li><a class="d-block" href="hand-wash.php">HAND WASH<span class="ml-2 text-white ico fas fa-caret-right"></span></a></li>
+									<li><a class="d-block" href="add-ons.php">ADD-ONS<span class="ml-2 text-white ico fas fa-caret-right"></span></a></li>
+									<li><a class="d-block" href="details.php">DETAILS<span class="ml-1 text-white ico fas fa-caret-right"></span></a></li>
+									<li><a class="d-block" href="full-service.php">FULL-SERVICE WASH<span class="ml-1 text-white ico fas fa-caret-right"></span></a></li>
+								</ul>
+							</div>
+							<!-- widget -->
+					
+							<!-- widget -->
+							<section class="widget mb-6">
+								<!-- contctWidgetForm -->
+								<form class="contctWidgetForm bg-primary pt-4 px-4 rounded pb-6">
+									<h3 class="mb-3 mb-xl-4 headingIX text-capitalize text-white">Contact Us</h3>
+									<input type="text" class="form-control rounded" placeholder="Your Name">
+									<input type="email" class="form-control rounded" placeholder="Email Address">
+									<textarea class="form-control" placeholder="Your Question..."></textarea>
+									<button type="submit" class="btnTheme text-uppercase d-block w-100 fwEbold rounded">send message</button>
+								</form>
+							</section>
+							<!-- widget -->
+							<section class="widget mb-6">
+								<!-- joinClubBlock -->
+								<div class="joinClubBlock text-center overflow-hidden pt-4 px-3 px-xl-5 pb-8">
+									<span class="icoHolder bg-white mx-auto rounded-circle d-flex justify-content-center align-items-center mb-3">
+										<span class="icn icon-ico29"></span>
+									</span>
+									<h4 class="headingIX text-capitalize fwSemibold mb-5">Join Our Unlimited Wash Club</h4>
+									<a href="contact.php" class="btn btn-outline-primary text-uppercase fwEbold w-100 rounded-0">become a member</a>
+								</div>
+							</section>
 						</div>
 					</div>
 				</div>
@@ -315,12 +303,12 @@
 								<h5 class="h6 text-capitalize fwEbold text-white mb-4 mb-lg-6">Our Services</h5>
 								<!-- fLink -->
 								<ul class="fLink list-unstyled text-capitalize">
-									<li><a href="express.html">EXTERIOR WASH</a></li>
-									<li><a href="full-service.html">FULL-SERVICE WASH</a></li>
-									<li><a href="hand-wash.html">HAND WASH</a></li>
-									<li><a href="wax-service.html">WAX SERVICES</a></li>
-									<li><a href="details.html">DETAILS</a></li>
-									<li><a href="add-ons.html">ADD-ONS</a></li>
+									<li><a href="express.php">EXTERIOR WASH</a></li>
+									<li><a href="full-service.php">FULL-SERVICE WASH</a></li>
+									<li><a href="hand-wash.php">HAND WASH</a></li>
+									<li><a href="wax-service.php">WAX SERVICES</a></li>
+									<li><a href="details.php">DETAILS</a></li>
+									<li><a href="add-ons.php">ADD-ONS</a></li>
 								</ul>
 							</div>
 						</div>
@@ -329,12 +317,12 @@
 								<h5 class="h6 text-capitalize fwEbold text-white mb-4 mb-lg-6">Useful Links</h5>
 								<!-- fLink -->
 								<ul class="fLink list-unstyled text-capitalize">
-									<li><a href="index.html">Home</a></li>
-									<li><a href="express.html">Services &amp; Pricing</a></li>
-									<li><a href="Unlimited Wash Club.html">Unlimited Wash Club</a></li>
-									<li><a href="about-us.html">About</a></li>
-									<li><a href="gallery.html">Gallery</a></li>
-									<li><a href="blog.html">Blog</a></li>
+									<li><a href="index.php">Home</a></li>
+									<li><a href="express.php">Services &amp; Pricing</a></li>
+									<li><a href="unlimited-wash.php">Unlimited Wash Club</a></li>
+									<li><a href="about-us.php">About</a></li>
+									<li><a href="gallery.php">Gallery</a></li>
+									<li><a href="blog.php">Blog</a></li>
 								</ul>
 							</div>
 						</div>
@@ -382,7 +370,7 @@
 			</aside>
 		</main>
 		<!-- footer -->
-		<!-- <footer id="footer" class="py-5 py-md-6">
+<!-- <footer id="footer" class="py-5 py-md-6">
 			<div class="container">
 				<div class="row align-items-center">
 					<div class="col-12 col-md-6">
@@ -398,7 +386,7 @@
 					</div>
 				</div>
 			</div>
-		</footer> -->
+		</footer> -->	
 		<!-- modal -->
 		<div class="modal pr-0 fade" id="exampleModal">
 			<!-- appointPopup -->

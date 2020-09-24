@@ -30,7 +30,7 @@
 						<div class="col-6 col-md-4">
 							<!-- Logo -->
 							<div class="logo position-relative">
-								<a href="index.html">
+								<a href="index.php">
 									<img src="images/logo.png" alt="Auto &amp; Detailing template" class="img-fluid">
 								</a>
 							</div>
@@ -59,7 +59,7 @@
 								</li>
 							</ul>
 							<div class="btnHolder ml-xl-8 d-none d-md-block">
-								<a href="#" class="btn btn-warning py-xl-4 text-uppercase fwEbold" data-toggle="modal" data-target="#exampleModal">book appointment</a>
+								<a href="contact.php" class="btn btn-warning py-xl-4 text-uppercase fwEbold">book appointment</a>
 							</div>
 						</div>
 					</div>
@@ -73,7 +73,7 @@
 					<nav class="navbar navHolder d-flex navbar-expand-lg navbar-dark p-0 mt-lg-0 mr-lg-0 position-static">
 						<!-- MenuLogo -->
 						<div class="menuLogo">
-							<a href="index.html">
+							<a href="index.php">
 								<img src="images/logo2.png" alt="Auto &amp; Detailing template" class="img-fluid logoWhite">
 								<img src="images/logo.png" alt="Auto &amp; Detailing template" class="img-fluid logoBlack">
 							</a>
@@ -85,35 +85,35 @@
 						<div class="collapse navbar-collapse navCollapse text-uppercase fwBlack" id="navbarNav">
 							<ul class="navbar-nav">
 								<li class="nav-item">
-									<a class="nav-link" href="index.html" id="navbarDropdown">Home </a>
+									<a class="nav-link" href="index.php" id="navbarDropdown">Home </a>
 									
 								</li>
 								<li class="nav-item dropdown active">
 									<a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Services &amp; Pricing</a>
 									<div class="dropdown-menu border-0 rounded-0 text-capitalize" aria-labelledby="navbarDropdown">
 										<ul class="list-unstyled dropMenu">
-											<li><a class="dropdown-item" href="express.html">EXTERIOR WASH</a></li>
-											<li><a class="dropdown-item" href="full-service.html">FULL-SERVICE WASH (IN & OUT)</a></li>
-											<li><a class="dropdown-item" href="hand-wash.html">HAND WASH</a></li>
-											<li><a class="dropdown-item" href="wax-service.html">WAX SERVICES</a></li>
-											<li><a class="dropdown-item" href="details.html">DETAILS</a></li>
-											<li><a class="dropdown-item" href="add-ons.html">ADD-ONS</a></li>
+											<li><a class="dropdown-item" href="express.php">EXTERIOR WASH</a></li>
+											<li><a class="dropdown-item" href="full-service.php">FULL-SERVICE WASH (IN & OUT)</a></li>
+											<li><a class="dropdown-item" href="hand-wash.php">HAND WASH</a></li>
+											<li><a class="dropdown-item" href="wax-service.php">WAX SERVICES</a></li>
+											<li><a class="dropdown-item" href="details.php">DETAILS</a></li>
+											<li><a class="dropdown-item" href="add-ons.php">ADD-ONS</a></li>
 										</ul>
 									</div>
 								</li>
 								<li class="nav-item">
-									<a class="nav-link" href="about-us.html">About<span class="sr-only">(current)</span></a>
+									<a class="nav-link" href="about-us.php">About<span class="sr-only">(current)</span></a>
 								</li>
-								<li class="nav-item"><a class="nav-link" href="Unlimited Wash Club.html">Unlimited Wash Club</a></li>
-								<li class="nav-item"><a class="nav-link" href="testimonial.html">testimonial</a></li>
+								<li class="nav-item"><a class="nav-link" href="unlimited-wash.php">Unlimited Wash Club</a></li>
+								<li class="nav-item"><a class="nav-link" href="testimonial.php">testimonials</a></li>
 								<li class="nav-item">
-									<a class="nav-link" href="gallery.html">Gallery</a>
+									<a class="nav-link" href="gallery.php">Gallery</a>
 									
 								</li>								
-								<li class="nav-item dropdown">
-									<a class="nav-link" href="blog.html">Blog</a>									
+								<li class="nav-item">
+									<a class="nav-link" href="blog.php">Blog</a>									
 								</li>
-								<li class="nav-item dropdown">
+								<li class="nav-item">
 									<a class="nav-link" href="contact.php">CONTACT</a>
 									
 								</li>
@@ -142,9 +142,9 @@
 							<!-- breadcrumb -->
 							<nav aria-label="breadcrumb" class="d-flex justify-content-start">
 								<ol class="breadcrumb mb-0 p-0 text-capitalize">
-									<li class="breadcrumb-item"><a href="homepage.html">Home</a></li>
-									<li class="breadcrumb-item"><a href="service-page.html">Services &amp; Pricing</a></li>
-									<li class="breadcrumb-item active" aria-current="page">express exterior</li>
+									<li class="breadcrumb-item"><a href="index.php">Home</a></li>
+									<li class="breadcrumb-item"><a href="#">Services &amp; Pricing</a></li>
+									<li class="breadcrumb-item active" aria-current="page">Exterior Wash</li>
 								</ol>
 							</nav>
 						</div>
@@ -158,8 +158,8 @@
 						<!-- servicetxtDetail -->
 						<div class="col-12 col-lg-9 servicetxtDetail mb-8 mb-sm-10 mb-lg-0">
 							<header class="header text-center font-weight-light mb-3 px-md-10 px-xl-10 px-xxl-15">
-								<h1 class="headingI text-capitalize mb-3 fwEbold">Details</h1>
-								<p>Our 3-minute wash and blow dry will have your vehicles sparkling clean in no time flat. Any faster, and you'd get a ticket.</p>
+								<h1 class="headingI text-capitalize mb-3 fwEbold">EXTERIOR WASH</h1>
+								<p>(No appointments needed! Extra charges may apply for SUVs, Vans and trucks.)</p>
 							</header>
 							<!-- imgWRoundWrap -->
 							<div class="imgWRoundWrap mb-5 mb-md-7 mt-n1">
@@ -167,7 +167,7 @@
 									<span class="icon-ico37 ico"></span>
 								</span>
 								<div class="imgHolder rounded w-100">
-									<img src="./images/car-detail.jpg" class="img-fluid" alt="image description">
+									<img src="./images/services-exterior.jpg" class="img-fluid" alt="image description">
 								</div>
 							</div>
 							<div class="txtHolder text-center text-sm-left mb-7 mb-md-10 mb-xl-11">
@@ -183,10 +183,10 @@
 										<header class="priceHeader px-3 text-capitalize">
 											<div class="row align-items-center">
 												<div class="col-8">
-													<h2 class="ml-md-3 mb-0 headingIX">COMPLETE INTERIOR DETAIL</h2>
+													<h2 class="ml-md-3 mb-0 headingIX">QUICK WASH</h2>
 												</div>
 												<div class="col-4 text-right">
-													<h3 class="headingIX fwSemibold mb-0">$140.00</h3>
+													<h3 class="headingIX fwSemibold mb-0">$6.99</h3>
 												</div>
 											</div>
 										</header>
@@ -194,8 +194,8 @@
 											<strong class="d-block font-weight-normal mb-4">This wash package includes:</strong>
 											<!-- checkList -->
 											<ul class="list-unstyled checkList text-secondary text-left mb-4">
-												<li class="position-relative"><span class="ico position-absolute icon-check"></span>Full interior deep clean</li>
-												<li class="position-relative"><span class="ico position-absolute icon-check"></span>carpet/seats/mats cleaning (For leather seats, deep clean and lotion) + WORKS full-service car wash</li>												
+												<li class="position-relative"><span class="ico position-absolute icon-check"></span>soft cloth wash</li>
+												<li class="position-relative"><span class="ico position-absolute icon-check"></span>hand dry</li>												
 											</ul>
 											
 										</div>
@@ -208,10 +208,10 @@
 										<header class="bg-primary priceHeader text-white px-3 text-capitalize">
 											<div class="row align-items-center">
 												<div class="col-8">
-													<h2 class="ml-md-3 mb-0 headingIX text-white mb-0">Express Interior Detail - Sonic Clean</h2>
+													<h2 class="ml-md-3 mb-0 headingIX text-white mb-0">WASH & TIRES</h2>
 												</div>
 												<div class="col-4 text-right">
-													<h3 class="headingIX fwSemibold mb-0 text-white">$60	.00</h3>
+													<h3 class="headingIX fwSemibold mb-0 text-white">$10.99</h3>
 												</div>
 											</div>
 										</header>
@@ -219,8 +219,10 @@
 											<strong class="d-block font-weight-normal mb-4">This wash package includes:</strong>
 											<!-- checkList -->
 											<ul class="list-unstyled checkList text-secondary text-left mb-4">
-												<li class="position-relative"><span class="ico position-absolute icon-check"></span>Interior deep clean</li>
-												<li class="position-relative"><span class="ico position-absolute icon-check"></span>carpet/seats/mats cleaning (For leather seats, deep clean and lotion), + Works (Full Service Car Wash)</li>	
+												<li class="position-relative"><span class="ico position-absolute icon-check"></span>soft cloth wash</li>
+												<li class="position-relative"><span class="ico position-absolute icon-check"></span>hand dry</li>
+												<li class="position-relative"><span class="ico position-absolute icon-check"></span>wheels clean</li>
+												<li class="position-relative"><span class="ico position-absolute icon-check"></span>tire shine</li>	
 											</ul>
 											
 										</div>
@@ -234,10 +236,10 @@
 										<header class="priceHeader px-3 text-capitalize">
 											<div class="row align-items-center">
 												<div class="col-8">
-													<h2 class="ml-md-3 mb-0 headingIX">HEADLIGHT RESTORATION</h2>
+													<h2 class="ml-md-3 mb-0 headingIX">BEST EXTERIOR WASH</h2>
 												</div>
 												<div class="col-4 text-right">
-													<h3 class="headingIX fwSemibold mb-0">$35.00</h3>
+													<h3 class="headingIX fwSemibold mb-0">$14.99 </h3>
 												</div>
 											</div>
 										</header>
@@ -245,102 +247,19 @@
 											<strong class="d-block font-weight-normal mb-4">This wash package includes:</strong>
 											<!-- checkList -->
 											<ul class="list-unstyled checkList text-secondary text-left mb-4">
-												<li class="position-relative"><span class="ico position-absolute icon-check"></span>polish</li>
-												<li class="position-relative"><span class="ico position-absolute icon-check"></span>clean</li>
-												<li class="position-relative"><span class="ico position-absolute icon-check"></span>clear protection</li>						
+												<li class="position-relative"><span class="ico position-absolute icon-check"></span>HOT Wax & Shine</li>
+												<li class="position-relative"><span class="ico position-absolute icon-check"></span>soft cloth wash</li>
+												<li class="position-relative"><span class="ico position-absolute icon-check"></span>hand dry</li>
+												<li class="position-relative"><span class="ico position-absolute icon-check"></span>wheels clean</li>
+												<li class="position-relative"><span class="ico position-absolute icon-check"></span>tire shine</li>
+												<li class="position-relative"><span class="ico position-absolute icon-check"></span>triple conditioner</li>						
+												<li class="position-relative"><span class="ico position-absolute icon-check"></span>bug prep</li>
 											</ul>											
 										</div>
 									</article>
 								</div>
-								<div class="col-12">
-									<!-- planFullList -->
-									<article class="planFullList mb-5 mb-sm-8 overflow-hidden rounded">
-										<!-- priceHeader -->
-										<header class="priceHeader px-3 text-capitalize">
-											<div class="row align-items-center">
-												<div class="col-8">
-													<h2 class="ml-md-3 mb-0 headingIX">OZONE Service (Disinfectant Service)</h2>
-												</div>
-												<div class="col-4 text-right">
-													<h3 class="headingIX fwSemibold mb-0">$30.00</h3>
-												</div>
-											</div>
-										</header>										
-									</article>
-								</div>
-									<div class="col-12">
-									<!-- planFullList -->
-									<article class="planFullList mb-5 mb-sm-8 overflow-hidden rounded">
-										<!-- priceHeader -->
-										<header class="priceHeader px-3 text-capitalize">
-											<div class="row align-items-center">
-												<div class="col-8">
-													<h2 class="ml-md-3 mb-0 headingIX">CLOTH SEATS SHAMPOO</h2>
-												</div>
-												<div class="col-4 text-right">
-													<h3 class="headingIX fwSemibold mb-0">$65.00</h3>
-												</div>
-											</div>
-										</header>										
-									</article>
-								</div>
-									<div class="col-12">
-									<!-- planFullList -->
-									<article class="planFullList mb-5 mb-sm-8 overflow-hidden rounded">
-										<!-- priceHeader -->
-										<header class="priceHeader px-3 text-capitalize">
-											<div class="row align-items-center">
-												<div class="col-8">
-													<h2 class="ml-md-3 mb-0 headingIX">CARPET & MATS SHAMPOO</h2>
-												</div>
-												<div class="col-4 text-right">
-													<h3 class="headingIX fwSemibold mb-0">$55.00</h3>
-												</div>
-											</div>
-										</header>										
-									</article>
-								</div>
-									<div class="col-12">
-									<!-- planFullList -->
-									<article class="planFullList mb-5 mb-sm-8 overflow-hidden rounded">
-										<!-- priceHeader -->
-										<header class="priceHeader px-3 text-capitalize">
-											<div class="row align-items-center">
-												<div class="col-8">
-													<h2 class="ml-md-3 mb-0 headingIX">LEATHER SEATS DEEP CLEAN & LOTION</h2>
-												</div>
-												<div class="col-4 text-right">
-													<h3 class="headingIX fwSemibold mb-0">$45.00</h3>
-												</div>
-											</div>
-										</header>										
-									</article>
-								</div>
-									<div class="col-12">
-									<!-- planFullList -->
-									<article class="planFullList mb-5 mb-sm-8 overflow-hidden rounded">
-										<!-- priceHeader -->
-										<header class="priceHeader px-3 text-capitalize">
-											<div class="row align-items-center">
-												<div class="col-8">
-													<h2 class="ml-md-3 mb-0 headingIX">WINDSHIELD REPAIR</h2>
-												</div>
-												<div class="col-4 text-right">
-													<h3 class="headingIX fwSemibold mb-0">$19.00</h3>
-												</div>
-											</div>
-										</header>
-											<div class="txtWrap px-3 px-md-6 pt-4 pb-7">
-											<strong class="d-block font-weight-normal mb-4">This wash package includes:</strong>
-											<!-- checkList -->
-											<ul class="list-unstyled checkList text-secondary text-left mb-4">
-												<li class="position-relative"><span class="ico position-absolute icon-check"></span>rock chip repair</li>
-												
-											</ul>
-											
-										</div>										
-									</article>
-								</div>
+								
+								
 							</div>
 							<div class="row">
 								<div class="col-12 col-xl-10 offset-xl-1 text-center">
@@ -356,15 +275,16 @@
 							<div class="widget mb-6">
 								<!-- widgetTypeList -->
 								<ul class="list-unstyled widgetTypeList mb-0 text-capitalize alt">
-									<li class="active"><a class="d-block" href="details.html">	DETAILS<span class="ml-2 text-white ico fas fa-caret-right"></span></a></li>
-									<li><a class="d-block" href="express.html">Exterior wash<span class="ml-2 text-white ico fas fa-caret-right"></span></a></li>
-										<li><a class="d-block" href="hand-wash.html">HAND WASH<span class="ml-2 text-white ico fas fa-caret-right"></span></a></li>
-									<li><a class="d-block" href="wax-service.html">WAX SERVICES<span class="ml-2 text-white ico fas fa-caret-right"></span></a></li>
-									<li><a class="d-block" href="full-service.html">FULL-SERVICE WASH<span class="ml-1 text-white ico fas fa-caret-right"></span></a></li>
-									<li><a class="d-block" href="add-ons.html">ADD-ONS<span class="ml-1 text-white ico fas fa-caret-right"></span></a></li>
+									<li class="active"><a class="d-block" href="express.php">EXTERIOR WASH<span class="ml-2 text-white ico fas fa-caret-right"></span></a></li>						
+									<li><a class="d-block" href="full-service.php">FULL-SERVICE WASH<span class="ml-2 text-white ico fas fa-caret-right"></span></a></li>
+									<li><a class="d-block" href="hand-wash.php">HAND WASH<span class="ml-2 text-white ico fas fa-caret-right"></span></a></li>
+									<li><a class="d-block" href="wax-service.php">WAX SERVICES<span class="ml-2 text-white ico fas fa-caret-right"></span></a></li>
+									<li><a class="d-block" href="details.php">DETAILS<span class="ml-1 text-white ico fas fa-caret-right"></span></a></li>
+									<li><a class="d-block" href="add-ons.php">ADD-ONS<span class="ml-1 text-white ico fas fa-caret-right"></span></a></li>
 								</ul>
 							</div>
-						
+							
+							<!-- widget -->
 							<section class="widget mb-6">
 								<!-- contctWidgetForm -->
 								<form class="contctWidgetForm bg-primary pt-4 px-4 rounded pb-6">
@@ -412,12 +332,12 @@
 								<h5 class="h6 text-capitalize fwEbold text-white mb-4 mb-lg-6">Our Services</h5>
 								<!-- fLink -->
 								<ul class="fLink list-unstyled text-capitalize">
-									<li><a href="express.html">EXTERIOR WASH</a></li>
-									<li><a href="full-service.html">FULL-SERVICE WASH</a></li>
-									<li><a href="hand-wash.html">HAND WASH</a></li>
-									<li><a href="wax-service.html">WAX SERVICES</a></li>
-									<li><a href="details.html">DETAILS</a></li>
-									<li><a href="add-ons.html">ADD-ONS</a></li>
+									<li><a href="express.php">EXTERIOR WASH</a></li>
+									<li><a href="full-service.php">FULL-SERVICE WASH</a></li>
+									<li><a href="hand-wash.php">HAND WASH</a></li>
+									<li><a href="wax-service.php">WAX SERVICES</a></li>
+									<li><a href="details.php">DETAILS</a></li>
+									<li><a href="add-ons.php">ADD-ONS</a></li>
 								</ul>
 							</div>
 						</div>
@@ -426,12 +346,12 @@
 								<h5 class="h6 text-capitalize fwEbold text-white mb-4 mb-lg-6">Useful Links</h5>
 								<!-- fLink -->
 								<ul class="fLink list-unstyled text-capitalize">
-									<li><a href="index.html">Home</a></li>
-									<li><a href="express.html">Services &amp; Pricing</a></li>
-									<li><a href="Unlimited Wash Club.html">Unlimited Wash Club</a></li>
-									<li><a href="about-us.html">About</a></li>
-									<li><a href="gallery.html">Gallery</a></li>
-									<li><a href="blog.html">Blog</a></li>
+									<li><a href="index.php">Home</a></li>
+									<li><a href="express.php">Services &amp; Pricing</a></li>
+									<li><a href="unlimited-wash.php">Unlimited Wash Club</a></li>
+									<li><a href="about-us.php">About</a></li>
+									<li><a href="gallery.php">Gallery</a></li>
+									<li><a href="blog.php">Blog</a></li>
 								</ul>
 							</div>
 						</div>

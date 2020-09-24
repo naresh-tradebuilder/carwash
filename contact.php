@@ -56,7 +56,7 @@
 						<div class="col-6 col-md-4">
 							<!-- Logo -->
 							<div class="logo position-relative">
-								<a href="index.html">
+								<a href="index.php">
 									<img src="images/logo.png" alt="Auto &amp; Detailing template" class="img-fluid">
 								</a>
 							</div>
@@ -99,7 +99,7 @@
 					<nav class="navbar navHolder d-flex navbar-expand-lg navbar-dark p-0 mt-lg-0 mr-lg-0 position-static">
 						<!-- MenuLogo -->
 						<div class="menuLogo">
-							<a href="index.html">
+							<a href="index.php">
 								<img src="images/logo2.png" alt="Auto &amp; Detailing template" class="img-fluid logoWhite">
 								<img src="images/logo.png" alt="Auto &amp; Detailing template" class="img-fluid logoBlack">
 							</a>
@@ -111,35 +111,35 @@
 						<div class="collapse navbar-collapse navCollapse text-uppercase fwBlack" id="navbarNav">
 							<ul class="navbar-nav">
 								<li class="nav-item">
-									<a class="nav-link" href="index.html" id="navbarDropdown">Home </a>
+									<a class="nav-link" href="index.php" id="navbarDropdown">Home </a>
 									
 								</li>
 								<li class="nav-item dropdown">
 									<a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Services &amp; Pricing</a>
 									<div class="dropdown-menu border-0 rounded-0 text-capitalize" aria-labelledby="navbarDropdown">
 										<ul class="list-unstyled dropMenu">
-											<li><a class="dropdown-item" href="express.html">EXTERIOR WASH</a></li>
-											<li><a class="dropdown-item" href="full-service.html">FULL-SERVICE WASH (IN & OUT)</a></li>
-											<li><a class="dropdown-item" href="hand-wash.html">HAND WASH</a></li>
-											<li><a class="dropdown-item" href="wax-service.html">WAX SERVICES</a></li>
-											<li><a class="dropdown-item" href="details.html">DETAILS</a></li>
-											<li><a class="dropdown-item" href="add-ons.html">ADD-ONS</a></li>
+											<li><a class="dropdown-item" href="express.php">EXTERIOR WASH</a></li>
+											<li><a class="dropdown-item" href="full-service.php">FULL-SERVICE WASH (IN & OUT)</a></li>
+											<li><a class="dropdown-item" href="hand-wash.php">HAND WASH</a></li>
+											<li><a class="dropdown-item" href="wax-service.php">WAX SERVICES</a></li>
+											<li><a class="dropdown-item" href="details.php">DETAILS</a></li>
+											<li><a class="dropdown-item" href="add-ons.php">ADD-ONS</a></li>
 										</ul>
 									</div>
 								</li>
-								<li class="nav-item active">
-									<a class="nav-link" href="about-us.html">About<span class="sr-only">(current)</span></a>
-								</li>
-								<li class="nav-item"><a class="nav-link" href="Unlimited Wash Club.html">Unlimited Wash Club</a></li>
-								<li class="nav-item"><a class="nav-link" href="testimonial.html">testimonials</a></li>
 								<li class="nav-item">
-									<a class="nav-link" href="gallery.html">Gallery</a>
+									<a class="nav-link" href="about-us.php">About<span class="sr-only">(current)</span></a>
+								</li>
+								<li class="nav-item"><a class="nav-link" href="unlimited-wash.php">Unlimited Wash Club</a></li>
+								<li class="nav-item"><a class="nav-link" href="testimonial.php">testimonials</a></li>
+								<li class="nav-item">
+									<a class="nav-link" href="gallery.php">Gallery</a>
 									
 								</li>								
-								<li class="nav-item dropdown">
-									<a class="nav-link" href="blog.html">Blog</a>									
+								<li class="nav-item">
+									<a class="nav-link" href="blog.php">Blog</a>									
 								</li>
-								<li class="nav-item dropdown">
+								<li class="nav-item active">
 									<a class="nav-link" href="contact.php">CONTACT</a>
 									
 								</li>
@@ -168,9 +168,8 @@
 							<!-- breadcrumb -->
 							<nav aria-label="breadcrumb" class="d-flex">
 								<ol class="breadcrumb mb-0 p-0">
-									<li class="breadcrumb-item"><a href="homepage.html">Home</a></li>
-									<li class="breadcrumb-item"><a href="#">contact</a></li>
-									<li class="breadcrumb-item active" aria-current="page">contact multi location</li>
+									<li class="breadcrumb-item"><a href="index.php">Home</a></li>
+									<li class="breadcrumb-item active"><a href="#">contact</a></li>									
 								</ol>
 							</nav>
 						</div>
@@ -198,7 +197,7 @@
 										<label class="text-capitalize" for="contactName">your Name</label>
 										<input class="form-control" type="text" name="firstName"  data-validation="required,custom" data-validation-regexp="^[a-zA-z ]{1,}$" required="required">
 									</div>
-									
+
 									<div class="formCol form-group">
 										<label class="text-capitalize" for="contactPhone">phone number</label>
 										<input class="form-control" type="text" id="contactNumber" name="contactNumber"data-force-validation-if-hidden="true"
@@ -418,12 +417,12 @@
 								<h5 class="h6 text-capitalize fwEbold text-white mb-4 mb-lg-6">Our Services</h5>
 								<!-- fLink -->
 								<ul class="fLink list-unstyled text-capitalize">
-									<li><a href="express.html">EXTERIOR WASH</a></li>
-									<li><a href="full-service.html">FULL-SERVICE WASH</a></li>
-									<li><a href="hand-wash.html">HAND WASH</a></li>
-									<li><a href="wax-service.html">WAX SERVICES</a></li>
-									<li><a href="details.html">DETAILS</a></li>
-									<li><a href="add-ons.html">ADD-ONS</a></li>
+									<li><a href="express.php">EXTERIOR WASH</a></li>
+									<li><a href="full-service.php">FULL-SERVICE WASH</a></li>
+									<li><a href="hand-wash.php">HAND WASH</a></li>
+									<li><a href="wax-service.php">WAX SERVICES</a></li>
+									<li><a href="details.php">DETAILS</a></li>
+									<li><a href="add-ons.php">ADD-ONS</a></li>
 								</ul>
 							</div>
 						</div>
@@ -432,12 +431,12 @@
 								<h5 class="h6 text-capitalize fwEbold text-white mb-4 mb-lg-6">Useful Links</h5>
 								<!-- fLink -->
 								<ul class="fLink list-unstyled text-capitalize">
-									<li><a href="index.html">Home</a></li>
-									<li><a href="express.html">Services &amp; Pricing</a></li>
-									<li><a href="Unlimited Wash Club.html">Unlimited Wash Club</a></li>
-									<li><a href="about-us.html">About</a></li>
-									<li><a href="gallery.html">Gallery</a></li>
-									<li><a href="blog.html">Blog</a></li>
+									<li><a href="index.php">Home</a></li>
+									<li><a href="express.php">Services &amp; Pricing</a></li>
+									<li><a href="unlimited-wash.php">Unlimited Wash Club</a></li>
+									<li><a href="about-us.php">About</a></li>
+									<li><a href="gallery.php">Gallery</a></li>
+									<li><a href="blog.php">Blog</a></li>
 								</ul>
 							</div>
 						</div>

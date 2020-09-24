@@ -30,7 +30,7 @@
 						<div class="col-6 col-md-4">
 							<!-- Logo -->
 							<div class="logo position-relative">
-								<a href="index.html">
+								<a href="index.php">
 									<img src="images/logo.png" alt="Auto &amp; Detailing template" class="img-fluid">
 								</a>
 							</div>
@@ -73,7 +73,7 @@
 					<nav class="navbar navHolder d-flex navbar-expand-lg navbar-dark p-0 mt-lg-0 mr-lg-0 position-static">
 						<!-- MenuLogo -->
 						<div class="menuLogo">
-							<a href="index.html">
+							<a href="index.php">
 								<img src="images/logo2.png" alt="Auto &amp; Detailing template" class="img-fluid logoWhite">
 								<img src="images/logo.png" alt="Auto &amp; Detailing template" class="img-fluid logoBlack">
 							</a>
@@ -95,7 +95,7 @@
 											<li><a class="dropdown-item" href="express.php">EXTERIOR WASH</a></li>
 											<li><a class="dropdown-item" href="full-service.php">FULL-SERVICE WASH (IN & OUT)</a></li>
 											<li><a class="dropdown-item" href="hand-wash.php">HAND WASH</a></li>
-											<li><a class="dropdown-item" href="wax-service.html">WAX SERVICES</a></li>
+											<li><a class="dropdown-item" href="wax-service.php">WAX SERVICES</a></li>
 											<li><a class="dropdown-item" href="details.php">DETAILS</a></li>
 											<li><a class="dropdown-item" href="add-ons.php">ADD-ONS</a></li>
 										</ul>
@@ -105,9 +105,9 @@
 									<a class="nav-link" href="about-us.php">About<span class="sr-only">(current)</span></a>
 								</li>
 								<li class="nav-item"><a class="nav-link" href="unlimited-wash.php">Unlimited Wash Club</a></li>
-								<li class="nav-item"><a class="nav-link" href="testimonial.html">testimonials</a></li>
+								<li class="nav-item"><a class="nav-link" href="testimonial.php">testimonials</a></li>
 								<li class="nav-item">
-									<a class="nav-link" href="gallery.html">Gallery</a>
+									<a class="nav-link" href="gallery.php">Gallery</a>
 									
 								</li>								
 								<li class="nav-item">
@@ -161,7 +161,7 @@
 										<strong class="d-block fwEbold mb-4">Car Clean Always!</strong>
 										<strong class="d-block fwSemibold headingXII">Keeping Satisfied Customers Since 1998!</strong>
 									</h1>
-									<a href="express.html" class="btn btnTheme text-uppercase fwEbold py-3 px-4 py-lg-4 px-lg-5">Services &amp; Pricing</a>
+									<a href="express.php" class="btn btnTheme text-uppercase fwEbold py-3 px-4 py-lg-4 px-lg-5">Services &amp; Pricing</a>
 								</div>
 							</div>
 						</div>
@@ -177,7 +177,7 @@
 										<strong class="fwEbold d-block mt-n2 mt-md-n4 mb-2">Car’s Original Finish</strong>
 										<strong class="d-block font-weight-bold headingVI">Always be clean and Green!</strong>
 									</h1>
-									<a href="about-us.html" class="btn btnTheme text-uppercase fwEbold py-3 px-4 py-lg-4 px-lg-6">About us</a>
+									<a href="about-us.php" class="btn btnTheme text-uppercase fwEbold py-3 px-4 py-lg-4 px-lg-6">About us</a>
 								</div>
 							</div>
 						</div>
@@ -263,7 +263,7 @@
 								<li class="position-relative"><span class="ico position-absolute icon-check"></span>Ozone and Disinfectant Services</li>
 								<li class="position-relative"><span class="ico position-absolute icon-check"></span>Scratch and Windshield Repair</li>
 							</ul>
-							<a href="about-us.html" class="btn btn-outline-primary fwEbold text-uppercase px-6">Know more</a>
+							<a href="about-us.php" class="btn btn-outline-primary fwEbold text-uppercase px-6">Know more</a>
 						</div>
 					</div>
 				</div>
@@ -298,10 +298,10 @@
 										<div class="imgHolder overflow-hidden rounded mb-5 overlayI w-100 position-relative mx-auto">
 											<img src="./images/express.jpg" alt="image description" class="img-fluid">
 											<div class="btnHolder position-absolute">
-												<a href="express.html" class="btn btn-light py-2 text-uppercase font-weight-bold">view detail</a>
+												<a href="express.php" class="btn btn-light py-2 text-uppercase font-weight-bold">view detail</a>
 											</div>
 										</div>
-										<h3 class="headingIX mb-2"><a href="express.html">EXTERIOR WASH</a></h3>
+										<h3 class="headingIX mb-2"><a href="express.php">EXTERIOR WASH</a></h3>
 										<p>In a hurry and need a car wash?</p>
 									</article>
 								</div>
@@ -313,10 +313,10 @@
 										<div class="imgHolder overflow-hidden rounded mb-5 overlayI w-100 position-relative mx-auto">
 											<img src="./images/hand-wash.jpg" alt="image description" class="img-fluid">
 											<div class="btnHolder position-absolute">
-												<a href="hand-wash.html" class="btn btn-light py-2 text-uppercase font-weight-bold">view detail</a>
+												<a href="hand-wash.php" class="btn btn-light py-2 text-uppercase font-weight-bold">view detail</a>
 											</div>
 										</div>
-										<h3 class="headingIX mb-2"><a href="hand-wash.html">HAND WASH</a></h3>
+										<h3 class="headingIX mb-2"><a href="hand-wash.php">HAND WASH</a></h3>
 										<p>Keep your car like Showroom model</p>
 									</article>
 								</div>
@@ -328,10 +328,10 @@
 										<div class="imgHolder overflow-hidden rounded mb-5 overlayI w-100 position-relative mx-auto">
 											<img src="./images/wash.jpg" alt="image description" class="img-fluid">
 											<div class="btnHolder position-absolute">
-												<a href="wax-service.html" class="btn btn-light py-2 text-uppercase font-weight-bold">view detail</a>
+												<a href="wax-service.php" class="btn btn-light py-2 text-uppercase font-weight-bold">view detail</a>
 											</div>
 										</div>
-										<h3 class="headingIX mb-2"><a href="wax-service.html">WAX SERVICES</a></h3>
+										<h3 class="headingIX mb-2"><a href="wax-service.php">WAX SERVICES</a></h3>
 										<p>Clean on both the inside &amp; outside.</p>
 									</article>
 								</div>
@@ -343,10 +343,10 @@
 										<div class="imgHolder overflow-hidden rounded mb-5 overlayI w-100 position-relative mx-auto">
 											<img src="./images/deatils.jpg" alt="image description" class="img-fluid">
 											<div class="btnHolder position-absolute">
-												<a href="details.html" class="btn btn-light py-2 text-uppercase font-weight-bold">view detail</a>
+												<a href="details.php" class="btn btn-light py-2 text-uppercase font-weight-bold">view detail</a>
 											</div>
 										</div>
-										<h3 class="headingIX mb-2"><a href="details.html">DETAILS</a></h3>
+										<h3 class="headingIX mb-2"><a href="details.php">DETAILS</a></h3>
 										<p>Keep your car like Showroom model</p>
 									</article>
 								</div>
@@ -907,7 +907,7 @@
 							<div class="txtHolder w-100">
 								<h6 class="h6 text-capitalize fwEbold text-white mb-4 mb-sm-5 mb-lg-6">about us</h6>
 								<p>RIVERCHASE CAR WASH & DETAIL HAS BEEN IN THE HOOVER COMMUNITY FOR 27 YEARS!</p>
-								<a href="about.html" class="btn btn-outline-light text-uppercase fwEbold py-lg-3">know more</a>
+								<a href="about.php" class="btn btn-outline-light text-uppercase fwEbold py-lg-3">know more</a>
 							</div>
 						</div>
 						<div class="col-12 col-sm-6 col-lg-3 d-md-flex mb-8 mb-sm-4 mb-lg-0">
@@ -915,12 +915,12 @@
 								<h6 class="h6 text-capitalize fwEbold text-white mb-4 mb-lg-6">Useful Links</h6>
 								<!-- fLink -->
 							<ul class="fLink list-unstyled text-capitalize">
-									<li><a href="index.html">Home</a></li>
-									<li><a href="express.html">Services &amp; Pricing</a></li>
-									<li><a href="Unlimited Wash Club.html">Unlimited Wash Club</a></li>
-									<li><a href="about-us.html">About</a></li>
-									<li><a href="gallery.html">Gallery</a></li>
-									<li><a href="blog.html">Blog</a></li>
+									<li><a href="index.php">Home</a></li>
+									<li><a href="express.php">Services &amp; Pricing</a></li>
+									<li><a href="Unlimited Wash Club.php">Unlimited Wash Club</a></li>
+									<li><a href="about-us.php">About</a></li>
+									<li><a href="gallery.php">Gallery</a></li>
+									<li><a href="blog.php">Blog</a></li>
 								</ul>
 							</div>
 						</div>
@@ -929,12 +929,12 @@
 								<h6 class="h6 text-capitalize fwEbold text-white mb-4 mb-lg-6">Our Services</h6>
 								<!-- fLink -->
 							<ul class="fLink list-unstyled text-capitalize">
-									<li><a href="express.html">EXTERIOR WASH</a></li>
-									<li><a href="full-service.html">FULL-SERVICE WASH</a></li>
-									<li><a href="hand-wash.html">HAND WASH</a></li>
-									<li><a href="wax-service.html">WAX SERVICES</a></li>
-									<li><a href="details.html">DETAILS</a></li>
-									<li><a href="add-ons.html">ADD-ONS</a></li>
+									<li><a href="express.php">EXTERIOR WASH</a></li>
+									<li><a href="full-service.php">FULL-SERVICE WASH</a></li>
+									<li><a href="hand-wash.php">HAND WASH</a></li>
+									<li><a href="wax-service.php">WAX SERVICES</a></li>
+									<li><a href="details.php">DETAILS</a></li>
+									<li><a href="add-ons.php">ADD-ONS</a></li>
 								</ul>
 								</ul>
 							</div>

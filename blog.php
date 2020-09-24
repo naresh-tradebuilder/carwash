@@ -30,7 +30,7 @@
 						<div class="col-6 col-md-4">
 							<!-- Logo -->
 							<div class="logo position-relative">
-								<a href="homepage.html">
+								<a href="index.php">
 									<img src="images/logo.png" alt="Auto &amp; Detailing template" class="img-fluid">
 								</a>
 							</div>
@@ -43,8 +43,8 @@
 										<span class="far fa-clock p-lg-0 icn"></span>
 									</span>
 									<ul class="list-unstyled mb-0 timeList">
-										<li><time class=" d-none d-lg-block" datetime="2019-07-15">Mon-Sat: 7:00am-6:00pm</time></li>
-										<li><time class=" d-none d-lg-block" datetime="2019-07-15">Sun: 8:00am-5:00pm</time></li>
+										<li><time class=" d-none d-lg-block" datetime="2019-07-15">Mon-Sat: 9:00am-7:00pm</time></li>
+										<li><time class=" d-none d-lg-block" datetime="2019-07-15">(Open all 7 Days)</time></li>
 									</ul>
 									
 								</li>
@@ -54,12 +54,12 @@
 									</span>
 									<div class="wrap d-none d-lg-block">
 										<span class="text d-block">Have any Question?</span>
-										<a class="tell fwSemibold" href="tel:18001234567">1-800-123-4567</a>
+										<a class="tell fwSemibold" href="tel:18001234567">205-987-9308</a>
 									</div>
 								</li>
 							</ul>
 							<div class="btnHolder ml-xl-8 d-none d-md-block">
-								<a href="#" class="btn btn-warning py-xl-4 text-uppercase fwEbold" data-toggle="modal" data-target="#exampleModal">book appointment</a>
+								<a href="contact.php" class="btn btn-warning py-xl-4 text-uppercase fwEbold">book appointment</a>
 							</div>
 						</div>
 					</div>
@@ -73,7 +73,7 @@
 					<nav class="navbar navHolder d-flex navbar-expand-lg navbar-dark p-0 mt-lg-0 mr-lg-0 position-static">
 						<!-- MenuLogo -->
 						<div class="menuLogo">
-							<a href="homepage.html">
+							<a href="index.php">
 								<img src="images/logo2.png" alt="Auto &amp; Detailing template" class="img-fluid logoWhite">
 								<img src="images/logo.png" alt="Auto &amp; Detailing template" class="img-fluid logoBlack">
 							</a>
@@ -85,62 +85,35 @@
 						<div class="collapse navbar-collapse navCollapse text-uppercase fwBlack" id="navbarNav">
 							<ul class="navbar-nav">
 								<li class="nav-item">
-									<a class="nav-link" href="index.html" id="navbarDropdown">Home </a>
+									<a class="nav-link" href="index.php" id="navbarDropdown">Home </a>
 									
 								</li>
 								<li class="nav-item dropdown">
 									<a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Services &amp; Pricing</a>
 									<div class="dropdown-menu border-0 rounded-0 text-capitalize" aria-labelledby="navbarDropdown">
 										<ul class="list-unstyled dropMenu">
-											<li><a class="dropdown-item" href="express.html">express exterior</a></li>
-											<li><a class="dropdown-item" href="full-service.html">FULL-SERVICE WASH (IN & OUT)</a></li>
-											<li><a class="dropdown-item" href="hand-wash.html">HAND WASH</a></li>
-											<li><a class="dropdown-item" href="wax-service.html">WAX SERVICES</a></li>
-											<li><a class="dropdown-item" href="details.html">DETAILS</a></li>
-											<li><a class="dropdown-item" href="add-ons.html">ADD-ONS</a></li>
+											<li><a class="dropdown-item" href="express.php">EXTERIOR WASH</a></li>
+											<li><a class="dropdown-item" href="full-service.php">FULL-SERVICE WASH (IN & OUT)</a></li>
+											<li><a class="dropdown-item" href="hand-wash.php">HAND WASH</a></li>
+											<li><a class="dropdown-item" href="wax-service.php">WAX SERVICES</a></li>
+											<li><a class="dropdown-item" href="details.php">DETAILS</a></li>
+											<li><a class="dropdown-item" href="add-ons.php">ADD-ONS</a></li>
 										</ul>
 									</div>
 								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="about-us.php">About<span class="sr-only">(current)</span></a>
+								</li>
+								<li class="nav-item"><a class="nav-link" href="unlimited-wash.php">Unlimited Wash Club</a></li>
+								<li class="nav-item"><a class="nav-link" href="testimonial.php">testimonials</a></li>
+								<li class="nav-item">
+									<a class="nav-link" href="gallery.php">Gallery</a>
+									
+								</li>								
 								<li class="nav-item active">
-									<a class="nav-link" href="about-us.html">About<span class="sr-only">(current)</span></a>
+									<a class="nav-link" href="blog.php">Blog</a>									
 								</li>
-								<li class="nav-item"><a class="nav-link" href="Unlimited Wash Club.html">Unlimited Wash Club</a></li>
-								<li class="nav-item"><a class="nav-link" href="location.html">Locations</a></li>
-								<li class="nav-item dropdown">
-									<a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">PAGES</a>
-									<div class="dropdown-menu border-0 rounded-0 text-capitalize" aria-labelledby="navbarDropdown">
-										<ul class="list-unstyled dropMenu border-0">
-											<li><a class="dropdown-item" href="testimonial.html">testimonial</a></li>
-											<li><a class="dropdown-item" href="coudon &amp; offer.html">coupons &amp; offers!</a></li>
-											<li class="dropdown subMenuDrop">
-												<a class="dropdown-item dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" href="#" aria-expanded="false">image gallery<span class="sr-only">(current)</span></a>
-												<div class="dropdown-menu subMenu border-0 rounded-0 text-capitalize">
-													<ul class="list-unstyled">
-														<li><a class="dropdown-item" href="gallery grid.html">gallery grid</a></li>
-														<li><a class="dropdown-item" href="gallery masonary.html">gallery masonry</a></li>
-														<li><a class="dropdown-item" href="gallery fullwidth.html">gallery fullwidth</a></li>
-													</ul>
-												</div>
-											</li>
-											<li><a class="dropdown-item" href="Join Emial Club.html">join email clib</a></li>
-											<li><a class="dropdown-item" href="FAQ.html">FAQ</a></li>
-											<li><a class="dropdown-item" href="404 page.html">404 error page</a></li>
-										</ul>
-									</div>
-								</li>
-								<li class="nav-item"><a class="nav-link" href="shop Grid.html">shop</a></li>
-								<li class="nav-item dropdown">
-									<a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">NEWS</a>
-									<div class="dropdown-menu  border-0 rounded-0 text-capitalize" aria-labelledby="navbarDropdown">
-										<ul class="list-unstyled dropMenu border-0">
-											<li><a class="dropdown-item" href="blog single post.html">blog single post</a></li>
-											<li><a class="dropdown-item" href="Blog Grid.html">Blog Grid</a></li>
-											<li><a class="dropdown-item" href="blog classic right sidebar.html">blog classic right sidebar</a></li>
-											<li><a class="dropdown-item" href="blog.html">blog classic left sidebar</a></li>
-										</ul>
-									</div>
-								</li>
-								<li class="nav-item dropdown">
+								<li class="nav-item">
 									<a class="nav-link" href="contact.php">CONTACT</a>
 									
 								</li>
@@ -159,8 +132,7 @@
 				</div>
 			</div>
 		</header>
-		<!-- main -->
-		<main>
+		<main> 
 			<!-- brdCrmbHolder -->
 			<nav class="brdCrmbHolder py-3">
 				<div class="container">
@@ -169,188 +141,323 @@
 							<!-- breadcrumb -->
 							<nav aria-label="breadcrumb" class="d-flex justify-content-start">
 								<ol class="breadcrumb mb-0 p-0 text-capitalize">
-									<li class="breadcrumb-item"><a href="homepage.html">Home</a></li>
-									<li class="breadcrumb-item"><a href="service-page.html">Services &amp; Pricing</a></li>
-									<li class="breadcrumb-item active" aria-current="page">express exterior</li>
+									<li class="breadcrumb-item"><a href="index.php">Home</a></li>
+									<li class="breadcrumb-item active"><a href="#">Blogs</a></li>
+									
 								</ol>
 							</nav>
 						</div>
 					</div>
 				</div>
 			</nav>
-			<!-- serviceDetail -->
-			<section class="serviceDetail pt-10 pt-sm-12 pt-md-14 pt-lg-16 pb-8 pb-sm-10 pb-lg-16 pb-xl-20">
+			<!-- blgStndrd -->
+			<section class="blgStndrd pt-10 pt-sm-12 pt-lg-15 pt-xl-16 pb-4 pb-sm-7 pb-lg-18 pb-xl-20">
 				<div class="container">
-					<div class="row flex-row-reverse">
-						<!-- servicetxtDetail -->
-						<div class="col-12 col-lg-9 servicetxtDetail mb-8 mb-sm-10 mb-lg-0">
-							<header class="header text-center font-weight-light mb-3 px-md-10 px-xl-10 px-xxl-15">
-								<h1 class="headingI text-capitalize mb-3 fwEbold">EXTERIOR WASH</h1>
-								<p>(No appointments needed! Extra charges may apply for SUVs, Vans and trucks.)</p>
+					<div class="row">
+						<div class="col-12 col-xl-10 offset-xl-1 ltrSpce">
+							<header class="header text-center mb-6 mb-sm-8 mb-md-10 mb-xl-15 px-lg-6">
+								<h1 class="fwEbold headingI text-capitalize mb-3 mb-md-4">Blog Classic Post</h1>
+								<p>This is dummy content of product sub title. you can change anything. </p>
 							</header>
-							<!-- imgWRoundWrap -->
-							<div class="imgWRoundWrap mb-5 mb-md-7 mt-n1">
-								<span class="icoRound rounded-circle mx-auto d-flex align-items-center justify-content-center overflow-hidden position-relative">
-									<span class="icon-ico37 ico"></span>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-12 col-lg-9">
+							<!-- blgWrap -->
+							<article class="blgWrap mb-9 mb-sm-12 mb-lg-16 mb-xl-20">
+							<span class="imgHolder rounded overflow-hidden w-100">
+									<img src="./images/blog.jpg" class="img-fluid" alt="image description">
 								</span>
-								<div class="imgHolder rounded w-100">
-									<img src="http://placehold.it/845x320" class="img-fluid" alt="image description">
-								</div>
-							</div>
-							<div class="txtHolder text-center text-sm-left mb-7 mb-md-10 mb-xl-11">
-								<p>An Express Wash is a more traditional car wash. Our tunnels are equipped with the industry’s latest car wash equipment and use only the finest soaps and wax available. Each car is washed with soft-cloth, neo-glide foam or lammswool cloth.</p>
-								<p>Our Full Service Washes will either require the customer to stay in his or her vehicle or exit the vehicle while it is run through the tunnel. This process takes 15 minutes or less.</p>
-								<a href="#" class="fwSemibold">See Your Location for Service!</a>
-							</div>
-							<div class="row mb-1">
-								<div class="col-12">
-									<!-- planFullList -->
-									<article class="planFullList mb-5 mb-sm-8 overflow-hidden rounded">
-										<!-- priceHeader -->
-										<header class="priceHeader px-3 text-capitalize">
-											<div class="row align-items-center">
-												<div class="col-8">
-													<h2 class="ml-md-3 mb-0 headingIX">QUICK WASH</h2>
-												</div>
-												<div class="col-4 text-right">
-													<h3 class="headingIX fwSemibold mb-0">$6.99.00</h3>
-												</div>
-											</div>
-										</header>
-										<div class="txtWrap px-3 px-md-6 pt-4 pb-7">
-											<strong class="d-block font-weight-normal mb-4">This wash package includes:</strong>
-											<!-- checkList -->
-											<ul class="list-unstyled checkList text-secondary text-left mb-4">
-												<li class="position-relative"><span class="ico position-absolute icon-check"></span>soft cloth wash</li>
-												<li class="position-relative"><span class="ico position-absolute icon-check"></span>hand dry</li>												
-											</ul>
-											
-										</div>
-									</article>
-								</div>
-								<div class="col-12">
-									<!-- planFullList -->
-									<article class="planFullList active mb-5 mb-sm-8 shadow-lg overflow-hidden rounded">
-										<!-- priceHeader -->
-										<header class="bg-primary priceHeader text-white px-3 text-capitalize">
-											<div class="row align-items-center">
-												<div class="col-8">
-													<h2 class="ml-md-3 mb-0 headingIX text-white mb-0">WASH & TIRES</h2>
-												</div>
-												<div class="col-4 text-right">
-													<h3 class="headingIX fwSemibold mb-0 text-white">$10.99</h3>
-												</div>
-											</div>
-										</header>
-										<div class="txtWrap px-3 px-md-6 pt-4 pb-7">
-											<strong class="d-block font-weight-normal mb-4">This wash package includes:</strong>
-											<!-- checkList -->
-											<ul class="list-unstyled checkList text-secondary text-left mb-4">
-												<li class="position-relative"><span class="ico position-absolute icon-check"></span>soft cloth wash</li>
-												<li class="position-relative"><span class="ico position-absolute icon-check"></span>hand dry</li>
-												<li class="position-relative"><span class="ico position-absolute icon-check"></span>wheels clean</li>
-												<li class="position-relative"><span class="ico position-absolute icon-check"></span>tire shine</li>	
-											</ul>
-											
-										</div>
-									</article>
-								</div>
-								
-								<div class="col-12">
-									<!-- planFullList -->
-									<article class="planFullList mb-5 mb-sm-8 overflow-hidden rounded">
-										<!-- priceHeader -->
-										<header class="priceHeader px-3 text-capitalize">
-											<div class="row align-items-center">
-												<div class="col-8">
-													<h2 class="ml-md-3 mb-0 headingIX">BEST EXTERIOR WASH</h2>
-												</div>
-												<div class="col-4 text-right">
-													<h3 class="headingIX fwSemibold mb-0">$14.99 </h3>
-												</div>
-											</div>
-										</header>
-										<div class="txtWrap px-3 px-md-6 pt-4 pb-7">
-											<strong class="d-block font-weight-normal mb-4">This wash package includes:</strong>
-											<!-- checkList -->
-											<ul class="list-unstyled checkList text-secondary text-left mb-4">
-												<li class="position-relative"><span class="ico position-absolute icon-check"></span>HOT Wax & Shine</li>
-												<li class="position-relative"><span class="ico position-absolute icon-check"></span>soft cloth wash</li>
-												<li class="position-relative"><span class="ico position-absolute icon-check"></span>hand dry</li>
-												<li class="position-relative"><span class="ico position-absolute icon-check"></span>wheels clean</li>
-												<li class="position-relative"><span class="ico position-absolute icon-check"></span>tire shine</li>
-												<li class="position-relative"><span class="ico position-absolute icon-check"></span>triple conditioner</li>						
-												<li class="position-relative"><span class="ico position-absolute icon-check"></span>bug prep</li>
-											</ul>											
-										</div>
-									</article>
-								</div>
-								
-								
-							</div>
-							<div class="row">
-								<div class="col-12 col-xl-10 offset-xl-1 text-center">
-									<p>*All services and prices vary by location and vehicle condition.  Quote provided prior to services.  Call for more details or to schedule an appointment.</p>
-									<div class="btnHolder mt-lg-5 mt-xl-8">
-										<a href="#" class="btn btnTheme fwEbold text-uppercase"><span class="far fa-calendar-check mr-1 mr-lg-2"></span>Schedule Appiontment</a>
+								<h2 class="headingII mb-2">Preparing Your Car For The Winter Holidays</h2>
+								<ul class="list-unstyled postBlogList d-flex flex-wrap">
+									<li>
+										<time datetime="2018-08-22">
+											<i class="clrTheme far fa-clock icn"></i>
+										</time>
+										August 22, 2018
+									</li>
+									<li>
+										<span class="far fa-user icn"></span>
+										by <a href="#">Sweden Amith</a>
+									</li>
+									<li>
+										<span class="far fa-comment icn"></span>
+										3 Comments
+									</li>
+								</ul>
+								<p>Monocle ipsum dolor sit amet iconic Nordic craftsmanship, soft power the highest quality Toto efficient Zürich. Asia-Pacific Zürich the best quality of life Melbourne Shinkansen vibrant, St Moritz signature. K-pop pintxos Swiss, essential airport flat white elegant bulletin charming Gaggenau first-class lovely perfect hub Flat white Ettinger business class St Moritz boutique Gaggenau. Asia-Pacific Melbourne international wardrobe Helsinki you get a nice breeze...</p>
+								<a href="#" class="btn btn-primary py-3 py-sm-4 text-uppercase fwEbold">Continue Reading</a>
+							</article>
+							<!-- blgWrap -->
+							<article class="blgWrap mb-9 mb-sm-12 mb-lg-16 mb-xl-20">
+								<!-- ImgBlogSlider -->
+								<div class="ImgBlogSlider mb-5 mb-xl-7">
+									<div>
+										<span class="imgHolder rounded overflow-hidden w-100">
+									<img src="./images/blog.jpg" class="img-fluid" alt="image description">
+								</span>
+									</div>
+									<div>
+											<span class="imgHolder rounded overflow-hidden w-100">
+									<img src="./images/blog.jpg" class="img-fluid" alt="image description">
+								</span>
+									</div>
+									<div>
+										<span class="imgHolder rounded overflow-hidden w-100">
+									<img src="./images/blog.jpg" class="img-fluid" alt="image description">
+								</span>
 									</div>
 								</div>
-							</div>
+								<h2 class="headingII mb-2">The Importance of Washing Under a Vehicle</h2>
+								<!-- postBlogList -->
+								<ul class="list-unstyled postBlogList d-flex flex-wrap">
+									<li>
+										<time datetime="2018-08-22">
+											<i class="clrTheme far fa-clock icn"></i>
+										</time>
+										August 22, 2018
+									</li>
+									<li>
+										<span class="far fa-user icn"></span>
+										by <a href="#">Sweden Amith</a>
+									</li>
+									<li>
+										<span class="far fa-comment icn"></span>
+										3 Comments
+									</li>
+								</ul>
+								<p>One of the most common additions people make to their cars in order to keep the heat out is a windshield visor. Cars become warm in the summer because direct sunlight enters in through the windows. This is why we park in the shade whenever we can. Since the windshield is the largest window in the car, blocking the sun from coming in would make a huge difference. Windshield visors and sunshades are fairly inexpensive and easy to use they certainly help...</p>
+								<a href="#" class="btn btn-primary py-4 text-uppercase fwEbold">Continue Reading</a>
+							</article>
+							<!-- blgWrap -->
+							<article class="blgWrap mb-9 mb-sm-12 mb-lg-16 mb-xl-20">
+								<!-- tubeBlogWrap -->
+							<span class="imgHolder rounded overflow-hidden w-100">
+									<img src="./images/blog.jpg" class="img-fluid" alt="image description">
+								</span>
+								<h2 class="headingII mb-2">Tough Stains in Your Car’s Interior (and what to do about them)</h2>
+								<!-- postBlogList -->
+								<ul class="list-unstyled postBlogList d-flex flex-wrap">
+									<li>
+										<time datetime="2018-08-22">
+											<i class="clrTheme far fa-clock icn"></i>
+										</time>
+										August 22, 2018
+									</li>
+									<li>
+										<span class="far fa-user icn"></span>
+										by <a href="#">Sweden Amith</a>
+									</li>
+									<li>
+										<span class="far fa-comment icn"></span>
+										3 Comments
+									</li>
+								</ul>
+								<p>Customers also require a safe experience, especially with around-the-clock hours. A well-lit facility is crucial to delivering a safe carwash experience, and lights should be replaced at regular intervals. As more organizations switch to long-life LED bulbs, the need for bulb replacement has lessened, though this does not mean your signage should be ignored. Making sure signs are clean and in good repair is a necessity, as clear signage also contributes to a safe and inviting atmosphere...</p>
+								<a href="#" class="btn btn-primary py-4 text-uppercase fwEbold">Continue Reading</a>
+							</article>
+							<!-- blgWrap -->
+							<article class="blgWrap mb-9 mb-sm-12 mb-lg-16 mb-xl-20">
+								<span class="imgHolder rounded overflow-hidden w-100">
+									<img src="./images/blog.jpg" class="img-fluid" alt="image description">
+								</span>
+								<h2 class="headingII mb-2">Winter Maintenance Tips to Avoid Engine Repairs</h2>
+								<!-- postBlogList -->
+								<ul class="list-unstyled postBlogList d-flex flex-wrap">
+									<li>
+										<time datetime="2018-08-22">
+											<i class="clrTheme far fa-clock icn"></i>
+										</time>
+										August 22, 2018
+									</li>
+									<li>
+										<span class="far fa-user icn"></span>
+										by <a href="#">Sweden Amith</a>
+									</li>
+									<li>
+										<span class="far fa-comment icn"></span>
+										3 Comments
+									</li>
+								</ul>
+								<p>While the quality and effectiveness of your carwash will result in clean cars and happy customers, this alone will not attract new customers to your business. Through a mix of tactics, you can help make sure your business stays top-of-mind with existing customers as well as reaches potential new customers. Effective customer retention and marketing initiatives don’t need to break the bank either. By leveraging the following tactics, you can break through the noise...</p>
+								<a href="#" class="btn btn-primary py-4 text-uppercase fwEbold">Continue Reading</a>
+							</article>
+							<!-- blgWrap -->
+							<article class="blgWrap mb-9 mb-sm-12 mb-lg-16 mb-xl-20">
+								<span class="imgHolder rounded overflow-hidden w-100">
+									<img src="./images/blog.jpg" class="img-fluid" alt="image description">
+								</span>
+								<h3 class="headingII mb-2">Want to Make Shine Our Car? </h3>
+								<!-- postBlogList -->
+								<ul class="list-unstyled postBlogList d-flex flex-wrap">
+									<li>
+										<time datetime="2018-08-22">
+											<i class="clrTheme far fa-clock icn"></i>
+										</time>
+										August 22, 2018
+									</li>
+									<li>
+										<span class="far fa-user icn"></span>
+										by <a href="#">Sweden Amith</a>
+									</li>
+									<li>
+										<span class="far fa-comment icn"></span>
+										3 Comments
+									</li>
+								</ul>
+								<p>You will also qualify for a complimentary one-year subscription to Professional Carwashing & Detailing, and you can purchase the current survey results at 50 percent off (current retail value at $249.99).To show our appreciation, we will share a sampling of the new survey’s findings with you in a future issue. We would like to thank our readers for supporting our publication on multiple platforms, including print and digital, and for participating in this survey...</p>
+								<a href="#" class="btn btn-primary py-4 text-uppercase fwEbold">Continue Reading</a>
+							</article>
+							<!-- shopPagenation -->
+							<nav aria-label="Page navigation example" class="d-flex justify-content-center shopPagenation pt-6 font-weight-bold mb-10 mb-lg-0 mt-sm-n4 mt-md-n8">
+								<!-- pagination -->
+								<ul class="pagination mb-sm-0">
+									<li class="page-item"><a class="page-link d-flex justify-content-center align-items-center fas fa-caret-left" href="#"></a></li>
+									<li class="page-item"><a class="page-link active d-flex justify-content-center align-items-center" href="#">1</a></li>
+									<li class="page-item"><a class="page-link d-flex justify-content-center align-items-center" href="#">2</a></li>
+									<li class="page-item"><a class="page-link d-flex justify-content-center align-items-center fas fa-caret-right" href="#"></a></li>
+								</ul>
+							</nav>
 						</div>
 						<div class="col-12 col-lg-3">
-							<!-- widget -->
-							<div class="widget mb-6">
-								<!-- widgetTypeList -->
-								<ul class="list-unstyled widgetTypeList mb-0 text-capitalize alt">
-									<li class="active"><a class="d-block" href="#">Express Exterior<span class="ml-2 text-white ico fas fa-caret-right"></span></a></li>
-									<li><a class="d-block" href="#">Auto Detailing<span class="ml-2 text-white ico fas fa-caret-right"></span></a></li>
-									<li><a class="d-block" href="#">Full Service Carwash<span class="ml-2 text-white ico fas fa-caret-right"></span></a></li>
-									<li><a class="d-block" href="#">Complete Detail Wash<span class="ml-2 text-white ico fas fa-caret-right"></span></a></li>
-									<li><a class="d-block" href="#">Oil Changing<span class="ml-2 text-white ico fas fa-caret-right"></span></a></li>
-									<li><a class="d-block" href="#">Preventative Maintenance<span class="ml-1 text-white ico fas fa-caret-right"></span></a></li>
-								</ul>
-							</div>
-							<!-- widget -->
-							<aside class="widget mb-6">
-								<a href="location.html" class="btn btn-warning font-weight-bold  py-4 py-xl-5 px-3 rounded text-uppercase text-center d-block">
-									<span class="fas fa-map-marker-alt"></span>
-									See All Locations
-								</a>
+							<!-- blgAside -->
+							<aside class="blgAside">
+								<!-- widget -->
+								<section class="widget mb-8 mb-lg-11">
+									<!-- searchWidForm -->
+									<form class="searchWidForm">
+										<h3 class="headingXI text-uppercase fwEbold">search here</h3>
+										<input type="text" class="form-control" placeholder="Search Here...">
+										<button type="submit" class="btn btn-primary text-uppercase fwEbold">Search</button>
+									</form>
+								</section>
+								<!-- widget -->
+								<section class="widget mb-8 mb-lg-11">
+									<h3 class="headingXI text-uppercase fwEbold">Recent Posts</h3>
+									<!-- recentWidPost -->
+									<ul class="list-unstyled recentWidPost">
+										<li>
+											<h3 class="headingX font-weight-normal mb-1"><a href="#">Winter Maintenance Tips to Avoid EngineRepairs</a></h3>
+											<!-- postTimeWrap -->
+											<div class="postTimeWrap">
+												<time datetime="2018-08-22">
+													<span class="clrTheme far fa-clock icn"></span>
+												</time>
+												August 22, 2018
+											</div>
+										</li>
+										<li>
+											<h3 class="headingX font-weight-normal mb-1"><a href="#">Preparing Your Car For The Winter Holidays</a></h3>
+											<!-- postTimeWrap -->
+											<div class="postTimeWrap">
+												<time datetime="2018-08-22">
+													<span class="clrTheme far fa-clock icn"></span>
+												</time>
+												August 22, 2018
+											</div>
+										</li>
+										<li>
+											<h3 class="headingX font-weight-normal mb-1"><a href="#">The Importance of Washing Under a Vehicle</a></h3>
+											<!-- postTimeWrap -->
+											<div class="postTimeWrap">
+												<time datetime="2018-08-22">
+													<span class="clrTheme far fa-clock icn"></span>
+												</time>
+												August 22, 2018
+											</div>
+										</li>
+									</ul>
+								</section>
+								<!-- widget -->
+								<section class="widget mb-8 mb-lg-11">
+									<h3 class="headingXI text-uppercase mb-4 mb-sm-5 fwEbold">Post Categories</h3>
+									<!-- postWidLink -->
+									<ul class="list-unstyled text-capitalize postWidLink">
+										<li>
+											<span class="clrTheme mr-1 ico fas fa-chevron-right"></span>
+											<a href="#">Car Wash (3)</a>
+										</li>
+										<li>
+											<span class="clrTheme mr-1 ico fas fa-chevron-right"></span>
+											<a href="#">Auto Detailing (1)</a>
+										</li>
+										<li>
+											<span class="clrTheme mr-1 ico fas fa-chevron-right"></span>
+											<a href="#">Oil Changing (2)</a>
+										</li>
+										<li>
+											<span class="clrTheme mr-1 ico fas fa-chevron-right"></span>
+											<a href="#">Maintenance (5)</a>
+										</li>
+										<li>
+											<span class="clrTheme mr-1 ico fas fa-chevron-right"></span>
+											<a href="#">Self-serve Washes (2)</a>
+										</li>
+										<li>
+											<span class="clrTheme mr-1 ico fas fa-chevron-right"></span>
+											<a href="#">General (1)</a>
+										</li>
+										<li>
+											<span class="clrTheme mr-1 ico fas fa-chevron-right"></span>
+											<a href="#">Uncatecorized (1)</a>
+										</li>
+									</ul> 
+								</section>
+								<!-- widget -->
+								<section class="widget mb-8 mb-lg-11">
+									<h3 class="headingXI text-uppercase mb-4 mb-sm-5 fwEbold">Popular Tags</h3>
+									<!-- postWidTags -->
+									<ul class="list-unstyled text-capitalize postWidTags d-flex flex-wrap">
+										<li><a href="#">shine</a></li>
+										<li><a href="#">washes</a></li>
+										<li><a href="#">tries</a></li>
+										<li><a href="#">wax polish</a></li>
+										<li><a href="#">triple form</a></li>
+										<li><a href="#">detailing</a></li>
+										<li><a href="#">lube/Oil</a></li>
+										<li><a href="#">dry</a></li>
+									</ul>
+								</section>
+								<!-- widget -->
+								<section class="widget mb-8 mb-lg-11">
+									<h3 class="headingXI text-uppercase fwEbold mb-4 mb-sm-5">Archives</h3>
+									<!-- postWidLink -->
+									<ul class="list-unstyled text-capitalize postWidLink">
+										<li>
+											<span class="clrTheme mr-1 ico fas fa-chevron-right"></span>
+											<a href="#">January 2019</a>
+										</li>
+										<li>
+											<span class="clrTheme mr-1 ico fas fa-chevron-right"></span>
+											<a href="#">December 2018</a>
+										</li>
+										<li>
+											<span class="clrTheme mr-1 ico fas fa-chevron-right"></span>
+											<a href="#">December 2018</a>
+										</li>
+										<li>
+											<span class="clrTheme mr-1 ico fas fa-chevron-right"></span>
+											<a href="#">October 2018</a>
+										</li>
+										<li>
+											<span class="clrTheme mr-1 ico fas fa-chevron-right"></span>
+											<a href="#">September 2018</a>
+										</li>
+									</ul>
+								</section>
 							</aside>
-							<!-- widget -->
-							<section class="widget mb-6">
-								<!-- contctWidgetForm -->
-								<form class="contctWidgetForm bg-primary pt-4 px-4 rounded pb-6">
-									<h3 class="mb-3 mb-xl-4 headingIX text-capitalize text-white">Contact Us</h3>
-									<input type="text" class="form-control rounded" placeholder="Your Name">
-									<input type="email" class="form-control rounded" placeholder="Email Address">
-									<textarea class="form-control" placeholder="Your Question..."></textarea>
-									<button type="submit" class="btnTheme text-uppercase d-block w-100 fwEbold rounded">send message</button>
-								</form>
-							</section>
-							<!-- widget -->
-							<section class="widget mb-6">
-								<!-- joinClubBlock -->
-								<div class="joinClubBlock text-center overflow-hidden pt-4 px-3 px-xl-5 pb-8">
-									<span class="icoHolder bg-white mx-auto rounded-circle d-flex justify-content-center align-items-center mb-3">
-										<span class="icn icon-ico29"></span>
-									</span>
-									<h4 class="headingIX text-capitalize fwSemibold mb-5">Join Our Unlimited Wash Club</h4>
-									<a href="#" class="btn btn-outline-primary text-uppercase fwEbold w-100 rounded-0">become a member</a>
-								</div>
-							</section>
 						</div>
 					</div>
 				</div>
 			</section>
 			<!-- footerAside -->
-			<aside class="footerAside text-white bgCover" style="background-image: url(http://placehold.it/1920x520)">
+			<aside class="footerAside text-white bgCover" style="background-image: url('./images/footer-bg.jpg')">
 				<div class="container pt-10 pb-8 pt-lg-13 pb-lg-14">
 					<div class="row">
 						<div class="col-12 col-sm-6 col-lg-3 d-md-flex mb-8 mb-sm-4 mb-lg-0">
 							<div class="txtHolder w-100">
 								<h5 class="h6 text-capitalize fwEbold text-white mb-4 mb-lg-6">about us</h5>
-								<p>Since opening DesignFalls Car Wash in 1998 serving customers looking for a high quality car wash a reasonable price, with friendly and professional staff</p>
+								<p>RIVERCHASE CAR WASH & DETAIL HAS BEEN IN THE HOOVER COMMUNITY FOR 27 YEARS!</p>
 								<!-- socialFNetwork -->
 								<ul class="socialFNetwork d-flex mb-0 list-unstyled justify-content-center justify-content-sm-start">
 									<li><a href="#" class="fab fa-facebook-square"></a></li>
@@ -365,26 +472,26 @@
 								<h5 class="h6 text-capitalize fwEbold text-white mb-4 mb-lg-6">Our Services</h5>
 								<!-- fLink -->
 								<ul class="fLink list-unstyled text-capitalize">
-									<li><a href="service-detail.html">express exterior</a></li>
-									<li><a href="service-detail2.html">auto detailing</a></li>
-									<li><a href="service-detail3.html">full service carwash</a></li>
-									<li><a href="service-detail4.html">Express Detailing</a></li>
-									<li><a href="service-detail5.html">oil changing</a></li>
-									<li><a href="service-detail6.html">preventative maintenance</a></li>
+									<li><a href="express.php">EXTERIOR WASH</a></li>
+									<li><a href="full-service.php">FULL-SERVICE WASH</a></li>
+									<li><a href="hand-wash.php">HAND WASH</a></li>
+									<li><a href="wax-service.php">WAX SERVICES</a></li>
+									<li><a href="details.php">DETAILS</a></li>
+									<li><a href="add-ons.php">ADD-ONS</a></li>
 								</ul>
 							</div>
 						</div>
 						<div class="col-12 col-sm-6 col-lg-3 d-md-flex mb-8 mb-sm-4 mb-lg-0">
 							<div class="w-100 pl-lg-3">
-								<h5 class="h6 text-capitalize fwEbold text-white mb-4 mb-lg-6">Usefull Links</h5>
+								<h5 class="h6 text-capitalize fwEbold text-white mb-4 mb-lg-6">Useful Links</h5>
 								<!-- fLink -->
 								<ul class="fLink list-unstyled text-capitalize">
-									<li><a href="homepage.html">home</a></li>
-									<li><a href="service-page.html">Service &amp; Pricing</a></li>
-									<li><a href="Unlimited Wash Club.html">Unlimited Wash Club</a></li>
-									<li><a href="About us.html">About</a></li>
-									<li><a href="location.html">locations</a></li>
-									<li><a href="contact 1.html">contact us</a></li>
+									<li><a href="index.php">Home</a></li>
+									<li><a href="express.php">Services &amp; Pricing</a></li>
+									<li><a href="unlimited-wash.php">Unlimited Wash Club</a></li>
+									<li><a href="about-us.php">About</a></li>
+									<li><a href="gallery.php">Gallery</a></li>
+									<li><a href="blog.php">Blog</a></li>
 								</ul>
 							</div>
 						</div>
@@ -401,7 +508,7 @@
 											</div>
 											<div class="wrap">
 												<span class="d-block mb-lg-1">Call us now:</span>
-												<a href="tel:18001234567" class="tell">1-800-123-4567</a>
+												<a href="tel:2059879308" class="tell">205-987-9308</a>
 											</div>
 										</li>
 										<li class="d-flex mb-6">
@@ -409,8 +516,8 @@
 												<img src="images/ico24.svg" alt="images description" width="35" height="39" class="img-fluid">
 											</div>
 											<ul class="list-unstyled mb-0">
-												<li class="mb-lg-1">5604 Willow Crossing Ct,</li>
-												<li>Clifton, VA, 20124</li>
+												<li class="mb-lg-1">Riverchase Car Wash,</li>
+												<li>Hoover, AL 35216</li>
 											</ul>
 										</li>
 										<li class="d-flex mb-6">
@@ -419,8 +526,8 @@
 											</div>
 											<!-- ftimeList -->
 											<ul class="list-unstyled mb-0 ftimeList">
-												<li><time datetime="2019-07-15">Mon-Sat: 7:00am-6:00pm</time></li>
-												<li><time datetime="2019-07-15">Sun: 8:00am-5:00pm</time></li>
+												<li><time datetime="2019-07-15">Mon-Sat: 9:00am-7:00pm</time></li>
+												<li><time datetime="2019-07-15">Sun: 9:00am-7:00pm</time></li>
 											</ul>
 										</li>
 									</ul>
@@ -432,14 +539,14 @@
 			</aside>
 		</main>
 		<!-- footer -->
-		<footer id="footer" class="py-5 py-md-6">
+		<!-- <footer id="footer" class="py-5 py-md-6">
 			<div class="container">
 				<div class="row align-items-center">
 					<div class="col-12 col-md-6">
 						<span class="txt d-block text-center text-md-left mb-4 mb-md-0">©2018 <a href="homepage.html">Carwash template</a> . All Rights Reserved</span>
 					</div>
 					<div class="col-12 col-md-6">
-						<!-- footerLink -->
+						
 						<ul class="list-unstyled footerLink d-flex mb-0 justify-content-center justify-content-md-end flex-wrap">
 							<li><a href="#">Site Map</a></li>
 							<li><a href="#">Terms and Conditions</a></li>
@@ -448,9 +555,9 @@
 					</div>
 				</div>
 			</div>
-		</footer>
+		</footer> -->
 		<!-- modal -->
-		<div class="modal pr-0 fade" id="exampleModal">
+		<div class="modal fade" id="exampleModal">
 			<!-- appointPopup -->
 			<div class="modal-dialog appointPopup" role="document">
 				<div class="modal-content">

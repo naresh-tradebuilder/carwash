@@ -30,7 +30,7 @@
 						<div class="col-6 col-md-4">
 							<!-- Logo -->
 							<div class="logo position-relative">
-								<a href="index.html">
+								<a href="index.php">
 									<img src="images/logo.png" alt="Auto &amp; Detailing template" class="img-fluid">
 								</a>
 							</div>
@@ -73,7 +73,7 @@
 					<nav class="navbar navHolder d-flex navbar-expand-lg navbar-dark p-0 mt-lg-0 mr-lg-0 position-static">
 						<!-- MenuLogo -->
 						<div class="menuLogo">
-							<a href="index.html">
+							<a href="index.php">
 								<img src="images/logo2.png" alt="Auto &amp; Detailing template" class="img-fluid logoWhite">
 								<img src="images/logo.png" alt="Auto &amp; Detailing template" class="img-fluid logoBlack">
 							</a>
@@ -85,35 +85,35 @@
 						<div class="collapse navbar-collapse navCollapse text-uppercase fwBlack" id="navbarNav">
 							<ul class="navbar-nav">
 								<li class="nav-item">
-									<a class="nav-link" href="index.html" id="navbarDropdown">Home </a>
+									<a class="nav-link" href="index.php" id="navbarDropdown">Home </a>
 									
 								</li>
-								<li class="nav-item dropdown active">
+								<li class="nav-item dropdown">
 									<a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Services &amp; Pricing</a>
 									<div class="dropdown-menu border-0 rounded-0 text-capitalize" aria-labelledby="navbarDropdown">
 										<ul class="list-unstyled dropMenu">
-											<li><a class="dropdown-item" href="express.html">EXTERIOR WASH</a></li>
-											<li><a class="dropdown-item" href="full-service.html">FULL-SERVICE WASH (IN & OUT)</a></li>
-											<li><a class="dropdown-item" href="hand-wash.html">HAND WASH</a></li>
-											<li><a class="dropdown-item" href="wax-service.html">WAX SERVICES</a></li>
-											<li><a class="dropdown-item" href="details.html">DETAILS</a></li>
-											<li><a class="dropdown-item" href="add-ons.html">ADD-ONS</a></li>
+											<li><a class="dropdown-item" href="express.php">EXTERIOR WASH</a></li>
+											<li><a class="dropdown-item" href="full-service.php">FULL-SERVICE WASH (IN & OUT)</a></li>
+											<li><a class="dropdown-php" href="hand-wash.php">HAND WASH</a></li>
+											<li><a class="dropdown-item" href="wax-service.php">WAX SERVICES</a></li>
+											<li><a class="dropdown-item" href="details.php">DETAILS</a></li>
+											<li><a class="dropdown-item" href="add-ons.php">ADD-ONS</a></li>
 										</ul>
 									</div>
 								</li>
 								<li class="nav-item">
-									<a class="nav-link" href="about-us.html">About<span class="sr-only">(current)</span></a>
+									<a class="nav-link" href="about-us.php">About<span class="sr-only">(current)</span></a>
 								</li>
-								<li class="nav-item"><a class="nav-link" href="Unlimited Wash Club.html">Unlimited Wash Club</a></li>
-								<li class="nav-item"><a class="nav-link" href="testimonial.html">testimonials</a></li>
+								<li class="nav-item"><a class="nav-link" href="unlimited-wash.php">Unlimited Wash Club</a></li>
+								<li class="nav-item active"><a class="nav-link" href="testimonial.php">testimonials</a></li>
 								<li class="nav-item">
-									<a class="nav-link" href="gallery.html">Gallery</a>
+									<a class="nav-link" href="gallery.php">Gallery</a>
 									
 								</li>								
-								<li class="nav-item dropdown">
-									<a class="nav-link" href="blog.html">Blog</a>									
+								<li class="nav-item">
+									<a class="nav-link" href="blog.php">Blog</a>									
 								</li>
-								<li class="nav-item dropdown">
+								<li class="nav-item">
 									<a class="nav-link" href="contact.php">CONTACT</a>
 									
 								</li>
@@ -134,6 +134,16 @@
 		</header>
 		<!-- main -->
 		<main>
+			<!-- bannerInr -->
+			<!-- <section class="bannerInr d-flex bgCover overlayII position-relative" style="background-image: url(http://placehold.it/1920x160);">
+				<div class="alignCenter d-flex w-100 align-items-center">
+					<div class="container pt-6 pb-7">
+						<header class="caption text-center position-relative position-relative">
+							<h1 class="fwEbold headingI text-white text-capitalize mb-0">testimonials</h1>
+						</header>
+					</div>
+				</div>
+			</section> -->
 			<!-- brdCrmbHolder -->
 			<nav class="brdCrmbHolder py-3">
 				<div class="container">
@@ -142,141 +152,157 @@
 							<!-- breadcrumb -->
 							<nav aria-label="breadcrumb" class="d-flex justify-content-start">
 								<ol class="breadcrumb mb-0 p-0 text-capitalize">
-									<li class="breadcrumb-item"><a href="homepage.html">Home</a></li>
-									<li class="breadcrumb-item"><a href="service-page.html">Services &amp; Pricing</a></li>
-									<li class="breadcrumb-item active" aria-current="page">express exterior</li>
+									<li class="breadcrumb-item"><a href="index.php">Home</a></li>
+									<li class="breadcrumb-item"><a href="#">testimonials us</a></li>
+									
 								</ol>
 							</nav>
 						</div>
 					</div>
 				</div>
 			</nav>
-			<!-- serviceDetail -->
-			<section class="serviceDetail pt-10 pt-sm-12 pt-md-14 pt-lg-16 pb-8 pb-sm-10 pb-lg-16 pb-xl-20">
+			<!-- testimonialSec -->
+			<section class="testimonialSec py-12 py-sm-15 pb-lg-20">
 				<div class="container">
-					<div class="row flex-row-reverse">
-						<!-- servicetxtDetail -->
-						<div class="col-12 col-lg-9 servicetxtDetail mb-8 mb-sm-10 mb-lg-0">
-							<header class="header text-center font-weight-light mb-3 px-md-10 px-xl-10 px-xxl-15">
-								<h1 class="headingI text-capitalize mb-3 fwEbold">WAX SERVICES</h1>
-								<p>(No appointments needed! Extra charges may apply for SUVs, Vans and trucks.)</p>
+					<div class="row">
+						<div class="col-12 col-lg-10 offset-lg-1 col-xl-8 offset-xl-2">
+							<header class="header ltrSpce text-center mb-8 mb-md-10 mb-lg-12 mb-xl-15">
+								<h2 class="fwEbold mb-2">What’s Our Clients Say</h2>
+								<p>Here is what’s our some of lovely customers have to saying about us</p>
 							</header>
-							<!-- imgWRoundWrap -->
-							<div class="imgWRoundWrap mb-5 mb-md-7 mt-n1">
-								<span class="icoRound rounded-circle mx-auto d-flex align-items-center justify-content-center overflow-hidden position-relative">
-									<span class="icon-ico37 ico"></span>
-								</span>
-								<div class="imgHolder rounded w-100">
-									<img src="./images/Wax-services.jpg" class="img-fluid" alt="image description">
-								</div>
-							</div>
-							<div class="txtHolder text-center text-sm-left mb-7 mb-md-10 mb-xl-11">
-								<p>An Express Wash is a more traditional car wash. Our tunnels are equipped with the industry’s latest car wash equipment and use only the finest soaps and wax available. Each car is washed with soft-cloth, neo-glide foam or lammswool cloth.</p>
-								<p>Our Full Service Washes will either require the customer to stay in his or her vehicle or exit the vehicle while it is run through the tunnel. This process takes 15 minutes or less.</p>
-								<a href="#" class="fwSemibold">See Your Location for Service!</a>
-							</div>
-							<div class="row mb-1">
-								<div class="col-12">
-									<!-- planFullList -->
-									<article class="planFullList mb-5 mb-sm-8 overflow-hidden rounded">
-										<!-- priceHeader -->
-										<header class="priceHeader px-3 text-capitalize">
-											<div class="row align-items-center">
-												<div class="col-8">
-													<h2 class="ml-md-3 mb-0 headingIX">Hand Wax & Shine</h2>
-												</div>
-												<div class="col-4 text-right">
-													<h3 class="headingIX fwSemibold mb-0">$20.00</h3>
-												</div>
-											</div>
-										</header>
-										
-									</article>
-								</div>
-								<div class="col-12">
-									<!-- planFullList -->
-									<article class="planFullList active mb-5 mb-sm-8 shadow-lg overflow-hidden rounded">
-										<!-- priceHeader -->
-										<header class="bg-primary priceHeader text-white px-3 text-capitalize">
-											<div class="row align-items-center">
-												<div class="col-8">
-													<h2 class="ml-md-3 mb-0 headingIX text-white mb-0">LA.1 Wax and Shine</h2>
-												</div>
-												<div class="col-4 text-right">
-													<h3 class="headingIX fwSemibold mb-0 text-white">$50.00</h3>
-												</div>
-											</div>
-										</header>
-										
-									</article>
-								</div>
-								
-								<div class="col-12">
-									<!-- planFullList -->
-									<article class="planFullList mb-5 mb-sm-8 overflow-hidden rounded">
-										<!-- priceHeader -->
-										<header class="priceHeader px-3 text-capitalize">
-											<div class="row align-items-center">
-												<div class="col-8">
-													<h2 class="ml-md-3 mb-0 headingIX">LA.2 Polish and Wax</h2>
-												</div>
-												<div class="col-4 text-right">
-													<h3 class="headingIX fwSemibold mb-0">$100.00 </h3>
-												</div>
-											</div>
-										</header>
-										
-									</article>
-								</div>
-								
-								
-							</div>
-							<div class="row">
-								<div class="col-12 col-xl-10 offset-xl-1 text-center">
-									<p>*All services and prices vary by location and vehicle condition.  Quote provided prior to services.  Call for more details or to schedule an appointment.</p>
-									<div class="btnHolder mt-lg-5 mt-xl-8">
-										<a href="contact.php" class="btn btnTheme fwEbold text-uppercase"><span class="far fa-calendar-check mr-1 mr-lg-2"></span>Schedule Appiontment</a>
-									</div>
-								</div>
-							</div>
 						</div>
-						<div class="col-12 col-lg-3">
-							<!-- widget -->
-							<div class="widget mb-6">
-								<!-- widgetTypeList -->
-								<ul class="list-unstyled widgetTypeList mb-0 text-capitalize alt">
-									<li class="active"><a class="d-block" href="wax-service.html">	WAX SERVICES<span class="ml-2 text-white ico fas fa-caret-right"></span></a></li>
-									<li><a class="d-block" href="express.html">Exterior wash<span class="ml-2 text-white ico fas fa-caret-right"></span></a></li>
-										<li><a class="d-block" href="hand-wash.html">HAND WASH<span class="ml-2 text-white ico fas fa-caret-right"></span></a></li>
-									<li><a class="d-block" href="add-ons.html">ADD-ONS<span class="ml-2 text-white ico fas fa-caret-right"></span></a></li>
-									<li><a class="d-block" href="details.html">DETAILS<span class="ml-1 text-white ico fas fa-caret-right"></span></a></li>
-									<li><a class="d-block" href="full-service.html">FULL-SERVICE WASH<span class="ml-1 text-white ico fas fa-caret-right"></span></a></li>
-								</ul>
-							</div>
-							<!-- widget -->
-					
-							<!-- widget -->
-							<section class="widget mb-6">
-								<!-- contctWidgetForm -->
-								<form class="contctWidgetForm bg-primary pt-4 px-4 rounded pb-6">
-									<h3 class="mb-3 mb-xl-4 headingIX text-capitalize text-white">Contact Us</h3>
-									<input type="text" class="form-control rounded" placeholder="Your Name">
-									<input type="email" class="form-control rounded" placeholder="Email Address">
-									<textarea class="form-control" placeholder="Your Question..."></textarea>
-									<button type="submit" class="btnTheme text-uppercase d-block w-100 fwEbold rounded">send message</button>
-								</form>
-							</section>
-							<!-- widget -->
-							<section class="widget mb-6">
-								<!-- joinClubBlock -->
-								<div class="joinClubBlock text-center overflow-hidden pt-4 px-3 px-xl-5 pb-8">
-									<span class="icoHolder bg-white mx-auto rounded-circle d-flex justify-content-center align-items-center mb-3">
-										<span class="icn icon-ico29"></span>
-									</span>
-									<h4 class="headingIX text-capitalize fwSemibold mb-5">Join Our Unlimited Wash Club</h4>
-									<a href="contact.php" class="btn btn-outline-primary text-uppercase fwEbold w-100 rounded-0">become a member</a>
+					</div>
+					<div class="row justify-content-center">
+						<div class="col-12 col-sm-6 col-lg-4 d-flex">
+							<!-- csfHolder -->
+							<blockquote class="csfHolder overflow-hidden text-center pt-7 pt-md-10 pb-6 px-4 mb-4 mb-md-6 mb-xl-8">
+								<q class="d-block mb-3 mb-md-4 position-relative">I am beyond impressed at the service I received! They do such a great job here for a very reasonable price. My jeep always came out looking awesome and they do such a great job cleaning the interior. They are friendly they take care of your stuff. I've had a full detail done on my last car and I couldn't find dirt anywhere. The carpets were beige and filthy with stains but they made them look nice and clean again. If you love your ride as much as I do this is the place to take your baby to get fresh and clean.</q>
+								<div class="diff-text">
+								<cite class="customer text-center">
+									<strong class="author">Mary Ann - </strong>
+									<em>Customer</em>
+								</cite>
+								<span class="imgHolder mx-auto d-block mt-n1">
+									<img src="images/rating2.png" class="img-fluid" alt="rating">
+								</span>
 								</div>
-							</section>
+							</blockquote>
+						</div>
+						<div class="col-12 col-sm-6 col-lg-4 d-flex">
+							<!-- csfHolder -->
+							<blockquote class="csfHolder overflow-hidden text-center pt-7 pt-md-10 pb-6 px-4 mb-4 mb-md-6 mb-xl-8">
+								<q class="d-block mb-3 mb-md-4 position-relative">So I came back from a week long vacation to find out that I had left a back window down on my new car. In panic mode I came to Riverchase car wash and detail and told them what happened and they looked at the damage. The damage was not bad but still not good for a brand new car. Instead of charging me for a full interior detail and taking advantage of the situation by giving me more than I really needed. They gave me something that was cheaper and made my car like new again! Awesome customer service and very honest hard working people! Very happy with my visit!</q>
+								<div class="diff-text">
+								<cite class="customer text-center">
+									<strong class="author">Tiffany B. - </strong>
+									<em>Customer</em>
+								</cite>
+								<span class="imgHolder mx-auto d-block mt-n1">
+									<img src="images/rating2.png" class="img-fluid" alt="rating">
+								</span></div>
+							</blockquote>
+						</div>
+						<div class="col-12 col-sm-6 col-lg-4 d-flex">
+							<!-- csfHolder -->
+							<blockquote class="csfHolder overflow-hidden text-center pt-7 pt-md-10 pb-6 px-4 mb-4 mb-md-6 mb-xl-8">
+								<q class="d-block mb-3 mb-md-4 position-relative">Wonderful place with exceptional service. A full service establishment. Clean and comfortable waiting area. Extremely clean bathrooms.</q><div class="diff-text">
+								<cite class="customer text-center">
+									<strong class="author">Jeremy M.  - </strong>
+									<em>Customer</em>
+								</cite>
+								<span class="imgHolder mx-auto d-block mt-n1">
+									<img src="images/rating2.png" class="img-fluid" alt="rating">
+								</span></div>
+							</blockquote>
+						</div>
+						<div class="col-12 col-sm-6 col-lg-4 d-flex">
+							<!-- csfHolder -->
+							<blockquote class="csfHolder overflow-hidden text-center pt-7 pt-md-10 pb-6 px-4 mb-4 mb-md-6 mb-xl-8">
+								<q class="d-block mb-3 mb-md-4 position-relative">Alright, this was my first visit. To start, it was very clean and organized inside. Prices seem average for this area and I paid $2 extra to get my trunk done. A bit crowded and got out within 35 mins. Overall, good experience for me and my dog. Oh, they are pet-friendly which is a big plus for me</q>
+								<div class="diff-text">
+								<cite class="customer text-center">
+									<strong class="author">Vivian S. - </strong>
+									<em>Customer</em>
+								</cite>
+								<span class="imgHolder mx-auto d-block mt-n1">
+									<img src="images/rating2.png" class="img-fluid" alt="rating">
+								</span></div>
+							</blockquote>
+						</div>
+						<div class="col-12 col-sm-6 col-lg-4 d-flex">
+							<!-- csfHolder -->
+							<blockquote class="csfHolder overflow-hidden text-center pt-7 pt-md-10 pb-6 px-4 mb-4 mb-md-6 mb-xl-8">
+								<q class="d-block mb-3 mb-md-4 position-relative">This is the third time I am getting my car wash done at Riverchase Car Wash & Detail. Great people, customer friendly, I will continue to use them. Great Job Guys Keep it up.</q>
+								<div class="diff-text">
+								<cite class="customer text-center">
+									<strong class="author">Jessie P. - </strong>
+									<em>Customer</em>
+								</cite>
+								<span class="imgHolder mx-auto d-block mt-n1">
+									<img src="images/rating2.png" class="img-fluid" alt="rating">
+								</span></div>
+							</blockquote>
+						</div>
+						<div class="col-12 col-sm-6 col-lg-4 d-flex">
+							<!-- csfHolder -->
+							<blockquote class="csfHolder overflow-hidden text-center pt-7 pt-md-10 pb-6 px-4 mb-4 mb-md-6 mb-xl-8">
+								<q class="d-block mb-3 mb-md-4 position-relative">This place does much better job compare to the other place down the street. They even found $300 CASH in between my seats and BROUGHT IT TO ME! Honest staff. 10 stars!!! </q>
+								<div class="diff-text">
+								<cite class="customer text-center">
+									<strong class="author">Kristina T. - </strong>
+									<em>Customer</em>
+								</cite>
+								<span class="imgHolder mx-auto d-block mt-n1">
+									<img src="images/rating2.png" class="img-fluid" alt="rating">
+								</span></div>
+							</blockquote>
+						</div>
+						<div class="col-12 col-sm-6 col-lg-4 d-flex">
+							<!-- csfHolder -->
+							<blockquote class="csfHolder overflow-hidden text-center pt-7 pt-md-10 pb-6 px-4 mb-4 mb-md-6 mb-xl-8">
+								<q class="d-block mb-3 mb-md-4 position-relative">I recently visited this location for a coating. It was their new wax coating and it was on sale! My car looks UNBELIEVABLE. It's never been this shiny before since I bought it brand new. Very satisfied with my detail. Thank you!!!</q>
+								<div class="diff-text">
+								<cite class="customer text-center">
+									<strong class="author">FC  - </strong>
+									<em>Customer</em>
+								</cite>
+								<span class="imgHolder mx-auto d-block mt-n1">
+									<img src="images/rating2.png" class="img-fluid" alt="rating">
+								</span></div>
+							</blockquote>
+						</div>
+						<div class="col-12 col-sm-6 col-lg-4 d-flex">
+							<!-- csfHolder -->
+							<blockquote class="csfHolder overflow-hidden text-center pt-7 pt-md-10 pb-6 px-4 mb-4 mb-md-6 mb-xl-8">
+								<q class="d-block mb-3 mb-md-4 position-relative">Excellent experience! Great customer service at the front desk. Clean cars how i like. Free wi-fi, Free coffee and Free drinks inside. Highly recommend! Thanks guys! </q>
+								<div class="diff-text">
+								<cite class="customer text-center">
+									<strong class="author">Sara L - </strong>
+									<em>Customer</em>
+								</cite>
+								<span class="imgHolder mx-auto d-block mt-n1">
+									<img src="images/rating2.png" class="img-fluid" alt="rating">
+								</span></div>
+							</blockquote>
+						</div>
+						<div class="col-12 col-sm-6 col-lg-4 d-flex">
+							<!-- csfHolder -->
+							<blockquote class="csfHolder overflow-hidden text-center pt-7 pt-md-10 pb-6 px-4 mb-4 mb-md-6 mb-xl-8">
+								<q class="d-block mb-3 mb-md-4 position-relative">Decided to check this place out after another car wash right down the road always made my wheels dirtier than when I entered. This place is the best in the area. It's also stupid cheap, $10 for exterior wash and wheels detailed. They also have a large waiting room with TV and wifi and the staff is generally friendly</q>
+								<div class="diff-text">
+								<cite class="customer text-center">
+									<strong class="author">HM - </strong>
+									<em>Customer</em>
+								</cite>
+								<span class="imgHolder mx-auto d-block mt-n1">
+									<img src="images/rating2.png" class="img-fluid" alt="rating">
+								</span></div>
+							</blockquote>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-12 text-center">
+							<a href="#" class="btn btnTheme text-uppercase btn-lg fwEbold">more testimonials</a>
 						</div>
 					</div>
 				</div>
@@ -303,12 +329,12 @@
 								<h5 class="h6 text-capitalize fwEbold text-white mb-4 mb-lg-6">Our Services</h5>
 								<!-- fLink -->
 								<ul class="fLink list-unstyled text-capitalize">
-									<li><a href="express.html">EXTERIOR WASH</a></li>
-									<li><a href="full-service.html">FULL-SERVICE WASH</a></li>
-									<li><a href="hand-wash.html">HAND WASH</a></li>
-									<li><a href="wax-service.html">WAX SERVICES</a></li>
-									<li><a href="details.html">DETAILS</a></li>
-									<li><a href="add-ons.html">ADD-ONS</a></li>
+									<li><a href="express.php">EXTERIOR WASH</a></li>
+									<li><a href="full-service.php">FULL-SERVICE WASH</a></li>
+									<li><a href="hand-wash.php">HAND WASH</a></li>
+									<li><a href="wax-service.php">WAX SERVICES</a></li>
+									<li><a href="details.php">DETAILS</a></li>
+									<li><a href="add-ons.php">ADD-ONS</a></li>
 								</ul>
 							</div>
 						</div>
@@ -317,12 +343,12 @@
 								<h5 class="h6 text-capitalize fwEbold text-white mb-4 mb-lg-6">Useful Links</h5>
 								<!-- fLink -->
 								<ul class="fLink list-unstyled text-capitalize">
-									<li><a href="index.html">Home</a></li>
-									<li><a href="express.html">Services &amp; Pricing</a></li>
-									<li><a href="Unlimited Wash Club.html">Unlimited Wash Club</a></li>
-									<li><a href="about-us.html">About</a></li>
-									<li><a href="gallery.html">Gallery</a></li>
-									<li><a href="blog.html">Blog</a></li>
+									<li><a href="index.php">Home</a></li>
+									<li><a href="express.php">Services &amp; Pricing</a></li>
+									<li><a href="unlimited-wash.php">Unlimited Wash Club</a></li>
+									<li><a href="about-us.php">About</a></li>
+									<li><a href="gallery.php">Gallery</a></li>
+									<li><a href="blog.php">Blog</a></li>
 								</ul>
 							</div>
 						</div>
@@ -386,7 +412,7 @@
 					</div>
 				</div>
 			</div>
-		</footer> -->	
+		</footer> -->
 		<!-- modal -->
 		<div class="modal pr-0 fade" id="exampleModal">
 			<!-- appointPopup -->

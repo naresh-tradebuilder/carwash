@@ -30,7 +30,7 @@
 						<div class="col-6 col-md-4">
 							<!-- Logo -->
 							<div class="logo position-relative">
-								<a href="index.html">
+								<a href="index.php">
 									<img src="images/logo.png" alt="Auto &amp; Detailing template" class="img-fluid">
 								</a>
 							</div>
@@ -73,7 +73,7 @@
 					<nav class="navbar navHolder d-flex navbar-expand-lg navbar-dark p-0 mt-lg-0 mr-lg-0 position-static">
 						<!-- MenuLogo -->
 						<div class="menuLogo">
-							<a href="index.html">
+							<a href="index.php">
 								<img src="images/logo2.png" alt="Auto &amp; Detailing template" class="img-fluid logoWhite">
 								<img src="images/logo.png" alt="Auto &amp; Detailing template" class="img-fluid logoBlack">
 							</a>
@@ -85,33 +85,33 @@
 						<div class="collapse navbar-collapse navCollapse text-uppercase fwBlack" id="navbarNav">
 							<ul class="navbar-nav">
 								<li class="nav-item">
-									<a class="nav-link" href="index.html" id="navbarDropdown">Home </a>
+									<a class="nav-link" href="index.php" id="navbarDropdown">Home </a>
 									
 								</li>
-								<li class="nav-item dropdown">
+								<li class="nav-item dropdown active">
 									<a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Services &amp; Pricing</a>
 									<div class="dropdown-menu border-0 rounded-0 text-capitalize" aria-labelledby="navbarDropdown">
 										<ul class="list-unstyled dropMenu">
-											<li><a class="dropdown-item" href="express.html">EXTERIOR WASH</a></li>
-											<li><a class="dropdown-item" href="full-service.html">FULL-SERVICE WASH (IN & OUT)</a></li>
-											<li><a class="dropdown-item" href="hand-wash.html">HAND WASH</a></li>
-											<li><a class="dropdown-item" href="wax-service.html">WAX SERVICES</a></li>
-											<li><a class="dropdown-item" href="details.html">DETAILS</a></li>
-											<li><a class="dropdown-item" href="add-ons.html">ADD-ONS</a></li>
+											<li><a class="dropdown-item" href="express.php">EXTERIOR WASH</a></li>
+											<li><a class="dropdown-item" href="full-service.php">FULL-SERVICE WASH (IN & OUT)</a></li>
+											<li><a class="dropdown-item" href="hand-wash.php">HAND WASH</a></li>
+											<li><a class="dropdown-item" href="wax-service.php">WAX SERVICES</a></li>
+											<li><a class="dropdown-item" href="details.php">DETAILS</a></li>
+											<li><a class="dropdown-item" href="add-ons.php">ADD-ONS</a></li>
 										</ul>
 									</div>
 								</li>
-								<li class="nav-item active">
-									<a class="nav-link" href="about-us.html">About<span class="sr-only">(current)</span></a>
-								</li>
-								<li class="nav-item"><a class="nav-link" href="Unlimited Wash Club.html">Unlimited Wash Club</a></li>
-								<li class="nav-item"><a class="nav-link" href="testimonial.html">testimonials</a></li>
 								<li class="nav-item">
-									<a class="nav-link" href="gallery.html">Gallery</a>
+									<a class="nav-link" href="about-us.php">About<span class="sr-only">(current)</span></a>
+								</li>
+								<li class="nav-item"><a class="nav-link" href="unlimited-wash.php">Unlimited Wash Club</a></li>
+								<li class="nav-item"><a class="nav-link" href="testimonial.php">testimonials</a></li>
+								<li class="nav-item">
+									<a class="nav-link" href="gallery.php">Gallery</a>
 									
 								</li>								
 								<li class="nav-item">
-									<a class="nav-link" href="blog.html">Blog</a>									
+									<a class="nav-link" href="blog.php">Blog</a>									
 								</li>
 								<li class="nav-item">
 									<a class="nav-link" href="contact.php">CONTACT</a>
@@ -134,17 +134,6 @@
 		</header>
 		<!-- main -->
 		<main>
-			<!-- bannerInr -->
-		<!-- 	<aside class="bannerInr d-flex bgCover overlayII position-relative" style="background-image: url('./images/testimonials-background.jpg');">
-				<div class="alignCenter d-flex w-100 align-items-center">
-					<div class="container pt-6 pb-7">
-						
-						<header class="caption text-center position-relative position-relative">
-							<h1 class="fwEbold headingI text-white text-capitalize mb-0">about</h1>
-						</header>
-					</div>
-				</div>
-			</aside> -->
 			<!-- brdCrmbHolder -->
 			<nav class="brdCrmbHolder py-3">
 				<div class="container">
@@ -153,229 +142,254 @@
 							<!-- breadcrumb -->
 							<nav aria-label="breadcrumb" class="d-flex justify-content-start">
 								<ol class="breadcrumb mb-0 p-0 text-capitalize">
-									<li class="breadcrumb-item"><a href="homepage.html">Home</a></li>
-									<li class="breadcrumb-item active" aria-current="page">about us</li>
+									<li class="breadcrumb-item"><a href="index.php">Home</a></li>
+									<li class="breadcrumb-item"><a href="#">Services &amp; Pricing</a></li>
+									<li class="breadcrumb-item active" aria-current="page">Details</li>
 								</ol>
 							</nav>
 						</div>
 					</div>
 				</div>
 			</nav>
-			<!-- abtWSec -->
-			<section class="abtWSec pt-10 pt-sm-12 pt-md-16 pb-6 pb-sm-4 pb-md-8 pb-lg-0 pb-xl-6">
+			<!-- serviceDetail -->
+			<section class="serviceDetail pt-10 pt-sm-12 pt-md-14 pt-lg-16 pb-8 pb-sm-10 pb-lg-16 pb-xl-20">
 				<div class="container">
-					<div class="row">
-						<div class="col-12 col-lg-10 offset-lg-1 col-xl-8 offset-xl-2">
-							<!-- header -->
-							<header class="header text-center ltrSpce mb-8 mb-sm-10 mb-xl-15">
-								<h2 class="headingI fwEbold mb-2 mb-md-3 mb-lg-4">About Our Company</h2>
-								<p>Always want a clean car? For one low monthly price you can wash your car everyday and as many times as you like!</p>
+					<div class="row flex-row-reverse">
+						<!-- servicetxtDetail -->
+						<div class="col-12 col-lg-9 servicetxtDetail mb-8 mb-sm-10 mb-lg-0">
+							<header class="header text-center font-weight-light mb-3 px-md-10 px-xl-10 px-xxl-15">
+								<h1 class="headingI text-capitalize mb-3 fwEbold">Details</h1>
+								<p>Our 3-minute wash and blow dry will have your vehicles sparkling clean in no time flat. Any faster, and you'd get a ticket.</p>
 							</header>
-						</div>
-					</div>
-					<div class="row mb-2 mb-sm-4 mb-lg-10 mb-xl-18">
-						<div class="col-12 col-lg-6">
-							<span class="d-block imgHolder mb-4 mb-sm-6 mb-lg-0 rounded overflow-hidden w-100">
-								<img src="./images/about.png" alt="image description" class="img-fluid">
-							</span>
-						</div>
-						<div class="col-12 col-lg-6">
-							<div class="txtHolder mt-lg-n1 pl-lg-5">
-								<h2 class="fwSemibold fIStyle headingVIII mb-3 mb-sm-4">RIVERCHASE CAR WASH & DETAIL HAS BEEN IN THE HOOVER COMMUNITY FOR 27 YEARS! </h2><br>
-								<p><strong>Our Specialties:</strong></p>
-								<ul>
-									<li>Full service car wash (in & out)</li>
-									<li> Interior Detail</li>
-									<li>Hand Wash and Wax</li>
-									<li>Headlight Restoration</li>
-									<li>Ozone and Disinfectant Services</li>
-									<li>Scratch and Windshield Repair</li>
-								</ul>
+							<!-- imgWRoundWrap -->
+							<div class="imgWRoundWrap mb-5 mb-md-7 mt-n1">
+								<span class="icoRound rounded-circle mx-auto d-flex align-items-center justify-content-center overflow-hidden position-relative">
+									<span class="icon-ico37 ico"></span>
+								</span>
+								<div class="imgHolder rounded w-100">
+									<img src="./images/car-detail.jpg" class="img-fluid" alt="image description">
+								</div>
+							</div>
+							<div class="txtHolder text-center text-sm-left mb-7 mb-md-10 mb-xl-11">
+								<p>An Express Wash is a more traditional car wash. Our tunnels are equipped with the industry’s latest car wash equipment and use only the finest soaps and wax available. Each car is washed with soft-cloth, neo-glide foam or lammswool cloth.</p>
+								<p>Our Full Service Washes will either require the customer to stay in his or her vehicle or exit the vehicle while it is run through the tunnel. This process takes 15 minutes or less.</p>
+								<a href="#" class="fwSemibold">See Your Location for Service!</a>
+							</div>
+							<div class="row mb-1">
+								<div class="col-12">
+									<!-- planFullList -->
+									<article class="planFullList mb-5 mb-sm-8 overflow-hidden rounded">
+										<!-- priceHeader -->
+										<header class="priceHeader px-3 text-capitalize">
+											<div class="row align-items-center">
+												<div class="col-8">
+													<h2 class="ml-md-3 mb-0 headingIX">COMPLETE INTERIOR DETAIL</h2>
+												</div>
+												<div class="col-4 text-right">
+													<h3 class="headingIX fwSemibold mb-0">$140.00</h3>
+												</div>
+											</div>
+										</header>
+										<div class="txtWrap px-3 px-md-6 pt-4 pb-7">
+											<strong class="d-block font-weight-normal mb-4">This wash package includes:</strong>
+											<!-- checkList -->
+											<ul class="list-unstyled checkList text-secondary text-left mb-4">
+												<li class="position-relative"><span class="ico position-absolute icon-check"></span>Full interior deep clean</li>
+												<li class="position-relative"><span class="ico position-absolute icon-check"></span>carpet/seats/mats cleaning (For leather seats, deep clean and lotion) + WORKS full-service car wash</li>												
+											</ul>
+											
+										</div>
+									</article>
+								</div>
+								<div class="col-12">
+									<!-- planFullList -->
+									<article class="planFullList active mb-5 mb-sm-8 shadow-lg overflow-hidden rounded">
+										<!-- priceHeader -->
+										<header class="bg-primary priceHeader text-white px-3 text-capitalize">
+											<div class="row align-items-center">
+												<div class="col-8">
+													<h2 class="ml-md-3 mb-0 headingIX text-white mb-0">Express Interior Detail - Sonic Clean</h2>
+												</div>
+												<div class="col-4 text-right">
+													<h3 class="headingIX fwSemibold mb-0 text-white">$60	.00</h3>
+												</div>
+											</div>
+										</header>
+										<div class="txtWrap px-3 px-md-6 pt-4 pb-7">
+											<strong class="d-block font-weight-normal mb-4">This wash package includes:</strong>
+											<!-- checkList -->
+											<ul class="list-unstyled checkList text-secondary text-left mb-4">
+												<li class="position-relative"><span class="ico position-absolute icon-check"></span>Interior deep clean</li>
+												<li class="position-relative"><span class="ico position-absolute icon-check"></span>carpet/seats/mats cleaning (For leather seats, deep clean and lotion), + Works (Full Service Car Wash)</li>	
+											</ul>
+											
+										</div>
+									</article>
+								</div>
+								
+								<div class="col-12">
+									<!-- planFullList -->
+									<article class="planFullList mb-5 mb-sm-8 overflow-hidden rounded">
+										<!-- priceHeader -->
+										<header class="priceHeader px-3 text-capitalize">
+											<div class="row align-items-center">
+												<div class="col-8">
+													<h2 class="ml-md-3 mb-0 headingIX">HEADLIGHT RESTORATION</h2>
+												</div>
+												<div class="col-4 text-right">
+													<h3 class="headingIX fwSemibold mb-0">$35.00</h3>
+												</div>
+											</div>
+										</header>
+										<div class="txtWrap px-3 px-md-6 pt-4 pb-7">
+											<strong class="d-block font-weight-normal mb-4">This wash package includes:</strong>
+											<!-- checkList -->
+											<ul class="list-unstyled checkList text-secondary text-left mb-4">
+												<li class="position-relative"><span class="ico position-absolute icon-check"></span>polish</li>
+												<li class="position-relative"><span class="ico position-absolute icon-check"></span>clean</li>
+												<li class="position-relative"><span class="ico position-absolute icon-check"></span>clear protection</li>						
+											</ul>											
+										</div>
+									</article>
+								</div>
+								<div class="col-12">
+									<!-- planFullList -->
+									<article class="planFullList mb-5 mb-sm-8 overflow-hidden rounded">
+										<!-- priceHeader -->
+										<header class="priceHeader px-3 text-capitalize">
+											<div class="row align-items-center">
+												<div class="col-8">
+													<h2 class="ml-md-3 mb-0 headingIX">OZONE Service (Disinfectant Service)</h2>
+												</div>
+												<div class="col-4 text-right">
+													<h3 class="headingIX fwSemibold mb-0">$30.00</h3>
+												</div>
+											</div>
+										</header>										
+									</article>
+								</div>
+									<div class="col-12">
+									<!-- planFullList -->
+									<article class="planFullList mb-5 mb-sm-8 overflow-hidden rounded">
+										<!-- priceHeader -->
+										<header class="priceHeader px-3 text-capitalize">
+											<div class="row align-items-center">
+												<div class="col-8">
+													<h2 class="ml-md-3 mb-0 headingIX">CLOTH SEATS SHAMPOO</h2>
+												</div>
+												<div class="col-4 text-right">
+													<h3 class="headingIX fwSemibold mb-0">$65.00</h3>
+												</div>
+											</div>
+										</header>										
+									</article>
+								</div>
+									<div class="col-12">
+									<!-- planFullList -->
+									<article class="planFullList mb-5 mb-sm-8 overflow-hidden rounded">
+										<!-- priceHeader -->
+										<header class="priceHeader px-3 text-capitalize">
+											<div class="row align-items-center">
+												<div class="col-8">
+													<h2 class="ml-md-3 mb-0 headingIX">CARPET & MATS SHAMPOO</h2>
+												</div>
+												<div class="col-4 text-right">
+													<h3 class="headingIX fwSemibold mb-0">$55.00</h3>
+												</div>
+											</div>
+										</header>										
+									</article>
+								</div>
+									<div class="col-12">
+									<!-- planFullList -->
+									<article class="planFullList mb-5 mb-sm-8 overflow-hidden rounded">
+										<!-- priceHeader -->
+										<header class="priceHeader px-3 text-capitalize">
+											<div class="row align-items-center">
+												<div class="col-8">
+													<h2 class="ml-md-3 mb-0 headingIX">LEATHER SEATS DEEP CLEAN & LOTION</h2>
+												</div>
+												<div class="col-4 text-right">
+													<h3 class="headingIX fwSemibold mb-0">$45.00</h3>
+												</div>
+											</div>
+										</header>										
+									</article>
+								</div>
+									<div class="col-12">
+									<!-- planFullList -->
+									<article class="planFullList mb-5 mb-sm-8 overflow-hidden rounded">
+										<!-- priceHeader -->
+										<header class="priceHeader px-3 text-capitalize">
+											<div class="row align-items-center">
+												<div class="col-8">
+													<h2 class="ml-md-3 mb-0 headingIX">WINDSHIELD REPAIR</h2>
+												</div>
+												<div class="col-4 text-right">
+													<h3 class="headingIX fwSemibold mb-0">$19.00</h3>
+												</div>
+											</div>
+										</header>
+											<div class="txtWrap px-3 px-md-6 pt-4 pb-7">
+											<strong class="d-block font-weight-normal mb-4">This wash package includes:</strong>
+											<!-- checkList -->
+											<ul class="list-unstyled checkList text-secondary text-left mb-4">
+												<li class="position-relative"><span class="ico position-absolute icon-check"></span>rock chip repair</li>
+												
+											</ul>
+											
+										</div>										
+									</article>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-12 col-xl-10 offset-xl-1 text-center">
+									<p>*All services and prices vary by location and vehicle condition.  Quote provided prior to services.  Call for more details or to schedule an appointment.</p>
+									<div class="btnHolder mt-lg-5 mt-xl-8">
+										<a href="contact.php" class="btn btnTheme fwEbold text-uppercase"><span class="far fa-calendar-check mr-1 mr-lg-2"></span>Schedule Appiontment</a>
+									</div>
+								</div>
 							</div>
 						</div>
-					</div>
-					<div class="row">
-						<div class="col-12 col-lg-6">
-							<!-- abtBlockCheck -->
-							<article class="abtBlockCheck mb-4 mb-sm-6 mb-md-8">
-								<header class="header ltrSpce mb-5 mb-sm-6 mb-lg-9 text-center text-sm-left">
-									<span class="icn d-block mx-auto ml-sm-0">
-										<img src="images/ico49.svg" width="68" height="66" class="img-fluid" alt="image description">
+						<div class="col-12 col-lg-3">
+							<!-- widget -->
+							<div class="widget mb-6">
+								<!-- widgetTypeList -->
+								<ul class="list-unstyled widgetTypeList mb-0 text-capitalize alt">
+									<li class="active"><a class="d-block" href="details.php">	DETAILS<span class="ml-2 text-white ico fas fa-caret-right"></span></a></li>
+									<li><a class="d-block" href="express.php">Exterior wash<span class="ml-2 text-white ico fas fa-caret-right"></span></a></li>
+										<li><a class="d-block" href="hand-wash.php">HAND WASH<span class="ml-2 text-white ico fas fa-caret-right"></span></a></li>
+									<li><a class="d-block" href="wax-service.php">WAX SERVICES<span class="ml-2 text-white ico fas fa-caret-right"></span></a></li>
+									<li><a class="d-block" href="full-service.php">FULL-SERVICE WASH<span class="ml-1 text-white ico fas fa-caret-right"></span></a></li>
+									<li><a class="d-block" href="add-ons.php">ADD-ONS<span class="ml-1 text-white ico fas fa-caret-right"></span></a></li>
+								</ul>
+							</div>
+						
+							<section class="widget mb-6">
+								<!-- contctWidgetForm -->
+								<form class="contctWidgetForm bg-primary pt-4 px-4 rounded pb-6">
+									<h3 class="mb-3 mb-xl-4 headingIX text-capitalize text-white">Contact Us</h3>
+									<input type="text" class="form-control rounded" placeholder="Your Name">
+									<input type="email" class="form-control rounded" placeholder="Email Address">
+									<textarea class="form-control" placeholder="Your Question..."></textarea>
+									<button type="submit" class="btnTheme text-uppercase d-block w-100 fwEbold rounded">send message</button>
+								</form>
+							</section>
+							<!-- widget -->
+							<section class="widget mb-6">
+								<!-- joinClubBlock -->
+								<div class="joinClubBlock text-center overflow-hidden pt-4 px-3 px-xl-5 pb-8">
+									<span class="icoHolder bg-white mx-auto rounded-circle d-flex justify-content-center align-items-center mb-3">
+										<span class="icn icon-ico29"></span>
 									</span>
-									<h3 class="headingIV">Our Mission, Vision, Values.</h3>
-								</header>
-								<div class="row abtBlockColumn">
-									<div class="col-12 col-sm-5">
-										<span class="imgWrap d-block overflow-hidden rounded w-100 mb-4 mb-sm-0">
-											<img src="http://placehold.it/220x280" class="img-fluid" alt="image description">
-										</span>
-									</div>
-									<div class="col-12 col-sm-7">
-										<div class="txtWrap mt-sm-n1 pl-lg-2">
-											<span class="txt d-block mb-4 mb-sm-5">More like it was the first of its kind in the state, serving customers looking for a high quality car wash.</span>
-											<!-- checkList -->
-											<ul class="list-unstyled mb-0 checkList">
-												<li class="position-relative"><span class="ico position-absolute icon-check"></span>
-													<strong class="font-weight-normal">Safety:</strong> Use all senses and take action
-												</li>
-												<li class="position-relative"><span class="ico position-absolute icon-check"></span>
-													<strong class="font-weight-normal">Integrity:</strong> Stay honest; do what’s right
-												</li>
-												<li class="position-relative"><span class="ico position-absolute icon-check"></span>
-													<strong class="font-weight-normal">Fun:</strong> Connect, compete, and laugh
-												</li>
-												<li class="position-relative"><span class="ico position-absolute icon-check"></span>
-													<strong class="font-weight-normal">Teamwork:</strong> Help others before they ask
-												</li>
-											</ul>
-										</div>
-									</div>
+									<h4 class="headingIX text-capitalize fwSemibold mb-5">Join Our Unlimited Wash Club</h4>
+									<a href="contact.php" class="btn btn-outline-primary text-uppercase fwEbold w-100 rounded-0">become a member</a>
 								</div>
-							</article>
-						</div>
-						<div class="col-12 col-lg-6">
-							<!-- abtBlockCheck -->
-							<article class="abtBlockCheck mb-4 mb-sm-6 mb-md-8">
-								<header class="header ltrSpce mb-5 mb-sm-6 mb-lg-9 text-center text-sm-left">
-									<span class="icn d-block mx-auto ml-sm-0">
-										<img src="images/ico48.svg" width="68" height="66" class="img-fluid" alt="image description">
-									</span>
-									<h3 class="headingIV">Inspiring People to Shine</h3>
-								</header>
-								<div class="row abtBlockColumn">
-									<div class="col-12 col-sm-5">
-										<span class="imgWrap d-block overflow-hidden rounded w-100 mb-4 mb-sm-0">
-											<img src="http://placehold.it/220x280" class="img-fluid" alt="image description">
-										</span>
-									</div>
-									<div class="col-12 col-sm-7">
-										<div class="txtWrap mt-sm-n1 pl-lg-2">
-											<span class="txt d-block mb-4">Everyday we strive to create the best possible experience for both our new customers and our carwash members.  It’s not just part of our culture, it is our culture by listening to you.</span>
-											<strong class="d-block text-primary font-weight-normal headingXIII">Our Purpose</strong>
-											<p>Create smiles & lifetime customers.</p>
-											<strong class="d-block text-primary font-weight-normal headingXIII">Our Vision</strong>
-											<p>To be the Service Industry Leader.</p>
-										</div>
-									</div>
-								</div>
-							</article>
+							</section>
 						</div>
 					</div>
 				</div>
 			</section>
-			<!-- cntrHolder -->
-			<aside class="cntrHolder bgTheme pt-8 pt-md-10 pb-4">
-				<div class="container">
-					<!-- counterList -->
-					<ul class="list-unstyled d-flex flex-wrap counterList text-center  text-lg-left justify-content-center mb-0">
-						<li class="d-lg-flex flex-wrap justify-content-center align-items-center mb-7">
-							<span class="icoHolder flex-shrink-0 d-block d-lg-flex align-items-center justify-content-center mx-auto ml-lg-0 mr-lg-3 mb-2 mb-lg-0">
-								<img src="images/ico08.svg" alt="image description" class="img-fluid" width="61" height="61">
-							</span>
-							<div class="wrap font-weight-light">
-								<strong class="counter d-block font-weight-normal mb-1">8650+</strong>
-								<p>Total Cars washed</p>
-							</div>
-						</li>
-						<li class="d-lg-flex flex-wrap justify-content-center align-items-center mb-7">
-							<span class="icoHolder flex-shrink-0 d-block d-lg-flex align-items-cente justify-content-centerr mx-auto ml-lg-0 mr-lg-3 mb-2 mb-lg-0">
-								<img src="images/ico09.svg" alt="image description" class="img-fluid" width="61" height="61">
-							</span>
-							<div class="wrap font-weight-light">
-								<strong class="counter d-block font-weight-normal mb-1">5289+</strong>
-								<p>Cars Serviced</p>
-							</div>
-						</li>
-						<li class="d-lg-flex flex-wrap justify-content-center align-items-center mb-7">
-							<span class="icoHolder flex-shrink-0 d-block d-lg-flex align-items-center justify-content-center mx-auto ml-lg-0 mr-lg-3 mb-2 mb-lg-0">
-								<img src="images/ico10.svg" alt="image description" class="img-fluid" width="61" height="61">
-							</span>
-							<div class="wrap font-weight-light">
-								<strong class="counter d-block font-weight-normal mb-1">12000+</strong>
-								<p>Satisfied customers</p>
-							</div>
-						</li>
-					</ul>
-				</div>
-			</aside>
-			<!-- teamMemSec -->
-			<!-- <section class="teamMemSec pt-12 pt-lg-16 pb-6">
-				<div class="container">
-				<!-- 	<div class="row">
-						<div class="col-12 col-xl-10 offset-xl-1">
-							<header class="header text-center mb-8 mb-lg-10 mb-xxl-12">
-								<h2 class="headingII fwEbold mb-2 mb-sm-3 mb-xl-4">Team Members</h2>
-								<p>We know the most integral part of our success is our team members. Our goals of delivering exceptional customer service are high, and our standards are even higher.</p>
-							</header>
-						</div>
-					</div> 
-					<div class="row justify-content-center">
-						<div class="col-12 col-sm-6 col-lg-3">
-							
-							<article class="clientBlock overflow-hidden mb-4 mb-md-6 text-center text-sm-left">
-								<span class="d-block imgHolder mb-4 w-100 overflow-hidden rounded">
-									<img src="http://placehold.it/260x250" class="img-fluid" alt="image description">
-								</span>
-								<h3 class="headingVIII text-capitalize fwSemibold"><a href="#">Kyle McCormick</a></h3>
-								<h4 class="headingX mb-lg-4 mb-3 text-primary">Owner/Operator</h4>
-								<p>He is a respected leader in the car washing, auto repair and automotive maintenance. Now operating over 15 full-service carwashes in USA.</p>
-							</article>
-						</div>
-						<div class="col-12 col-sm-6 col-lg-3">
-							
-							<article class="clientBlock overflow-hidden mb-4 mb-md-6 text-center text-sm-left">
-								<span class="d-block imgHolder mb-4 w-100 overflow-hidden rounded">
-									<img src="http://placehold.it/260x250" class="img-fluid" alt="image description">
-								</span>
-								<h3 class="headingVIII text-capitalize fwSemibold"><a href="#">Michael Ostermeyer</a></h3>
-								<h4 class="headingX mb-lg-4 mb-3 text-primary">General Manager</h4>
-								<p>Returning Home after military service in 1946, A service station, with lube and wash bays. Alta wasted no time and that same day that business.</p>
-							</article>
-						</div>
-						<div class="col-12 col-sm-6 col-lg-3">
-							
-							<article class="clientBlock overflow-hidden mb-4 mb-md-6 text-center text-sm-left">
-								<span class="d-block imgHolder mb-4 w-100 overflow-hidden rounded">
-									<img src="http://placehold.it/260x250" class="img-fluid" alt="image description">
-								</span>
-								<h3 class="headingVIII text-capitalize fwSemibold"><a href="#">Matt Ballantine</a></h3>
-								<h4 class="headingX mb-lg-4 mb-3 text-primary">Wash Technician</h4>
-								<p>To deliver the best value for our boss, the customer, by delivering a clean, quick carwash every time with a smile that’s the main motive for our team.</p>
-							</article>
-						</div>
-						<div class="col-12 col-sm-6 col-lg-3">
-							
-							<article class="clientBlock overflow-hidden mb-4 mb-md-6 text-center text-sm-left">
-								<span class="d-block imgHolder mb-4 w-100 overflow-hidden rounded">
-									<img src="http://placehold.it/260x250" class="img-fluid" alt="image description">
-								</span>
-								<h3 class="headingVIII text-capitalize fwSemibold"><a href="#">Dave Henderson</a></h3>
-								<h4 class="headingX mb-lg-4 mb-3 text-primary">Service Engineer</h4>
-								<p>Over the years we have added many sites, and created new cutting edge technology to give a clean, fast, fun experience for you and your vehicle. </p>
-							</article>
-						</div>
-					</div>
-				</div>
-			</section> -->
-			<!-- hvVehicle --> <br><br>
-			<aside class="hvVehicle text-white text-center">
-				<div class="container">
-					<div class="bg-greyBlue py-9 px-4 px-xl-6">
-						<header class="header mb-6 mb-md-8">
-							<h2 class="h3 text-white mb-2">Do you need help with your vehicle?</h2>
-							<!-- <p>Send us a message, or phone 1-800 234 567 between 09:00 and 18:00 Monday to Saturday.</p> -->
-						</header>
-						<div class="wrap d-flex justify-content-center flex-wrap">
-							<div class="btnHolder mb-3">
-								<a href="contact.php" class="btn btnTheme text-uppercase fwEbold py-3 py-md-4" data-toggle="modal" data-target="#exampleModal">book appointment</a>
-							</div>
-							
-						</div>
-					</div>
-				</div>
-			</aside>
-			<!-- awrdSec -->
-			<br><br>
 			<!-- footerAside -->
 			<aside class="footerAside text-white bgCover" style="background-image: url('./images/footer-bg.jpg')">
 				<div class="container pt-10 pb-8 pt-lg-13 pb-lg-14">
@@ -398,12 +412,12 @@
 								<h5 class="h6 text-capitalize fwEbold text-white mb-4 mb-lg-6">Our Services</h5>
 								<!-- fLink -->
 								<ul class="fLink list-unstyled text-capitalize">
-									<li><a href="express.html">EXTERIOR WASH</a></li>
-									<li><a href="full-service.html">FULL-SERVICE WASH</a></li>
-									<li><a href="hand-wash.html">HAND WASH</a></li>
-									<li><a href="wax-service.html">WAX SERVICES</a></li>
-									<li><a href="details.html">DETAILS</a></li>
-									<li><a href="add-ons.html">ADD-ONS</a></li>
+									<li><a href="express.php">EXTERIOR WASH</a></li>
+									<li><a href="full-service.php">FULL-SERVICE WASH</a></li>
+									<li><a href="hand-wash.php">HAND WASH</a></li>
+									<li><a href="wax-service.php">WAX SERVICES</a></li>
+									<li><a href="details.php">DETAILS</a></li>
+									<li><a href="add-ons.php">ADD-ONS</a></li>
 								</ul>
 							</div>
 						</div>
@@ -412,12 +426,12 @@
 								<h5 class="h6 text-capitalize fwEbold text-white mb-4 mb-lg-6">Useful Links</h5>
 								<!-- fLink -->
 								<ul class="fLink list-unstyled text-capitalize">
-									<li><a href="index.html">Home</a></li>
-									<li><a href="express.html">Services &amp; Pricing</a></li>
-									<li><a href="Unlimited Wash Club.html">Unlimited Wash Club</a></li>
-									<li><a href="about-us.html">About</a></li>
-									<li><a href="gallery.html">Gallery</a></li>
-									<li><a href="blog.html">Blog</a></li>
+									<li><a href="index.php">Home</a></li>
+									<li><a href="express.php">Services &amp; Pricing</a></li>
+									<li><a href="unlimited-wash.php">Unlimited Wash Club</a></li>
+									<li><a href="about-us.php">About</a></li>
+									<li><a href="gallery.php">Gallery</a></li>
+									<li><a href="blog.php">Blog</a></li>
 								</ul>
 							</div>
 						</div>
@@ -465,7 +479,7 @@
 			</aside>
 		</main>
 		<!-- footer -->
-		<!-- <footer id="footer" class="py-5 py-md-6">
+	<!-- <footer id="footer" class="py-5 py-md-6">
 			<div class="container">
 				<div class="row align-items-center">
 					<div class="col-12 col-md-6">
@@ -483,7 +497,7 @@
 			</div>
 		</footer> -->
 		<!-- modal -->
-		<div class="modal fade" id="exampleModal">
+		<div class="modal pr-0 fade" id="exampleModal">
 			<!-- appointPopup -->
 			<div class="modal-dialog appointPopup" role="document">
 				<div class="modal-content">
@@ -731,10 +745,5 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 	<!-- include custom JavaScript -->
 	<script src="js/jqueryCustome.js"></script>
-	<script>
-		$('#CallBackPop').click( function() {
-		    $("#CallBackPopForm").toggleClass("show");
-		} );
-	</script>
 </body>
 </html>

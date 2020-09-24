@@ -30,7 +30,7 @@
 						<div class="col-6 col-md-4">
 							<!-- Logo -->
 							<div class="logo position-relative">
-								<a href="index.html">
+								<a href="index.php">
 									<img src="images/logo.png" alt="Auto &amp; Detailing template" class="img-fluid">
 								</a>
 							</div>
@@ -73,7 +73,7 @@
 					<nav class="navbar navHolder d-flex navbar-expand-lg navbar-dark p-0 mt-lg-0 mr-lg-0 position-static">
 						<!-- MenuLogo -->
 						<div class="menuLogo">
-							<a href="index.html">
+							<a href="index.php">
 								<img src="images/logo2.png" alt="Auto &amp; Detailing template" class="img-fluid logoWhite">
 								<img src="images/logo.png" alt="Auto &amp; Detailing template" class="img-fluid logoBlack">
 							</a>
@@ -85,35 +85,35 @@
 						<div class="collapse navbar-collapse navCollapse text-uppercase fwBlack" id="navbarNav">
 							<ul class="navbar-nav">
 								<li class="nav-item">
-									<a class="nav-link" href="index.html" id="navbarDropdown">Home </a>
+									<a class="nav-link" href="index.php" id="navbarDropdown">Home </a>
 									
 								</li>
 								<li class="nav-item dropdown">
 									<a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Services &amp; Pricing</a>
 									<div class="dropdown-menu border-0 rounded-0 text-capitalize" aria-labelledby="navbarDropdown">
 										<ul class="list-unstyled dropMenu">
-											<li><a class="dropdown-item" href="express.html">EXTERIOR WASH</a></li>
-											<li><a class="dropdown-item" href="full-service.html">FULL-SERVICE WASH (IN & OUT)</a></li>
-											<li><a class="dropdown-item" href="hand-wash.html">HAND WASH</a></li>
-											<li><a class="dropdown-item" href="wax-service.html">WAX SERVICES</a></li>
-											<li><a class="dropdown-item" href="details.html">DETAILS</a></li>
-											<li><a class="dropdown-item" href="add-ons.html">ADD-ONS</a></li>
+											<li><a class="dropdown-item" href="express.php">EXTERIOR WASH</a></li>
+											<li><a class="dropdown-item" href="full-service.php">FULL-SERVICE WASH (IN & OUT)</a></li>
+											<li><a class="dropdown-item" href="hand-wash.php">HAND WASH</a></li>
+											<li><a class="dropdown-item" href="wax-service.php">WAX SERVICES</a></li>
+											<li><a class="dropdown-item" href="details.php">DETAILS</a></li>
+											<li><a class="dropdown-item" href="add-ons.php">ADD-ONS</a></li>
 										</ul>
 									</div>
 								</li>
 								<li class="nav-item">
-									<a class="nav-link" href="about-us.html">About<span class="sr-only">(current)</span></a>
+									<a class="nav-link" href="about-us.php">About<span class="sr-only">(current)</span></a>
 								</li>
-								<li class="nav-item"><a class="nav-link" href="Unlimited Wash Club.html">Unlimited Wash Club</a></li>
-								<li class="nav-item"><a class="nav-link" href="testimonial.html">testimonials</a></li>
-								<li class="nav-item">
-									<a class="nav-link" href="gallery.html">Gallery</a>
+								<li class="nav-item"><a class="nav-link" href="unlimited-wash.php">Unlimited Wash Club</a></li>
+								<li class="nav-item"><a class="nav-link" href="testimonial.php">testimonials</a></li>
+								<li class="nav-item active">
+									<a class="nav-link" href="gallery.php">Gallery</a>
 									
 								</li>								
-								<li class="nav-item active">
-									<a class="nav-link" href="blog.html">Blog</a>									
+								<li class="nav-item">
+									<a class="nav-link" href="blog.php">Blog</a>									
 								</li>
-								<li class="nav-item dropdown">
+								<li class="nav-item">
 									<a class="nav-link" href="contact.php">CONTACT</a>
 									
 								</li>
@@ -132,7 +132,8 @@
 				</div>
 			</div>
 		</header>
-		<main> 
+		<!-- main -->
+		<main>
 			<!-- brdCrmbHolder -->
 			<nav class="brdCrmbHolder py-3">
 				<div class="container">
@@ -141,312 +142,152 @@
 							<!-- breadcrumb -->
 							<nav aria-label="breadcrumb" class="d-flex justify-content-start">
 								<ol class="breadcrumb mb-0 p-0 text-capitalize">
-									<li class="breadcrumb-item"><a href="homepage.html">Home</a></li>
-									<li class="breadcrumb-item"><a href="#">News</a></li>
-									<li class="breadcrumb-item"><a href="#">Classic Post</a></li>
-									<li class="breadcrumb-item active" aria-current="page">Left Sidebar</li>
+									<li class="breadcrumb-item"><a href="index.php">Home</a></li>
+									<li class="breadcrumb-item active"><a href="#">Gallery</a></li>
+									
 								</ol>
 							</nav>
 						</div>
 					</div>
 				</div>
 			</nav>
-			<!-- blgStndrd -->
-			<section class="blgStndrd pt-10 pt-sm-12 pt-lg-15 pt-xl-16 pb-4 pb-sm-7 pb-lg-18 pb-xl-20">
+			<!-- gallerySec -->
+			<section class="gallerySec pt-10 pt-sm-12 pt-lg-15 pb-12 pb-sm-14 pb-lg-17 pb-xl-20">
 				<div class="container">
 					<div class="row">
-						<div class="col-12 col-xl-10 offset-xl-1 ltrSpce">
-							<header class="header text-center mb-6 mb-sm-8 mb-md-10 mb-xl-15 px-lg-6">
-								<h1 class="fwEbold headingI text-capitalize mb-3 mb-md-4">Blog Classic Post</h1>
+						<div class="col-12 col-lg-10 offset-lg-1 col-xl-8 offset-xl-2">
+							<header class="header ltrSpce text-center mb-6 mb-lg-8 mb-xl-11">
+								<h1 class="h2 fwEbold text-capitalize mb-2">Gallery Classic</h1>
 								<p>This is dummy content of product sub title. you can change anything. </p>
 							</header>
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-12 col-lg-9">
-							<!-- blgWrap -->
-							<article class="blgWrap mb-9 mb-sm-12 mb-lg-16 mb-xl-20">
-							<span class="imgHolder rounded overflow-hidden w-100">
-									<img src="./images/blog.jpg" class="img-fluid" alt="image description">
-								</span>
-								<h2 class="headingII mb-2">Preparing Your Car For The Winter Holidays</h2>
-								<ul class="list-unstyled postBlogList d-flex flex-wrap">
-									<li>
-										<time datetime="2018-08-22">
-											<i class="clrTheme far fa-clock icn"></i>
-										</time>
-										August 22, 2018
-									</li>
-									<li>
-										<span class="far fa-user icn"></span>
-										by <a href="#">Sweden Amith</a>
-									</li>
-									<li>
-										<span class="far fa-comment icn"></span>
-										3 Comments
-									</li>
-								</ul>
-								<p>Monocle ipsum dolor sit amet iconic Nordic craftsmanship, soft power the highest quality Toto efficient Zürich. Asia-Pacific Zürich the best quality of life Melbourne Shinkansen vibrant, St Moritz signature. K-pop pintxos Swiss, essential airport flat white elegant bulletin charming Gaggenau first-class lovely perfect hub Flat white Ettinger business class St Moritz boutique Gaggenau. Asia-Pacific Melbourne international wardrobe Helsinki you get a nice breeze...</p>
-								<a href="#" class="btn btn-primary py-3 py-sm-4 text-uppercase fwEbold">Continue Reading</a>
-							</article>
-							<!-- blgWrap -->
-							<article class="blgWrap mb-9 mb-sm-12 mb-lg-16 mb-xl-20">
-								<!-- ImgBlogSlider -->
-								<div class="ImgBlogSlider mb-5 mb-xl-7">
-									<div>
-										<span class="imgHolder rounded overflow-hidden w-100">
-									<img src="./images/blog.jpg" class="img-fluid" alt="image description">
-								</span>
-									</div>
-									<div>
-											<span class="imgHolder rounded overflow-hidden w-100">
-									<img src="./images/blog.jpg" class="img-fluid" alt="image description">
-								</span>
-									</div>
-									<div>
-										<span class="imgHolder rounded overflow-hidden w-100">
-									<img src="./images/blog.jpg" class="img-fluid" alt="image description">
-								</span>
-									</div>
-								</div>
-								<h2 class="headingII mb-2">The Importance of Washing Under a Vehicle</h2>
-								<!-- postBlogList -->
-								<ul class="list-unstyled postBlogList d-flex flex-wrap">
-									<li>
-										<time datetime="2018-08-22">
-											<i class="clrTheme far fa-clock icn"></i>
-										</time>
-										August 22, 2018
-									</li>
-									<li>
-										<span class="far fa-user icn"></span>
-										by <a href="#">Sweden Amith</a>
-									</li>
-									<li>
-										<span class="far fa-comment icn"></span>
-										3 Comments
-									</li>
-								</ul>
-								<p>One of the most common additions people make to their cars in order to keep the heat out is a windshield visor. Cars become warm in the summer because direct sunlight enters in through the windows. This is why we park in the shade whenever we can. Since the windshield is the largest window in the car, blocking the sun from coming in would make a huge difference. Windshield visors and sunshades are fairly inexpensive and easy to use they certainly help...</p>
-								<a href="#" class="btn btn-primary py-4 text-uppercase fwEbold">Continue Reading</a>
-							</article>
-							<!-- blgWrap -->
-							<article class="blgWrap mb-9 mb-sm-12 mb-lg-16 mb-xl-20">
-								<!-- tubeBlogWrap -->
-							<span class="imgHolder rounded overflow-hidden w-100">
-									<img src="./images/blog.jpg" class="img-fluid" alt="image description">
-								</span>
-								<h2 class="headingII mb-2">Tough Stains in Your Car’s Interior (and what to do about them)</h2>
-								<!-- postBlogList -->
-								<ul class="list-unstyled postBlogList d-flex flex-wrap">
-									<li>
-										<time datetime="2018-08-22">
-											<i class="clrTheme far fa-clock icn"></i>
-										</time>
-										August 22, 2018
-									</li>
-									<li>
-										<span class="far fa-user icn"></span>
-										by <a href="#">Sweden Amith</a>
-									</li>
-									<li>
-										<span class="far fa-comment icn"></span>
-										3 Comments
-									</li>
-								</ul>
-								<p>Customers also require a safe experience, especially with around-the-clock hours. A well-lit facility is crucial to delivering a safe carwash experience, and lights should be replaced at regular intervals. As more organizations switch to long-life LED bulbs, the need for bulb replacement has lessened, though this does not mean your signage should be ignored. Making sure signs are clean and in good repair is a necessity, as clear signage also contributes to a safe and inviting atmosphere...</p>
-								<a href="#" class="btn btn-primary py-4 text-uppercase fwEbold">Continue Reading</a>
-							</article>
-							<!-- blgWrap -->
-							<article class="blgWrap mb-9 mb-sm-12 mb-lg-16 mb-xl-20">
-								<span class="imgHolder rounded overflow-hidden w-100">
-									<img src="./images/blog.jpg" class="img-fluid" alt="image description">
-								</span>
-								<h2 class="headingII mb-2">Winter Maintenance Tips to Avoid Engine Repairs</h2>
-								<!-- postBlogList -->
-								<ul class="list-unstyled postBlogList d-flex flex-wrap">
-									<li>
-										<time datetime="2018-08-22">
-											<i class="clrTheme far fa-clock icn"></i>
-										</time>
-										August 22, 2018
-									</li>
-									<li>
-										<span class="far fa-user icn"></span>
-										by <a href="#">Sweden Amith</a>
-									</li>
-									<li>
-										<span class="far fa-comment icn"></span>
-										3 Comments
-									</li>
-								</ul>
-								<p>While the quality and effectiveness of your carwash will result in clean cars and happy customers, this alone will not attract new customers to your business. Through a mix of tactics, you can help make sure your business stays top-of-mind with existing customers as well as reaches potential new customers. Effective customer retention and marketing initiatives don’t need to break the bank either. By leveraging the following tactics, you can break through the noise...</p>
-								<a href="#" class="btn btn-primary py-4 text-uppercase fwEbold">Continue Reading</a>
-							</article>
-							<!-- blgWrap -->
-							<article class="blgWrap mb-9 mb-sm-12 mb-lg-16 mb-xl-20">
-								<span class="imgHolder rounded overflow-hidden w-100">
-									<img src="./images/blog.jpg" class="img-fluid" alt="image description">
-								</span>
-								<h3 class="headingII mb-2">Want to Make Shine Our Car? </h3>
-								<!-- postBlogList -->
-								<ul class="list-unstyled postBlogList d-flex flex-wrap">
-									<li>
-										<time datetime="2018-08-22">
-											<i class="clrTheme far fa-clock icn"></i>
-										</time>
-										August 22, 2018
-									</li>
-									<li>
-										<span class="far fa-user icn"></span>
-										by <a href="#">Sweden Amith</a>
-									</li>
-									<li>
-										<span class="far fa-comment icn"></span>
-										3 Comments
-									</li>
-								</ul>
-								<p>You will also qualify for a complimentary one-year subscription to Professional Carwashing & Detailing, and you can purchase the current survey results at 50 percent off (current retail value at $249.99).To show our appreciation, we will share a sampling of the new survey’s findings with you in a future issue. We would like to thank our readers for supporting our publication on multiple platforms, including print and digital, and for participating in this survey...</p>
-								<a href="#" class="btn btn-primary py-4 text-uppercase fwEbold">Continue Reading</a>
-							</article>
-							<!-- shopPagenation -->
-							<nav aria-label="Page navigation example" class="d-flex justify-content-center shopPagenation pt-6 font-weight-bold mb-10 mb-lg-0 mt-sm-n4 mt-md-n8">
-								<!-- pagination -->
-								<ul class="pagination mb-sm-0">
-									<li class="page-item"><a class="page-link d-flex justify-content-center align-items-center fas fa-caret-left" href="#"></a></li>
-									<li class="page-item"><a class="page-link active d-flex justify-content-center align-items-center" href="#">1</a></li>
-									<li class="page-item"><a class="page-link d-flex justify-content-center align-items-center" href="#">2</a></li>
-									<li class="page-item"><a class="page-link d-flex justify-content-center align-items-center fas fa-caret-right" href="#"></a></li>
-								</ul>
-							</nav>
+						<div class="col-12">
+							<!-- isoFiltersList -->
+							<ul class="list-unstyled d-flex justify-content-center isoFiltersList text-capitalize mb-8 flex-wrap">
+								<li class="active"><a class="position-relative" href="javascript:void(0);" data-filter="*">all</a></li>
+								<li class=""><a class="position-relative" href="javascript:void(0);" data-filter=".auto-detail">auto detail</a></li>
+								<li class=""><a class="position-relative" href="javascript:void(0);" data-filter=".exterior">Car Wash</a></li>								
+							</ul>
 						</div>
-						<div class="col-12 col-lg-3">
-							<!-- blgAside -->
-							<aside class="blgAside">
-								<!-- widget -->
-								<section class="widget mb-8 mb-lg-11">
-									<!-- searchWidForm -->
-									<form class="searchWidForm">
-										<h3 class="headingXI text-uppercase fwEbold">search here</h3>
-										<input type="text" class="form-control" placeholder="Search Here...">
-										<button type="submit" class="btn btn-primary text-uppercase fwEbold">Search</button>
-									</form>
-								</section>
-								<!-- widget -->
-								<section class="widget mb-8 mb-lg-11">
-									<h3 class="headingXI text-uppercase fwEbold">Recent Posts</h3>
-									<!-- recentWidPost -->
-									<ul class="list-unstyled recentWidPost">
-										<li>
-											<h3 class="headingX font-weight-normal mb-1"><a href="#">Winter Maintenance Tips to Avoid EngineRepairs</a></h3>
-											<!-- postTimeWrap -->
-											<div class="postTimeWrap">
-												<time datetime="2018-08-22">
-													<span class="clrTheme far fa-clock icn"></span>
-												</time>
-												August 22, 2018
-											</div>
-										</li>
-										<li>
-											<h3 class="headingX font-weight-normal mb-1"><a href="#">Preparing Your Car For The Winter Holidays</a></h3>
-											<!-- postTimeWrap -->
-											<div class="postTimeWrap">
-												<time datetime="2018-08-22">
-													<span class="clrTheme far fa-clock icn"></span>
-												</time>
-												August 22, 2018
-											</div>
-										</li>
-										<li>
-											<h3 class="headingX font-weight-normal mb-1"><a href="#">The Importance of Washing Under a Vehicle</a></h3>
-											<!-- postTimeWrap -->
-											<div class="postTimeWrap">
-												<time datetime="2018-08-22">
-													<span class="clrTheme far fa-clock icn"></span>
-												</time>
-												August 22, 2018
-											</div>
-										</li>
-									</ul>
-								</section>
-								<!-- widget -->
-								<section class="widget mb-8 mb-lg-11">
-									<h3 class="headingXI text-uppercase mb-4 mb-sm-5 fwEbold">Post Categories</h3>
-									<!-- postWidLink -->
-									<ul class="list-unstyled text-capitalize postWidLink">
-										<li>
-											<span class="clrTheme mr-1 ico fas fa-chevron-right"></span>
-											<a href="#">Car Wash (3)</a>
-										</li>
-										<li>
-											<span class="clrTheme mr-1 ico fas fa-chevron-right"></span>
-											<a href="#">Auto Detailing (1)</a>
-										</li>
-										<li>
-											<span class="clrTheme mr-1 ico fas fa-chevron-right"></span>
-											<a href="#">Oil Changing (2)</a>
-										</li>
-										<li>
-											<span class="clrTheme mr-1 ico fas fa-chevron-right"></span>
-											<a href="#">Maintenance (5)</a>
-										</li>
-										<li>
-											<span class="clrTheme mr-1 ico fas fa-chevron-right"></span>
-											<a href="#">Self-serve Washes (2)</a>
-										</li>
-										<li>
-											<span class="clrTheme mr-1 ico fas fa-chevron-right"></span>
-											<a href="#">General (1)</a>
-										</li>
-										<li>
-											<span class="clrTheme mr-1 ico fas fa-chevron-right"></span>
-											<a href="#">Uncatecorized (1)</a>
-										</li>
-									</ul> 
-								</section>
-								<!-- widget -->
-								<section class="widget mb-8 mb-lg-11">
-									<h3 class="headingXI text-uppercase mb-4 mb-sm-5 fwEbold">Popular Tags</h3>
-									<!-- postWidTags -->
-									<ul class="list-unstyled text-capitalize postWidTags d-flex flex-wrap">
-										<li><a href="#">shine</a></li>
-										<li><a href="#">washes</a></li>
-										<li><a href="#">tries</a></li>
-										<li><a href="#">wax polish</a></li>
-										<li><a href="#">triple form</a></li>
-										<li><a href="#">detailing</a></li>
-										<li><a href="#">lube/Oil</a></li>
-										<li><a href="#">dry</a></li>
-									</ul>
-								</section>
-								<!-- widget -->
-								<section class="widget mb-8 mb-lg-11">
-									<h3 class="headingXI text-uppercase fwEbold mb-4 mb-sm-5">Archives</h3>
-									<!-- postWidLink -->
-									<ul class="list-unstyled text-capitalize postWidLink">
-										<li>
-											<span class="clrTheme mr-1 ico fas fa-chevron-right"></span>
-											<a href="#">January 2019</a>
-										</li>
-										<li>
-											<span class="clrTheme mr-1 ico fas fa-chevron-right"></span>
-											<a href="#">December 2018</a>
-										</li>
-										<li>
-											<span class="clrTheme mr-1 ico fas fa-chevron-right"></span>
-											<a href="#">December 2018</a>
-										</li>
-										<li>
-											<span class="clrTheme mr-1 ico fas fa-chevron-right"></span>
-											<a href="#">October 2018</a>
-										</li>
-										<li>
-											<span class="clrTheme mr-1 ico fas fa-chevron-right"></span>
-											<a href="#">September 2018</a>
-										</li>
-									</ul>
-								</section>
-							</aside>
+					</div>
+					<!-- isoContentHolder -->
+					<div class="row isoContentHolder">
+						<div class="col-12 col-sm-6 col-lg-4 isoCol auto-detail repair" data-category="auto-detail repair">
+							<!-- glryImgBlock -->
+							<article class="glryImgBlock position-relative mb-6">
+								<span class="imgHolder">
+									<img src="./images/gallery1.png" class="img-fluid" alt="image description">
+								</span>
+								<div class="overlayTxt text-center position-absolute px-4 w-100">
+									<a href="#" class="ico mx-auto overflow-hidden rounded-circle fas fa-search"></a>
+									<h2 class="text-center text-white font-weight headingXI">Vacum Cleaning</h2>
+								</div>
+							</article>
+						</div>
+						<div class="col-12 col-sm-6 col-lg-4 isoCol auto-detail repair" data-category="auto-detail repair">
+							<!-- glryImgBlock -->
+							<article class="glryImgBlock position-relative mb-6">
+								<span class="imgHolder">
+									<img src="./images/gallery2.png" class="img-fluid" alt="image description">
+								</span>
+								<div class="overlayTxt text-center position-absolute px-4 w-100">
+									<a href="#" class="ico mx-auto overflow-hidden rounded-circle fas fa-search"></a>
+									<h2 class="text-center text-white font-weight headingXI">Vacum Cleaning</h2>
+								</div>
+							</article>
+						</div>
+						<div class="col-12 col-sm-6 col-lg-4 isoCol auto-detail exterior" data-category="auto-detail exterior">
+							<!-- glryImgBlock -->
+							<article class="glryImgBlock position-relative mb-6">
+								<span class="imgHolder">
+									<img src="./images/gallery3.png" class="img-fluid" alt="image description">
+								</span>
+								<div class="overlayTxt text-center position-absolute px-4 w-100">
+									<a href="#" class="ico mx-auto overflow-hidden rounded-circle fas fa-search"></a>
+									<h2 class="text-center text-white font-weight headingXI">Vacum Cleaning</h2>
+								</div>
+							</article>
+						</div>
+						<div class="col-12 col-sm-6 col-lg-4 isoCol auto-detail exterior" data-category="auto-detail exterior">
+							<!-- glryImgBlock -->
+							<article class="glryImgBlock position-relative mb-6">
+								<span class="imgHolder">
+									<img src="./images/gallery4.png" class="img-fluid" alt="image description">
+								</span>
+								<div class="overlayTxt text-center position-absolute px-4 w-100">
+									<a href="#" class="ico mx-auto overflow-hidden rounded-circle fas fa-search"></a>
+									<h2 class="text-center text-white font-weight headingXI">Vacum Cleaning</h2>
+								</div>
+							</article>
+						</div>
+						<div class="col-12 col-sm-6 col-lg-4 isoCol auto-detail oil" data-category="auto-detail oil">
+							<!-- glryImgBlock -->
+							<article class="glryImgBlock position-relative mb-6">
+								<span class="imgHolder">
+									<img src="./images/gallery5.png" class="img-fluid" alt="image description">
+								</span>
+								<div class="overlayTxt text-center position-absolute px-4 w-100">
+									<a href="#" class="ico mx-auto overflow-hidden rounded-circle fas fa-search"></a>
+									<h2 class="text-center text-white font-weight headingXI">Vacum Cleaning</h2>
+								</div>
+							</article>
+						</div>
+						<div class="col-12 col-sm-6 col-lg-4 isoCol auto-detail exterior interior" data-category="auto-detail exterior interior">
+							<!-- glryImgBlock -->
+							<article class="glryImgBlock position-relative mb-6">
+								<span class="imgHolder">
+									<img src="./images/gallery6.png" class="img-fluid" alt="image description">
+								</span>
+								<div class="overlayTxt text-center position-absolute px-4 w-100">
+									<a href="#" class="ico mx-auto overflow-hidden rounded-circle fas fa-search"></a>
+									<h2 class="text-center text-white font-weight headingXI">Vacum Cleaning</h2>
+								</div>
+							</article>
+						</div>
+						<div class="col-12 col-sm-6 col-lg-4 isoCol auto-detail exterior" data-category="auto-detail exterior">
+							<!-- glryImgBlock -->
+							<article class="glryImgBlock position-relative mb-6">
+								<span class="imgHolder">
+									<img src="./images/gallery7.png" class="img-fluid" alt="image description">
+								</span>
+								<div class="overlayTxt text-center position-absolute px-4 w-100">
+									<a href="#" class="ico mx-auto overflow-hidden rounded-circle fas fa-search"></a>
+									<h2 class="text-center text-white font-weight headingXI">Vacum Cleaning</h2>
+								</div>
+							</article>
+						</div>
+						<div class="col-12 col-sm-6 col-lg-4 isoCol auto-detail oil" data-category="auto-detail oil">
+							<!-- glryImgBlock -->
+							<article class="glryImgBlock position-relative mb-6">
+								<span class="imgHolder">
+									<img src="./images/gallery8.png" class="img-fluid" alt="image description">
+								</span>
+								<div class="overlayTxt text-center position-absolute px-4 w-100">
+									<a href="#" class="ico mx-auto overflow-hidden rounded-circle fas fa-search"></a>
+									<h2 class="text-center text-white font-weight headingXI">Vacum Cleaning</h2>
+								</div>
+							</article>
+						</div>
+						<div class="col-12 col-sm-6 col-lg-4 isoCol auto-detail exterior interior" data-category="auto-detail exterior interior">
+							<!-- glryImgBlock -->
+							<article class="glryImgBlock position-relative mb-6">
+								<span class="imgHolder">
+									<img src="./images/gallery9.png" class="img-fluid" alt="image description">
+								</span>
+								<div class="overlayTxt text-center position-absolute px-4 w-100">
+									<a href="#" class="ico mx-auto overflow-hidden rounded-circle fas fa-search"></a>
+									<h2 class="text-center text-white font-weight headingXI">Vacum Cleaning</h2>
+								</div>
+							</article>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-12">
+							<div class="btnHolder text-center mt-2 mt-sm-4 mt-xl-6">
+								<a href="#" class="btn btnTheme text-uppercase py-4 fwEbold">load more</a>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -458,7 +299,7 @@
 						<div class="col-12 col-sm-6 col-lg-3 d-md-flex mb-8 mb-sm-4 mb-lg-0">
 							<div class="txtHolder w-100">
 								<h5 class="h6 text-capitalize fwEbold text-white mb-4 mb-lg-6">about us</h5>
-								<p>Since opening DesignFalls Car Wash in 1998 serving customers looking for a high quality car wash a reasonable price, with friendly and professional staff</p>
+								<p>RIVERCHASE CAR WASH & DETAIL HAS BEEN IN THE HOOVER COMMUNITY FOR 27 YEARS!</p>
 								<!-- socialFNetwork -->
 								<ul class="socialFNetwork d-flex mb-0 list-unstyled justify-content-center justify-content-sm-start">
 									<li><a href="#" class="fab fa-facebook-square"></a></li>
@@ -473,12 +314,12 @@
 								<h5 class="h6 text-capitalize fwEbold text-white mb-4 mb-lg-6">Our Services</h5>
 								<!-- fLink -->
 								<ul class="fLink list-unstyled text-capitalize">
-									<li><a href="express.html">EXTERIOR WASH</a></li>
-									<li><a href="full-service.html">FULL-SERVICE WASH</a></li>
-									<li><a href="hand-wash.html">HAND WASH</a></li>
-									<li><a href="wax-service.html">WAX SERVICES</a></li>
-									<li><a href="details.html">DETAILS</a></li>
-									<li><a href="add-ons.html">ADD-ONS</a></li>
+									<li><a href="express.php">EXTERIOR WASH</a></li>
+									<li><a href="full-service.php">FULL-SERVICE WASH</a></li>
+									<li><a href="hand-wash.php">HAND WASH</a></li>
+									<li><a href="wax-service.php">WAX SERVICES</a></li>
+									<li><a href="details.php">DETAILS</a></li>
+									<li><a href="add-ons.php">ADD-ONS</a></li>
 								</ul>
 							</div>
 						</div>
@@ -487,12 +328,12 @@
 								<h5 class="h6 text-capitalize fwEbold text-white mb-4 mb-lg-6">Useful Links</h5>
 								<!-- fLink -->
 								<ul class="fLink list-unstyled text-capitalize">
-									<li><a href="index.html">Home</a></li>
-									<li><a href="express.html">Services &amp; Pricing</a></li>
-									<li><a href="Unlimited Wash Club.html">Unlimited Wash Club</a></li>
-									<li><a href="about-us.html">About</a></li>
-									<li><a href="gallery.html">Gallery</a></li>
-									<li><a href="blog.html">Blog</a></li>
+									<li><a href="index.php">Home</a></li>
+									<li><a href="express.php">Services &amp; Pricing</a></li>
+									<li><a href="unlimited-wash.php">Unlimited Wash Club</a></li>
+									<li><a href="about-us.php">About</a></li>
+									<li><a href="gallery.php">Gallery</a></li>
+									<li><a href="blog.php">Blog</a></li>
 								</ul>
 							</div>
 						</div>
@@ -558,7 +399,7 @@
 			</div>
 		</footer> -->
 		<!-- modal -->
-		<div class="modal fade" id="exampleModal">
+		<div class="modal pr-0 fade" id="exampleModal">
 			<!-- appointPopup -->
 			<div class="modal-dialog appointPopup" role="document">
 				<div class="modal-content">

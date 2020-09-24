@@ -30,7 +30,7 @@
 						<div class="col-6 col-md-4">
 							<!-- Logo -->
 							<div class="logo position-relative">
-								<a href="index.html">
+								<a href="index.php">
 									<img src="images/logo.png" alt="Auto &amp; Detailing template" class="img-fluid">
 								</a>
 							</div>
@@ -73,7 +73,7 @@
 					<nav class="navbar navHolder d-flex navbar-expand-lg navbar-dark p-0 mt-lg-0 mr-lg-0 position-static">
 						<!-- MenuLogo -->
 						<div class="menuLogo">
-							<a href="index.html">
+							<a href="index.php">
 								<img src="images/logo2.png" alt="Auto &amp; Detailing template" class="img-fluid logoWhite">
 								<img src="images/logo.png" alt="Auto &amp; Detailing template" class="img-fluid logoBlack">
 							</a>
@@ -85,33 +85,33 @@
 						<div class="collapse navbar-collapse navCollapse text-uppercase fwBlack" id="navbarNav">
 							<ul class="navbar-nav">
 								<li class="nav-item">
-									<a class="nav-link" href="index.html" id="navbarDropdown">Home </a>
+									<a class="nav-link" href="index.php" id="navbarDropdown">Home </a>
 									
 								</li>
-								<li class="nav-item dropdown">
+								<li class="nav-item dropdown active">
 									<a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Services &amp; Pricing</a>
 									<div class="dropdown-menu border-0 rounded-0 text-capitalize" aria-labelledby="navbarDropdown">
 										<ul class="list-unstyled dropMenu">
-											<li><a class="dropdown-item" href="express.html">EXTERIOR WASH</a></li>
-											<li><a class="dropdown-item" href="full-service.html">FULL-SERVICE WASH (IN & OUT)</a></li>
-											<li><a class="dropdown-item" href="hand-wash.html">HAND WASH</a></li>
-											<li><a class="dropdown-item" href="wax-service.html">WAX SERVICES</a></li>
-											<li><a class="dropdown-item" href="details.html">DETAILS</a></li>
-											<li><a class="dropdown-item" href="add-ons.html">ADD-ONS</a></li>
+											<li><a class="dropdown-item" href="express.php">EXTERIOR WASH</a></li>
+											<li><a class="dropdown-item" href="full-service.php">FULL-SERVICE WASH (IN & OUT)</a></li>
+											<li><a class="dropdown-item" href="hand-wash.php">HAND WASH</a></li>
+											<li><a class="dropdown-item" href="wax-service.php">WAX SERVICES</a></li>
+											<li><a class="dropdown-item" href="details.php">DETAILS</a></li>
+											<li><a class="dropdown-item" href="add-ons.php">ADD-ONS</a></li>
 										</ul>
 									</div>
 								</li>
 								<li class="nav-item">
-									<a class="nav-link" href="about-us.html">About<span class="sr-only">(current)</span></a>
+									<a class="nav-link" href="about-us.php">About<span class="sr-only">(current)</span></a>
 								</li>
-								<li class="nav-item active"><a class="nav-link" href="Unlimited Wash Club.html">Unlimited Wash Club</a></li>
-								<li class="nav-item"><a class="nav-link" href="testimonial.html">testimonials</a></li>
+								<li class="nav-item"><a class="nav-link" href="unlimited-wash.php">Unlimited Wash Club</a></li>
+								<li class="nav-item"><a class="nav-link" href="testimonial.php">testimonials</a></li>
 								<li class="nav-item">
-									<a class="nav-link" href="gallery.html">Gallery</a>
+									<a class="nav-link" href="gallery.php">Gallery</a>
 									
 								</li>								
 								<li class="nav-item">
-									<a class="nav-link" href="blog.html">Blog</a>									
+									<a class="nav-link" href="blog.php">Blog</a>									
 								</li>
 								<li class="nav-item">
 									<a class="nav-link" href="contact.php">CONTACT</a>
@@ -133,7 +133,7 @@
 			</div>
 		</header>
 		<!-- main -->
-		<main> 
+		<main>
 			<!-- brdCrmbHolder -->
 			<nav class="brdCrmbHolder py-3">
 				<div class="container">
@@ -142,334 +142,155 @@
 							<!-- breadcrumb -->
 							<nav aria-label="breadcrumb" class="d-flex justify-content-start">
 								<ol class="breadcrumb mb-0 p-0 text-capitalize">
-									<li class="breadcrumb-item"><a href="homepage.html">Home</a></li>
-									<li class="breadcrumb-item active" aria-current="page">unlimited wash club</li>
+									<li class="breadcrumb-item"><a href="index.php">Home</a></li>
+									<li class="breadcrumb-item"><a href="#">Services &amp; Pricing</a></li>
+									<li class="breadcrumb-item active" aria-current="page">Hand Wash</li>
 								</ol>
 							</nav>
 						</div>
 					</div>
 				</div>
 			</nav>
-			<!-- unLimitPlanSec -->
-			<section class="unLimitPlanSec py-10 py-sm-12 pb-lg-15 pt-lg-15 pb-xl-20">
+			<!-- serviceDetail -->
+			<section class="serviceDetail pt-10 pt-sm-12 pt-md-14 pt-lg-16 pb-8 pb-sm-10 pb-lg-16 pb-xl-20">
 				<div class="container">
-					<div class="row">
-						<div class="col-12 col-xl-10 offset-xl-1">
-							<header class="header ltrSpce text-center mb-10 mb-md-12 mb-lg-14 mb-xl-15">
-								<h1 class="h2 fwEbold mb-2">VIP UNLIMITED PASS </h1>
-								<p>Unlimited Washes is for you!  Wash whenever you want and enjoy the ease of auto monthly billing.  Best of all, there’s no contract so you can cancel any time at least 24 hours before your monthly billing date by contacting our Customer Support Team.</p>
+					<div class="row flex-row-reverse">
+						<!-- servicetxtDetail -->
+						<div class="col-12 col-lg-9 servicetxtDetail mb-8 mb-sm-10 mb-lg-0">
+							<header class="header text-center font-weight-light mb-3 px-md-10 px-xl-10 px-xxl-15">
+								<h1 class="headingI text-capitalize mb-3 fwEbold">HAND WASH</h1>
+								<p>(no appointments needed)</p>
 							</header>
-						</div>
-					</div>
-					<div class="row justify-content-center mb-sm-3">
-						<div class="col-12 col-sm-6 col-lg-4 d-flex">
-							<article class="planList text-center rounded position-relative w-100 mb-6 mb-8 mb-lg-11">
-								<header>
-									<h2 class="headingXI text-capitalize px-3 mb-0">Unlimited 'WORKS' Car Wash</h2>
-									<!-- priceHolder -->
-									<div class="priceHolder px-3 pt-4 pb-5">
-										<div class="wrap mb-1">
-											<sup class="font-weight-light">$</sup>
-											<span class="price font-weight-light">80</span>
-											<!-- <sup class="font-weight-light">10%</sup> -->
-										</div>
-										<span>Per month (Include tax)</span>
-									</div>
-								</header>
-								<!-- typeList -->
-								<ul class="list-unstyled pt-8 pb-23 typeList text-secondary mb-0 px-5 text-left">
-									<li>Quick Wash</li>
-									<li>Hand Dry</li>
-									<li>Vacuum</li>
-									<li>Dash Wipe and Clean</li>
-									<li>Wheels Clean</li>
-									<li>Tire Shine</li>
-									<li>Dash and Door Panel Dressing</li>
-									<li>Cup Holders Clean</li>
-									<li>Bugs Prep</li>
-									<li>Triple Conditioner</li>
-									<li>Hot Wax and Shine</li>
-								</ul>
-								<span class="btnHolder d-block position-absolute">
-									<a href="#" class="btn btn-outline-primary text-uppercase fwEbold py-3">Book now</a>
+							<!-- imgWRoundWrap -->
+							<div class="imgWRoundWrap mb-5 mb-md-7 mt-n1">
+								<span class="icoRound rounded-circle mx-auto d-flex align-items-center justify-content-center overflow-hidden position-relative">
+									<span class="icon-ico37 ico"></span>
 								</span>
-							</article>
-						</div>
-						<div class="col-12 col-sm-6 col-lg-4 d-flex">
-							<!-- planList -->
-							<article class="planList text-center rounded position-relative w-100 mb-6 mb-8 mb-lg-11">
-								<header>
-									<h2 class="headingXI text-capitalize  px-3 mb-0 ">Unlimited 'GOOD' Car Wash</h2>
-									<!-- priceHolder -->
-									<div class="priceHolder px-3 pt-4 pb-5">
-										<div class="wrap mb-1">
-											<sup class="font-weight-light">$</sup>
-											<span class="price font-weight-light">50</span>
-											<!-- <sup class="font-weight-light">99</sup> -->
+								<div class="imgHolder rounded w-100">
+									<img src="./images/hand-wash1.jpg" class="img-fluid" alt="image description">
+								</div>
+							</div>
+							<div class="txtHolder text-center text-sm-left mb-7 mb-md-10 mb-xl-11">
+								<p>An Express Wash is a more traditional car wash. Our tunnels are equipped with the industry’s latest car wash equipment and use only the finest soaps and wax available. Each car is washed with soft-cloth, neo-glide foam or lammswool cloth.</p>
+								<p>Our Full Service Washes will either require the customer to stay in his or her vehicle or exit the vehicle while it is run through the tunnel. This process takes 15 minutes or less.</p>
+								<a href="#" class="fwSemibold">See Your Location for Service!</a>
+							</div>
+							<div class="row mb-1">
+								<div class="col-12">
+									<!-- planFullList -->
+									<article class="planFullList mb-5 mb-sm-8 overflow-hidden rounded">
+										<!-- priceHeader -->
+										<header class="priceHeader px-3 text-capitalize">
+											<div class="row align-items-center">
+												<div class="col-8">
+													<h2 class="ml-md-3 mb-0 headingIX">EXTERIOR HAND WASH</h2>
+												</div>
+												<div class="col-4 text-right">
+													<h3 class="headingIX fwSemibold mb-0">$35.00</h3>
+												</div>
+											</div>
+										</header>
+										<div class="txtWrap px-3 px-md-6 pt-4 pb-7">
+											<strong class="d-block font-weight-normal mb-4">This wash package includes:</strong>
+											<!-- checkList -->
+											<ul class="list-unstyled checkList text-secondary text-left mb-4">
+												<li class="position-relative"><span class="ico position-absolute icon-check"></span>Hand wash</li>
+												<li class="position-relative"><span class="ico position-absolute icon-check"></span>hand dry</li>									
+												<li class="position-relative"><span class="ico position-absolute icon-check"></span>wheels clean</li>
+												<li class="position-relative"><span class="ico position-absolute icon-check"></span>tire shine (extra for trucks)</li>				
+											</ul>
+											
 										</div>
-										<span>Per month (Include tax)</span>
-									</div>
-								</header>
-								<!-- typeList -->
-								<ul class="list-unstyled pt-8 pb-23 typeList text-secondary mb-0 px-5 text-left">
-									<li>Vacuum</li>
-									<li>windows</li>
-									<li>hand dry</li>
-									<li>wheels clean</li>
-									<li>tire shine</li>
-									<li>sealer wax</li>
-									<li>hot wax & shine</li>
-								</ul>
-								<span class="btnHolder d-block position-absolute">
-									<a href="#" class="btn btn-outline-primary text-uppercase fwEbold py-3">Book now</a>
-								</span>
-							</article>
-						</div>
-						<div class="col-12 col-sm-6 col-lg-4 d-flex">
-							<!-- planList -->
-							<article class="planList text-center position-relative rounded w-100 mb-6 mb-8 mb-lg-11">
-								<header>
-									<h2 class="headingXI text-capitalize  px-3 mb-0 ">NEW! Unlimited 'Exterior - Wash & Go’ </h2>
-									<!-- priceHolder -->
-									<div class="priceHolder px-3 pt-4 pb-5">
-										<div class="wrap mb-1">
-											<sup class="font-weight-light">$</sup>
-											<span class="price font-weight-light">20</span>
-											<!-- <sup class="font-weight-light">99</sup> -->
+									</article>
+								</div>
+								<div class="col-12">
+									<!-- planFullList -->
+									<article class="planFullList active mb-5 mb-sm-8 shadow-lg overflow-hidden rounded">
+										<!-- priceHeader -->
+										<header class="bg-primary priceHeader text-white px-3 text-capitalize">
+											<div class="row align-items-center">
+												<div class="col-8">
+													<h2 class="ml-md-3 mb-0 headingIX text-white mb-0">IN & OUT HAND WASH</h2>
+												</div>
+												<div class="col-4 text-right">
+													<h3 class="headingIX fwSemibold mb-0 text-white">$55.00</h3>
+												</div>
+											</div>
+										</header>
+										<div class="txtWrap px-3 px-md-6 pt-4 pb-7">
+											<strong class="d-block font-weight-normal mb-4">This wash package includes:</strong>
+											<!-- checkList -->
+											<ul class="list-unstyled checkList text-secondary text-left mb-4">
+												<li class="position-relative"><span class="ico position-absolute icon-check"></span>hand wash</li>
+												<li class="position-relative"><span class="ico position-absolute icon-check"></span>hand dry</li>
+												<li class="position-relative"><span class="ico position-absolute icon-check"></span>vacuum</li>
+												<li class="position-relative"><span class="ico position-absolute icon-check"></span>windows</li>	
+												<li class="position-relative"><span class="ico position-absolute icon-check"></span>wheels clean</li>
+												<li class="position-relative"><span class="ico position-absolute icon-check"></span>tire shine</li>
+												<li class="position-relative"><span class="ico position-absolute icon-check"></span>door jambs wipe</li>
+												<li class="position-relative"><span class="ico position-absolute icon-check"></span>dashboard wipe</li>
+												<li class="position-relative"><span class="ico position-absolute icon-check"></span>cup holders clean</li>
+												<li class="position-relative"><span class="ico position-absolute icon-check"></span>door panel dressing & dashboard dressing/protection</li>
+												<li class="position-relative"><span class="ico position-absolute icon-check"></span>bugs prep</li>
+												<li class="position-relative"><span class="ico position-absolute icon-check"></span>triple conditioner & bumper dressing (extra for trucks)</li>
+												
+											</ul>
+											
 										</div>
-										<span>Per month (Include tax)</span>
-									</div>
-								</header>
-								<!-- typeList -->
-								<ul class="list-unstyled pt-8 pb-23 typeList text-secondary mb-0 px-5 text-left">
-									<li>Quick Wash</li>
-									<li>Hand Dry</li>									
-								</ul>
-								<span class="btnHolder d-block position-absolute">
-									<a href="#" class="btn btn-outline-primary text-uppercase fwEbold py-3">Book now</a>
-								</span>
-							</article>
-						</div>
-						
-					</div>
-					<div class="row">
-						<div class="col-12 col-lg-10 offset-lg-1 col-xl-8 offset-xl-2 text-center">							
-							<!-- managAccountWrap -->
-							<div class="managAccountWrap text-left d-flex align-items-center justify-content-center">
-								<div class="alignLeft position-relative">
-									<h3 class="mb-0">
-										<strong class="d-block text-left">Fleet WORKS Wash Program </strong> <br>
-										
-									</h3>									
+									</article>
 								</div>
 								
+							
+								
 							</div>
-							<span class="d-block text-left">Here at Riverchase Car Wash & Detail, we strive to help businesses of all sizes keep their vehicles looking great. We offer discounted rates for companies and dealerships in/near the Hoover area.</span><br>
-							<ul class="text-left">
-								<li>We offer WORKS WASH as part of our fleet program - perfect for businesses that need to keep their vehicles looking clean and shiny longer.</li>
-								<li>There is no contract to sign or long-term obligation</li>
-								<li>Our Fleet Program delivers great value via bulk discounted pricing</li>
-							</ul>
-							<span class="busnPlanTxt d-block text-left">Contact us today by filling out the form below or e-mail at riverchasecarwash786@gmail.com</span>
+							<div class="row">
+								<div class="col-12 col-xl-10 offset-xl-1 text-center">
+									<p>*All services and prices vary by location and vehicle condition.  Quote provided prior to services.  Call for more details or to schedule an appointment.</p>
+									<div class="btnHolder mt-lg-5 mt-xl-8">
+										<a href="contact.php" class="btn btnTheme fwEbold text-uppercase"><span class="far fa-calendar-check mr-1 mr-lg-2"></span>Schedule Appiontment</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-lg-3">
+							<!-- widget -->
+							<div class="widget mb-6">
+								<!-- widgetTypeList -->
+								<ul class="list-unstyled widgetTypeList mb-0 text-capitalize alt">
+									<li class="active"><a class="d-block" href="hand-wash.php">HAND WASH<span class="ml-2 text-white ico fas fa-caret-right"></span></a></li>
+									<li><a class="d-block" href="wax-service.php">WAX SERVICES<span class="ml-2 text-white ico fas fa-caret-right"></span></a></li>
+									<li><a class="d-block" href="details.php">DETAILS<span class="ml-1 text-white ico fas fa-caret-right"></span></a></li>
+									<li><a class="d-block" href="add-ons.php">ADD-ONS<span class="ml-1 text-white ico fas fa-caret-right"></span></a></li>
+									<li><a class="d-block" href="express.php">Exterior wash<span class="ml-1 text-white ico fas fa-caret-right"></span></a></li>
+									<li><a class="d-block" href="full-service.php">FULL-SERVICE WASH<span class="ml-1 text-white ico fas fa-caret-right"></span></a></li>
+								</ul>
+							</div>						
+							<!-- widget -->
+							<section class="widget mb-6">
+								<!-- contctWidgetForm -->
+								<form class="contctWidgetForm bg-primary pt-4 px-4 rounded pb-6">
+									<h3 class="mb-3 mb-xl-4 headingIX text-capitalize text-white">Contact Us</h3>
+									<input type="text" class="form-control rounded" placeholder="Your Name">
+									<input type="email" class="form-control rounded" placeholder="Email Address">
+									<textarea class="form-control" placeholder="Your Question..."></textarea>
+									<button type="submit" class="btnTheme text-uppercase d-block w-100 fwEbold rounded">send message</button>
+								</form>
+							</section>
+							<!-- widget -->
+							<section class="widget mb-6">
+								<!-- joinClubBlock -->
+								<div class="joinClubBlock text-center overflow-hidden pt-4 px-3 px-xl-5 pb-8">
+									<span class="icoHolder bg-white mx-auto rounded-circle d-flex justify-content-center align-items-center mb-3">
+										<span class="icn icon-ico29"></span>
+									</span>
+									<h4 class="headingIX text-capitalize fwSemibold mb-5">Join Our Unlimited Wash Club</h4>
+									<a href="contact.php" class="btn btn-outline-primary text-uppercase fwEbold w-100 rounded-0">become a member</a>
+								</div>
+							</section>
 						</div>
 					</div>
 				</div>
 			</section>
-			<aside class="bg-primary pt-8 pt-sm-12 pb-2 pb-sm-5">
-				<div class="container">
-					<div class="row hitListWrap justify-content-center">
-						<div class="col-12 col-sm-6 col-lg-4">
-							<!-- hiTList -->
-							<article class="hiTList text-center px-md-2 px-xl-4 overflow-hidden mb-3 mb-md-4">
-								<h3 class="headingVIII text-capitalize text-white mb-2">Become Member</h3>
-								<p>Purchase &amp; register plan (using any major credit card) at any participating location.</p>
-							</article>
-						</div>
-						<div class="col-12 col-sm-6 col-lg-4">
-							<!-- hiTList -->
-							<article class="hiTList text-center px-md-2 px-xl-4 overflow-hidden mb-3 mb-md-4">
-								<h3 class="headingVIII text-capitalize text-white mb-2">Easy in, Easy out</h3>
-								<p>We put a small RFID tag on your windshield and scan it every time you come.</p>
-							</article>
-						</div>
-						<div class="col-12 col-sm-6 col-lg-4">
-							<!-- hiTList -->
-							<article class="hiTList text-center px-md-2 px-xl-4 overflow-hidden mb-3 mb-md-4">
-								<h3 class="headingVIII text-capitalize text-white mb-2">Auto Renewal</h3>
-								<p>We’ll automatically bill the card on the same day you signed up each month until you cancel.</p>
-							</article>
-						</div>
-					</div>
-				</div>
-			</aside>
-			<!-- EachVisitSec -->
-			<aside class="EachVisitSec pt-10 pt-lg-12 pt-xl-14 pb-4 pb-lg-0 pb-xl-6">
-				<div class="container">
-					<div class="row">
-						<div class="col-12 col-xl-10 offset-xl-1">
-							<header class="header ltrSpce text-center mb-8 mb-md-10 mb-xl-12">
-								<h4 class="h3 fwEbold mb-2">Each Visits Include</h4>
-							</header>
-						</div>
-					</div>
-					<div class="row customColDivisionLgIV justify-content-center text-center">
-						<div class="col col-md-4 col-sm-6 col-12">
-							<!-- eachWList -->
-							<article class="eachWList mb-6">
-								<span class="d-block icoHolder rounded-circle mx-auto mb-3 mb-sm-4 d-flex justify-content-center align-items-center">
-									<img src="images/ico43.svg" alt="icon" class="img-fluid" width="67" height="59">
-								</span>
-								<h4 class="headingX">
-									<strong class="d-block font-weight-normal">Complete Interior</strong>
-									<strong class="d-block font-weight-normal">Vacuum</strong>
-								</h4>
-							</article>
-						</div>
-						<div class="col col-md-4 col-sm-6 col-12">
-							<!-- eachWList -->
-							<article class="eachWList mb-6">
-								<span class="d-block icoHolder rounded-circle mx-auto mb-3 mb-sm-4 d-flex justify-content-center align-items-center">
-									<img src="images/ico44.svg" alt="icon" class="img-fluid" width="67" height="59">
-								</span>
-								<h4 class="headingX">
-									<strong class="d-block font-weight-normal">Bumper to Bumper</strong>
-									<strong class="d-block font-weight-normal">Gentle Wash</strong>
-								</h4>
-							</article>
-						</div>
-						<div class="col col-md-4 col-sm-6 col-12">
-							<!-- eachWList -->
-							<article class="eachWList mb-6">
-								<span class="d-block icoHolder rounded-circle mx-auto mb-3 mb-sm-4 d-flex justify-content-center align-items-center">
-									<img src="images/ico45.svg" alt="icon" class="img-fluid" width="67" height="59">
-								</span>
-								<h4 class="headingX">
-									<strong class="d-block font-weight-normal">All Windows Cleaned</strong>
-									<strong class="d-block font-weight-normal">Inside and Out</strong>
-								</h4>
-							</article>
-						</div>
-						<div class="col col-md-4 col-sm-6 col-12">
-							<!-- eachWList -->
-							<article class="eachWList mb-6">
-								<span class="d-block icoHolder rounded-circle mx-auto mb-3 mb-sm-4 d-flex justify-content-center align-items-center">
-									<img src="images/ico46.svg" alt="icon" class="img-fluid" width="67" height="59">
-								</span>
-								<h4 class="headingX">
-									<strong class="d-block font-weight-normal">Soft Towel</strong>
-									<strong class="d-block font-weight-normal">Drying</strong>
-								</h4>
-							</article>
-						</div>
-						<div class="col col-md-4 col-sm-6 col-12">
-							<!-- eachWList -->
-							<article class="eachWList mb-6">
-								<span class="d-block icoHolder rounded-circle mx-auto mb-3 mb-sm-4 d-flex justify-content-center align-items-center">
-									<img src="images/ico47.svg" alt="icon" class="img-fluid" width="67" height="59">
-								</span>
-								<h4 class="headingX">
-									<strong class="d-block font-weight-normal">Discounts on</strong>
-									<strong class="d-block font-weight-normal">Additional Services</strong>
-								</h4>
-							</article>
-						</div>
-					</div>
-				</div>
-			</aside>
-			<!-- faqSec -->
-			<!-- <section class="faqSec pt-lg-6 pt-xl-11 pb-14 pb-lg-18 pb-xl-20">
-				<div class="container">
-					<div class="row">
-						<div class="col-12">
-							<header class="header ltrSpce text-center mb-6 mb-md-9 mb-xl-11">
-								<h5 class="h3 fwEbold mb-2">Frequently Asked Question</h5>
-							</header>
-						</div>
-						<div class="col-12 col-lg-10 offset-lg-1">
-							
-							<div class="accordion accordWrap mx-xl-10" id="accordionExample">
-								
-							  	<div class="card">
-									<div class="card-header p-0 border-0" id="headingOne">
-							      		<h5 class="mb-0">
-								        	<button class="btn position-relative btn-link py-3 pl-7 pr-4 px-md-11 w-100 text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">How do I sign up for Unlimited Wash Club?</button>
-							      		</h5>
-							    	</div>
-							    	<div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample" style="">
-							      		<div class="card-body pl-7 pr-4 px-md-11 pb-6 mt-n1 pt-0">Monocle ipsum dolor sit amet lovely Shinkansen tote bag pintxos sharp Baggu Moritz Beams Ettingersoft power lovely. We bring you the most accurate and fair-price service. carwash service nation whether contract. it is freight </div>
-									</div>
-								</div>
-								
-								<div class="card">
-							    	<div class="card-header p-0 border-0" id="headingTwo">
-							      		<h5 class="mb-0">
-							        		<button class="btn position-relative btn-link py-3 pl-7 pr-4 px-md-11 w-100 text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">How do I pay for my unlimited wash club plan?</button>
-							      		</h5>
-							    	</div>
-							    	<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-							    		<div class="card-body pl-7 pr-4 px-md-11 pb-6 mt-n1 pt-0">Monocle ipsum dolor sit amet lovely Shinkansen tote bag pintxos sharp Baggu Moritz Beams Ettingersoft power lovely. We bring you the most accurate and fair-price service. carwash service nation whether contract. it is freight </div>
-							    	</div>
-								</div>
-								
-								<div class="card">
-								    <div class="card-header p-0 border-0" id="headingThree">
-								    	<h5 class="mb-0">
-								        	<button class="btn position-relative btn-link py-3 pl-7 pr-4 px-md-11 w-100 text-left" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">How often can I wash my vehicle?</button>
-								      	</h5>
-								    </div>
-								    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-								      	<div class="card-body pl-7 pr-4 px-md-11 pb-6 mt-n1 pt-0">Monocle ipsum dolor sit amet lovely Shinkansen tote bag pintxos sharp Baggu Moritz Beams Ettingersoft power lovely. We bring you the most accurate and fair-price service. carwash service nation whether contract. it is freight </div>
-								    </div>
-								</div>
-								
-								<div class="card">
-							    	<div class="card-header p-0 border-0" id="headingFour">
-							      		<h5 class="mb-0">
-							        		<button class="btn position-relative btn-link py-3 pl-7 pr-4 px-md-11 w-100 text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">Can I use my membership at any location?</button>
-							      		</h5>
-							    	</div>
-							    	<div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
-							    		<div class="card-body pl-7 pr-4 px-md-11 pb-6 mt-n1 pt-0">Monocle ipsum dolor sit amet lovely Shinkansen tote bag pintxos sharp Baggu Moritz Beams Ettingersoft power lovely. We bring you the most accurate and fair-price service. carwash service nation whether contract. it is freight </div>
-							    	</div>
-								</div>
-								
-								<div class="card">
-								    <div class="card-header p-0 border-0" id="headingFive">
-								    	<h5 class="mb-0">
-								        	<button class="btn position-relative btn-link py-3 pl-7 pr-4 px-md-11 w-100 text-left" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">Can I wash multiple vehicles under the same membership?</button>
-								      	</h5>
-								    </div>
-								    <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
-								      	<div class="card-body pl-7 pr-4 px-md-11 pb-6 mt-n1 pt-0">Monocle ipsum dolor sit amet lovely Shinkansen tote bag pintxos sharp Baggu Moritz Beams Ettingersoft power lovely. We bring you the most accurate and fair-price service. carwash service nation whether contract. it is freight </div>
-								    </div>
-								</div>
-								
-								<div class="card">
-							    	<div class="card-header p-0 border-0" id="headingSix">
-							      		<h5 class="mb-0">
-							        		<button class="btn position-relative btn-link py-3 pl-7 pr-4 px-md-11 w-100 text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">How do i discontinue my unlimited wash club plan?</button>
-							      		</h5>
-							    	</div>
-							    	<div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
-							    		<div class="card-body pl-7 pr-4 px-md-11 pb-6 mt-n1 pt-0">Monocle ipsum dolor sit amet lovely Shinkansen tote bag pintxos sharp Baggu Moritz Beams Ettingersoft power lovely. We bring you the most accurate and fair-price service. carwash service nation whether contract. it is freight </div>
-							    	</div>
-								</div>
-								
-								<div class="card">
-								    <div class="card-header p-0 border-0" id="headingSeven">
-								    	<h5 class="mb-0">
-								        	<button class="btn position-relative btn-link py-3 pl-7 pr-4 px-md-11 w-100 text-left" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">What if i get a new credit card?</button>
-								      	</h5>
-								    </div>
-								    <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionExample">
-								      	<div class="card-body pl-7 pr-4 px-md-11 pb-6 mt-n1 pt-0">Monocle ipsum dolor sit amet lovely Shinkansen tote bag pintxos sharp Baggu Moritz Beams Ettingersoft power lovely. We bring you the most accurate and fair-price service. carwash service nation whether contract. it is freight </div>
-								    </div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section> -->
 			<!-- footerAside -->
 			<aside class="footerAside text-white bgCover" style="background-image: url('./images/footer-bg.jpg')">
 				<div class="container pt-10 pb-8 pt-lg-13 pb-lg-14">
@@ -477,7 +298,7 @@
 						<div class="col-12 col-sm-6 col-lg-3 d-md-flex mb-8 mb-sm-4 mb-lg-0">
 							<div class="txtHolder w-100">
 								<h5 class="h6 text-capitalize fwEbold text-white mb-4 mb-lg-6">about us</h5>
-								<p>RIVERCHASE CAR WASH & DETAIL HAS BEEN IN THE HOOVER COMMUNITY FOR 27 YEARS!	</p>
+								<p>RIVERCHASE CAR WASH & DETAIL HAS BEEN IN THE HOOVER COMMUNITY FOR 27 YEARS!</p>
 								<!-- socialFNetwork -->
 								<ul class="socialFNetwork d-flex mb-0 list-unstyled justify-content-center justify-content-sm-start">
 									<li><a href="#" class="fab fa-facebook-square"></a></li>
@@ -492,12 +313,12 @@
 								<h5 class="h6 text-capitalize fwEbold text-white mb-4 mb-lg-6">Our Services</h5>
 								<!-- fLink -->
 								<ul class="fLink list-unstyled text-capitalize">
-									<li><a href="express.html">EXTERIOR WASH</a></li>
-									<li><a href="full-service.html">FULL-SERVICE WASH</a></li>
-									<li><a href="hand-wash.html">HAND WASH</a></li>
-									<li><a href="wax-service.html">WAX SERVICES</a></li>
-									<li><a href="details.html">DETAILS</a></li>
-									<li><a href="add-ons.html">ADD-ONS</a></li>
+									<li><a href="express.php">EXTERIOR WASH</a></li>
+									<li><a href="full-service.php">FULL-SERVICE WASH</a></li>
+									<li><a href="hand-wash.php">HAND WASH</a></li>
+									<li><a href="wax-service.php">WAX SERVICES</a></li>
+									<li><a href="details.php">DETAILS</a></li>
+									<li><a href="add-ons.php">ADD-ONS</a></li>
 								</ul>
 							</div>
 						</div>
@@ -506,12 +327,12 @@
 								<h5 class="h6 text-capitalize fwEbold text-white mb-4 mb-lg-6">Useful Links</h5>
 								<!-- fLink -->
 								<ul class="fLink list-unstyled text-capitalize">
-									<li><a href="index.html">Home</a></li>
-									<li><a href="express.html">Services &amp; Pricing</a></li>
-									<li><a href="Unlimited Wash Club.html">Unlimited Wash Club</a></li>
-									<li><a href="about-us.html">About</a></li>
-									<li><a href="gallery.html">Gallery</a></li>
-									<li><a href="blog.html">Blog</a></li>
+									<li><a href="index.php">Home</a></li>
+									<li><a href="express.php">Services &amp; Pricing</a></li>
+									<li><a href="unlimited-wash.php">Unlimited Wash Club</a></li>
+									<li><a href="about-us.php">About</a></li>
+									<li><a href="gallery.php">Gallery</a></li>
+									<li><a href="blog.php">Blog</a></li>
 								</ul>
 							</div>
 						</div>
@@ -559,7 +380,7 @@
 			</aside>
 		</main>
 		<!-- footer -->
-		<!-- <footer id="footer" class="py-5 py-md-6">
+	<!-- <footer id="footer" class="py-5 py-md-6">
 			<div class="container">
 				<div class="row align-items-center">
 					<div class="col-12 col-md-6">
