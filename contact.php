@@ -31,8 +31,8 @@
                 $org = "";
             } else {
                 $APIURL = 'https://prod.imkloud.com';
-                $user = "d4bKwE7yL9bRy67kD";
-                $org = "9PRph7fxoQgAXLqKh";
+                $user = "ibXA8boNwqLrDgpPt";
+                $org = "wc4m4GQdDd9Hd29DA";
             }
             ?>
             <script>
@@ -196,17 +196,18 @@
 								<div class="formRoW d-flex flex-Wrap">
 									<div class="formCol form-group">
 										<label class="text-capitalize" for="contactName">your Name</label>
-										<input class="form-control" type="text" placeholder="Name *"  name="firstName"  data-validation="required,custom" data-validation-regexp="^[a-zA-z ]{1,}$" required="required" placeholder="Name*">
+										<input class="form-control" type="text" name="firstName"  data-validation="required,custom" data-validation-regexp="^[a-zA-z ]{1,}$" required="required">
 									</div>
+									
 									<div class="formCol form-group">
 										<label class="text-capitalize" for="contactPhone">phone number</label>
-										<input class="form-control" type="text" id="contactNumber" name="contactNumber" placeholder="Phone *" data-force-validation-if-hidden="true"
-                         data-validation="custom"  required="required"> 
+										<input class="form-control" type="text" id="contactNumber" name="contactNumber"data-force-validation-if-hidden="true"
+                                       data-validation="custom"  required="required"> 
 									</div>
 								</div>
 								<div class="form-group">
 									<label class="text-capitalize" for="contactEmailAddress">email address</label>
-									<input class="form-control" type="email" name="emailId" placeholder="Email *" data-validation="email" required="required" placeholder="Email*">
+									<input class="form-control" type="email" name="emailId"data-validation="email" required="required">
 								</div>
 								<div class="form-group">
 									<label class="text-capitalize" for="contactSubject">subject</label>
