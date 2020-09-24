@@ -26,9 +26,9 @@
                 $org = "wc4m4GQdDd9Hd29DA";
             } else if($_SERVER['HTTP_HOST'] == '104.197.167.156')
            {
-                $APIURL = 'http://imk.dev2.imkloud.com';
-                $user = "";
-                $org = "";
+                $APIURL = 'https://prod.imkloud.com';
+                $user = "ibXA8boNwqLrDgpPt";
+                $org = "wc4m4GQdDd9Hd29DA";
             } else {
                 $APIURL = 'https://prod.imkloud.com';
                 $user = "ibXA8boNwqLrDgpPt";
