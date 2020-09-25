@@ -520,5 +520,6 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>        
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
     <script src="./js/index.js?ver=0.1" ></script>
+    <script src="js/jqueryCustome.js"></script>
 </body>
 </html>
