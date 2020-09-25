@@ -513,7 +513,7 @@
 	</div>
 
 	
-	 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js" ></script>
     <script src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js" ></script>

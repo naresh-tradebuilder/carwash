@@ -222,35 +222,41 @@
 								<form id="locations" name="locations" class="contactForm">
           						<div class="alert hidden" id="location-message"></div>
 								<div class="formRoW d-flex flex-Wrap">
-									<div class="formCol form-group">						
-										<input class="form-control" type="text" name="firstName"  data-validation="required,custom" data-validation-regexp="^[a-zA-z ]{1,}$" required="required" placeholder="Name">
+									<div class="formCol form-group">
+										<label class="text-capitalize" for="contactName">your Name</label>
+										<input class="form-control" type="text" name="firstName"  data-validation="required,custom" data-validation-regexp="^[a-zA-z ]{1,}$" required="required">
 									</div>
 
-									<div class="formCol form-group">						
+									<div class="formCol form-group">
+										<label class="text-capitalize" for="contactPhone">phone number</label>
 										<input class="form-control" type="text" id="contactNumber" name="contactNumber"data-force-validation-if-hidden="true"
-                                       data-validation="custom"  required="required" placeholder="Phone number"> 
+                                       data-validation="custom"  required="required"> 
 									</div>
 								</div>
-								<div class="form-group">									
-									<input class="form-control" type="email" name="emailId"data-validation="email" required="required" placeholder="email address">
+								<div class="form-group">
+									<label class="text-capitalize" for="contactEmailAddress">email address</label>
+									<input class="form-control" type="email" name="emailId"data-validation="email" required="required">
 								</div>
-								<div class="form-group">									
-									<input class="form-control" type="text" name="company"data-validation="company" required="required" placeholder="Company Name">
-								</div>
-								<div class="form-group">									
-									<select class="custom-select" data-validation="required" required="required" name="Calltime" name="Number">
-										<option>Number of Vehicles </option>
+									<div class="form-group">
+										<label class="text-capitalize" for="company">Company</label>
+										<input class="form-control" type="text" name="company"  required="required">
+									</div>
+								<div class="form-group">
+									<label class="text-capitalize" for="contactSubject">subject</label>
+									<select class="custom-select" data-validation="required" required="required" name="Calltime">
+										<option>Number of Vehicles</option>
 										<option>5 to 10</option>
 										<option>11 to 25</option>
 										<option>26 to 50</option>
-										<option>51+</option>								
+										<option>51+</option>
 									</select>
 								</div>
-								<div class="form-group">									
-									<textarea class="form-control" id="fleet-mess" placeholder="Message"></textarea>
+								<div class="form-group">
+									<label class="text-capitalize" for="contactMessage">message</label>
+									<textarea class="form-control" id="contactMessage"></textarea>
 								</div>
 								<div class="form-group">
-									<button type="submit" class="submit btn btnTheme text-uppercase fwEbold">Send Message</button>
+									<button type="submit" class="submit btn btnTheme text-uppercase fwEbold">send message</button>
 								</div>
 							</form>
 							</div>
@@ -377,6 +383,8 @@
 		</footer> -->
 		<!-- modal -->
 	</div>
+
+	
  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js" ></script>
