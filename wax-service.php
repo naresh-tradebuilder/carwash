@@ -186,13 +186,13 @@
 									<!-- planFullList -->
 									<article class="planFullList mb-5 mb-sm-8 overflow-hidden rounded">
 										<!-- priceHeader -->
-										<header class="priceHeader px-3 text-capitalize">
+										<header class="bg-primary priceHeader px-3 text-capitalize">
 											<div class="row align-items-center">
 												<div class="col-8">
-													<h2 class="ml-md-3 mb-0 headingIX">Hand Wax & Shine</h2>
+													<h2 class="text-white ml-md-3 mb-0 headingIX">Hand Wax & Shine</h2>
 												</div>
 												<div class="col-4 text-right">
-													<h3 class="headingIX fwSemibold mb-0">$20.00</h3>
+													<h3 class="text-white headingIX fwSemibold mb-0">$20.00</h3>
 												</div>
 											</div>
 										</header>
@@ -221,13 +221,13 @@
 									<!-- planFullList -->
 									<article class="planFullList mb-5 mb-sm-8 overflow-hidden rounded">
 										<!-- priceHeader -->
-										<header class="priceHeader px-3 text-capitalize">
+										<header class="bg-primary priceHeader px-3 text-capitalize">
 											<div class="row align-items-center">
 												<div class="col-8">
-													<h2 class="ml-md-3 mb-0 headingIX">LA.2 Polish and Wax</h2>
+													<h2 class="text-white ml-md-3 mb-0 headingIX">LA.2 Polish and Wax</h2>
 												</div>
 												<div class="col-4 text-right">
-													<h3 class="headingIX fwSemibold mb-0">$100.00 </h3>
+													<h3 class="text-white headingIX fwSemibold mb-0">$100.00 </h3>
 												</div>
 											</div>
 										</header>
