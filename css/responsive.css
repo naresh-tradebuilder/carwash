@@ -389,7 +389,17 @@ h5.bdrBtm:after, .h5.bdrBtm:after {
   -webkit-transition: opacity 0.3s ease, visibility 0.3s ease;
   -o-transition: opacity 0.3s ease, visibility 0.3s ease;
   transition: opacity 0.3s ease, visibility 0.3s ease; }
-
+.planFullList{
+      -webkit-transition: -webkit-box-shadow 0.3s ease;
+    transition: -webkit-box-shadow 0.3s ease;
+    -o-transition: box-shadow 0.3s ease;
+    transition: box-shadow 0.3s ease;
+    transition: box-shadow 0.3s ease, -webkit-box-shadow 0.3s ease;
+}
+.planFullList:hover{
+  -webkit-box-shadow: 0 7px 13px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 7px 13px rgba(0, 0, 0, 0.1);
+}
 /* ---------------------------------------------------------
 54	 overlayII/.overlayII
 --------------------------------------------------------*/
