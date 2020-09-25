@@ -140,7 +140,7 @@
 										</ul>
 									</div>
 								</li>				
-								<li class="nav-item active">
+								<li class="nav-item">
 									<a class="nav-link" href="fleet-work.php">Fleet Work Wash</a>									
 								</li>
 								<li class="nav-item">
