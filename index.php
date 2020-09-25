@@ -129,13 +129,19 @@
 									<a class="nav-link" href="about-us.php">About<span class="sr-only">(current)</span></a>
 								</li>
 								<li class="nav-item"><a class="nav-link" href="unlimited-wash.php">Unlimited Wash Club</a></li>
-								<li class="nav-item"><a class="nav-link" href="testimonial.php">testimonials</a></li>
-								<li class="nav-item">
-									<a class="nav-link" href="gallery.php">Gallery</a>
-									
-								</li>								
-								<li class="nav-item">
-									<a class="nav-link" href="blog.php">Blog</a>									
+					<li class="nav-item dropdown">
+									<a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Resources</a>
+									<div class="dropdown-menu border-0 rounded-0 text-capitalize" aria-labelledby="navbarDropdown">
+										<ul class="list-unstyled dropMenu">
+											<li><a class="dropdown-item" href="gallery.php">Gallery</a></li>
+											<li><a class="dropdown-item" href="testimonial.php">testimonials</a></li>
+											<li><a class="dropdown-item" href="blog.php">Blog</a></li>
+										
+										</ul>
+									</div>
+								</li>				
+								<li class="nav-item active">
+									<a class="nav-link" href="fleet-work.php">Fleet Work Wash</a>									
 								</li>
 								<li class="nav-item">
 									<a class="nav-link" href="contact.php">CONTACT</a>

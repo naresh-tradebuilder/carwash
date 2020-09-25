@@ -41,8 +41,6 @@
          window['group'] = '<?php echo $org ?>';
 
 </script>
-
-	
 </head>
 <body>
 	<!-- pageWrapper -->
@@ -131,6 +129,8 @@
 									<a class="nav-link" href="about-us.php">About<span class="sr-only">(current)</span></a>
 								</li>
 								<li class="nav-item"><a class="nav-link" href="unlimited-wash.php">Unlimited Wash Club</a></li>
+								
+								
 								<li class="nav-item dropdown">
 									<a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Resources</a>
 									<div class="dropdown-menu border-0 rounded-0 text-capitalize" aria-labelledby="navbarDropdown">
@@ -141,14 +141,12 @@
 										
 										</ul>
 									</div>
-								</li>				
-								<li class="nav-item">
+								</li>								
+								<li class="nav-item active">
 									<a class="nav-link" href="fleet-work.php">Fleet Work Wash</a>									
 								</li>
-								<li class="nav-item active">
-									<a class="nav-link" href="contact.php">CONTACT</a>
-									
-								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="contact.php">CONTACT</a>						</li>
 							</ul>
 						</div>
 						<div id="collapseExample" class="collapse searchFormCollapse position-absolute">
@@ -172,236 +170,106 @@
 					<div class="row">
 						<div class="col-12">
 							<!-- breadcrumb -->
-							<nav aria-label="breadcrumb" class="d-flex">
-								<ol class="breadcrumb mb-0 p-0">
+							<nav aria-label="breadcrumb" class="d-flex justify-content-start">
+								<ol class="breadcrumb mb-0 p-0 text-capitalize">
 									<li class="breadcrumb-item"><a href="index.php">Home</a></li>
-									<li class="breadcrumb-item active"><a href="#">contact</a></li>									
+									<li class="breadcrumb-item"><a href="#">Fleet WORKS Wash Program</a></li>									
 								</ol>
 							</nav>
 						</div>
 					</div>
 				</div>
 			</nav>
-			<!-- contactSec -->
-			<section class="contactSec py-10 py-sm-12 py-lg-14">
+			<!-- serviceDetail -->
+			<section class="serviceDetail py-10 py-sm-12 py-md-14 pt-lg-16 pb-lg-16 pb-xl-20">
 				<div class="container">
 					<div class="row">
-						<div class="col-12 col-xl-10 offset-xl-1">
-							<header class="header ltrSpce text-center mb-6 mb-md-8 mb-lg-12 mb-xl-14">
-								<h1 class="fwEbold h2 text-capitalize mb-2">contact us</h1>
-								<p>if you would like to contact any of the Customer Services. please fill out the form below</p>
+						<div class="col-12 col-md-10 offset-md-1 col-xl-8 offset-xl-2">
+							<header class="header text-center ltrSpce font-weight-light mb-4 px-lg-5 px-xl-10">
+								<h1 class="headingI text-capitalize mb-3 fwEbold">Fleet WORKS Wash Program</h1>
+								
 							</header>
 						</div>
-					</div>
-					<div class="row flex-row-reverse">
-						<div class="col-12 col-md-8 mb-6 mb-md-0">
-							<!-- contactForm -->
-							<form id="locations" name="locations" class="contactForm">
+						<div class="col-12">
+							<!-- imgWRoundWrap -->
+							<div class="imgWRoundWrap mb-12 mb-md-18 mt-md-n2">
+								<span class="icoRound rounded-circle mx-auto d-flex align-items-center justify-content-center overflow-hidden position-relative">
+									<span class="icon-ico37 ico"></span>
+								</span>
+								<hr class="bdrIcnLine m-0">
+							</div>
+						</div>
+						<div class="col-6">
+							<div class="txtHolder text-center px-lg-3 px-xl-10 text-sm-left mb-7 mb-md-10 mb-lg-12 mb-xl-15">
+								<p>Here at Riverchase Car Wash & Detail, we strive to help businesses of all sizes keep their vehicles looking great. We offer discounted rates for companies and dealerships in/near the Hoover area.</p>
+								<ul>
+									<li>
+										We offer WORKS WASH as part of our fleet program - perfect for businesses that need to keep their vehicles looking clean and shiny longer.
+									</li>
+									<li>
+										There is no contract to sign or long-term obligation
+									</li>
+									<li>
+										Our Fleet Program delivers great value via bulk discounted pricing
+									</li>
+								</ul>
+								<p>Contact us today by filling out the form below or e-mail at riverchasecarwash786@gmail.com</p>
+								
+							</div>
+						</div>
+						<div class="col-6">
+							<div class="txtHolder text-center px-lg-3 px-xl-10 text-sm-left mb-7 mb-md-10 mb-lg-12 mb-xl-15">
+								<form id="locations" name="locations" class="contactForm">
           						<div class="alert hidden" id="location-message"></div>
 								<div class="formRoW d-flex flex-Wrap">
-									<div class="formCol form-group">
-										<label class="text-capitalize" for="contactName">your Name</label>
-										<input class="form-control" type="text" name="firstName"  data-validation="required,custom" data-validation-regexp="^[a-zA-z ]{1,}$" required="required">
+									<div class="formCol form-group">						
+										<input class="form-control" type="text" name="firstName"  data-validation="required,custom" data-validation-regexp="^[a-zA-z ]{1,}$" required="required" placeholder="Name">
 									</div>
 
-									<div class="formCol form-group">
-										<label class="text-capitalize" for="contactPhone">phone number</label>
+									<div class="formCol form-group">						
 										<input class="form-control" type="text" id="contactNumber" name="contactNumber"data-force-validation-if-hidden="true"
-                                       data-validation="custom"  required="required"> 
+                                       data-validation="custom"  required="required" placeholder="Phone number"> 
 									</div>
 								</div>
-								<div class="form-group">
-									<label class="text-capitalize" for="contactEmailAddress">email address</label>
-									<input class="form-control" type="email" name="emailId"data-validation="email" required="required">
+								<div class="form-group">									
+									<input class="form-control" type="email" name="emailId"data-validation="email" required="required" placeholder="email address">
 								</div>
-								<div class="form-group">
-									<label class="text-capitalize" for="contactSubject">subject</label>
-									<select class="custom-select" data-validation="required" required="required" name="Calltime">
-										<option>Select</option>
-										<option>EXTERIOR Wash</option>
-										<option>FULL-SERVICE WASH</option>
-										<option>HAND WASH</option>
-										<option>WAX SERVICES</option>
-										<option>DETAILS</option>
-										<option>ADD-ONS</option>
+								<div class="form-group">									
+									<input class="form-control" type="text" name="company"data-validation="company" required="required" placeholder="Company Name">
+								</div>
+								<div class="form-group">									
+									<select class="custom-select" data-validation="required" required="required" name="Calltime" name="Number">
+										<option>Number of Vehicles </option>
+										<option>5 to 10</option>
+										<option>11 to 25</option>
+										<option>26 to 50</option>
+										<option>51+</option>								
 									</select>
 								</div>
-								<div class="form-group">
-									<label class="text-capitalize" for="contactMessage">message</label>
-									<textarea class="form-control" id="contactMessage"></textarea>
+								<div class="form-group">									
+									<textarea class="form-control" id="fleet-mess" placeholder="Message"></textarea>
 								</div>
 								<div class="form-group">
-									<button type="submit" class="submit btn btnTheme text-uppercase fwEbold">send message</button>
+									<button type="submit" class="submit btn btnTheme text-uppercase fwEbold">Send Message</button>
 								</div>
 							</form>
-						</div>
-						<div class="col-12 col-md-4 alignRight">
-							<!-- contSideList -->
-							<ul class="contSideList list-unstyled mb-8 mb-lg-11 pt-md-1">
-								<li class="d-flex">
-									<span class="ico d-block mr-2 mr-lg-3 mt-1">
-										<img src="images/ico16.svg" alt="images description" width="37" height="37">
-									</span>
-									<ul class="list-unstyled mb-0 wrap text-capitalize fwSemibold">
-										<li class="mb-lg-2">Call us anytime:</li>
-										<li>
-											<a href="tel:18001234567" class="tell">(205) 987-9308</a>
-										</li>
-									</ul>
-								</li>
-								<li class="d-flex">
-									<div class="ico mr-2 mr-lg-3 mt-1">
-										<img src="images/ico17.svg" alt="images description" width="39" height="39">
-									</div>
-									<div class="addressWrap">
-										<h2 class="headingXI text-capitalize fwSemibold mb-2">address</h2>
-										<ul class="list-unstyled mb-0">
-											<li class="mb-1">Riverchase Car Wash,</li>
-											<li>Hoover, AL 35216</li>
-										</ul>
-									</div>
-								</li>
-								<li class="d-flex mb-md-0">
-									<div class="ico mr-2 mr-lg-3 mt-1">
-										<img src="images/ico18.svg" alt="images description" width="39" height="39">
-									</div>
-									<div class="tmeWrap">
-										<h2 class="headingXI text-capitalize fwSemibold mb-2">working hours:</h2>
-										<ul class="list-unstyled tmeList mb-0">
-											<li class="mb-1">Monday - Sunday (Open all 7 Days)</li>
-											<li>9am–7pm</li>
-										</ul>
-									</div>
-								</li>
-							</ul>
-							<h3 class="headingIX mb-3">Have any questions?</h3>
-							<!-- MailList -->
-							<ul class="list-unstyled MailList mb-7">
-								<li class="mb-1"><a href="#">riverchasecarwash786@gmail.com</a></li>
-								<li><a href="#">www.carwash.com</a></li>
-							</ul>
-							<!-- socialSNetwork -->
-							<ul class="socialSNetwork list-unstyled d-flex mb-0">
-								<li><a href="#" class="fab fa-facebook-square"></a></li>
-								<li><a href="#" class="fab fa-twitter-square"></a></li>
-								<li><a href="#" class="fab fa-linkedin"></a></li>
-								<li><a href="#" class="fas fa-rss-square"></a></li>
-							</ul>
+							</div>
 						</div>
 					</div>
 				</div>
 			</section>
-			<!-- mapHolder -->
-			<aside class="mapHolder w-100">
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d106544.07386977402!2d-86.86450747532587!3d33.436217524441005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x888918f466a812b7%3A0xe1ef22962a6dc92e!2sMountain%20Brook%2C%20AL%2035216%2C%20USA!5e0!3m2!1sen!2sin!4v1600877753701!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-			</aside>
-			<!-- lctnSec 
-			<aside class="lctnSec py-11">
+			<!-- dscntclb -->
+			<aside class="dscntclb bgTheme pt-6 pb-7">
 				<div class="container">
-					<div class="row">
-						<div class="col-12 col-lg-4 col-xl-3 txtHolder text-center text-lg-left mb-5">
-							<h4 class="h4 mb-3">See all Carwash Locations</h4>
-							<p>These are our network location over the world specific foreign charitable organization.</p>
-							<div class="slideBtn d-flex justify-content-center justify-content-lg-start">
-								<a href="#" class="btnHolder buttonLeft rounded d-flex justify-content-center align-items-center mr-2 lsBtnPrev">
-									<i class="arrow fas fa-chevron-left"></i>
-								</a>
-								<a href="#" class="btnHolder buttonRight rounded d-flex justify-content-center align-items-center mr-2 lsBtnNext">
-									<i class="arrow arrowNext fas fa-chevron-right"></i>
-								</a>
-							</div>
-						</div>
-						<div class="col-12 col-lg-8 col-xl-9 pt-1">
-							<div class="row d-block">
-								 locationSlider 
-								<div class="locationSlider">
-									<div>
-										<div class="col-12">
-											
-											<article class="wlBlock text-center rounded mb-8">
-												<header class="header text-uppercase py-4">
-													<h3 class="headingX mb-0">Allisonville Road</h3>
-												</header>
-												<div class="clList px-6 py-5">
-													<p>8252 Kelly Lane Indianapolis, IN 46250</p>
-													<p>Call: <a href="tel:6604567890" class="tell">(660) 456-7890</a></p>
-													<p><time datetime="2019-07-18">Mon-Sat: 8 am - 8 pm Sunday: 9 am - 6 pm</time></p>
-													<p><a href="#" class="btn btnTheme d-block mt-7 mb-n2 py-3 text-uppercase fwEbold">store details</a></p>
-												</div>
-											</article>
-										</div>
-									</div>
-									<div>
-										<div class="col-12">
-											
-											<article class="wlBlock text-center rounded mb-8">
-												<header class="header text-uppercase py-4">
-													<h3 class="headingX mb-0">Allisonville Road</h3>
-												</header>
-												<div class="clList px-6 py-5">
-													<p>10580 N Michigan Road Carmel, IN 46032 </p>
-													<p>Call: <a href="tel:6604567890" class="tell">(660) 456-7890</a></p>
-													<p><time datetime="2019-07-18">Mon-Sat: 8 am - 8 pm Sunday: 9 am - 6 pm</time></p>
-													<p><a href="#" class="btn btnTheme d-block mt-7 mb-n2 py-3 text-uppercase fwEbold">store details</a></p>
-												</div>
-											</article>
-										</div>
-									</div>
-									<div>
-										<div class="col-12">
-											
-											<article class="wlBlock text-center rounded mb-8">
-												<header class="header text-uppercase py-4">
-													<h3 class="headingX mb-0">Allisonville Road</h3>
-												</header>
-												<div class="clList px-6 py-5">
-													<p>14837 Thatcher Lane Carmel, IN 46032 </p>
-													<p>Call: <a href="tel:660-456-7890" class="tell">(660) 456-7890</a></p>
-													<p><time datetime="2019-07-18">Mon-Sat: 8 am - 8 pm Sunday: 9 am - 6 pm</time></p>
-													<p><a href="#" class="btn btnTheme d-block mt-7 mb-n2 py-3 text-uppercase fwEbold">store details</a></p>
-												</div>
-											</article>
-										</div>
-									</div>
-									<div>
-										<div class="col-12">
-											
-											<article class="wlBlock text-center rounded mb-8">
-												<header class="header text-uppercase py-4">
-													<h3 class="headingX mb-0">Allisonville Road</h3>
-												</header>
-												<div class="clList px-6 py-5">
-													<p>10580 N Michigan Road Carmel, IN 46032 </p>
-													<p>Call: <a href="tel:6604567890" class="tell">(660) 456-7890</a></p>
-													<p><time datetime="2019-07-18">Mon-Sat: 8 am - 8 pm Sunday: 9 am - 6 pm</time></p>
-													<p><a href="#" class="btn btnTheme d-block mt-7 mb-n2 py-3 text-uppercase fwEbold">store details</a></p>
-												</div>
-											</article>
-										</div>
-									</div>
-									<div>
-										<div class="col-12">
-											
-											<article class="wlBlock text-center rounded mb-8">
-												<header class="header text-uppercase py-4">
-													<h3 class="headingX mb-0">Allisonville Road</h3>
-												</header>
-												<div class="clList px-6 py-5">
-													<p>14837 Thatcher Lane Carmel, IN 46032 </p>
-													<p>Call: <a href="tel:660-456-7890" class="tell">(660) 456-7890</a></p>
-													<p><time datetime="2019-07-18">Mon-Sat: 8 am - 8 pm Sunday: 9 am - 6 pm</time></p>
-													<p><a href="#" class="btn btnTheme d-block mt-7 mb-n2 py-3 text-uppercase fwEbold">store details</a></p>
-												</div>
-											</article>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
+					<div class="d-flex align-items-center text-white justify-content-center">
+						<span class="icoHolder mr-3">
+							<img src="images/ico27.svg" alt="image description" width="40" height="43">
+						</span>
+						<h3 class="h5 mb-0 text-white font-weight-normal fIStyle">Join our car wash club and Get <strong class="font-weight-bold">20% Discount</strong> &amp; Unlimited Wash Scheme!</h3>
 					</div>
 				</div>
 			</aside>
-			<!-- footerAside -->
+				<!-- footerAside -->
 			<aside class="footerAside text-white bgCover" style="background-image: url('./images/footer-bg.jpg')">
 				<div class="container pt-10 pb-8 pt-lg-13 pb-lg-14">
 					<div class="row">
@@ -508,12 +376,8 @@
 			</div>
 		</footer> -->
 		<!-- modal -->
-		
-		
 	</div>
-
-	
-	 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+ <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js" ></script>
     <script src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js" ></script>

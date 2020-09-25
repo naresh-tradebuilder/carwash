@@ -1,3 +1,90 @@
+<?php 
+   include('./function.php');
+   
+      if($_SERVER['HTTP_HOST'] == 'localhost' ||  $_SERVER['HTTP_HOST'] == 'localhost:8080' || $_SERVER['HTTP_HOST'] =='192.168.1.25:8080' || $_SERVER['HTTP_HOST'] == "104.197.167.156" ){
+   			   define("BASE_URL",  "http://" . $_SERVER['HTTP_HOST']."/blog");
+   			   
+      			$user = "ibXA8boNwqLrDgpPt";
+                $org = "wc4m4GQdDd9Hd29DA";
+   			   $APIURL = "https://prod.imkloud.com";
+   			   
+      		} else{
+   
+      		    define("BASE_URL",  "https://" . $_SERVER['HTTP_HOST']."/");
+      		    $user = "ibXA8boNwqLrDgpPt";
+                $org = "wc4m4GQdDd9Hd29DA";
+   			$APIURL = "https://prod.imkloud.com";
+   			   
+        }
+        
+      
+    
+      		function getBlogs($queryParams=[]){
+      			Global $APIURL, $user, $org;
+      			try{
+      				
+      	            $blogurl = $APIURL."/api/v1/posts/".$user."/".$org;
+      
+      	            $fp = HttpRequest(
+      	                $blogurl,
+      	                'get',
+      	                $queryParams
+      	            ); 
+      	            if($fp && isset($fp->posts)){
+      	            	return $fp->posts;
+      	            }else{
+      	            	return [];
+      	            }
+      	        } catch (Exception $e) {
+      	            return [];
+      	        }
+      		}
+      
+      		function getSingleBlog(){
+      			Global $APIURL, $user, $org;
+      			$blogid = $_REQUEST['id'];
+      			try{
+      				
+      	            $blogurl = $APIURL."/api/v1/post/".$blogid."/".$user."/".$org;
+      
+      	            $fp = HttpRequest(
+      	                $blogurl,
+      	                'get'
+      	            ); 
+      
+      	            //print_r($fp);die();
+      	            
+      	            if($fp){
+      	            	return $fp;
+      	            }else{
+      	            	return [];
+      	            }
+      	        } catch (Exception $e) {
+      	            return [];
+      	        }
+      	    }
+      
+      
+      		function limit_words($string, $word_limit){
+      		    $endStr = '';
+      		    $string = strip_tags($string);
+      		    $words = explode(" ", $string);
+      		    if(count($words)>$word_limit){
+      		        $endStr = '...';
+      		    }
+      		    return implode(" ", array_splice($words, 0, $word_limit)).$endStr;
+      		}
+      
+      		
+      		   $params = [];
+			   if(isset($_GET['category']) && !empty($_GET['category'])){
+			   	$params['category'] = $_GET['category'];
+			   }
+			   $blogs = getBlogs($params);   
+			   print_r($blogs);
+      		?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -105,13 +192,19 @@
 									<a class="nav-link" href="about-us.php">About<span class="sr-only">(current)</span></a>
 								</li>
 								<li class="nav-item"><a class="nav-link" href="unlimited-wash.php">Unlimited Wash Club</a></li>
-								<li class="nav-item"><a class="nav-link" href="testimonial.php">testimonials</a></li>
-								<li class="nav-item">
-									<a class="nav-link" href="gallery.php">Gallery</a>
-									
+											<li class="nav-item dropdown active">
+									<a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Resources</a>
+									<div class="dropdown-menu border-0 rounded-0 text-capitalize" aria-labelledby="navbarDropdown">
+										<ul class="list-unstyled dropMenu">
+											<li><a class="dropdown-item" href="gallery.php">Gallery</a></li>
+											<li><a class="dropdown-item" href="testimonial.php">testimonials</a></li>
+											<li><a class="dropdown-item" href="blog.php">Blog</a></li>
+										
+										</ul>
+									</div>
 								</li>								
-								<li class="nav-item active">
-									<a class="nav-link" href="blog.php">Blog</a>									
+								<li class="nav-item">
+									<a class="nav-link" href="fleet-work.php">Fleet Work Wash</a>									
 								</li>
 								<li class="nav-item">
 									<a class="nav-link" href="contact.php">CONTACT</a>
@@ -163,12 +256,15 @@
 					</div>
 					<div class="row">
 						<div class="col-12 col-lg-9">
+							  <?php
+					               foreach ($blogs as $blog) {
+					           ?>
 							<!-- blgWrap -->
 							<article class="blgWrap mb-9 mb-sm-12 mb-lg-16 mb-xl-20">
 							<span class="imgHolder rounded overflow-hidden w-100">
-									<img src="./images/blog.jpg" class="img-fluid" alt="image description">
+									<img src="<?php echo $blog->featuredImageThumb; ?>"> 
 								</span>
-								<h2 class="headingII mb-2">Preparing Your Car For The Winter Holidays</h2>
+								<h2 class="headingII mb-2"><?php echo limit_words($blog->title, 6); ?></h2>
 								<ul class="list-unstyled postBlogList d-flex flex-wrap">
 									<li>
 										<time datetime="2018-08-22">
@@ -185,129 +281,14 @@
 										3 Comments
 									</li>
 								</ul>
-								<p>Monocle ipsum dolor sit amet iconic Nordic craftsmanship, soft power the highest quality Toto efficient Zürich. Asia-Pacific Zürich the best quality of life Melbourne Shinkansen vibrant, St Moritz signature. K-pop pintxos Swiss, essential airport flat white elegant bulletin charming Gaggenau first-class lovely perfect hub Flat white Ettinger business class St Moritz boutique Gaggenau. Asia-Pacific Melbourne international wardrobe Helsinki you get a nice breeze...</p>
-								<a href="#" class="btn btn-primary py-3 py-sm-4 text-uppercase fwEbold">Continue Reading</a>
+								<p> <?php echo limit_words($blog->body, 30); ?></p>
+								<a href="<?php echo BASE_URL; ?>/single-blog.php?id=<?php echo $blog->_id; ?>" class="btn btn-primary py-3 py-sm-4 text-uppercase fwEbold">Continue Reading</a>
 							</article>
-							<!-- blgWrap -->
-							<article class="blgWrap mb-9 mb-sm-12 mb-lg-16 mb-xl-20">
-								<!-- ImgBlogSlider -->
-								<div class="ImgBlogSlider mb-5 mb-xl-7">
-									<div>
-										<span class="imgHolder rounded overflow-hidden w-100">
-									<img src="./images/blog.jpg" class="img-fluid" alt="image description">
-								</span>
-									</div>
-									<div>
-											<span class="imgHolder rounded overflow-hidden w-100">
-									<img src="./images/blog.jpg" class="img-fluid" alt="image description">
-								</span>
-									</div>
-									<div>
-										<span class="imgHolder rounded overflow-hidden w-100">
-									<img src="./images/blog.jpg" class="img-fluid" alt="image description">
-								</span>
-									</div>
-								</div>
-								<h2 class="headingII mb-2">The Importance of Washing Under a Vehicle</h2>
-								<!-- postBlogList -->
-								<ul class="list-unstyled postBlogList d-flex flex-wrap">
-									<li>
-										<time datetime="2018-08-22">
-											<i class="clrTheme far fa-clock icn"></i>
-										</time>
-										August 22, 2018
-									</li>
-									<li>
-										<span class="far fa-user icn"></span>
-										by <a href="#">Sweden Amith</a>
-									</li>
-									<li>
-										<span class="far fa-comment icn"></span>
-										3 Comments
-									</li>
-								</ul>
-								<p>One of the most common additions people make to their cars in order to keep the heat out is a windshield visor. Cars become warm in the summer because direct sunlight enters in through the windows. This is why we park in the shade whenever we can. Since the windshield is the largest window in the car, blocking the sun from coming in would make a huge difference. Windshield visors and sunshades are fairly inexpensive and easy to use they certainly help...</p>
-								<a href="#" class="btn btn-primary py-4 text-uppercase fwEbold">Continue Reading</a>
-							</article>
-							<!-- blgWrap -->
-							<article class="blgWrap mb-9 mb-sm-12 mb-lg-16 mb-xl-20">
-								<!-- tubeBlogWrap -->
-							<span class="imgHolder rounded overflow-hidden w-100">
-									<img src="./images/blog.jpg" class="img-fluid" alt="image description">
-								</span>
-								<h2 class="headingII mb-2">Tough Stains in Your Car’s Interior (and what to do about them)</h2>
-								<!-- postBlogList -->
-								<ul class="list-unstyled postBlogList d-flex flex-wrap">
-									<li>
-										<time datetime="2018-08-22">
-											<i class="clrTheme far fa-clock icn"></i>
-										</time>
-										August 22, 2018
-									</li>
-									<li>
-										<span class="far fa-user icn"></span>
-										by <a href="#">Sweden Amith</a>
-									</li>
-									<li>
-										<span class="far fa-comment icn"></span>
-										3 Comments
-									</li>
-								</ul>
-								<p>Customers also require a safe experience, especially with around-the-clock hours. A well-lit facility is crucial to delivering a safe carwash experience, and lights should be replaced at regular intervals. As more organizations switch to long-life LED bulbs, the need for bulb replacement has lessened, though this does not mean your signage should be ignored. Making sure signs are clean and in good repair is a necessity, as clear signage also contributes to a safe and inviting atmosphere...</p>
-								<a href="#" class="btn btn-primary py-4 text-uppercase fwEbold">Continue Reading</a>
-							</article>
-							<!-- blgWrap -->
-							<article class="blgWrap mb-9 mb-sm-12 mb-lg-16 mb-xl-20">
-								<span class="imgHolder rounded overflow-hidden w-100">
-									<img src="./images/blog.jpg" class="img-fluid" alt="image description">
-								</span>
-								<h2 class="headingII mb-2">Winter Maintenance Tips to Avoid Engine Repairs</h2>
-								<!-- postBlogList -->
-								<ul class="list-unstyled postBlogList d-flex flex-wrap">
-									<li>
-										<time datetime="2018-08-22">
-											<i class="clrTheme far fa-clock icn"></i>
-										</time>
-										August 22, 2018
-									</li>
-									<li>
-										<span class="far fa-user icn"></span>
-										by <a href="#">Sweden Amith</a>
-									</li>
-									<li>
-										<span class="far fa-comment icn"></span>
-										3 Comments
-									</li>
-								</ul>
-								<p>While the quality and effectiveness of your carwash will result in clean cars and happy customers, this alone will not attract new customers to your business. Through a mix of tactics, you can help make sure your business stays top-of-mind with existing customers as well as reaches potential new customers. Effective customer retention and marketing initiatives don’t need to break the bank either. By leveraging the following tactics, you can break through the noise...</p>
-								<a href="#" class="btn btn-primary py-4 text-uppercase fwEbold">Continue Reading</a>
-							</article>
-							<!-- blgWrap -->
-							<article class="blgWrap mb-9 mb-sm-12 mb-lg-16 mb-xl-20">
-								<span class="imgHolder rounded overflow-hidden w-100">
-									<img src="./images/blog.jpg" class="img-fluid" alt="image description">
-								</span>
-								<h3 class="headingII mb-2">Want to Make Shine Our Car? </h3>
-								<!-- postBlogList -->
-								<ul class="list-unstyled postBlogList d-flex flex-wrap">
-									<li>
-										<time datetime="2018-08-22">
-											<i class="clrTheme far fa-clock icn"></i>
-										</time>
-										August 22, 2018
-									</li>
-									<li>
-										<span class="far fa-user icn"></span>
-										by <a href="#">Sweden Amith</a>
-									</li>
-									<li>
-										<span class="far fa-comment icn"></span>
-										3 Comments
-									</li>
-								</ul>
-								<p>You will also qualify for a complimentary one-year subscription to Professional Carwashing & Detailing, and you can purchase the current survey results at 50 percent off (current retail value at $249.99).To show our appreciation, we will share a sampling of the new survey’s findings with you in a future issue. We would like to thank our readers for supporting our publication on multiple platforms, including print and digital, and for participating in this survey...</p>
-								<a href="#" class="btn btn-primary py-4 text-uppercase fwEbold">Continue Reading</a>
-							</article>
+							 <?php
+					            } 
+					            ?>
+							
+							
 							<!-- shopPagenation -->
 							<nav aria-label="Page navigation example" class="d-flex justify-content-center shopPagenation pt-6 font-weight-bold mb-10 mb-lg-0 mt-sm-n4 mt-md-n8">
 								<!-- pagination -->

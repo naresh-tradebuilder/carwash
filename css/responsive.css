@@ -24,7 +24,7 @@
   -ms-touch-action: pan-y;
   touch-action: pan-y;
   -webkit-tap-highlight-color: transparent; }
-
+.alert.hidden {display: none;}
 .slick-list {
   position: relative;
   display: block;
@@ -2955,7 +2955,9 @@ h5.bdrBtm:after, .h5.bdrBtm:after {
     min-width: 159px; }
   .singleProduct .imgdescription .customNumber {
     margin-bottom: 12px; }
-
+#fleet-mess{
+  min-height: 150px;
+}
 /* ---------------------------------------------------------
 169	 commentTab/.commentTab
 --------------------------------------------------------*/

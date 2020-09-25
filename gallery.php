@@ -105,13 +105,19 @@
 									<a class="nav-link" href="about-us.php">About<span class="sr-only">(current)</span></a>
 								</li>
 								<li class="nav-item"><a class="nav-link" href="unlimited-wash.php">Unlimited Wash Club</a></li>
-								<li class="nav-item"><a class="nav-link" href="testimonial.php">testimonials</a></li>
-								<li class="nav-item active">
-									<a class="nav-link" href="gallery.php">Gallery</a>
-									
+								<li class="nav-item dropdown active">
+									<a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Resources</a>
+									<div class="dropdown-menu border-0 rounded-0 text-capitalize" aria-labelledby="navbarDropdown">
+										<ul class="list-unstyled dropMenu">
+											<li><a class="dropdown-item" href="gallery.php">Gallery</a></li>
+											<li><a class="dropdown-item" href="testimonial.php">testimonials</a></li>
+											<li><a class="dropdown-item" href="blog.php">Blog</a></li>
+										
+										</ul>
+									</div>
 								</li>								
 								<li class="nav-item">
-									<a class="nav-link" href="blog.php">Blog</a>									
+									<a class="nav-link" href="fleet-work.php">Fleet Work Wash</a>									
 								</li>
 								<li class="nav-item">
 									<a class="nav-link" href="contact.php">CONTACT</a>
@@ -174,11 +180,11 @@
 					</div>
 					<!-- isoContentHolder -->
 					<div class="row isoContentHolder">
-						<div class="col-12 col-sm-6 col-lg-4 isoCol auto-detail repair" data-category="auto-detail repair">
+						<div class="col-12 col-sm-6 col-lg-4 isoCol auto-detail repair" data-category="auto-detail repair content">
 							<!-- glryImgBlock -->
 							<article class="glryImgBlock position-relative mb-6">
 								<span class="imgHolder">
-									<img src="./images/gallery1.png" class="img-fluid" alt="image description">
+									<img src="./images/1.jpg" class="img-fluid" alt="image description">
 								</span>
 								<div class="overlayTxt text-center position-absolute px-4 w-100">
 									<a href="#" class="ico mx-auto overflow-hidden rounded-circle fas fa-search"></a>
@@ -186,11 +192,11 @@
 								</div>
 							</article>
 						</div>
-						<div class="col-12 col-sm-6 col-lg-4 isoCol auto-detail repair" data-category="auto-detail repair">
+						<div class="col-12 col-sm-6 col-lg-4 isoCol auto-detail repair" data-category="auto-detail repair content">
 							<!-- glryImgBlock -->
 							<article class="glryImgBlock position-relative mb-6">
 								<span class="imgHolder">
-									<img src="./images/gallery2.png" class="img-fluid" alt="image description">
+									<img src="./images/2.jpg" class="img-fluid" alt="image description">
 								</span>
 								<div class="overlayTxt text-center position-absolute px-4 w-100">
 									<a href="#" class="ico mx-auto overflow-hidden rounded-circle fas fa-search"></a>
@@ -198,11 +204,11 @@
 								</div>
 							</article>
 						</div>
-						<div class="col-12 col-sm-6 col-lg-4 isoCol auto-detail exterior" data-category="auto-detail exterior">
+						<div class="col-12 col-sm-6 col-lg-4 isoCol auto-detail exterior" data-category="auto-detail exterior content">
 							<!-- glryImgBlock -->
 							<article class="glryImgBlock position-relative mb-6">
 								<span class="imgHolder">
-									<img src="./images/gallery3.png" class="img-fluid" alt="image description">
+									<img src="./images/3.jpg" class="img-fluid" alt="image description">
 								</span>
 								<div class="overlayTxt text-center position-absolute px-4 w-100">
 									<a href="#" class="ico mx-auto overflow-hidden rounded-circle fas fa-search"></a>
@@ -210,11 +216,11 @@
 								</div>
 							</article>
 						</div>
-						<div class="col-12 col-sm-6 col-lg-4 isoCol auto-detail exterior" data-category="auto-detail exterior">
+						<div class="col-12 col-sm-6 col-lg-4 isoCol auto-detail exterior" data-category="auto-detail exterior content">
 							<!-- glryImgBlock -->
 							<article class="glryImgBlock position-relative mb-6">
 								<span class="imgHolder">
-									<img src="./images/gallery4.png" class="img-fluid" alt="image description">
+									<img src="./images/4.jpg" class="img-fluid" alt="image description">
 								</span>
 								<div class="overlayTxt text-center position-absolute px-4 w-100">
 									<a href="#" class="ico mx-auto overflow-hidden rounded-circle fas fa-search"></a>
@@ -222,11 +228,11 @@
 								</div>
 							</article>
 						</div>
-						<div class="col-12 col-sm-6 col-lg-4 isoCol auto-detail oil" data-category="auto-detail oil">
+						<div class="col-12 col-sm-6 col-lg-4 isoCol auto-detail oil" data-category="auto-detail oil content">
 							<!-- glryImgBlock -->
 							<article class="glryImgBlock position-relative mb-6">
 								<span class="imgHolder">
-									<img src="./images/gallery5.png" class="img-fluid" alt="image description">
+									<img src="./images/5.jpg" class="img-fluid" alt="image description">
 								</span>
 								<div class="overlayTxt text-center position-absolute px-4 w-100">
 									<a href="#" class="ico mx-auto overflow-hidden rounded-circle fas fa-search"></a>
@@ -234,11 +240,11 @@
 								</div>
 							</article>
 						</div>
-						<div class="col-12 col-sm-6 col-lg-4 isoCol auto-detail exterior interior" data-category="auto-detail exterior interior">
+						<div class="col-12 col-sm-6 col-lg-4 isoCol auto-detail exterior interior content" data-category="auto-detail exterior interior">
 							<!-- glryImgBlock -->
 							<article class="glryImgBlock position-relative mb-6">
 								<span class="imgHolder">
-									<img src="./images/gallery6.png" class="img-fluid" alt="image description">
+									<img src="./images/6.jpg" class="img-fluid" alt="image description">
 								</span>
 								<div class="overlayTxt text-center position-absolute px-4 w-100">
 									<a href="#" class="ico mx-auto overflow-hidden rounded-circle fas fa-search"></a>
@@ -246,11 +252,11 @@
 								</div>
 							</article>
 						</div>
-						<div class="col-12 col-sm-6 col-lg-4 isoCol auto-detail exterior" data-category="auto-detail exterior">
+						<div class="col-12 col-sm-6 col-lg-4 isoCol auto-detail exterior content" data-category="auto-detail exterior">
 							<!-- glryImgBlock -->
 							<article class="glryImgBlock position-relative mb-6">
 								<span class="imgHolder">
-									<img src="./images/gallery7.png" class="img-fluid" alt="image description">
+									<img src="./images/7.jpg" class="img-fluid" alt="image description">
 								</span>
 								<div class="overlayTxt text-center position-absolute px-4 w-100">
 									<a href="#" class="ico mx-auto overflow-hidden rounded-circle fas fa-search"></a>
@@ -258,11 +264,11 @@
 								</div>
 							</article>
 						</div>
-						<div class="col-12 col-sm-6 col-lg-4 isoCol auto-detail oil" data-category="auto-detail oil">
+						<div class="col-12 col-sm-6 col-lg-4 isoCol auto-detail oil content" data-category="auto-detail oil">
 							<!-- glryImgBlock -->
 							<article class="glryImgBlock position-relative mb-6">
 								<span class="imgHolder">
-									<img src="./images/gallery8.png" class="img-fluid" alt="image description">
+									<img src="./images/8.jpg" class="img-fluid" alt="image description">
 								</span>
 								<div class="overlayTxt text-center position-absolute px-4 w-100">
 									<a href="#" class="ico mx-auto overflow-hidden rounded-circle fas fa-search"></a>
@@ -270,11 +276,11 @@
 								</div>
 							</article>
 						</div>
-						<div class="col-12 col-sm-6 col-lg-4 isoCol auto-detail exterior interior" data-category="auto-detail exterior interior">
+						<div class="col-12 col-sm-6 col-lg-4 isoCol auto-detail exterior interior content" data-category="auto-detail exterior interior">
 							<!-- glryImgBlock -->
 							<article class="glryImgBlock position-relative mb-6">
 								<span class="imgHolder">
-									<img src="./images/gallery9.png" class="img-fluid" alt="image description">
+									<img src="./images/9.jpg" class="img-fluid" alt="image description">
 								</span>
 								<div class="overlayTxt text-center position-absolute px-4 w-100">
 									<a href="#" class="ico mx-auto overflow-hidden rounded-circle fas fa-search"></a>
@@ -282,14 +288,92 @@
 								</div>
 							</article>
 						</div>
-					</div>
-					<div class="row">
-						<div class="col-12">
-							<div class="btnHolder text-center mt-2 mt-sm-4 mt-xl-6">
-								<a href="#" class="btn btnTheme text-uppercase py-4 fwEbold">load more</a>
-							</div>
+						<div class="col-12 col-sm-6 col-lg-4 isoCol auto-detail exterior content" data-category="auto-detail exterior">
+							<!-- glryImgBlock -->
+							<article class="glryImgBlock position-relative mb-6">
+								<span class="imgHolder">
+									<img src="./images/10.jpg" class="img-fluid" alt="image description">
+								</span>
+								<div class="overlayTxt text-center position-absolute px-4 w-100">
+									<a href="#" class="ico mx-auto overflow-hidden rounded-circle fas fa-search"></a>
+									<h2 class="text-center text-white font-weight headingXI">Vacum Cleaning</h2>
+								</div>
+							</article>
 						</div>
-					</div>
+						<div class="col-12 col-sm-6 col-lg-4 isoCol auto-detail oil content" data-category="auto-detail oil">
+							<!-- glryImgBlock -->
+							<article class="glryImgBlock position-relative mb-6">
+								<span class="imgHolder">
+									<img src="./images/11.jpg" class="img-fluid" alt="image description">
+								</span>
+								<div class="overlayTxt text-center position-absolute px-4 w-100">
+									<a href="#" class="ico mx-auto overflow-hidden rounded-circle fas fa-search"></a>
+									<h2 class="text-center text-white font-weight headingXI">Vacum Cleaning</h2>
+								</div>
+							</article>
+						</div>
+						<div class="col-12 col-sm-6 col-lg-4 isoCol auto-detail exterior interior content" data-category="auto-detail exterior interior">
+							<!-- glryImgBlock -->
+							<article class="glryImgBlock position-relative mb-6">
+								<span class="imgHolder">
+									<img src="./images/12.jpg" class="img-fluid" alt="image description">
+								</span>
+								<div class="overlayTxt text-center position-absolute px-4 w-100">
+									<a href="#" class="ico mx-auto overflow-hidden rounded-circle fas fa-search"></a>
+									<h2 class="text-center text-white font-weight headingXI">Vacum Cleaning</h2>
+								</div>
+							</article>
+						</div>
+					
+						<div class="col-12 col-sm-6 col-lg-4 isoCol auto-detail exterior content" data-category="auto-detail exterior">
+							<!-- glryImgBlock -->
+							<article class="glryImgBlock position-relative mb-6">
+								<span class="imgHolder">
+									<img src="./images/13.jpg" class="img-fluid" alt="image description">
+								</span>
+								<div class="overlayTxt text-center position-absolute px-4 w-100">
+									<a href="#" class="ico mx-auto overflow-hidden rounded-circle fas fa-search"></a>
+									<h2 class="text-center text-white font-weight headingXI">Vacum Cleaning</h2>
+								</div>
+							</article>
+						</div>
+						<div class="col-12 col-sm-6 col-lg-4 isoCol auto-detail oil content" data-category="auto-detail oil">
+							<!-- glryImgBlock -->
+							<article class="glryImgBlock position-relative mb-6">
+								<span class="imgHolder">
+									<img src="./images/14.jpg" class="img-fluid" alt="image description">
+								</span>
+								<div class="overlayTxt text-center position-absolute px-4 w-100">
+									<a href="#" class="ico mx-auto overflow-hidden rounded-circle fas fa-search"></a>
+									<h2 class="text-center text-white font-weight headingXI">Vacum Cleaning</h2>
+								</div>
+							</article>
+						</div>
+						<div class="col-12 col-sm-6 col-lg-4 isoCol auto-detail exterior interior content" data-category="auto-detail exterior interior">
+							<!-- glryImgBlock -->
+							<article class="glryImgBlock position-relative mb-6">
+								<span class="imgHolder">
+									<img src="./images/15.jpg" class="img-fluid" alt="image description">
+								</span>
+								<div class="overlayTxt text-center position-absolute px-4 w-100">
+									<a href="#" class="ico mx-auto overflow-hidden rounded-circle fas fa-search"></a>
+									<h2 class="text-center text-white font-weight headingXI">Vacum Cleaning</h2>
+								</div>
+							</article>
+						</div>
+						<div class="col-12 col-sm-6 col-lg-4 isoCol auto-detail exterior" data-category="auto-detail exterior content">
+							<!-- glryImgBlock -->
+							<article class="glryImgBlock position-relative mb-6">
+								<span class="imgHolder">
+									<img src="./images/16.jpg" class="img-fluid" alt="image description">
+								</span>
+								<div class="overlayTxt text-center position-absolute px-4 w-100">
+									<a href="#" class="ico mx-auto overflow-hidden rounded-circle fas fa-search"></a>
+									<h2 class="text-center text-white font-weight headingXI">Vacum Cleaning</h2>
+								</div>
+							</article>
+						</div>
+					</div>				
 				</div>
 			</section>
 			<!-- footerAside -->
@@ -647,5 +731,18 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 	<!-- include custom JavaScript -->
 	<script src="js/jqueryCustome.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+		  $(".content").slice(0, 4).show();
+		  $("#loadMore").on("click", function(e){
+		    e.preventDefault();
+		    $(".content:hidden").slice(0, 4).slideDown();
+		    if($(".content:hidden").length == 0) {
+		      $("#loadMore").text("No Content").addClass("noContent");
+		    }
+		  });
+		  
+		})
+	</script>
 </body>
 </html>
