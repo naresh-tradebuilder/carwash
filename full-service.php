@@ -222,7 +222,7 @@
 								</div>
 								<div class="col-12">
 									<!-- planFullList -->
-									<article class="planFullList active mb-5 mb-sm-8 shadow-lg overflow-hidden rounded">
+									<article class="planFullList active mb-5 mb-sm-8 verflow-hidden rounded">
 										<!-- priceHeader -->
 										<header class="bg-primary priceHeader text-white px-3 text-capitalize">
 											<div class="row align-items-center">
