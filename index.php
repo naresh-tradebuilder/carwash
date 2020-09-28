@@ -420,7 +420,7 @@
 											<sup class="font-weight-light">$</sup>
 											<span class="price font-weight-light">80</span>											
 										</div>
-										<span>Per month (Include tax)</span>
+										<span>Per month</span>
 									</div>
 								</header>
 								<!-- typeList -->
@@ -454,7 +454,7 @@
 											<span class="price font-weight-light">50</span>
 											
 										</div>
-										<span>Per month (Include tax)</span>
+										<span>Per month</span>
 									</div>
 								</header>
 								<!-- typeList -->
@@ -484,7 +484,7 @@
 											<span class="price font-weight-light">20</span>
 											
 										</div>
-										<span>Per month (Include tax)</span>
+										<span>Per month</span>
 									</div>
 								</header>
 								<!-- typeList -->
