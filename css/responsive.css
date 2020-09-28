@@ -864,7 +864,7 @@ h5.bdrBtm:after, .h5.bdrBtm:after {
     .hlpBlock[data-background=primary] .ico:before {
       color: #ffe823; }
   .hlpBlock[data-background=bgTheme] .ico:before {
-    color: #0b4b8a; }
+    color: #ffe823; }
   .hlpBlock[data-background=warning] {
     background-color: #ffe823;
     color: inherit; }
