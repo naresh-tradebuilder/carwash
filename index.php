@@ -574,7 +574,7 @@
 							<span class="icoHolder flex-shrink-0 d-block d-lg-flex align-items-center justify-content-center mx-auto ml-lg-0 mr-lg-3 mb-2 mb-lg-0">
 								<img src="images/ico08.svg" alt="image description" class="img-fluid" width="61" height="61">
 							</span>
-							<div class="wrap font-weight-light">
+							<div class="wrap font-weight-light text-white">
 								<strong class="counter d-block font-weight-normal mb-1">8650+</strong>
 								<p>Total Cars washed</p>
 							</div>
@@ -583,7 +583,7 @@
 							<span class="icoHolder flex-shrink-0 d-block d-lg-flex align-items-cente justify-content-centerr mx-auto ml-lg-0 mr-lg-3 mb-2 mb-lg-0">
 								<img src="images/ico09.svg" alt="image description" class="img-fluid" width="61" height="61">
 							</span>
-							<div class="wrap font-weight-light">
+							<div class="wrap font-weight-light text-white">
 								<strong class="counter d-block font-weight-normal mb-1">5289+</strong>
 								<p>Cars Serviced</p>
 							</div>
@@ -592,7 +592,7 @@
 							<span class="icoHolder flex-shrink-0 d-block d-lg-flex align-items-center justify-content-center mx-auto ml-lg-0 mr-lg-3 mb-2 mb-lg-0">
 								<img src="images/ico10.svg" alt="image description" class="img-fluid" width="61" height="61">
 							</span>
-							<div class="wrap font-weight-light">
+							<div class="wrap font-weight-light text-white">
 								<strong class="counter d-block font-weight-normal mb-1">12000+</strong>
 								<p>Satisfied customers</p>
 							</div>
