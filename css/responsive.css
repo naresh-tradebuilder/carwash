@@ -4,7 +4,7 @@
 .readMore:hover, .readMore:hover .icn, .clrTheme, .btnTheme:hover, .plnSec .wrap a:hover, .wlBlock .tell:hover, .rqstSrvic .headingIV a:hover, .lctnSec .slideBtn .btnHolder:hover, .postWidLink a:hover, .recentWidPost .headingX a:hover, .fscwSec .btn:hover, .gusSec .click:hover, .cusSlider .slick-arrow:hover, .gallerySlider .slick-arrow:hover, .lnBlock .headingXI a:hover, .lstPost a:hover, .shippingCalculateShip, .accountForm .lastPswd:hover, .joinClubBlock .icoHolder .icn:before, .postBlogList a:hover, .postBlogList .icn, .ImgBlogSlider .slick-arrow:hover:after, .Page404 .header p a:hover, .checkOutPayment .txt:hover, .wooInfo a:hover,
 .wooLogin a:hover, .CheckOutCoupon .lostPassword:hover,
 .checkOutLoginForm .lostPassword:hover, .locaContactList .contNo a:hover, .couponWrap .click:hover, .postFooter .tagList a:hover, .contSideList .tell:hover, .MailList a:hover, .topPBar .snHolder .icn, .topPBar .snHolder .txt:hover, .topPBar .socialNetwork a:hover, .alt .contactList .tell:hover, .topPBar .contactADList .icn, .dropMenu a:hover, .dropMenu a:active, .dropMenu a:focus {
-  color: #00aeef; }
+  color: #0b4b8a; }
 
 .btnTheme, .lctnSec .slideBtn .btnHolder:hover, .shopItem .btn-light:hover, .proceedCheckout, .contctWidgetForm .btnTheme {
   border-color: #0b4b8a; }
@@ -3543,7 +3543,7 @@ h5.bdrBtm:after, .h5.bdrBtm:after {
     margin-bottom: 14px; }
   .abtBlockCheck .headingXIII {
     font-size: 17px;
-    margin-bottom: 9px; }
+    margin-bottom: 9px;color:#e62b28; }
   .abtBlockCheck p {
     margin-bottom: 20px; }
 
@@ -3622,7 +3622,14 @@ h5.bdrBtm:after, .h5.bdrBtm:after {
   height: 46px;
   color: #fff;
   font-size: 18px; }
-
+.book-appintment{
+  background-color: #e62b28;
+  color: #fff;
+  border-color: #e62b28;
+}
+.book-appintment:hover{
+  color: #e62b28;
+}
 /* ---------------------------------------------------------
 201	 locaSearchForm/.locaSearchForm
 --------------------------------------------------------*/
@@ -4769,7 +4776,7 @@ h5.bdrBtm:after, .h5.bdrBtm:after {
     line-height: 20px; }
     .contactList .ico .icn,
     .contactList .time .icn {
-      color: #00aeef;
+      color: #0b4b8a;
       -webkit-transition: color 0.3s ease;
       -o-transition: color 0.3s ease;
       transition: color 0.3s ease;
@@ -4877,7 +4884,7 @@ h5.bdrBtm:after, .h5.bdrBtm:after {
     .navCollapse .nav-item .nav-link:before {
       width: 100%;
       height: 4px;
-      background-color: #00aeef;
+      background-color: #fff;
       -webkit-transform: scaleX(0);
       -ms-transform: scaleX(0);
       transform: scaleX(0);
@@ -6539,7 +6546,8 @@ h5.bdrBtm:after, .h5.bdrBtm:after {
   .bannerSlide .slickNext {
     right: 40px; }
   .olneBook .btn {
-    min-width: 210px; }
+    min-width: 210px;
+    background-color: #e62b28; }
   .sBlock .imgHolder {
     height: 145px; }
   .sBlock .btnHolder .btn {
@@ -7025,7 +7033,8 @@ h5.bdrBtm:after, .h5.bdrBtm:after {
     height: 130px; }
   .contctWidgetForm .btnTheme {
     padding-bottom: 17px;
-    padding-top: 17px; }
+    padding-top: 17px;
+    background-color: #e62b28; }
   .joinClubBlock .headingIX {
     line-height: 29px; }
   .customColDivisionXlIV [class*="col"],
