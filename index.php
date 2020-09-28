@@ -404,7 +404,7 @@
 						<div class="col-12">
 							<header class="header text-center ltrSpce font-weight-light">
 								<h3 class="h2 fwEbold mb-2">VIP UNLIMITED PASS</h3>
-								<p>Wash whenever you want and enjoy the ease of auto monthly billing.</p>
+								<p>"Yearly Membership available" & "Additional charges may apply in case of SUV, Trucks and Crossover.</p>
 							</header>
 						</div>
 					</div>
