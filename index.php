@@ -234,7 +234,7 @@
 							<!-- hlpBlock -->
 							<article class="hlpBlock col-12 col-lg-4 w-100 text-center p-7 p-lg-5 p-xl-8" data-background="bgTheme" id="blue-bg">
 								<span class="icoHolder mb-5 d-block mx-auto">
-									<span class="ico icon-ico29"></span>
+									<img src="./images/was-club.png">
 								</span>
 								<h2 class="headingIX mb-2">Unlimited wash Club</h2>
 								<p>Save big on your next car wash and detail services with our Unlimited wash club membership!!</p>
@@ -243,7 +243,7 @@
 							<!-- hlpBlock -->
 							<article class="hlpBlock col-12 col-lg-4 w-100 text-center p-7 p-lg-5 p-xl-8" data-background="warning" id="dark-red">
 								<span class="icoHolder mb-5 d-block mx-auto">
-									<span class="ico icon-ico30"></span>
+									<img src="./images/gift-card.png">
 								</span>
 								<h2 class="headingIX mb-2 text-white">Shop gift Cards</h2>
 								<p class="text-white">Give the gift of an unlimited car wash plan. Purchase gift cards from our online store.</p>
