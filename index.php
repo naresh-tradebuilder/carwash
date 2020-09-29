@@ -165,6 +165,22 @@
 		<main>
 			<!-- bannerSec -->
 			<section class="bannerSec bannerSlide">
+					<div>
+					<div class="bsSlide bgCover overlay position-relative d-flex align-items-center text-center" style="background-image: url('./images/banner2.png')">
+						<div class="alignCenter d-flex w-100 align-items-center">
+							<div class="container pt-6 pt-sm-10 pb-22 pt-md-12 pb-md-25 pt-lg-15 pb-lg-35">
+								<div class="caption text-white position-relative mb">
+									<h1 class="w-100 mb-9 text-white">
+										<strong class="fwEbold d-block  mb-md-2 mb-xl-0">Business Membership Program</strong>
+										
+										<strong class="d-block font-weight-bold headingVI">A great deal for all your employees</strong>
+									</h1>
+									<a href="about-us.php" class="btn btnTheme text-uppercase fwEbold py-3 px-4 py-lg-4 px-lg-6">About us</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 				<div>
 					<div class="bsSlide bgCover overlay text-center position-relative d-flex" style="background-image: url('./images/banner.png')">
 						<div class="alignCenter w-100 d-flex align-items-center">
@@ -197,22 +213,7 @@
 						</div>
 					</div>
 				</div>
-				<div>
-					<div class="bsSlide bgCover overlay position-relative d-flex align-items-center text-center" style="background-image: url('./images/banner2.png')">
-						<div class="alignCenter d-flex w-100 align-items-center">
-							<div class="container pt-6 pt-sm-10 pb-22 pt-md-12 pb-md-25 pt-lg-15 pb-lg-35">
-								<div class="caption text-white position-relative mb">
-									<h1 class="w-100 mb-9 text-white">
-										<strong class="fwEbold d-block  mb-md-2 mb-xl-0">Save your</strong>
-										<strong class="fwEbold d-block mt-n2 mt-md-n4 mb-2">Car’s Original Finish</strong>
-										<strong class="d-block font-weight-bold headingVI">Always be clean and Green!</strong>
-									</h1>
-									<a href="about-us.php" class="btn btnTheme text-uppercase fwEbold py-3 px-4 py-lg-4 px-lg-6">About us</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
+			
 			</section>
 			<!-- hlpSec -->
 			<aside class="hlpSec mt-n16 pb-12 pb-md-16">
@@ -224,7 +225,7 @@
 							<!-- hlpBlock -->
 							<article class="hlpBlock col-12 col-lg-4 w-100 text-center p-7 p-lg-5 p-xl-8" data-background="primary">
 								<span class="icoHolder mb-5 d-block mx-auto">
-									<span class="ico icon-ico28"></span>
+									<img src="./images/Membership.png">
 								</span>
 								<h2 class="headingIX mb-2 ">Business Membership</h2>
 								<p>Offer all your employees a great deal in keeping up with the services related to Car Wash & Detail</p>
