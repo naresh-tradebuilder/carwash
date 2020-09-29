@@ -6025,6 +6025,7 @@ h5.bdrBtm:after, .h5.bdrBtm:after {
 .btn-warning{
    background-color: #e62b28;
   color: #fff;
+  border: none;
 }
 .socialSNetwork a {
   color: #999;
