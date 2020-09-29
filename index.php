@@ -226,17 +226,17 @@
 								<span class="icoHolder mb-5 d-block mx-auto">
 									<span class="ico icon-ico28"></span>
 								</span>
-								<h2 class="headingIX mb-2 ">Find Locations</h2>
-								<p>Find a convenient car wash store, or Auto detail center near you.</p>
-								<a href="contact.php" class="btn btn-light text-uppercase fwEbold py-3 mb-2">find location <span class="fas fa-chevron-right icn"></span></a>
+								<h2 class="headingIX mb-2 ">Business Membership Program</h2>
+								<p>Offer all your employees a great deal in keeping up with the services related to Car Wash & Detail</p>
+								<a href="contact.php" class="btn btn-light text-uppercase fwEbold py-3 mb-2">Learn More <span class="fas fa-chevron-right icn"></span></a>
 							</article>
 							<!-- hlpBlock -->
-							<article class="hlpBlock col-12 col-lg-4 w-100 text-center p-7 p-lg-5 p-xl-8" data-background="bgTheme">
+							<article class="hlpBlock col-12 col-lg-4 w-100 text-center p-7 p-lg-5 p-xl-8" data-background="bgTheme" id="blue-bg">
 								<span class="icoHolder mb-5 d-block mx-auto">
 									<span class="ico icon-ico29"></span>
 								</span>
 								<h2 class="headingIX mb-2">Unlimited wash Club</h2>
-								<p>Save big on your next car wash with our great deals!</p>
+								<p>Save big on your next car wash and detail services with our Unlimited wash club membership!!</p>
 								<a href="contact.php" class="btn btn-light text-uppercase fwEbold py-3 mb-2">join wash club <span class="fas fa-chevron-right icn"></span></a>
 							</article>
 							<!-- hlpBlock -->
@@ -245,7 +245,7 @@
 									<span class="ico icon-ico30"></span>
 								</span>
 								<h2 class="headingIX mb-2">Shop gift Cards</h2>
-								<p>Purchase giftcards, wash pass, wash book from our online store</p>
+								<p>Give the gift of an unlimited car wash plan. Purchase gift cards from our online store.</p>
 								<a href="contact.php" class="btn btn-light text-uppercase fwEbold py-3 mb-2">go to store <span class="fas fa-chevron-right icn"></span></a>
 							</article>
 						</div>

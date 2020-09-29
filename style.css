@@ -6015,7 +6015,9 @@ h5.bdrBtm:after, .h5.bdrBtm:after {
 .socialSNetwork li {
   margin-right: 15px;
 }
-
+#blue-bg{
+  background-color: #00aeef;
+}
 .socialSNetwork a {
   color: #999;
   -webkit-transition: color 0.35s ease;
