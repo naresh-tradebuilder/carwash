@@ -171,7 +171,7 @@
 						<div class="col-12 col-sm-6 col-lg-4 d-flex">
 							<article class="planList text-center rounded position-relative w-100 mb-6 mb-8 mb-lg-11">
 								<header>
-									<h2 class="headingXI text-capitalize px-3 mb-0">Unlimited 'WORKS' Car Wash</h2>
+									<h2 class="headingXI text-capitalize px-3 mb-0">Unlimited 'WORKS'  <br> "In & Out" Car Wash</h2>
 									<!-- priceHolder -->
 									<div class="priceHolder px-3 pt-4 pb-5">
 										<div class="wrap mb-1">
@@ -205,7 +205,7 @@
 							<!-- planList -->
 							<article class="planList text-center rounded position-relative w-100 mb-6 mb-8 mb-lg-11">
 								<header>
-									<h2 class="headingXI text-capitalize  px-3 mb-0 ">Unlimited 'GOOD' Car Wash</h2>
+									<h2 class="headingXI text-capitalize  px-3 mb-0 ">Unlimited 'GOOD' <br> "In & Out" Car Wash</h2>
 									<!-- priceHolder -->
 									<div class="priceHolder px-3 pt-4 pb-5">
 										<div class="wrap mb-1">
@@ -235,7 +235,7 @@
 							<!-- planList -->
 							<article class="planList text-center position-relative rounded w-100 mb-6 mb-8 mb-lg-11">
 								<header>
-									<h2 class="headingXI text-capitalize  px-3 mb-0 ">NEW! Unlimited 'Exterior - Wash & Go’ </h2>
+									<h2 class="headingXI text-capitalize  px-3 mb-0 ">NEW! Unlimited Exterior <br>Quick Wash </h2>
 									<!-- priceHolder -->
 									<div class="priceHolder px-3 pt-4 pb-5">
 										<div class="wrap mb-1">
