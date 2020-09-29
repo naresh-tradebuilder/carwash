@@ -930,7 +930,7 @@ h5.bdrBtm:after, .h5.bdrBtm:after {
     padding-top: 13px;
     padding-bottom: 13px;
     background-color: #fcfcfc;
-    border-bottom: 1px solid #e62b28
+    border-bottom: 1px solid #e62b28;
     background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0)), to(rgba(0, 0, 0, 0.04)));
     background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.04) 100%);
     background: -o-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.04) 100%);
