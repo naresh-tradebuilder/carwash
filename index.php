@@ -166,7 +166,7 @@
 			<!-- bannerSec -->
 			<section class="bannerSec bannerSlide">
 				<div>
-					<div class="bsSlide bgCover overlay text-center position-relative d-flex" style="background-image: url('./images/banner.jpg')">
+					<div class="bsSlide bgCover overlay text-center position-relative d-flex" style="background-image: url('./images/banner.png')">
 						<div class="alignCenter w-100 d-flex align-items-center">
 							<div class="container pt-6 pt-sm-10 pb-22 pt-md-12 pb-md-25 pt-lg-15 pb-lg-35">
 								<div class="caption text-white position-relative">
@@ -182,7 +182,7 @@
 					</div>
 				</div>
 				<div>
-					<div class="bsSlide bgCover overlay position-relative d-flex" style="background-image: url('./images/banner1.jpg')">
+					<div class="bsSlide bgCover overlay position-relative d-flex" style="background-image: url('./images/banner1.png')">
 						<div class="alignCenter d-flex w-100 align-items-center">
 							<div class="container pt-6 pt-sm-10 pb-22 pt-md-12 pb-md-25 pt-lg-15 pb-lg-35">
 								<div class="caption text-white position-relative text-center text-xxl-left">
@@ -198,7 +198,7 @@
 					</div>
 				</div>
 				<div>
-					<div class="bsSlide bgCover overlay position-relative d-flex align-items-center text-center" style="background-image: url('./images/banner2.jpg')">
+					<div class="bsSlide bgCover overlay position-relative d-flex align-items-center text-center" style="background-image: url('./images/banner2.png')">
 						<div class="alignCenter d-flex w-100 align-items-center">
 							<div class="container pt-6 pt-sm-10 pb-22 pt-md-12 pb-md-25 pt-lg-15 pb-lg-35">
 								<div class="caption text-white position-relative mb">
@@ -226,7 +226,7 @@
 								<span class="icoHolder mb-5 d-block mx-auto">
 									<span class="ico icon-ico28"></span>
 								</span>
-								<h2 class="headingIX mb-2 ">Business Membership Program</h2>
+								<h2 class="headingIX mb-2 ">Business Membership</h2>
 								<p>Offer all your employees a great deal in keeping up with the services related to Car Wash & Detail</p>
 								<a href="contact.php" class="btn btn-light text-uppercase fwEbold py-3 mb-2">Learn More <span class="fas fa-chevron-right icn"></span></a>
 							</article>
@@ -413,7 +413,7 @@
 							<!-- planList -->
 							<article class="planList text-center rounded position-relative w-100 mb-6 mb-8 mb-lg-11">
 								<header>
-									<h4 class="headingXI text-capitalize px-3 mb-0">Unlimited 'WORKS' <br> "In & Out" Car Wash</h4>
+									<h4 class="headingXI text-capitalize px-3 mb-0">Unlimited 'WORKS'  <br> "In & Out" Car Wash</h4>
 									<!-- priceHolder -->
 									<div class="priceHolder px-3 pt-4 pb-5">
 										<div class="wrap mb-1">

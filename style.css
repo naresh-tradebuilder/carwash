@@ -6022,11 +6022,12 @@ h5.bdrBtm:after, .h5.bdrBtm:after {
   background-color: #e62b28;
   color: #fff;
 }
-.btn-warning{
+.btn-warning,.btn-warning:hover{
    background-color: #e62b28;
   color: #fff;
   border: none;
 }
+
 .socialSNetwork a {
   color: #999;
   -webkit-transition: color 0.35s ease;

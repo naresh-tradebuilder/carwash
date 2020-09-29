@@ -206,34 +206,7 @@
 											
 										</div>
 									</article>
-								</div>
-								<div class="col-12">
-									<!-- planFullList -->
-									<article class="planFullList  mb-5 mb-sm-8 overflow-hidden rounded">
-										<!-- priceHeader -->
-										<header class="bg-primary priceHeader text-white px-3 text-capitalize">
-											<div class="row align-items-center">
-												<div class="col-8">
-													<h2 class="ml-md-3 mb-0 headingIX text-white mb-0">WASH & TIRES</h2>
-												</div>
-												<div class="col-4 text-right">
-													<h3 class="headingIX fwSemibold mb-0 text-white">$10.99</h3>
-												</div>
-											</div>
-										</header>
-										<div class="txtWrap px-3 px-md-6 pt-4 pb-7">
-											<strong class="d-block font-weight-normal mb-4">This wash package includes:</strong>
-											<!-- checkList -->
-											<ul class="list-unstyled checkList text-secondary text-left mb-4">
-												<li class="position-relative"><span class="ico position-absolute icon-check"></span>soft cloth wash</li>
-												<li class="position-relative"><span class="ico position-absolute icon-check"></span>hand dry</li>
-												<li class="position-relative"><span class="ico position-absolute icon-check"></span>wheels clean</li>
-												<li class="position-relative"><span class="ico position-absolute icon-check"></span>tire shine</li>	
-											</ul>
-											
-										</div>
-									</article>
-								</div>
+								</div>							
 								
 								<div class="col-12">
 									<!-- planFullList -->
