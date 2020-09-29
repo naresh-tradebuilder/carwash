@@ -6018,6 +6018,14 @@ h5.bdrBtm:after, .h5.bdrBtm:after {
 #blue-bg{
   background-color: #00aeef;
 }
+#dark-red{
+  background-color: #e62b28;
+  color: #fff;
+}
+.btn-warning{
+   background-color: #e62b28;
+  color: #fff;
+}
 .socialSNetwork a {
   color: #999;
   -webkit-transition: color 0.35s ease;
