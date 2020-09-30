@@ -69,7 +69,7 @@
 										<span class="far fa-clock p-lg-0 icn"></span>
 									</span>
 									<ul class="list-unstyled mb-0 timeList">
-										<li><strong><time class=" d-none d-lg-block" datetime="2019-07-15">Mon-Sat: 9:00am-7:00pm</time></strong></li>
+										<li><strong><time class=" d-none d-lg-block" datetime="2019-07-15">Mon-Sun: 9:00am-7:00pm</time></strong></li>
 										<li><time class=" d-none d-lg-block" datetime="2019-07-15">(Open all 7 Days)</time></li>
 									</ul>
 									
@@ -278,7 +278,7 @@
 							<!-- MailList -->
 							<ul class="list-unstyled MailList mb-7">
 								<li class="mb-1"><a href="#">riverchasecarwash786@gmail.com</a></li>
-								<li><a href="#">www.carwash.com</a></li>
+									
 							</ul>
 							<!-- socialSNetwork -->
 							<ul class="socialSNetwork list-unstyled d-flex mb-0">
