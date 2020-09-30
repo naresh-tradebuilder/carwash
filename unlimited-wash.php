@@ -194,8 +194,10 @@
 									<li>Wheels Clean</li>
 									<li>Rims Clean</li>
 									<li>Tire Shine</li>
-									<li>Dash and Door Panel Dressing</li>
+									<li>Dash Wipe and Clean</li>
 									<li>Cup Holders Clean</li>
+									<li>Dash and Door Panel Dressing</li>
+									
 									<li>Bugs Prep</li>									
 								</ul>
 								<span class="btnHolder d-block position-absolute">
@@ -230,9 +232,9 @@
 									<li>Rims Clean</li>
 									<li>Tire Shine</li>
 									<li>Dash Wipe and Clean</li>
-									<li>Cup holder Clean</li>
-									<li>Dash and Door Panel Dressing</li>
-									<li>Bugs prep</li>					
+									
+									
+														
 								</ul>
 								<span class="btnHolder d-block position-absolute">
 									<a href="contact.php" class="btn btn-outline-primary text-uppercase fwEbold py-3">Register Now</a>
