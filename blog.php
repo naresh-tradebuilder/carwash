@@ -96,6 +96,7 @@
 	<title>Carwash Autowash & Detailing template!</title>
 	<!-- include the site bootstrap stylesheet -->
 	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="icon" href="favicon.png" type="image/gif" sizes="16x16">
 	<!-- include google roboto font cdn link -->
 	<link href="https://fonts.googleapis.com/css?family=Muli:300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
 	<!-- include google roboto font cdn link -->
