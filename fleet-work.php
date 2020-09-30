@@ -285,10 +285,9 @@
 								<p>RIVERCHASE CAR WASH & DETAIL HAS BEEN IN THE HOOVER COMMUNITY FOR 27 YEARS!</p>
 								<!-- socialFNetwork -->
 								<ul class="socialFNetwork d-flex mb-0 list-unstyled justify-content-center justify-content-sm-start">
-									<li><a href="#" class="fab fa-facebook-square"></a></li>
-									<li><a href="#" class="fab fa-twitter-square"></a></li>
-									<li><a href="#" class="fab fa-linkedin"></a></li>
-									<li><a href="#" class="fas fa-rss-square"></a></li>
+									<li><a href="https://www.facebook.com/RiverchaseCarWash/" class="fab fa-facebook-square" target="_blank"></a></li>
+								<li><a href="https://twitter.com/riverchasewash?lang=en" class="fab fa-twitter-square" target="_blank"></a></li>		
+								<li><a href="https://www.instagram.com/riverchasecarwash/" class="fas fa-rss-square" target="_blank"></a></li>
 								</ul>
 							</div>
 						</div>
