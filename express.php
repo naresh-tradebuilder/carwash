@@ -242,7 +242,7 @@
 							</div>
 							<div class="row">
 								<div class="col-12 col-xl-10 offset-xl-1 text-center">
-									<p>*All services and prices vary by location and vehicle condition.  Quote provided prior to services.  Call for more details or to schedule an appointment.</p>
+									<p>*All services and prices vary by vehicle condition. Quote provided prior to services. Call for more details or to schedule an appointment.</p>
 									<div class="btnHolder mt-lg-5 mt-xl-8">
 										<a href="contact.php" class="btn btnTheme fwEbold text-uppercase"><span class="far fa-calendar-check mr-1 mr-lg-2"></span>Schedule Appiontment</a>
 									</div>
