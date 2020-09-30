@@ -192,7 +192,7 @@
 													<h2 class="text-white ml-md-3 mb-0 headingIX">Hand Wax & Shine</h2>
 												</div>
 												<div class="col-4 text-right">
-													<h3 class="text-white headingIX fwSemibold mb-0">$20.00</h3>
+													<h3 class="text-white headingIX fwSemibold mb-0">$19.99 & up</h3>
 												</div>
 											</div>
 										</header>
@@ -209,7 +209,7 @@
 													<h2 class="ml-md-3 mb-0 headingIX text-white mb-0">LA.1 Wax and Shine</h2>
 												</div>
 												<div class="col-4 text-right">
-													<h3 class="headingIX fwSemibold mb-0 text-white">$50.00</h3>
+													<h3 class="headingIX fwSemibold mb-0 text-white">$50</h3>
 												</div>
 											</div>
 										</header>
@@ -227,7 +227,7 @@
 													<h2 class="text-white ml-md-3 mb-0 headingIX">LA.2 Polish and Wax</h2>
 												</div>
 												<div class="col-4 text-right">
-													<h3 class="text-white headingIX fwSemibold mb-0">$100.00 </h3>
+													<h3 class="text-white headingIX fwSemibold mb-0">$100</h3>
 												</div>
 											</div>
 										</header>
@@ -239,7 +239,7 @@
 							</div>
 							<div class="row">
 								<div class="col-12 col-xl-10 offset-xl-1 text-center">
-									<p>*All services and prices vary by location and vehicle condition.  Quote provided prior to services.  Call for more details or to schedule an appointment.</p>
+									<p>*All services and prices vary by vehicle condition.</p>
 									<div class="btnHolder mt-lg-5 mt-xl-8">
 										<a href="contact.php" class="btn btnTheme fwEbold text-uppercase"><span class="far fa-calendar-check mr-1 mr-lg-2"></span>Schedule Appiontment</a>
 									</div>

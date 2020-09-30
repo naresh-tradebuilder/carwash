@@ -173,10 +173,13 @@
 									<span class="icon-ico37 ico"></span>
 								</span>
 								<div class="imgHolder rounded w-100">
-									<img src="./images/service-wash.jpg" class="img-fluid" alt="image description">
+									<img src="./images/services-exterior.jpg" class="img-fluid" alt="image description">
 								</div>
 							</div>
 							<div class="txtHolder text-center text-sm-left mb-7 mb-md-10 mb-xl-11">
+								<p>
+									Our In & Out Car Wash is one of the most traditional car washes in the neighborhood. Our tunnel is equipped with tire brushes that makes sure that your tires are clean in its entirety. Each car is washed  and complimentary hot wax is included with every car wash.	
+								</p>
 								<p>An Express Wash is a more traditional car wash. Our tunnels are equipped with the industry’s latest car wash equipment and use only the finest soaps and wax available. Each car is washed with soft-cloth, neo-glide foam or lammswool cloth.</p>
 								<p>Our Full Service Washes will either require the customer to stay in his or her vehicle or exit the vehicle while it is run through the tunnel. This process takes 15 minutes or less.</p>
 								<a href="#" class="fwSemibold">See Your Location for Service!</a>

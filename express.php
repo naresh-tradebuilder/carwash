@@ -173,7 +173,7 @@
 									<span class="icon-ico37 ico"></span>
 								</span>
 								<div class="imgHolder rounded w-100">
-									<img src="./images/services-exterior.jpg" class="img-fluid" alt="image description">
+									<img src="./images/service-wash.jpg" class="img-fluid" alt="image description">
 								</div>
 							</div>
 							<div class="txtHolder text-center text-sm-left mb-7 mb-md-10 mb-xl-11">
