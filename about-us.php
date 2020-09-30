@@ -175,7 +175,7 @@
 							<!-- header -->
 							<header class="header text-center ltrSpce mb-8 mb-sm-10 mb-xl-15">
 								<h2 class="headingI fwEbold mb-2 mb-md-3 mb-lg-4">About Our Company</h2>
-								<p>Always want a clean car? For one low monthly price you can wash your car everyday and as many times as you like!</p>
+								<p>Always want a clean car?	We help you keep your car clean all year around for the lowest price possible.</p>
 							</header>
 						</div>
 					</div>
