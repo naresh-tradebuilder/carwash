@@ -297,7 +297,7 @@
 										<header class="bg-primary priceHeader px-3 text-capitalize">
 											<div class="row align-items-center">
 												<div class="col-8">
-													<h2 class="text-white ml-md-3 mb-0 headingIX">CARPET & MATS SHAMPOO</h2>
+													<h2 class="text-white ml-md-3 mb-0 headingIX">FLOOR CARPET SHAMPOO</h2>
 												</div>
 												<div class="col-4 text-right">
 													<h3 class="text-white headingIX fwSemibold mb-0">$55.00</h3>
@@ -321,32 +321,7 @@
 											</div>
 										</header>										
 									</article>
-								</div>
-									<div class="col-12">
-									<!-- planFullList -->
-									<article class="planFullList mb-5 mb-sm-8 overflow-hidden rounded">
-										<!-- priceHeader -->
-										<header class="bg-primary priceHeader px-3 text-capitalize">
-											<div class="row align-items-center">
-												<div class="col-8">
-													<h2 class="text-white ml-md-3 mb-0 headingIX">WINDSHIELD REPAIR</h2>
-												</div>
-												<div class="col-4 text-right">
-													<h3 class="text-white headingIX fwSemibold mb-0">$19.00</h3>
-												</div>
-											</div>
-										</header>
-											<div class="txtWrap px-3 px-md-6 pt-4 pb-7">
-											<strong class="d-block font-weight-normal mb-4">This wash package includes:</strong>
-											<!-- checkList -->
-											<ul class="list-unstyled checkList text-secondary text-left mb-4">
-												<li class="position-relative"><span class="ico position-absolute icon-check"></span>rock chip repair</li>
-												
-											</ul>
-											
-										</div>										
-									</article>
-								</div>
+								</div>									
 							</div>
 							<div class="row">
 								<div class="col-12 col-xl-10 offset-xl-1 text-center">
