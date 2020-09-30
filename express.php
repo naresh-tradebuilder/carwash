@@ -227,11 +227,11 @@
 											<!-- checkList -->
 											<ul class="list-unstyled checkList text-secondary text-left mb-4">
 												<li class="position-relative"><span class="ico position-absolute icon-check"></span>HOT Wax & Shine</li>
-												<li class="position-relative"><span class="ico position-absolute icon-check"></span>soft cloth wash</li>
+												<li class="position-relative"><span class="ico position-absolute icon-check"></span>soft cloth wipe</li>
 												<li class="position-relative"><span class="ico position-absolute icon-check"></span>hand dry</li>
 												<li class="position-relative"><span class="ico position-absolute icon-check"></span>wheels clean</li>
 												<li class="position-relative"><span class="ico position-absolute icon-check"></span>tire shine</li>
-												<li class="position-relative"><span class="ico position-absolute icon-check"></span>triple conditioner</li>						
+												<li class="position-relative"><span class="ico position-absolute icon-check"></span>Rims Clean</li>						
 												<li class="position-relative"><span class="ico position-absolute icon-check"></span>bug prep</li>
 											</ul>											
 										</div>

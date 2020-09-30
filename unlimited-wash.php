@@ -264,27 +264,7 @@
 						</div>
 						
 					</div>
-					<div class="row">
-						<div class="col-12 col-lg-10 offset-lg-1 col-xl-8 offset-xl-2 text-center">							
-							<!-- managAccountWrap -->
-							<div class="managAccountWrap text-left d-flex align-items-center justify-content-center">
-								<div class="alignLeft position-relative">
-									<h3 class="mb-0">
-										<strong class="d-block text-left">Fleet WORKS Wash Program </strong> <br>
-										
-									</h3>									
-								</div>
-								
-							</div>
-							<span class="d-block text-left">Here at Riverchase Car Wash & Detail, we strive to help businesses of all sizes keep their vehicles looking great. We offer discounted rates for companies and dealerships in/near the Hoover area.</span><br>
-							<ul class="text-left">
-								<li>We offer WORKS WASH as part of our fleet program - perfect for businesses that need to keep their vehicles looking clean and shiny longer.</li>
-								<li>There is no contract to sign or long-term obligation</li>
-								<li>Our Fleet Program delivers great value via bulk discounted pricing</li>
-							</ul>
-							<span class="busnPlanTxt d-block text-left">Contact us today by filling out the form below or e-mail at riverchasecarwash786@gmail.com</span>
-						</div>
-					</div>
+					
 				</div>
 			</section>
 			<aside class="bg-primary pt-8 pt-sm-12 pb-2 pb-sm-5">
