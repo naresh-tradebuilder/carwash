@@ -173,7 +173,7 @@
 									<h1 class="w-100 mb-9 text-white">
 										<strong class="fwEbold d-block  mb-md-2 mb-xl-0">Business Membership Program</strong>
 										
-										<strong class="d-block font-weight-bold headingVI">A great deal for all your employees</strong>
+										<strong class="d-block font-weight-bold headingVI">A great deal for you and your employees</strong>
 									</h1>
 									<a href="about-us.php" class="btn btnTheme text-uppercase fwEbold py-3 px-4 py-lg-4 px-lg-6">About us</a>
 								</div>
