@@ -192,10 +192,10 @@
 								<ul>
 									<li>Full service car wash (in & out)</li>
 									<li> Interior Detail</li>
-									<li>Hand Wash and Wax</li>
-									<li>Headlight Restoration</li>
-									<li>Ozone and Disinfectant Services</li>
-									<li>Scratch and Windshield Repair</li>
+									<li>Tree Sap removal</li>
+									<li>Car seats and mat shampoo</li>
+									<li>Dog hair removal</li>
+									<li>Car Engine clean</li>
 								</ul>
 							</div>
 						</div>
