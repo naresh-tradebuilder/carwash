@@ -428,19 +428,22 @@
 								<!-- typeList -->
 								<ul class="list-unstyled pt-8 pb-23 typeList text-secondary mb-0 px-5 text-left">
 									<li>Quick Wash</li>
+									<li>Hot Wax and Shine</li>
+									<li>Soft cloth wipe</li>
 									<li>Hand Dry</li>
 									<li>Vacuum</li>
-									<li>Dash Wipe and Clean</li>
+									<li>Window</li>										
 									<li>Wheels Clean</li>
+									<li>Rims Clean</li>
 									<li>Tire Shine</li>
-									<li>Dash and Door Panel Dressing</li>
+									<li>Dash Wipe and Clean</li>
 									<li>Cup Holders Clean</li>
-									<li>Bugs Prep</li>
-									<li>Triple Conditioner</li>
-									<li>Hot Wax and Shine</li>
+									<li>Dash and Door Panel Dressing</li>
+									
+									<li>Bugs Prep</li>				
 								</ul>
 								<span class="btnHolder d-block position-absolute">
-									<a href="contact.php" class="btn btn-outline-primary text-uppercase fwEbold py-3">Book Now</a>
+									<a href="contact.php" class="btn btn-outline-primary text-uppercase fwEbold py-3">Register Now</a>
 								</span>
 							</article>
 						</div>
@@ -461,16 +464,19 @@
 								</header>
 								<!-- typeList -->
 								<ul class="list-unstyled pt-8 pb-23 typeList text-secondary mb-0 px-5 text-left">
+										<li>Quick Wash</li>
+									<li>Hot Wax and Shine</li>
+									<li>Soft cloth wipe</li>
+									<li>Hand Dry</li>
 									<li>Vacuum</li>
-									<li>windows</li>
-									<li>hand dry</li>
-									<li>wheels clean</li>
-									<li>tire shine</li>
-									<li>sealer wax</li>
-									<li>hot wax &amp; shine</li>
+									<li>Window</li>										
+									<li>Wheels Clean</li>
+									<li>Rims Clean</li>
+									<li>Tire Shine</li>
+									<li>Dash Wipe and Clean</li>
 								</ul>
 								<span class="btnHolder d-block position-absolute">
-									<a href="contact.php" class="btn btn-outline-primary text-uppercase fwEbold py-3">Book Now</a>
+									<a href="contact.php" class="btn btn-outline-primary text-uppercase fwEbold py-3">Register Now</a>
 								</span>
 							</article>
 						</div>
@@ -491,11 +497,13 @@
 								</header>
 								<!-- typeList -->
 								<ul class="list-unstyled pt-8 pb-23 typeList text-secondary mb-0 px-5 text-left">
-									<li>Quick Wash</li>
-									<li>Hand Dry</li>									
+											<li>Quick Wash</li>
+									<li>Hot Wax and Shine</li>
+									<li>Soft cloth wipe</li>
+									<li>Hand Dry</li>										
 								</ul>
 								<span class="btnHolder d-block position-absolute">
-									<a href="contact.php" class="btn btn-outline-primary text-uppercase fwEbold py-3">Book Now</a>
+									<a href="contact.php" class="btn btn-outline-primary text-uppercase fwEbold py-3">Register Now</a>
 								</span>
 							</article>
 						</div>
