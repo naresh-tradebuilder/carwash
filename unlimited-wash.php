@@ -199,7 +199,7 @@
 									<li>Bugs Prep</li>									
 								</ul>
 								<span class="btnHolder d-block position-absolute">
-									<a href="contact.php" class="btn btn-outline-primary text-uppercase fwEbold py-3">Book now</a>
+									<a href="contact.php" class="btn btn-outline-primary text-uppercase fwEbold py-3">Register Now</a>
 								</span>
 							</article>
 						</div>
@@ -232,7 +232,7 @@
 									<li>Dash and Door Panel Dressing</li>					
 								</ul>
 								<span class="btnHolder d-block position-absolute">
-									<a href="contact.php" class="btn btn-outline-primary text-uppercase fwEbold py-3">Book now</a>
+									<a href="contact.php" class="btn btn-outline-primary text-uppercase fwEbold py-3">Register Now</a>
 								</span>
 							</article>
 						</div>
@@ -259,7 +259,7 @@
 									<li>Hand Dry</li>									
 								</ul>
 								<span class="btnHolder d-block position-absolute">
-									<a href="contact.php" class="btn btn-outline-primary text-uppercase fwEbold py-3">Book now</a>
+									<a href="contact.php" class="btn btn-outline-primary text-uppercase fwEbold py-3">Register Now</a>
 								</span>
 							</article>
 						</div>
